@@ -19,13 +19,13 @@
 
 ## 2026 Focus
 - **AI agents** for real‑world workflows (MCP, tool orchestration, evals)
-- **Production SaaS** with rigorous UX, performance, and reliability
+- **Production SaaS** with strict UX, performance, and reliability standards
 - **Applied ML** in NLP & CV (TensorFlow, PyTorch, OpenCV)
 - **Real‑time systems** (WebSockets, streaming, low‑latency UI)
 
 ---
 
-## Flagship Projects (Live + Polished)
+## Flagship Projects
 <table>
   <tr>
     <td width="50%">
@@ -77,9 +77,9 @@ TypeScript • JavaScript • Python • SQL • React • Next.js • FastAPI �
 
 ---
 
-## Stats
+## Stats (Fixed Visibility)
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mangeshraut712&show_icons=true&theme=transparent&hide_border=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mangeshraut712&layout=compact&theme=transparent&hide_border=true" height="150" />
-  <img src="https://streak-stats.demolab.com?user=mangeshraut712&theme=transparent&hide_border=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mangeshraut712&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=21600" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mangeshraut712&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=21600" height="150" />
+  <img src="https://streak-stats.demolab.com?user=mangeshraut712&theme=tokyonight&hide_border=true" height="150" />
 </p>
