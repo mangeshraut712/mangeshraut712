@@ -77,9 +77,7 @@ TypeScript • JavaScript • Python • SQL • React • Next.js • FastAPI �
 
 ---
 
-## Stats (Fixed Visibility)
+## GitHub Metrics (Local, Reliable)
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mangeshraut712&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=21600" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mangeshraut712&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=21600" height="150" />
-  <img src="https://streak-stats.demolab.com?user=mangeshraut712&theme=tokyonight&hide_border=true" height="150" />
+  <img src="./github-metrics.svg" alt="GitHub Metrics" />
 </p>
