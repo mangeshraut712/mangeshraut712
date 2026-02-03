@@ -23,6 +23,16 @@
 - **Applied ML** in NLP & CV (TensorFlow, PyTorch, OpenCV)
 - **Real‑time systems** (WebSockets, streaming, low‑latency UI)
 
+## Signature Work
+- **Agentic SaaS Platforms** — multi‑tenant systems with billing + orchestration
+- **Applied ML Systems** — NLP & CV pipelines from research to product
+- **Real‑Time Experiences** — streaming UIs with performance budgets
+
+## Engineering Principles
+- **Clarity > Complexity** — minimal architecture with strong guarantees  
+- **Performance Budgets** — speed and stability from day one  
+- **Product‑Grade UX** — polish, detail, and measurable outcomes  
+
 ---
 
 ## Flagship Projects
@@ -79,5 +89,5 @@ TypeScript • JavaScript • Python • SQL • React • Next.js • FastAPI �
 
 ## GitHub Metrics (Local, Reliable)
 <p align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" />
+  <img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/github-metrics.svg" alt="GitHub Metrics" />
 </p>
