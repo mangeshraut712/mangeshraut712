@@ -116,3 +116,20 @@ Full‑Stack AI Engineer focused on **agentic workflows**, **premium UI**, and *
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F18,100:1E293B&height=40&section=footer&text=Follow%20my%20journey%20on%20GitHub&fontColor=C9D1D9&fontSize=20" />
 </p>
+
+---
+
+<!-- codex:project-diagram:start -->
+
+## Project Diagram
+
+```mermaid
+flowchart LR
+    A["Visitor"] --> B["Profile README"]
+    B --> C["Projects"]
+    C --> D["Contact Links"]
+```
+
+_How the profile README routes visitors toward projects and contact channels._
+
+<!-- codex:project-diagram:end -->
