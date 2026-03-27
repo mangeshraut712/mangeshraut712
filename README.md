@@ -15,6 +15,18 @@
   <a href="https://buymeacoffee.com/xzvwsqf84xy"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-F59E0B?style=for-the-badge&logo=buymeacoffee&logoColor=white" /></a>
 </p>
 
+## Table of Contents
+
+- [About](#about)
+- [2026 Focus](#2026-focus)
+- [Signature Work](#signature-work)
+- [Engineering Principles](#engineering-principles)
+- [Flagship Projects](#flagship-projects)
+- [Live Projects](#live-projects)
+- [Tech Stack & Tools](#tech-stack--tools)
+- [GitHub Metrics](#github-metrics)
+- [Contact](#contact)
+
 ---
 
 ## About
@@ -116,3 +128,11 @@ Full‑Stack AI Engineer focused on **agentic workflows**, **premium UI**, and *
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F18,100:1E293B&height=40&section=footer&text=Follow%20my%20journey%20on%20GitHub&fontColor=C9D1D9&fontSize=20" />
 </p>
+
+## Contact
+
+- Portfolio: https://mangeshraut.pro
+- LinkedIn: https://www.linkedin.com/in/mangeshraut71298/
+- GitHub: https://github.com/mangeshraut712
+- X: https://x.com/mrcommando712
+- Buy Me a Coffee: https://buymeacoffee.com/xzvwsqf84xy
