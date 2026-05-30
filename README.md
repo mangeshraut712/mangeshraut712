@@ -120,17 +120,6 @@ Full‑Stack AI Engineer focused on **agentic workflows**, **premium UI**, and *
 
 ---
 
-## 💖 Support My Work
-If you find my projects helpful or want to support my open-source journey, feel free to sponsor me:
-
-<p align="center">
-  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-Sponsor%20via%20Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-Sponsor%20via%20PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" /></a>
-</p>
-
----
-
 <!-- codex:project-diagram:start -->
 
 ## Project Diagram
