@@ -12,8 +12,6 @@
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-111827?style=for-the-badge&logo=x&logoColor=white" /></a>
   <a href="https://www.youtube.com/@mangeshraut71298"><img src="https://img.shields.io/badge/YouTube-mangeshraut71298-DC2626?style=for-the-badge&logo=youtube&logoColor=white" /></a>
   <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-@mangesh_d_charming_guy-DB2777?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-Sponsor-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /></a>
-  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-Sponsor-003087?style=for-the-badge&logo=paypal&logoColor=white" /></a>
 </p>
 
 ---
@@ -57,16 +55,50 @@ Full‑Stack AI Engineer focused on **agentic workflows**, **premium UI**, and *
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🍲 VoteDine</h4>
-      <p>Real‑time group dining decision platform.</p>
-      <code>Next.js</code> <code>Fastify</code> <code>PostgreSQL</code><br/>
-      <a href="https://github.com/mangeshraut712/VoteDine">Repository</a>
+      <h4>🤖 autonomous‑agent‑team</h4>
+      <p>Production-ready OpenClaw workspace for a 6-agent AI team running 24/7 on cron.</p>
+      <code>Python</code> <code>Cron</code> <code>OpenClaw</code><br/>
+      <a href="https://github.com/mangeshraut712/autonomous-agent-team">Repository</a>
     </td>
     <td width="50%" valign="top">
-      <h4>🧠 x‑algorithm</h4>
-      <p>Social feed ranking simulator with interactive tools.</p>
-      <code>Rust</code> <code>WebAssembly</code> <code>Web</code><br/>
-      <a href="https://github.com/mangeshraut712/x-algorithm">Repository</a> · <a href="https://mangeshraut712.github.io/x-algorithm/">Live</a>
+      <h4>📈 ForexScalpingBot</h4>
+      <p>SwiftUI iOS trading-assistant UI demo for forex signals.</p>
+      <code>SwiftUI</code> <code>Swift</code> <code>iOS</code><br/>
+      <a href="https://github.com/mangeshraut712/ForexScalpingBot">Repository</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🌟 Starred & Forked Repositories
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📖 sarvam‑ai‑cookbook</h4>
+      <p>Enterprise-grade reference implementations for India-first AI products (Forked).</p>
+      <code>Python</code> <code>Sarvam AI</code> <code>LLMs</code><br/>
+      <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook">Repository</a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🍎 apple‑FastVLM‑0.5B</h4>
+      <p>Unofficial mirror and notes for CVPR 2025 FastVLM efficient vision encoder.</p>
+      <code>Python</code> <code>PyTorch</code> <code>Vision-Language</code><br/>
+      <a href="https://github.com/mangeshraut712/apple-FastVLM-0.5B">Repository</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🧊 ai‑rubiks‑cube</h4>
+      <p>2x2x2 Rubik's Cube solver with BFS/A*/IDA* and 3D visualization.</p>
+      <code>JavaScript</code> <code>WebGL</code> <code>Three.js</code><br/>
+      <a href="https://github.com/mangeshraut712/ai-rubiks-cube">Repository</a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🎯 Lead‑Pred</h4>
+      <p>Lead conversion prediction using logistic regression and scikit-learn (Forked).</p>
+      <code>Python</code> <code>Scikit-Learn</code> <code>Machine Learning</code><br/>
+      <a href="https://github.com/mangeshraut712/Lead-Pred">Repository</a>
     </td>
   </tr>
 </table>
@@ -120,6 +152,17 @@ Full‑Stack AI Engineer focused on **agentic workflows**, **premium UI**, and *
 
 ---
 
+## 💖 Support My Work
+If you find my projects helpful or want to support my open-source journey, feel free to sponsor me:
+
+<p align="center">
+  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-Sponsor%20via%20Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-Sponsor%20via%20PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" /></a>
+</p>
+
+---
+
 <!-- codex:project-diagram:start -->
 
 ## Project Diagram
@@ -129,16 +172,24 @@ flowchart TD
     classDef default fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#F8FAFC;
     classDef highlight fill:#1E293B,stroke:#F43F5E,stroke-width:2px,color:#F8FAFC;
     classDef green fill:#0F172A,stroke:#10B981,stroke-width:1px,color:#F8FAFC;
+    classDef blue fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#F8FAFC;
 
     A["👤 Visitor"] --> B["📄 GitHub Profile"]:::highlight
     B --> C["🌌 Flagship Projects"]
+    B --> S["🌟 Starred & Forked Repos"]:::blue
     B --> D["🛠️ Tech Stack & Skills"]
     B --> E["💬 Contact & Socials"]
     B --> F["💖 Support & Sponsorship"]:::green
 
     C --> C1["Gravity-SaaS-Agent"]
     C --> C2["Career-Agent-Pro"]
-    C --> C3["VoteDine / x-algorithm"]
+    C --> C3["autonomous-agent-team"]
+    C --> C4["ForexScalpingBot"]
+
+    S --> S1["sarvam-ai-cookbook"]
+    S --> S2["apple-FastVLM-0.5B"]
+    S --> S3["ai-rubiks-cube"]
+    S --> S4["Lead-Pred"]
 
     E --> E1["mangeshraut.pro"]
     E --> E2["LinkedIn / X"]
