@@ -12,7 +12,8 @@
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-111827?style=for-the-badge&logo=x&logoColor=white" /></a>
   <a href="https://www.youtube.com/@mangeshraut71298"><img src="https://img.shields.io/badge/YouTube-mangeshraut71298-DC2626?style=for-the-badge&logo=youtube&logoColor=white" /></a>
   <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-@mangesh_d_charming_guy-DB2777?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="https://buymeacoffee.com/xzvwsqf84xy"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support-F59E0B?style=for-the-badge&logo=buymeacoffee&logoColor=white" /></a>
+  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-Sponsor-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /></a>
+  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-Sponsor-003087?style=for-the-badge&logo=paypal&logoColor=white" /></a>
 </p>
 
 ---
@@ -119,17 +120,44 @@ Full‑Stack AI Engineer focused on **agentic workflows**, **premium UI**, and *
 
 ---
 
+## 💖 Support My Work
+If you find my projects helpful or want to support my open-source journey, feel free to sponsor me:
+
+<p align="center">
+  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-Sponsor%20via%20Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-Sponsor%20via%20PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" /></a>
+</p>
+
+---
+
 <!-- codex:project-diagram:start -->
 
 ## Project Diagram
 
 ```mermaid
-flowchart LR
-    A["Visitor"] --> B["Profile README"]
-    B --> C["Projects"]
-    C --> D["Contact Links"]
+flowchart TD
+    classDef default fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#F8FAFC;
+    classDef highlight fill:#1E293B,stroke:#F43F5E,stroke-width:2px,color:#F8FAFC;
+    classDef green fill:#0F172A,stroke:#10B981,stroke-width:1px,color:#F8FAFC;
+
+    A["👤 Visitor"] --> B["📄 GitHub Profile"]:::highlight
+    B --> C["🌌 Flagship Projects"]
+    B --> D["🛠️ Tech Stack & Skills"]
+    B --> E["💬 Contact & Socials"]
+    B --> F["💖 Support & Sponsorship"]:::green
+
+    C --> C1["Gravity-SaaS-Agent"]
+    C --> C2["Career-Agent-Pro"]
+    C --> C3["VoteDine / x-algorithm"]
+
+    E --> E1["mangeshraut.pro"]
+    E --> E2["LinkedIn / X"]
+
+    F --> F1["Stripe Payment"]
+    F --> F2["PayPal Checkout"]
 ```
 
-_How the profile README routes visitors toward projects and contact channels._
+_Visual mapping of how visitors navigate my GitHub profile, projects, and support channels._
 
 <!-- codex:project-diagram:end -->
