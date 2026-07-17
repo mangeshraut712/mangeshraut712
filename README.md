@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg?v=23" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-light.svg?v=23" />
-    <img alt="Mangesh Raut — coded Apple profile card" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg?v=23" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=24" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=24" />
+    <img alt="Mangesh Raut — coded Apple profile card" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=24" />
   </picture>
 </p>
 
@@ -20,9 +20,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-dark.svg?v=23" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-light.svg?v=23" />
-    <img alt="Flagship projects" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-dark.svg?v=23" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=24" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=24" />
+    <img alt="Flagship projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=24" />
   </picture>
 </p>
 

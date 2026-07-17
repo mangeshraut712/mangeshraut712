@@ -186,10 +186,13 @@ def update_svgs(stats: dict) -> None:
         "ytd_data": stats["ytd_data"],
         "repos_data": stats["repos_data"],
         "stars_data": stats["stars_data"],
+        "follower_data": stats["follower_data"],
+        "uptime_data": stats["uptime_data"],
         "lifetime_data_light": stats["lifetime_data"],
         "ytd_data_light": stats["ytd_data"],
         "repos_data_light": stats["repos_data"],
         "stars_data_light": stats["stars_data"],
+        "follower_data_light": stats["follower_data"],
     }
     for path in SVG_PATHS:
         if not path.exists():

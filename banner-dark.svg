@@ -43,13 +43,9 @@
 <tspan x="380" y="192" fill="#8E8E93">·</tspan>
 <tspan x="380" y="207" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.Product</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Agentic SaaS, Realtime UI</tspan>
 <tspan x="380" y="222" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.Stack</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Next.js 15/16, React 19, FastAPI</tspan>
-<tspan x="380" y="241" fill="#F5F5F7" font-weight="700">- Contact</tspan><tspan fill="#8E8E93"> ———————————————</tspan>
-<tspan x="380" y="256" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Portfolio</tspan><tspan fill="#8E8E93">: </tspan><a href="https://mangeshraut.pro"><tspan fill="#2997FF">mangeshraut.pro</tspan></a>
-<tspan x="380" y="271" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">LinkedIn</tspan><tspan fill="#8E8E93">: </tspan><a href="https://www.linkedin.com/in/mangeshraut71298/"><tspan fill="#2997FF">mangeshraut71298</tspan></a>
-<tspan x="380" y="286" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">X</tspan><tspan fill="#8E8E93">: </tspan><a href="https://x.com/mrcommando712"><tspan fill="#2997FF">@mrcommando712</tspan></a>
-<tspan x="380" y="305" fill="#F5F5F7" font-weight="700">- GitHub Stats</tspan><tspan fill="#8E8E93"> ———————————</tspan>
-<tspan x="380" y="320" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">40</tspan><tspan fill="#8E8E93"> | </tspan><tspan fill="#2997FF" font-weight="700">Stars</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="stars_data">9</tspan>
-<tspan x="380" y="335" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contributions</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,028</tspan><tspan fill="#8E8E93"> | Followers: </tspan><tspan fill="#F5F5F7">3</tspan>
-<tspan x="380" y="350" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">2026 YTD</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">1,895</tspan>
+<tspan x="380" y="241" fill="#F5F5F7" font-weight="700">- GitHub Stats</tspan><tspan fill="#8E8E93"> ———————————</tspan>
+<tspan x="380" y="256" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">40</tspan><tspan fill="#8E8E93"> | </tspan><tspan fill="#2997FF" font-weight="700">Stars</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="stars_data">9</tspan>
+<tspan x="380" y="271" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contributions</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,028</tspan><tspan fill="#8E8E93"> | Followers: </tspan><tspan fill="#F5F5F7" id="follower_data">3</tspan>
+<tspan x="380" y="286" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">2026 YTD</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">1,895</tspan>
   </text>
 </svg>
