@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Refresh dynamic stats in Apple banner SVGs + README tables."""
+"""Refresh dynamic stats in Apple banner SVGs."""
 
 from __future__ import annotations
 
 import os
-import re
 import sys
 from calendar import monthrange
 from datetime import date, datetime, timezone
@@ -19,7 +18,6 @@ SVG_PATHS = [
     ROOT / "banner-dark.svg",
     ROOT / "banner-light.svg",
 ]
-README_PATH = ROOT / "README.md"
 USER = os.environ.get("USER_NAME", "mangeshraut712")
 TOKEN = os.environ.get("ACCESS_TOKEN") or os.environ.get("GITHUB_TOKEN")
 ACCOUNT_CREATED = date(2021, 11, 27)
@@ -203,49 +201,10 @@ def update_svgs(stats: dict) -> None:
         tree.write(path, encoding="utf-8", xml_declaration=True)
 
 
-def update_readme(stats: dict) -> None:
-    text = README_PATH.read_text()
-    activity = f"""<!-- activity:start -->
-| Metric | Value |
-| --- | --- |
-| Contributions (YTD) | **{fmt(stats['ytd_raw'])}** |
-| Avg / day | **{stats['avg_raw']}** |
-| Best day | **{stats['best_raw']}** ({stats['best_date']}) |
-| Longest streak (YTD) | **{stats['streak_raw']} days** |
-<!-- activity:end -->"""
-    profile = f"""<!-- profile-stats:start -->
-| Metric | Value |
-| --- | --- |
-| Public repositories | **{stats['public_raw']}** |
-| Owned (non-fork) | **{stats['owned_raw']}** |
-| Stars on owned repos | **{stats['stars_raw']}** |
-| Followers | **{stats['followers_raw']}** |
-| Contributions (all-time) | **{fmt(stats['lifetime_raw'])}** |
-| Contributions ({stats['year']} YTD) | **{fmt(stats['ytd_raw'])}** |
-| Pull requests ({stats['year']} YTD) | **{fmt(stats['prs_raw'])}** |
-| Commits ({stats['year']} YTD) | **{fmt(stats['commits_raw'])}** |
-<!-- profile-stats:end -->"""
-    text, n1 = re.subn(
-        r"<!-- activity:start -->[\s\S]*?<!-- activity:end -->",
-        activity,
-        text,
-        count=1,
-    )
-    text, n2 = re.subn(
-        r"<!-- profile-stats:start -->[\s\S]*?<!-- profile-stats:end -->",
-        profile,
-        text,
-        count=1,
-    )
-    if n1 or n2:
-        README_PATH.write_text(text)
-
-
 def main() -> int:
     stats = fetch_stats()
     update_svgs(stats)
-    update_readme(stats)
-    print("Updated Apple banners + README stats:")
+    print("Updated Apple banners:")
     for k, v in stats.items():
         print(f"  {k}: {v}")
     return 0
