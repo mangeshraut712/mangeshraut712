@@ -1,10 +1,10 @@
-<!-- Apple-inspired profile · one job per section -->
+<!-- Apple-inspired profile · black / white / #0071E3 -->
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=27" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=27" />
-    <img alt="Mangesh Raut — coded Apple profile card" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=27" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=28" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=28" />
+    <img alt="Mangesh Raut — Apple-style coded profile" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=28" />
   </picture>
 </p>
 
@@ -12,6 +12,19 @@
   <a href="https://mangeshraut.pro"><img src="https://img.shields.io/badge/Portfolio-mangeshraut.pro-0071E3?style=for-the-badge&labelColor=000000" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-0071E3?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://www.youtube.com/@mangeshraut71298"><img src="https://img.shields.io/badge/YouTube-0071E3?style=for-the-badge&labelColor=000000&logo=youtube&logoColor=white" alt="YouTube" /></a>
+</p>
+
+---
+
+### Focus
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=28" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=28" />
+    <img alt="Current focus" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=28" />
+  </picture>
 </p>
 
 ---
@@ -20,9 +33,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=27" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=27" />
-    <img alt="Flagship projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=27" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=28" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=28" />
+    <img alt="Selected work" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=28" />
   </picture>
 </p>
 
@@ -34,19 +47,21 @@
   <a href="https://alpha-quant-academy.vercel.app/">Alpha Quant</a>
   ·
   <a href="https://dotfit-fitness.vercel.app/">Dotfit</a>
+  ·
+  <a href="https://creator-cards-api-1p52.onrender.com">creator-cards-api</a>
 </p>
 
 <details>
-<summary><b>More</b></summary>
+<summary><b>Deep work &amp; experiments</b></summary>
 
 <br/>
 
 | | |
 | --- | --- |
-| [Stanford-CS336](https://github.com/mangeshraut712/Stanford-CS336) | Python · LM systems · BPE · transformers · GRPO |
-| [creator-cards-api](https://github.com/mangeshraut712/creator-cards-api) | Express · MongoDB · Render |
-| [apple-FastVLM-0.5B](https://github.com/mangeshraut712/apple-FastVLM-0.5B) | Apple FastVLM · multimodal research |
-| [ForexScalpingBot](https://github.com/mangeshraut712/ForexScalpingBot) | SwiftUI · iOS trading assistant UI |
+| [Stanford-CS336](https://github.com/mangeshraut712/Stanford-CS336) | Self-study LM systems — BPE, transformers, scaling, GRPO |
+| [apple-FastVLM-0.5B](https://github.com/mangeshraut712/apple-FastVLM-0.5B) | Apple FastVLM multimodal exploration |
+| [ForexScalpingBot](https://github.com/mangeshraut712/ForexScalpingBot) | SwiftUI iOS trading-assistant UI |
+| [UIDAI-Data-Hackathon-2026](https://github.com/mangeshraut712/UIDAI-Data-Hackathon-2026) | Aadhaar dataset analysis · Hackathon 2026 |
 
 </details>
 
@@ -55,14 +70,24 @@
 ### Stack
 
 <p align="center">
-  <!-- stack-icons:start -->
-  <img src="https://skillicons.dev/icons?i=ts,js,py,swift,react,nextjs,tailwind,fastapi,express,postgres,supabase,mongodb,docker,vercel,pytorch" alt="Tech stack from GitHub repos" />
-  <!-- stack-icons:end -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=28" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=28" />
+    <img alt="Technology stack" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=28" />
+  </picture>
 </p>
 
 ---
 
-### Rhythm
+### Trajectory
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=28" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=28" />
+    <img alt="Contribution trajectory by year" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=28" />
+  </picture>
+</p>
 
 <p align="center">
   <picture>
@@ -81,10 +106,11 @@
 ### Collaborate
 
 <p align="center">
-  Open to <b>AI Engineer / Full-Stack / Agentic SaaS</b> roles.
+  Open to <b>AI Engineer / Full-Stack / Agentic SaaS</b> roles and serious collaborations.
 </p>
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/Message%20on%20LinkedIn-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="Message on LinkedIn" /></a>
   <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Sponsor-Stripe-635BFF?style=for-the-badge&labelColor=000000&logo=stripe&logoColor=white" alt="Stripe" /></a>
   <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/Sponsor-PayPal-0071E3?style=for-the-badge&labelColor=000000&logo=paypal&logoColor=white" alt="PayPal" /></a>
 </p>

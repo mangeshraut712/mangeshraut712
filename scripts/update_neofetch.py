@@ -21,6 +21,10 @@ SVG_PATHS = [
     ROOT / "banner-dark.svg",
     ROOT / "banner-light.svg",
 ]
+TRAJECTORY_PATHS = [
+    ROOT / "trajectory-dark.svg",
+    ROOT / "trajectory-light.svg",
+]
 SNAPSHOT_PATH = ROOT / "data" / "github-snapshot.json"
 README_PATH = ROOT / "README.md"
 USER = os.environ.get("USER_NAME", "mangeshraut712")
@@ -347,6 +351,20 @@ def update_svgs(stats: dict) -> None:
         tree = ET.parse(path)
         root = tree.getroot()
         for key, value in mapping.items():
+            set_text(root, key, value)
+        tree.write(path, encoding="utf-8", xml_declaration=True)
+
+    yearly = stats.get("yearly_contributions") or {}
+    traj = {}
+    for y, n in yearly.items():
+        traj[f"y{y}_count"] = fmt(int(n))
+        traj[f"y{y}_count_light"] = fmt(int(n))
+    for path in TRAJECTORY_PATHS:
+        if not path.exists():
+            continue
+        tree = ET.parse(path)
+        root = tree.getroot()
+        for key, value in traj.items():
             set_text(root, key, value)
         tree.write(path, encoding="utf-8", xml_declaration=True)
 

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1104 454" role="img" aria-label="Flagship projects">
-  <rect width="1104" height="454" fill="#000000" rx="28"/>
-  <text x="24" y="44" fill="#F5F5F7" font-size="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Flagship Projects</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1104 480" role="img" aria-label="Selected work">
+  <rect width="1104" height="480" fill="#000000" rx="28"/>
+  <text x="24" y="36" fill="#6E6E73" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600" letter-spacing="1.5">SELECTED WORK</text>
+  <text x="24" y="64" fill="#F5F5F7" font-size="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Products shipping in production</text>
   <a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent" target="_blank">
-    <g transform="translate(24,84)">
+    <g transform="translate(24,96)">
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Gravity-SaaS-Agent</text>
@@ -12,7 +13,7 @@
     </g>
   </a>
   <a href="https://github.com/mangeshraut712/agent-console" target="_blank">
-    <g transform="translate(382,84)">
+    <g transform="translate(382,96)">
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">agent-console</text>
@@ -21,7 +22,7 @@
     </g>
   </a>
   <a href="https://hindai-nine.vercel.app" target="_blank">
-    <g transform="translate(740,84)">
+    <g transform="translate(740,96)">
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Hindai</text>
@@ -30,7 +31,7 @@
     </g>
   </a>
   <a href="https://ai-job-helper-steel.vercel.app/" target="_blank">
-    <g transform="translate(24,270)">
+    <g transform="translate(24,286)">
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Career-Agent-Pro</text>
@@ -39,7 +40,7 @@
     </g>
   </a>
   <a href="https://github.com/mangeshraut712/autonomous-agent-team" target="_blank">
-    <g transform="translate(382,270)">
+    <g transform="translate(382,286)">
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">autonomous-agent-team</text>
@@ -48,7 +49,7 @@
     </g>
   </a>
   <a href="https://vitals-ai.vercel.app" target="_blank">
-    <g transform="translate(740,270)">
+    <g transform="translate(740,286)">
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Vitals.AI</text>

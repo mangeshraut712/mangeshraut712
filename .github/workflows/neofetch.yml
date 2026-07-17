@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add neofetch.svg banner-dark.svg banner-light.svg README.md data/github-snapshot.json
+          git add neofetch.svg banner-dark.svg banner-light.svg trajectory-dark.svg trajectory-light.svg README.md data/github-snapshot.json
           if git diff --staged --quiet; then
             echo "No neofetch changes"
             exit 0
