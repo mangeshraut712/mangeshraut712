@@ -54,7 +54,7 @@ text, tspan { white-space: pre; }
 <tspan x="360" y="342">- GitHub Stats</tspan><tspan class="cc"> —————————————————————————</tspan>
 <tspan x="360" y="360" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="repo_data">38</tspan> {<tspan class="key">Public</tspan>: <tspan class="value" id="public_data">40</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="star_data">9</tspan>
 <tspan x="360" y="378" class="cc">. </tspan><tspan class="key">Contributions</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="contrib_data">4,016</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="follower_data">3</tspan>
-<tspan x="360" y="396" class="cc">. </tspan><tspan class="key">2026 YTD</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="ytd_data">1,883</tspan> (<tspan class="addColor" id="avg_data">9.51/day</tspan>, streak <tspan class="value" id="streak_data">13</tspan>)
+<tspan x="360" y="396" class="cc">. </tspan><tspan class="key">2026 YTD</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="ytd_data">1,884</tspan> (<tspan class="addColor" id="avg_data">9.52/day</tspan>, streak <tspan class="value" id="streak_data">13</tspan>)
 <tspan x="360" y="414" class="cc">. </tspan><tspan class="key">Best Day</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="best_data">94</tspan><tspan class="cc" id="best_note"> on Mar 27 · open to AI/SaaS roles</tspan>
 </text>
 </svg>
