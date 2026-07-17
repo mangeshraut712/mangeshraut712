@@ -77,6 +77,8 @@ def fetch_stats() -> dict:
                 totalContributions
                 weeks { contributionDays { date contributionCount } }
               }
+              totalCommitContributions
+              totalPullRequestContributions
             }
           }
           viewer { repositories(privacy: PUBLIC) { totalCount } }
@@ -147,6 +149,7 @@ def fetch_stats() -> dict:
     else:
         best_label = "—"
 
+    coll = user["contributionsCollection"]
     return {
         "uptime_data": age_string(ACCOUNT_CREATED, today),
         "repo_data": str(user["repositories"]["totalCount"]),
@@ -164,6 +167,13 @@ def fetch_stats() -> dict:
         "best_raw": best,
         "streak_raw": longest,
         "year": year,
+        "owned_raw": user["repositories"]["totalCount"],
+        "public_raw": public_repos,
+        "stars_raw": stars,
+        "followers_raw": user["followers"]["totalCount"],
+        "lifetime_raw": lifetime,
+        "prs_raw": coll.get("totalPullRequestContributions", 0),
+        "commits_raw": coll.get("totalCommitContributions", 0),
     }
 
 
@@ -197,23 +207,40 @@ def update_svg(stats: dict) -> None:
 
 def update_readme_activity(stats: dict) -> None:
     text = README_PATH.read_text()
-    table = f"""## {stats['year']} Activity
-
+    activity = f"""<!-- activity:start -->
 | Metric | Value |
 | --- | --- |
 | Contributions (YTD) | **{stats['ytd_data']}** |
 | Avg / day | **{stats['avg_raw']}** |
 | Best day | **{stats['best_raw']}** ({stats['best_date']}) |
-| Longest streak | **{stats['streak_raw']} days** |
-"""
-    updated, n = re.subn(
-        r"## \d{4} Activity\n\n\| Metric \| Value \|[\s\S]*?\| Longest streak \|.*\|\n",
-        table + "\n",
+| Longest streak (YTD) | **{stats['streak_raw']} days** |
+<!-- activity:end -->"""
+    profile = f"""<!-- profile-stats:start -->
+| Metric | Value |
+| --- | --- |
+| Public repositories | **{stats['public_raw']}** |
+| Owned (non-fork) | **{stats['owned_raw']}** |
+| Stars on owned repos | **{stats['stars_raw']}** |
+| Followers | **{stats['followers_raw']}** |
+| Contributions (all-time) | **{fmt(stats['lifetime_raw'])}** |
+| Contributions ({stats['year']} YTD) | **{stats['ytd_data']}** |
+| Pull requests ({stats['year']} YTD) | **{fmt(stats['prs_raw'])}** |
+| Commits ({stats['year']} YTD) | **{fmt(stats['commits_raw'])}** |
+<!-- profile-stats:end -->"""
+    text, n1 = re.subn(
+        r"<!-- activity:start -->[\s\S]*?<!-- activity:end -->",
+        activity,
         text,
         count=1,
     )
-    if n:
-        README_PATH.write_text(updated)
+    text, n2 = re.subn(
+        r"<!-- profile-stats:start -->[\s\S]*?<!-- profile-stats:end -->",
+        profile,
+        text,
+        count=1,
+    )
+    if n1 or n2:
+        README_PATH.write_text(text)
 
 
 def main() -> int:

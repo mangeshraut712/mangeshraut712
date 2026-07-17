@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/2026-Agentic%20AI%20%7C%20MCP%20%7C%20SaaS-0B0F18?style=flat-square&labelColor=0EA5E9" alt="2026 focus" />
-  <img src="https://img.shields.io/badge/Stack-Next.js%2015%20%7C%20React%2019%20%7C%20FastAPI-111827?style=flat-square&labelColor=38BDF8" alt="Stack" />
-  <img src="https://img.shields.io/badge/Local%20AI-Ollama%20%7C%20Gemma-111827?style=flat-square&labelColor=10B981" alt="Local AI" />
+  <img src="https://img.shields.io/badge/Focus-Agentic%20AI%20%7C%20MCP%20%7C%20SaaS-0B0F18?style=flat-square&labelColor=0EA5E9" alt="Focus" />
+  <img src="https://img.shields.io/badge/Stack-Next.js%2015%2F16%20%7C%20React%2019%20%7C%20FastAPI-111827?style=flat-square&labelColor=38BDF8" alt="Stack" />
+  <img src="https://img.shields.io/badge/LLMs-OpenRouter%20%7C%20Gemma%204-111827?style=flat-square&labelColor=10B981" alt="LLMs" />
 </p>
 
 ---
@@ -21,23 +21,24 @@
 
 AI + Full-Stack Engineer in **Pune** building **production agent systems**, not demos.
 
-In 2026 I ship:
-- **Agentic workflows** with tool calling, MCP servers, and multi-agent orchestration
-- **Premium SaaS** on Next.js 15 / React 19 with streaming UIs and real-time traces
-- **Local + cloud LLM** products (Ollama / Gemma, API providers) with clear UX and reliability budgets
-- **Applied ML** foundations from Stanford CS336-style systems work (transformers, scaling, alignment)
+What I ship:
+- **Agentic workflows** with tool calling, MCP clients/servers, and multi-agent orchestration
+- **SaaS products** on Next.js 15/16 and React 19 with streaming UIs and real-time traces
+- **LLM apps** using OpenRouter / Gemma 4 and other model APIs, plus RAG where the product needs it
+- **Applied ML foundations** via Stanford CS336 self-study (transformers, scaling, data pipelines, GRPO)
 
 ---
 
 ## 2026 Activity
 
+<!-- activity:start -->
 | Metric | Value |
 | --- | --- |
-| Contributions (YTD) | **1,886** |
+| Contributions (YTD) | **1,887** |
 | Avg / day | **9.53** |
 | Best day | **94** (Mar 27) |
-| Longest streak | **13 days** |
-
+| Longest streak (YTD) | **13 days** |
+<!-- activity:end -->
 
 <p align="center">
   <picture>
@@ -66,12 +67,11 @@ Open to **AI Engineer / Full-Stack / Agentic SaaS** roles and high-signal collab
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">Gravity-SaaS-Agent</a></h3>
-      <p>Multi-tenant agent platform with WhatsApp, <b>MCP</b> tool orchestration, and billing — agents as a product.</p>
+      <p>Multi-tenant agent platform with WhatsApp/Telegram channels, <b>MCP</b> client, Express API, and Supabase — agents as a product.</p>
       <p>
-        <img src="https://img.shields.io/badge/Next.js-15-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Next.js-15.5-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
         <img src="https://img.shields.io/badge/MCP-0EA5E9?style=flat-square" alt="MCP" />
-        <img src="https://img.shields.io/badge/Billing-SaaS-6366F1?style=flat-square" alt="Billing" />
+        <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
       </p>
       <p><a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">Repository</a></p>
     </td>
@@ -79,8 +79,8 @@ Open to **AI Engineer / Full-Stack / Agentic SaaS** roles and high-signal collab
       <h3><a href="https://github.com/mangeshraut712/agent-console">agent-console</a></h3>
       <p>Real-time agent console: WebSocket streaming, tool-call traces, timeline UI, chaos-survival views.</p>
       <p>
-        <img src="https://img.shields.io/badge/Next.js-15-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
-        <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+        <img src="https://img.shields.io/badge/Next.js-15.3-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
+        <img src="https://img.shields.io/badge/React-19.1-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
         <img src="https://img.shields.io/badge/WebSockets-22C55E?style=flat-square" alt="WebSockets" />
       </p>
       <p><a href="https://github.com/mangeshraut712/agent-console">Repository</a></p>
@@ -89,20 +89,20 @@ Open to **AI Engineer / Full-Stack / Agentic SaaS** roles and high-signal collab
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mangeshraut712/Hindai">Hindai</a></h3>
-      <p>Digital Gurukul — interactive learning for Indian scriptures with <b>local Gemma via Ollama</b> (privacy-first AI).</p>
+      <p>Digital Gurukul — scripture learning with <b>Gemma 4 via OpenRouter</b>, RAG pipelines, and streaming chat.</p>
       <p>
-        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
-        <img src="https://img.shields.io/badge/Ollama-Local%20LLM-111827?style=flat-square" alt="Ollama" />
-        <img src="https://img.shields.io/badge/Gemma-AI-4285F4?style=flat-square&logo=google" alt="Gemma" />
+        <img src="https://img.shields.io/badge/Next.js-15.5-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
+        <img src="https://img.shields.io/badge/React-19.2-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+        <img src="https://img.shields.io/badge/OpenRouter-Gemma%204-4285F4?style=flat-square" alt="OpenRouter" />
       </p>
       <p><a href="https://github.com/mangeshraut712/Hindai">Repository</a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mangeshraut712/career-agent-pro">Career-Agent-Pro</a></h3>
-      <p>AI job-search copilot: role analysis, resume tailoring, and application prep as an end-to-end agent workflow.</p>
+      <p>AI job-search copilot: role analysis, resume tailoring, and application prep (Next.js frontend + FastAPI backend).</p>
       <p>
-        <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Next.js-16.1-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
+        <img src="https://img.shields.io/badge/FastAPI-0.116-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
         <img src="https://img.shields.io/badge/LLM%20APIs-F59E0B?style=flat-square" alt="LLM APIs" />
       </p>
       <p><a href="https://github.com/mangeshraut712/career-agent-pro">Repository</a> · <a href="https://ai-job-helper-steel.vercel.app/">Live</a></p>
@@ -111,21 +111,21 @@ Open to **AI Engineer / Full-Stack / Agentic SaaS** roles and high-signal collab
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mangeshraut712/autonomous-agent-team">autonomous-agent-team</a></h3>
-      <p>Six-agent OpenClaw workspace (research, content, code review, newsletter) running 24/7 on cron.</p>
+      <p>Six-agent OpenClaw workspace (research, content, code review, newsletter) running on cron automation.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/Multi--Agent-8B5CF6?style=flat-square" alt="Multi-Agent" />
-        <img src="https://img.shields.io/badge/Cron-Automation-64748B?style=flat-square" alt="Cron" />
+        <img src="https://img.shields.io/badge/Cron-64748B?style=flat-square" alt="Cron" />
       </p>
       <p><a href="https://github.com/mangeshraut712/autonomous-agent-team">Repository</a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mangeshraut712/Vitals.AI">Vitals.AI</a></h3>
-      <p>Privacy-first health dashboard: biomarkers, body composition, recovery, and digital-twin insights.</p>
+      <p>Privacy-first health dashboard for biomarkers, body composition, recovery, and digital-twin style insights.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/HealthTech-AI-EC4899?style=flat-square" alt="HealthTech" />
+        <img src="https://img.shields.io/badge/HealthTech-EC4899?style=flat-square" alt="HealthTech" />
       </p>
       <p><a href="https://github.com/mangeshraut712/Vitals.AI">Repository</a></p>
     </td>
@@ -142,7 +142,7 @@ Open to **AI Engineer / Full-Stack / Agentic SaaS** roles and high-signal collab
 | [Stanford-CS336](https://github.com/mangeshraut712/Stanford-CS336) | Language modeling systems: BPE, transformers, scaling laws, data pipelines, GRPO |
 | [AssistMe](https://github.com/mangeshraut712/AssistMe-VirtualAssistant) | Multi-modal assistant with voice mode + research tools (React + FastAPI) |
 | [PicoTuri-EditJudge](https://github.com/mangeshraut712/PicoTuri-EditJudge) | Research UI for text-guided image edit evaluation |
-| [creator-cards-api](https://github.com/mangeshraut712/creator-cards-api) | Node.js / Express / MongoDB microservice API (2026 assessment) |
+| [creator-cards-api](https://github.com/mangeshraut712/creator-cards-api) | Node.js / Express / MongoDB microservice API |
 
 </details>
 
@@ -150,10 +150,10 @@ Open to **AI Engineer / Full-Stack / Agentic SaaS** roles and high-signal collab
 
 ## Selected Live Demos
 
-| Product | What it proves | Link |
+| Product | What it shows | Link |
 | --- | --- | --- |
-| **Portfolio** | Brand + product engineering surface | [mangeshraut.pro](https://mangeshraut.pro) |
-| **Career-Agent-Pro** | LLM workflow product | [Live](https://ai-job-helper-steel.vercel.app/) |
+| **Portfolio** | Brand + product engineering site | [mangeshraut.pro](https://mangeshraut.pro) |
+| **Career-Agent-Pro** | LLM job-search workflow | [Live](https://ai-job-helper-steel.vercel.app/) |
 | **AssistMe** | Voice + research assistant | [Live](https://assist-me-virtual-assistant.vercel.app/) |
 | **PicoTuri-EditJudge** | Multimodal research UI | [Live](https://pico-turi-edit-judge.vercel.app/) |
 | **Alpha Quant Academy** | Quant + AI analysis product | [Live](https://alpha-quant-academy.vercel.app/) |
@@ -162,13 +162,15 @@ More shipped sites → [mangeshraut.pro](https://mangeshraut.pro)
 
 ---
 
-## 2026 Tech Stack
+## Tech Stack
+
+Verified from public repos (versions where pinned in those projects):
 
 ### AI Engineering
-`MCP` · `Tool calling` · `Multi-agent orchestration` · `Streaming / SSE` · `Ollama` · `Gemma` · `LLM APIs` · `RAG patterns` · `Evals` · `PyTorch` · `TensorFlow` · `OpenCV`
+`MCP` · `Tool calling` · `Multi-agent orchestration` · `Streaming` · `OpenRouter` · `Gemma 4` · `RAG` · `PyTorch` · `TensorFlow` · `OpenCV`
 
 ### App Platform
-`TypeScript` · `React 19` · `Next.js 15` · `Tailwind CSS` · `FastAPI` · `PostgreSQL` · `WebSockets` · `Node.js` · `Express` · `MongoDB` · `SwiftUI`
+`TypeScript` · `React 19` · `Next.js 15 / 16` · `Tailwind CSS` · `FastAPI` · `Express` · `PostgreSQL` / `Supabase` · `MongoDB` · `WebSockets` · `SwiftUI`
 
 ### Delivery
 `Vercel` · `Docker` · `AWS` · `Render` · `GitHub Actions` · `Stripe`
@@ -181,10 +183,20 @@ More shipped sites → [mangeshraut.pro](https://mangeshraut.pro)
 
 ## GitHub Stats
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=mangeshraut712&show_icons=true&theme=transparent&hide_border=true&title_color=38BDF8&icon_color=0EA5E9&text_color=C9D1D9&bg_color=00000000" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mangeshraut712&layout=compact&theme=transparent&hide_border=true&title_color=38BDF8&text_color=C9D1D9&bg_color=00000000" alt="Top languages" />
-</p>
+Numbers below are from the GitHub API / profile metrics workflow (not third-party commit estimators).
+
+<!-- profile-stats:start -->
+| Metric | Value |
+| --- | --- |
+| Public repositories | **40** |
+| Owned (non-fork) | **38** |
+| Stars on owned repos | **9** |
+| Followers | **3** |
+| Contributions (all-time) | **4,020** |
+| Contributions (2026 YTD) | **1,887** |
+| Pull requests (2026 YTD) | **49** |
+| Commits (2026 YTD) | **1,822** |
+<!-- profile-stats:end -->
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=mangeshraut712&theme=transparent&hide_border=true&ring=0EA5E9&fire=38BDF8&currStreakLabel=94A3B8" alt="GitHub streak" />
@@ -198,10 +210,10 @@ More shipped sites → [mangeshraut.pro](https://mangeshraut.pro)
 
 ## Currently exploring
 
-- Agent eval harnesses and reliability budgets for production MCP tools  
-- Local-first LLM apps (Ollama) with cloud fallback  
-- Real-time agent observability (traces, tool timelines, chaos modes)  
-- Privacy-preserving health / education AI products for India-first users  
+- Agent eval harnesses and reliability budgets for production MCP tools
+- Cloud LLM routing (OpenRouter) with stronger RAG / tool-calling product loops
+- Real-time agent observability (traces, tool timelines, chaos modes)
+- Privacy-aware health and education AI products for India-first users
 
 ---
 
