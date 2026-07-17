@@ -1,34 +1,50 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1100 340" role="img" aria-label="Mangesh Raut — AI + Full-Stack Engineer">
-  <defs>
-    <clipPath id="avatarClipDark"><circle cx="150" cy="148" r="78" /></clipPath>
-  </defs>
-  <rect width="1100" height="340" fill="#000000" rx="28" />
-  <circle cx="150" cy="148" r="84" fill="#1C1C1E" />
-  <image xlink:href="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/avatar.jpg" x="72" y="70" width="156" height="156" clip-path="url(#avatarClipDark)" preserveAspectRatio="xMidYMid slice" />
-  <circle cx="150" cy="148" r="78" fill="none" stroke="#2997FF" stroke-width="2.5" />
-  <text x="280" y="78" fill="#A1A1A6" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600" letter-spacing="2">AI + FULL-STACK ENGINEER</text>
-  <text x="280" y="122" fill="#F5F5F7" font-size="42" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Mangesh Raut</text>
-  <text x="280" y="158" fill="#2997FF" font-size="18" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="500">Building production agent systems and SaaS.</text>
-  <text x="280" y="188" fill="#A1A1A6" font-size="15" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif">Pune, India · Next.js 15/16 · React 19 · MCP · OpenRouter</text>
-  <g transform="translate(280,230)">
-    <rect width="180" height="70" rx="16" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1" />
-    <text x="18" y="28" fill="#A1A1A6" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="500">Contributions</text>
-    <text x="18" y="54" fill="#F5F5F7" font-size="22" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="600" id="lifetime_data">4,024</text>
-  </g>
-  <g transform="translate(476,230)">
-    <rect width="180" height="70" rx="16" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1" />
-    <text x="18" y="28" fill="#A1A1A6" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="500">2026 YTD</text>
-    <text x="18" y="54" fill="#F5F5F7" font-size="22" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="600" id="ytd_data">1,891</text>
-  </g>
-  <g transform="translate(672,230)">
-    <rect width="180" height="70" rx="16" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1" />
-    <text x="18" y="28" fill="#A1A1A6" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="500">Repos</text>
-    <text x="18" y="54" fill="#F5F5F7" font-size="22" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="600" id="repos_data">40</text>
-  </g>
-  <g transform="translate(868,230)">
-    <rect width="180" height="70" rx="16" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1" />
-    <text x="18" y="28" fill="#A1A1A6" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="500">Stars</text>
-    <text x="18" y="54" fill="#F5F5F7" font-size="22" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="600" id="stars_data">9</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 980 405" role="img" aria-label="Mangesh Raut coded profile card">
+  <rect width="980" height="405" rx="22" fill="#000000" />
+  <text fill="#F5F5F7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5">
+<tspan x="18" y="28">                                    </tspan>
+<tspan x="18" y="45">                                    </tspan>
+<tspan x="18" y="62">              .:-===:.              </tspan>
+<tspan x="18" y="79">            -#@@@@@@%%##:           </tspan>
+<tspan x="18" y="96">           *@@%%%%%%%@@@#           </tspan>
+<tspan x="18" y="113">          *@%%@@@@@@@@%%%-          </tspan>
+<tspan x="18" y="130">          %%@@%##***#%@@@@:         </tspan>
+<tspan x="18" y="147">          %@%=-::::::=+%%@:         </tspan>
+<tspan x="18" y="164">          #%====-:.-====%%.         </tspan>
+<tspan x="18" y="181">          +*:+***--**#*-**          </tspan>
+<tspan x="18" y="198">          :=:..:-.:-..::=+          </tspan>
+<tspan x="18" y="215">          .=:::=+=++-.:-+-          </tspan>
+<tspan x="18" y="232">           ==-*#*+*##+-=+.          </tspan>
+<tspan x="18" y="249">           :#=---++==-=*-           </tspan>
+<tspan x="18" y="266">            +#=------+#%.           </tspan>
+<tspan x="18" y="283">            +@@%###%%@@%%:          </tspan>
+<tspan x="18" y="300">           +@%#%@@@@%##%@%-         </tspan>
+<tspan x="18" y="317">     .-=+#%@%@#*****+*%@%@@%#*+=-.  </tspan>
+<tspan x="18" y="334"> :+#%@@@@@@%@@%#+---=#%%@%%@@@@@@@#+</tspan>
+<tspan x="18" y="351">%@@@@@%%%%%@@@@@%*-=#@@@@@@%%%%%%@@@</tspan>
+<tspan x="18" y="368">@%%%%@@@@@@@@@@%@@%@@%@@@@@@@@@@@@%%</tspan>
+  </text>
+  <text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5">
+<tspan x="340" y="28" fill="#F5F5F7" font-weight="700">mangesh@raut</tspan><tspan fill="#636366"> ———————————————————</tspan>
+<tspan x="340" y="45" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">OS</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7">macOS, Linux</tspan>
+<tspan x="340" y="62" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">Uptime</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7" id="uptime_data">4 years, 7 months, 20 days</tspan>
+<tspan x="340" y="79" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">Host</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7">Pune, MH, India</tspan>
+<tspan x="340" y="96" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">Kernel</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7">AI + Full-Stack Engineer</tspan>
+<tspan x="340" y="113" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">IDE</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7">Cursor, VS Code</tspan>
+<tspan x="340" y="130" fill="#636366">. </tspan>
+<tspan x="340" y="147" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">Languages.Programming</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7">TypeScript, Python, Swift</tspan>
+<tspan x="340" y="164" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">Languages.AI</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7">MCP, Agents, Gemma, PyTorch</tspan>
+<tspan x="340" y="181" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">Languages.Real</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7">English, Hindi, Marathi</tspan>
+<tspan x="340" y="198" fill="#636366">. </tspan>
+<tspan x="340" y="215" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">Focus.Product</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7">Agentic SaaS, Realtime UI</tspan>
+<tspan x="340" y="232" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">Focus.Stack</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7">Next.js 15/16, React 19, FastAPI</tspan>
+<tspan x="340" y="253" fill="#F5F5F7" font-weight="600">- Contact</tspan><tspan fill="#636366"> ————————————————</tspan>
+<tspan x="340" y="270" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">Portfolio</tspan><tspan fill="#636366">: </tspan><a href="https://mangeshraut.pro"><tspan fill="#2997FF">mangeshraut.pro</tspan></a>
+<tspan x="340" y="287" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">LinkedIn</tspan><tspan fill="#636366">: </tspan><a href="https://www.linkedin.com/in/mangeshraut71298/"><tspan fill="#2997FF">mangeshraut71298</tspan></a>
+<tspan x="340" y="304" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">X</tspan><tspan fill="#636366">: </tspan><a href="https://x.com/mrcommando712"><tspan fill="#2997FF">@mrcommando712</tspan></a>
+<tspan x="340" y="325" fill="#F5F5F7" font-weight="600">- GitHub Stats</tspan><tspan fill="#636366"> ————————————</tspan>
+<tspan x="340" y="342" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">Repos</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7" id="repos_data">40</tspan><tspan fill="#636366"> | </tspan><tspan fill="#2997FF" font-weight="600">Stars</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7" id="stars_data">9</tspan>
+<tspan x="340" y="359" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">Contributions</tspan><tspan fill="#636366">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,024</tspan><tspan fill="#636366"> | Followers: </tspan><tspan fill="#F5F5F7">3</tspan>
+<tspan x="340" y="376" fill="#636366">. </tspan><tspan fill="#2997FF" font-weight="600">2026 YTD</tspan><tspan fill="#636366">: </tspan><tspan fill="#30D158" id="ytd_data">1,891</tspan>
+  </text>
 </svg>

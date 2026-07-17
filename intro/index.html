@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Apple-inspired GitHub intro
+  Pipeline: Code (this page) -> MP4 -> GIF
+  Particles: particles.js · Typewriter: typewriter-effect
+-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mangesh Raut — Intro</title>
+  <script src="https://unpkg.com/typewriter-effect@2.21.0/dist/core.js"></script>
+  <style>
+    :root {
+      --bg: #000000;
+      --fg: #f5f5f7;
+      --blue: #2997ff;
+      --muted: #a1a1a6;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--bg);
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", sans-serif;
+    }
+    #stage {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 960px;
+      height: 360px;
+      background: #000000;
+      border: 1px solid #1c1c1e;
+      border-radius: 28px;
+      overflow: hidden;
+    }
+    #particles-js {
+      position: absolute;
+      inset: 0;
+      opacity: 0.85;
+    }
+    #copy {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      pointer-events: none;
+      padding: 24px;
+      text-align: center;
+    }
+    #eyebrow {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    #typewriter {
+      color: var(--fg);
+      font-size: 48px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      min-height: 56px;
+    }
+    #typewriter .Typewriter__cursor { color: var(--blue); }
+    #typewriter2 {
+      margin-top: 16px;
+      color: var(--blue);
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      min-height: 32px;
+    }
+    #typewriter2 .Typewriter__cursor { color: var(--blue); }
+  </style>
+</head>
+<body>
+  <div id="stage">
+    <div id="particles-js"></div>
+    <div id="copy">
+      <div id="eyebrow">AI + Full-Stack Engineer</div>
+      <div id="typewriter"></div>
+      <div id="typewriter2"></div>
+    </div>
+  </div>
+
+  <script src="particles.js"></script>
+  <script>
+    particlesJS.load("particles-js", "assets/particles.json", function () {});
+
+    const tw1 = new Typewriter("#typewriter", {
+      loop: true,
+      delay: 55,
+      deleteSpeed: 28,
+      cursor: "|"
+    });
+    tw1
+      .typeString("Mangesh Raut")
+      .pauseFor(1400)
+      .deleteAll()
+      .typeString("Agentic systems.")
+      .pauseFor(1200)
+      .deleteAll()
+      .typeString("Production SaaS.")
+      .pauseFor(1200)
+      .start();
+
+    const tw2 = new Typewriter("#typewriter2", {
+      loop: true,
+      delay: 36,
+      deleteSpeed: 18,
+      cursor: ""
+    });
+    tw2
+      .typeString("Next.js 15/16 · React 19 · MCP · OpenRouter")
+      .pauseFor(1800)
+      .deleteAll(18)
+      .typeString("Pune, India · Open to AI / Full-Stack roles")
+      .pauseFor(1800)
+      .start();
+  </script>
+</body>
+</html>

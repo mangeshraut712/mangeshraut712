@@ -1,16 +1,6 @@
-<!-- Apple-inspired profile: solid black / solid white + Apple blue -->
+<!-- Apple-inspired profile · Code -> MP4 -> GIF intro -->
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-light.svg" />
-    <img alt="Mangesh Raut — AI + Full-Stack Engineer" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg" />
-  </picture>
-</p>
-
-<h1 align="center">Mangesh Raut</h1>
-<p align="center">
-  <b>AI + Full-Stack Engineer</b><br/>
-  <span>Pune, India · Production agents · SaaS · Realtime UI</span>
+  <img src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/header.gif" alt="Mangesh Raut — coded GitHub intro" width="100%" />
 </p>
 
 <p align="center">
@@ -19,32 +9,28 @@
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-0071E3?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-light.svg" />
+    <img alt="Coded profile card" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg" />
+  </picture>
+</p>
+
 ---
 
 ## About
 
-<table>
-<tr>
-<td width="58%" valign="top">
-
 I design and ship **agentic products** with clear UX, streaming interfaces, and production reliability.
 
-**Now**
 - Building multi-tenant **AI agent SaaS** with MCP tool orchestration
 - Shipping **Next.js 15/16** + **React 19** products with realtime traces
 - Using **OpenRouter / Gemma 4** and RAG where the product needs it
 - Studying LM systems through **Stanford CS336**
 
-**Open to** AI Engineer · Full-Stack · Agentic SaaS roles
-
-</td>
-<td width="42%" valign="top" align="center">
-
-<img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=mangeshraut712&show_icons=true&theme=transparent&hide_border=true&hide=commits&count_private=false&title_color=0071E3&icon_color=0071E3&text_color=8B949E&bg_color=00000000" alt="GitHub stats" />
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=mangeshraut712&show_icons=true&theme=transparent&hide_border=true&hide=commits&count_private=false&title_color=0071E3&icon_color=0071E3&text_color=8B949E&bg_color=00000000" alt="GitHub stats" />
+</p>
 
 ---
 
@@ -58,50 +44,14 @@ I design and ship **agentic products** with clear UX, streaming interfaces, and 
   </picture>
 </p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">Gravity-SaaS-Agent</a></h3>
-      <p>Multi-tenant agent platform with WhatsApp/Telegram, MCP client, Express, and Supabase.</p>
-      <p><code>Next.js 15.5</code> · <code>MCP</code> · <code>Supabase</code></p>
-      <p><a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">View project →</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/mangeshraut712/agent-console">agent-console</a></h3>
-      <p>Realtime agent console: WebSocket streaming, tool-call traces, timeline UI.</p>
-      <p><code>Next.js 15.3</code> · <code>React 19.1</code> · <code>WebSockets</code></p>
-      <p><a href="https://github.com/mangeshraut712/agent-console">View project →</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/mangeshraut712/Hindai">Hindai</a></h3>
-      <p>Digital Gurukul with <b>Gemma 4 via OpenRouter</b>, RAG pipelines, and streaming chat.</p>
-      <p><code>Next.js 15.5</code> · <code>React 19.2</code> · <code>OpenRouter</code></p>
-      <p><a href="https://github.com/mangeshraut712/Hindai">View project →</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/mangeshraut712/career-agent-pro">Career-Agent-Pro</a></h3>
-      <p>AI job-search copilot for role analysis, resume tailoring, and applications.</p>
-      <p><code>Next.js 16.1</code> · <code>FastAPI</code> · <code>LLM APIs</code></p>
-      <p><a href="https://github.com/mangeshraut712/career-agent-pro">View project →</a> · <a href="https://ai-job-helper-steel.vercel.app/">Live →</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/mangeshraut712/autonomous-agent-team">autonomous-agent-team</a></h3>
-      <p>Six-agent OpenClaw workspace for research, content, code review, newsletter.</p>
-      <p><code>Python</code> · <code>Multi-agent</code> · <code>Cron</code></p>
-      <p><a href="https://github.com/mangeshraut712/autonomous-agent-team">View project →</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/mangeshraut712/Vitals.AI">Vitals.AI</a></h3>
-      <p>Privacy-first health dashboard for biomarkers, recovery, and digital-twin insights.</p>
-      <p><code>Next.js</code> · <code>TypeScript</code> · <code>HealthTech</code></p>
-      <p><a href="https://github.com/mangeshraut712/Vitals.AI">View project →</a></p>
-    </td>
-  </tr>
-</table>
+| Project | Stack | Links |
+| --- | --- | --- |
+| [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) | Next.js 15.5 · MCP · Supabase | [Repo](https://github.com/mangeshraut712/Gravity-SaaS-Agent) |
+| [agent-console](https://github.com/mangeshraut712/agent-console) | Next.js 15.3 · React 19.1 · WebSockets | [Repo](https://github.com/mangeshraut712/agent-console) |
+| [Hindai](https://github.com/mangeshraut712/Hindai) | Next.js 15.5 · React 19.2 · OpenRouter / Gemma 4 | [Repo](https://github.com/mangeshraut712/Hindai) |
+| [Career-Agent-Pro](https://github.com/mangeshraut712/career-agent-pro) | Next.js 16.1 · FastAPI · LLM APIs | [Repo](https://github.com/mangeshraut712/career-agent-pro) · [Live](https://ai-job-helper-steel.vercel.app/) |
+| [autonomous-agent-team](https://github.com/mangeshraut712/autonomous-agent-team) | Python · Multi-agent · Cron | [Repo](https://github.com/mangeshraut712/autonomous-agent-team) |
+| [Vitals.AI](https://github.com/mangeshraut712/Vitals.AI) | Next.js · TypeScript · HealthTech | [Repo](https://github.com/mangeshraut712/Vitals.AI) |
 
 <details>
 <summary><b>More projects</b></summary>
@@ -125,25 +75,17 @@ I design and ship **agentic products** with clear UX, streaming interfaces, and 
   <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,nodejs,fastapi,postgres,mongodb,supabase,docker,aws,vercel,tensorflow,pytorch,tailwind,swift,git" alt="Tech stack" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/MCP-0071E3?style=flat-square&labelColor=000000" alt="MCP" />
-  <img src="https://img.shields.io/badge/OpenRouter%20%2F%20Gemma%204-0071E3?style=flat-square&labelColor=000000" alt="OpenRouter" />
-  <img src="https://img.shields.io/badge/React%2019-0071E3?style=flat-square&labelColor=000000" alt="React 19" />
-  <img src="https://img.shields.io/badge/Next.js%2015%2F16-0071E3?style=flat-square&labelColor=000000" alt="Next.js" />
-  <img src="https://img.shields.io/badge/WebSockets-0071E3?style=flat-square&labelColor=000000" alt="WebSockets" />
-</p>
-
 ---
 
-## Selected Live Demos
+## Live Demos
 
 | Product | Link |
 | --- | --- |
 | Portfolio | [mangeshraut.pro](https://mangeshraut.pro) |
-| Career-Agent-Pro | [Live demo](https://ai-job-helper-steel.vercel.app/) |
-| AssistMe | [Live demo](https://assist-me-virtual-assistant.vercel.app/) |
-| PicoTuri-EditJudge | [Live demo](https://pico-turi-edit-judge.vercel.app/) |
-| Alpha Quant Academy | [Live demo](https://alpha-quant-academy.vercel.app/) |
+| Career-Agent-Pro | [Live](https://ai-job-helper-steel.vercel.app/) |
+| AssistMe | [Live](https://assist-me-virtual-assistant.vercel.app/) |
+| PicoTuri-EditJudge | [Live](https://pico-turi-edit-judge.vercel.app/) |
+| Alpha Quant Academy | [Live](https://alpha-quant-academy.vercel.app/) |
 
 ---
 
@@ -164,10 +106,6 @@ I design and ship **agentic products** with clear UX, streaming interfaces, and 
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake.svg" />
     <img alt="Contribution snake" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake-dark.svg" />
   </picture>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mangeshraut712&theme=react-dark&hide_border=true&area=true&color=0071E3&line=2997FF&point=0071E3" alt="Contribution graph" width="100%" />
 </p>
 
 ---
