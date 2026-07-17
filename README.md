@@ -166,7 +166,7 @@ API-verified profile totals (updated by workflow):
 <!-- profile-stats:end -->
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=mangeshraut712&theme=transparent&hide_border=true&ring=0EA5E9&fire=38BDF8&currStreakLabel=94A3B8" alt="GitHub streak" />
+  <img src="https://github-readme-streak-stats-one.vercel.app/?user=mangeshraut712&theme=github_dark&hide_border=true" alt="GitHub streak stats" />
 </p>
 
 <p align="center">
