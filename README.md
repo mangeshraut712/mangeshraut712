@@ -1,5 +1,5 @@
 <a href="https://github.com/mangeshraut712">
-  <img alt="Mangesh Raut — neofetch-style GitHub profile" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/neofetch.svg?v=16" />
+  <img alt="Mangesh Raut — neofetch-style GitHub profile" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/neofetch.svg" />
 </a>
 
 <p align="center">
@@ -29,9 +29,9 @@ AI + Full-Stack Engineer focused on **agentic workflows**, **MCP tool orchestrat
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/output/github-contribution-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/output/github-contribution-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/output/github-contribution-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake.svg" />
+    <img alt="GitHub contribution snake" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake-dark.svg" />
   </picture>
 </p>
 
