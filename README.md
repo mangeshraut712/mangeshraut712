@@ -1,7 +1,5 @@
 <a href="https://github.com/mangeshraut712">
-  <picture>
-    <img alt="Mangesh Raut — neofetch-style GitHub profile" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/neofetch.svg" />
-  </picture>
+  <img alt="Mangesh Raut — neofetch-style GitHub profile" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/neofetch.svg?v=15" />
 </a>
 
 <p align="center">
@@ -22,10 +20,18 @@ AI + Full-Stack Engineer focused on **agentic workflows**, **MCP tool orchestrat
 
 | Metric | Value |
 | --- | --- |
-| Contributions (YTD) | **3,643** |
-| Avg / day | **19.59** |
-| Best day | **163** (Jul 6) |
-| Longest streak | **43 days** |
+| Contributions (YTD) | **1,882** |
+| Avg / day | **9.51** |
+| Best day | **94** (Mar 27) |
+| Longest streak | **13 days** |
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/output/github-contribution-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/output/github-contribution-snake.svg" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/output/github-contribution-snake-dark.svg" />
+  </picture>
+</p>
 
 ---
 
