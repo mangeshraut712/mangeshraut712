@@ -408,50 +408,34 @@ def write_snapshot(stats: dict) -> None:
 
 
 def update_readme(stats: dict) -> None:
-    """Keep auto-synced GitHub source + stack blocks in the README."""
+    """Sync stack icons only — stats live in the banner SVG (no README dupes)."""
     if not README_PATH.exists():
         return
-    block = f"""<!-- github-data:start -->
-<p align="center">
-  <sup>Synced from full GitHub account · {stats['synced_at'][:10]}</sup><br/>
-  <code>{stats['public_raw']} repos</code>
-  · <code>{stats['owned_raw']} owned</code>
-  · <code>{stats['stars_raw']} stars</code>
-  · <code>{stats['forks_raw']} forks</code>
-  · <code>{fmt(stats['lifetime_raw'])} contributions</code>
-  · <code>{fmt(stats['ytd_raw'])} in {stats['year']}</code>
-  · <code>{stats['prs_raw']} PRs</code>
-  · <code>{stats['commits_raw']} commits</code>
-  · <code>{stats['langs_data']}</code>
-</p>
-<!-- github-data:end -->"""
     icons = f"""<!-- stack-icons:start -->
   <img src="https://skillicons.dev/icons?i={stats['stack_icons']}" alt="Tech stack from GitHub repos" />
   <!-- stack-icons:end -->"""
-    label = (
-        f"<!-- stack-label:start -->{stats['stack_label']}<!-- stack-label:end -->"
-    )
-
     text = README_PATH.read_text()
-    text, _ = re.subn(
-        r"<!-- github-data:start -->[\s\S]*?<!-- github-data:end -->",
-        block,
+    # Drop legacy duplicate blocks if present
+    text = re.sub(
+        r"\n*<!-- github-data:start -->[\s\S]*?<!-- github-data:end -->\n*",
+        "\n",
         text,
         count=1,
     )
-    text, _ = re.subn(
+    text = re.sub(
+        r"\n*<p align=\"center\">\s*<sup><!-- stack-label:start -->[\s\S]*?<!-- stack-label:end --></sup>\s*</p>\n*",
+        "\n",
+        text,
+        count=1,
+    )
+    text, n = re.subn(
         r"<!-- stack-icons:start -->[\s\S]*?<!-- stack-icons:end -->",
         icons,
         text,
         count=1,
     )
-    text, _ = re.subn(
-        r"<!-- stack-label:start -->[\s\S]*?<!-- stack-label:end -->",
-        label,
-        text,
-        count=1,
-    )
-    README_PATH.write_text(text)
+    if n:
+        README_PATH.write_text(text)
 
 
 def main() -> int:

@@ -1,10 +1,10 @@
-<!-- Apple-inspired profile · audited Jul 2026 · one job per section -->
+<!-- Apple-inspired profile · one job per section -->
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=26" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=26" />
-    <img alt="Mangesh Raut — coded Apple profile card" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=26" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=27" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=27" />
+    <img alt="Mangesh Raut — coded Apple profile card" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=27" />
   </picture>
 </p>
 
@@ -14,41 +14,19 @@
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-0071E3?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
-
-<!-- github-data:start -->
-<p align="center">
-  <sup>Synced from full GitHub account · 2026-07-17</sup><br/>
-  <code>40 repos</code>
-  · <code>38 owned</code>
-  · <code>9 stars</code>
-  · <code>3 forks</code>
-  · <code>4,032 contributions</code>
-  · <code>1,899 in 2026</code>
-  · <code>49 PRs</code>
-  · <code>1834 commits</code>
-  · <code>TypeScript, Python, JavaScript, Swift</code>
-</p>
-<!-- github-data:end -->
-
 ---
 
 ### Built
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=26" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=26" />
-    <img alt="Flagship projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=26" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=27" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=27" />
+    <img alt="Flagship projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=27" />
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://hindai-nine.vercel.app">Hindai</a>
-  ·
-  <a href="https://ai-job-helper-steel.vercel.app/">Career-Agent-Pro</a>
-  ·
-  <a href="https://vitals-ai.vercel.app">Vitals.AI</a>
-  ·
   <a href="https://assist-me-virtual-assistant.vercel.app/">AssistMe</a>
   ·
   <a href="https://pico-turi-edit-judge.vercel.app/">PicoTuri</a>
@@ -69,7 +47,6 @@
 | [creator-cards-api](https://github.com/mangeshraut712/creator-cards-api) | Express · MongoDB · Render |
 | [apple-FastVLM-0.5B](https://github.com/mangeshraut712/apple-FastVLM-0.5B) | Apple FastVLM · multimodal research |
 | [ForexScalpingBot](https://github.com/mangeshraut712/ForexScalpingBot) | SwiftUI · iOS trading assistant UI |
-| [mangeshrautarchive](https://github.com/mangeshraut712/mangeshrautarchive) | Portfolio · FastAPI · [mangeshraut.pro](https://mangeshraut.pro) |
 
 </details>
 
@@ -81,10 +58,6 @@
   <!-- stack-icons:start -->
   <img src="https://skillicons.dev/icons?i=ts,js,py,swift,react,nextjs,tailwind,fastapi,express,postgres,supabase,mongodb,docker,vercel,pytorch" alt="Tech stack from GitHub repos" />
   <!-- stack-icons:end -->
-</p>
-
-<p align="center">
-  <sup><!-- stack-label:start -->TypeScript · JavaScript · Python · Swift · React · Next.js 15/16 · FastAPI · Tailwind · Express · PyTorch · Supabase · MongoDB · Docker · Vercel<!-- stack-label:end --></sup>
 </p>
 
 ---
@@ -112,7 +85,6 @@
 </p>
 
 <p align="center">
-  <a href="https://mangeshraut.pro"><img src="https://img.shields.io/badge/Hire%20%2F%20Collab-0071E3?style=for-the-badge&labelColor=000000" alt="Hire / Collab" /></a>
   <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Sponsor-Stripe-635BFF?style=for-the-badge&labelColor=000000&logo=stripe&logoColor=white" alt="Stripe" /></a>
   <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/Sponsor-PayPal-0071E3?style=for-the-badge&labelColor=000000&logo=paypal&logoColor=white" alt="PayPal" /></a>
 </p>
