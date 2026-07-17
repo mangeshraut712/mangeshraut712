@@ -45,7 +45,7 @@
 <tspan x="380" y="222" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Focus.Stack</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F">Next.js 15/16, React 19, FastAPI</tspan>
 <tspan x="380" y="241" fill="#1D1D1F" font-weight="700">- GitHub Stats</tspan><tspan fill="#6E6E73"> ———————————</tspan>
 <tspan x="380" y="256" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Repos</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F" id="repos_data_light">40</tspan><tspan fill="#6E6E73"> | </tspan><tspan fill="#0071E3" font-weight="700">Stars</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F" id="stars_data_light">9</tspan>
-<tspan x="380" y="271" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Contributions</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F" id="lifetime_data_light">4,028</tspan><tspan fill="#6E6E73"> | Followers: </tspan><tspan fill="#1D1D1F" id="follower_data_light">3</tspan>
-<tspan x="380" y="286" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">2026 YTD</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#34C759" id="ytd_data_light" font-weight="700">1,895</tspan>
+<tspan x="380" y="271" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Contributions</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F" id="lifetime_data_light">4,029</tspan><tspan fill="#6E6E73"> | Followers: </tspan><tspan fill="#1D1D1F" id="follower_data_light">3</tspan>
+<tspan x="380" y="286" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">2026 YTD</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#34C759" id="ytd_data_light" font-weight="700">1,896</tspan>
   </text>
 </svg>
