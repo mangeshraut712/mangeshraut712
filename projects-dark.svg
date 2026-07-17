@@ -7,7 +7,7 @@
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Gravity-SaaS-Agent</text>
-      <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Multi-tenant agents with MCP,</tspan><tspan x="22" dy="18">WhatsApp/Telegram, and Supabase.</tspan></text>
+      <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Multi-tenant agents with MCP,</tspan><tspan x="22" dy="18">WhatsApp adapters, and Supabase.</tspan></text>
       <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.5 · MCP · Supabase</text>
     </g>
   </a>
@@ -20,7 +20,7 @@
       <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.3 · React 19.1 · WS</text>
     </g>
   </a>
-  <a href="https://github.com/mangeshraut712/Hindai" target="_blank">
+  <a href="https://hindai-nine.vercel.app" target="_blank">
     <g transform="translate(740,84)">
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
@@ -29,7 +29,7 @@
       <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.5 · React 19.2 · OpenRouter</text>
     </g>
   </a>
-  <a href="https://github.com/mangeshraut712/career-agent-pro" target="_blank">
+  <a href="https://ai-job-helper-steel.vercel.app/" target="_blank">
     <g transform="translate(24,270)">
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
@@ -47,13 +47,13 @@
       <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Python · Multi-agent · Cron</text>
     </g>
   </a>
-  <a href="https://github.com/mangeshraut712/Vitals.AI" target="_blank">
+  <a href="https://vitals-ai.vercel.app" target="_blank">
     <g transform="translate(740,270)">
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Vitals.AI</text>
       <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Privacy-first health dashboard for</tspan><tspan x="22" dy="18">biomarkers and recovery.</tspan></text>
-      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js · TypeScript · HealthTech</text>
+      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 16.1 · React 19.2 · HealthTech</text>
     </g>
   </a>
 </svg>

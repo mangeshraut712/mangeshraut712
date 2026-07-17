@@ -1,10 +1,10 @@
-<!-- Apple-inspired profile · one job per section -->
+<!-- Apple-inspired profile · audited Jul 2026 · one job per section -->
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg?v=22" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-light.svg?v=22" />
-    <img alt="Mangesh Raut — coded Apple profile card" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg?v=22" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg?v=23" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-light.svg?v=23" />
+    <img alt="Mangesh Raut — coded Apple profile card" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg?v=23" />
   </picture>
 </p>
 
@@ -14,24 +14,24 @@
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-0071E3?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/header.gif?v=22" alt="Coded intro animation" width="100%" />
-</p>
-
 ---
 
 ### Built
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-dark.svg?v=22" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-light.svg?v=22" />
-    <img alt="Flagship projects" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-dark.svg?v=22" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-dark.svg?v=23" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-light.svg?v=23" />
+    <img alt="Flagship projects" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-dark.svg?v=23" />
   </picture>
 </p>
 
 <p align="center">
+  <a href="https://hindai-nine.vercel.app">Hindai</a>
+  ·
   <a href="https://ai-job-helper-steel.vercel.app/">Career-Agent-Pro</a>
+  ·
+  <a href="https://vitals-ai.vercel.app">Vitals.AI</a>
   ·
   <a href="https://assist-me-virtual-assistant.vercel.app/">AssistMe</a>
   ·
@@ -47,10 +47,9 @@
 
 | | |
 | --- | --- |
-| [Stanford-CS336](https://github.com/mangeshraut712/Stanford-CS336) | LM systems · BPE · transformers · GRPO |
-| [AssistMe](https://github.com/mangeshraut712/AssistMe-VirtualAssistant) | Voice + research assistant |
-| [PicoTuri-EditJudge](https://github.com/mangeshraut712/PicoTuri-EditJudge) | Text-guided image edit eval |
-| [creator-cards-api](https://github.com/mangeshraut712/creator-cards-api) | Express · MongoDB microservice |
+| [Stanford-CS336](https://github.com/mangeshraut712/Stanford-CS336) | Self-study LM systems · BPE · transformers · GRPO |
+| [creator-cards-api](https://github.com/mangeshraut712/creator-cards-api) | Node.js · Express · MongoDB · Render |
+| [apple-FastVLM-0.5B](https://github.com/mangeshraut712/apple-FastVLM-0.5B) | Apple FastVLM exploration |
 
 </details>
 
@@ -87,7 +86,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/Message%20on%20LinkedIn-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="Message on LinkedIn" /></a>
+  <a href="https://mangeshraut.pro"><img src="https://img.shields.io/badge/Hire%20%2F%20Collab-0071E3?style=for-the-badge&labelColor=000000" alt="Hire / Collab" /></a>
   <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Sponsor-Stripe-635BFF?style=for-the-badge&labelColor=000000&logo=stripe&logoColor=white" alt="Stripe" /></a>
   <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/Sponsor-PayPal-0071E3?style=for-the-badge&labelColor=000000&logo=paypal&logoColor=white" alt="PayPal" /></a>
 </p>
