@@ -1,50 +1,55 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 980 405" role="img" aria-label="Mangesh Raut coded profile card">
-  <rect width="980" height="405" rx="22" fill="#FFFFFF" />
-  <text fill="#1D1D1F" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5">
-<tspan x="18" y="28">                                    </tspan>
-<tspan x="18" y="45">                                    </tspan>
-<tspan x="18" y="62">              .:-===:.              </tspan>
-<tspan x="18" y="79">            -#@@@@@@%%##:           </tspan>
-<tspan x="18" y="96">           *@@%%%%%%%@@@#           </tspan>
-<tspan x="18" y="113">          *@%%@@@@@@@@%%%-          </tspan>
-<tspan x="18" y="130">          %%@@%##***#%@@@@:         </tspan>
-<tspan x="18" y="147">          %@%=-::::::=+%%@:         </tspan>
-<tspan x="18" y="164">          #%====-:.-====%%.         </tspan>
-<tspan x="18" y="181">          +*:+***--**#*-**          </tspan>
-<tspan x="18" y="198">          :=:..:-.:-..::=+          </tspan>
-<tspan x="18" y="215">          .=:::=+=++-.:-+-          </tspan>
-<tspan x="18" y="232">           ==-*#*+*##+-=+.          </tspan>
-<tspan x="18" y="249">           :#=---++==-=*-           </tspan>
-<tspan x="18" y="266">            +#=------+#%.           </tspan>
-<tspan x="18" y="283">            +@@%###%%@@%%:          </tspan>
-<tspan x="18" y="300">           +@%#%@@@@%##%@%-         </tspan>
-<tspan x="18" y="317">     .-=+#%@%@#*****+*%@%@@%#*+=-.  </tspan>
-<tspan x="18" y="334"> :+#%@@@@@@%@@%#+---=#%%@%%@@@@@@@#+</tspan>
-<tspan x="18" y="351">%@@@@@%%%%%@@@@@%*-=#@@@@@@%%%%%%@@@</tspan>
-<tspan x="18" y="368">@%%%%@@@@@@@@@@%@@%@@%@@@@@@@@@@@@%%</tspan>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1020 436" role="img" aria-label="Mangesh Raut Apple-style coded profile card">
+  <rect width="1020" height="436" rx="24" fill="#FFFFFF" />
+  <rect x="12" y="12" width="350" height="412" rx="20" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1" />
+  <circle cx="334" cy="36" r="5" fill="#0071E3" />
+  <text xml:space="preserve" fill="#1D1D1F" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12.5" letter-spacing="0.6">
+<tspan x="28" y="40">.............. .`:=++++*+=^:'.  ............</tspan>
+<tspan x="28" y="55">............ .=#@@@@@@@@@%##*#*^............</tspan>
+<tspan x="28" y="70">........... :#@@@%%%%%%%%%@@@%@%^...........</tspan>
+<tspan x="28" y="85">......... .+@@%%@@@@@@@%%%%%%@%%#'..........</tspan>
+<tspan x="28" y="100">......... *@%%@@@@@%%%%%%%@@@%%%#. .........</tspan>
+<tspan x="28" y="115">........ ^@%@@%%%@@@@@@@@@@%%@%%%#^ ........</tspan>
+<tspan x="28" y="130">........ +%%@@@@@@%%%%%%%%%@@@@@@@%' .......</tspan>
+<tspan x="28" y="145">........ +@%%@%#*+===^^==++#%@@%%%%` .......</tspan>
+<tspan x="28" y="160">........ =@%@%+^^:::::::^^^=+*%@%@%' .......</tspan>
+<tspan x="28" y="175">........ +@%%+==^:````'''`:^^=+%%@#.........</tspan>
+<tspan x="28" y="190">........ '%@+=**##%*+^:^*%###*=+@@^ ........</tspan>
+<tspan x="28" y="205">..........#%:^+*##*#*^^+###%##=^%%: ........</tspan>
+<tspan x="28" y="220">..........=*:::::::^=::+=:^^^^^:+*+.........</tspan>
+<tspan x="28" y="235">......... ^+::`''`^^:':==:''`:^^+*:.........</tspan>
+<tspan x="28" y="250">......... `+^^```^=+*^+*=^:``:^^**. ........</tspan>
+<tspan x="28" y="265">......... `*==^^*##%%##%#*+^^^==#=..........</tspan>
+<tspan x="28" y="280">...........=++=+%%%*+++*#%@*^=+*+'..........</tspan>
+<tspan x="28" y="295">.......... '**+=^^=+++++++===**#: ..........</tspan>
+<tspan x="28" y="310">............*%*=^^^^+##+^^^^+#%#............</tspan>
+<tspan x="28" y="325">........... '#%*+=^^::::^^=*#%@+ ...........</tspan>
+<tspan x="28" y="340">............ =@@%%##***###%@@@%%*. .........</tspan>
+<tspan x="28" y="355">........... +@%%@@@@@@@@@@@@@@@@@#' ........</tspan>
+<tspan x="28" y="370">.......    ^@%@%%%@@@@@@@@%%%%@@%@#`     ...</tspan>
+<tspan x="28" y="385">.......':=+%%%@%%##%%%%%%####%@@@%@%*+^`'...</tspan>
   </text>
-  <text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5">
-<tspan x="340" y="28" fill="#1D1D1F" font-weight="700">mangesh@raut</tspan><tspan fill="#86868B"> ———————————————————</tspan>
-<tspan x="340" y="45" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">OS</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F">macOS, Linux</tspan>
-<tspan x="340" y="62" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">Uptime</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F">4 years, 7 months, 20 days</tspan>
-<tspan x="340" y="79" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">Host</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F">Pune, MH, India</tspan>
-<tspan x="340" y="96" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">Kernel</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F">AI + Full-Stack Engineer</tspan>
-<tspan x="340" y="113" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">IDE</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F">Cursor, VS Code</tspan>
-<tspan x="340" y="130" fill="#86868B">. </tspan>
-<tspan x="340" y="147" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">Languages.Programming</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F">TypeScript, Python, Swift</tspan>
-<tspan x="340" y="164" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">Languages.AI</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F">MCP, Agents, Gemma, PyTorch</tspan>
-<tspan x="340" y="181" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">Languages.Real</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F">English, Hindi, Marathi</tspan>
-<tspan x="340" y="198" fill="#86868B">. </tspan>
-<tspan x="340" y="215" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">Focus.Product</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F">Agentic SaaS, Realtime UI</tspan>
-<tspan x="340" y="232" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">Focus.Stack</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F">Next.js 15/16, React 19, FastAPI</tspan>
-<tspan x="340" y="253" fill="#1D1D1F" font-weight="600">- Contact</tspan><tspan fill="#86868B"> ————————————————</tspan>
-<tspan x="340" y="270" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">Portfolio</tspan><tspan fill="#86868B">: </tspan><a href="https://mangeshraut.pro"><tspan fill="#0071E3">mangeshraut.pro</tspan></a>
-<tspan x="340" y="287" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">LinkedIn</tspan><tspan fill="#86868B">: </tspan><a href="https://www.linkedin.com/in/mangeshraut71298/"><tspan fill="#0071E3">mangeshraut71298</tspan></a>
-<tspan x="340" y="304" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">X</tspan><tspan fill="#86868B">: </tspan><a href="https://x.com/mrcommando712"><tspan fill="#0071E3">@mrcommando712</tspan></a>
-<tspan x="340" y="325" fill="#1D1D1F" font-weight="600">- GitHub Stats</tspan><tspan fill="#86868B"> ————————————</tspan>
-<tspan x="340" y="342" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">Repos</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F" id="repos_data_light">40</tspan><tspan fill="#86868B"> | </tspan><tspan fill="#0071E3" font-weight="600">Stars</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F" id="stars_data_light">9</tspan>
-<tspan x="340" y="359" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">Contributions</tspan><tspan fill="#86868B">: </tspan><tspan fill="#1D1D1F" id="lifetime_data_light">4,024</tspan><tspan fill="#86868B"> | Followers: </tspan><tspan fill="#1D1D1F">3</tspan>
-<tspan x="340" y="376" fill="#86868B">. </tspan><tspan fill="#0071E3" font-weight="600">2026 YTD</tspan><tspan fill="#86868B">: </tspan><tspan fill="#34C759" id="ytd_data_light">1,891</tspan>
+  <text xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12.5">
+<tspan x="380" y="40" fill="#1D1D1F" font-weight="700" font-size="14">mangesh@raut</tspan><tspan fill="#6E6E73"> ————————————————————</tspan>
+<tspan x="380" y="57" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">OS</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F">macOS, Linux</tspan>
+<tspan x="380" y="72" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Uptime</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F">4 years, 7 months, 20 days</tspan>
+<tspan x="380" y="87" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Host</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F">Pune, MH, India</tspan>
+<tspan x="380" y="102" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Kernel</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F">AI + Full-Stack Engineer</tspan>
+<tspan x="380" y="117" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">IDE</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F">Cursor, VS Code</tspan>
+<tspan x="380" y="132" fill="#6E6E73">·</tspan>
+<tspan x="380" y="147" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Languages.Programming</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F">TypeScript, Python, Swift</tspan>
+<tspan x="380" y="162" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Languages.AI</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F">MCP, Agents, Gemma, PyTorch</tspan>
+<tspan x="380" y="177" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Languages.Real</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F">English, Hindi, Marathi</tspan>
+<tspan x="380" y="192" fill="#6E6E73">·</tspan>
+<tspan x="380" y="207" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Focus.Product</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F">Agentic SaaS, Realtime UI</tspan>
+<tspan x="380" y="222" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Focus.Stack</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F">Next.js 15/16, React 19, FastAPI</tspan>
+<tspan x="380" y="241" fill="#1D1D1F" font-weight="700">- Contact</tspan><tspan fill="#6E6E73"> ———————————————</tspan>
+<tspan x="380" y="256" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Portfolio</tspan><tspan fill="#6E6E73">: </tspan><a href="https://mangeshraut.pro"><tspan fill="#0071E3">mangeshraut.pro</tspan></a>
+<tspan x="380" y="271" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">LinkedIn</tspan><tspan fill="#6E6E73">: </tspan><a href="https://www.linkedin.com/in/mangeshraut71298/"><tspan fill="#0071E3">mangeshraut71298</tspan></a>
+<tspan x="380" y="286" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">X</tspan><tspan fill="#6E6E73">: </tspan><a href="https://x.com/mrcommando712"><tspan fill="#0071E3">@mrcommando712</tspan></a>
+<tspan x="380" y="305" fill="#1D1D1F" font-weight="700">- GitHub Stats</tspan><tspan fill="#6E6E73"> ———————————</tspan>
+<tspan x="380" y="320" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Repos</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F" id="repos_data_light">40</tspan><tspan fill="#6E6E73"> | </tspan><tspan fill="#0071E3" font-weight="700">Stars</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F" id="stars_data_light">9</tspan>
+<tspan x="380" y="335" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">Contributions</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#1D1D1F" id="lifetime_data_light">4,026</tspan><tspan fill="#6E6E73"> | Followers: </tspan><tspan fill="#1D1D1F">3</tspan>
+<tspan x="380" y="350" fill="#6E6E73">· </tspan><tspan fill="#0071E3" font-weight="700">2026 YTD</tspan><tspan fill="#6E6E73">: </tspan><tspan fill="#34C759" id="ytd_data_light" font-weight="700">1,893</tspan>
   </text>
 </svg>

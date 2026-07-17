@@ -1,20 +1,20 @@
-<!-- Apple-inspired profile · Code -> MP4 -> GIF intro -->
+<!-- Apple-inspired coded profile card (SVG ASCII, not a photo) -->
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/header.gif" alt="Mangesh Raut — coded GitHub intro" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg?v=21" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-light.svg?v=21" />
+    <img alt="Mangesh Raut — Apple-style coded SVG profile card" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg?v=21" />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/header.gif?v=21" alt="Mangesh Raut — Code to GIF intro" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://mangeshraut.pro"><img src="https://img.shields.io/badge/Portfolio-mangeshraut.pro-0071E3?style=for-the-badge&labelColor=000000" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-0071E3?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X" /></a>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-light.svg" />
-    <img alt="Coded profile card" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg" />
-  </picture>
 </p>
 
 ---
@@ -94,8 +94,8 @@ I design and ship **agentic products** with clear UX, streaming interfaces, and 
 <!-- activity:start -->
 | Metric | Value |
 | --- | --- |
-| Contributions (YTD) | **1,891** |
-| Avg / day | **9.55** |
+| Contributions (YTD) | **1,893** |
+| Avg / day | **9.56** |
 | Best day | **94** (Mar 27) |
 | Longest streak (YTD) | **13 days** |
 <!-- activity:end -->
@@ -121,10 +121,10 @@ API-verified totals (auto-updated):
 | Owned (non-fork) | **38** |
 | Stars on owned repos | **9** |
 | Followers | **3** |
-| Contributions (all-time) | **4,024** |
-| Contributions (2026 YTD) | **1,891** |
+| Contributions (all-time) | **4,026** |
+| Contributions (2026 YTD) | **1,893** |
 | Pull requests (2026 YTD) | **49** |
-| Commits (2026 YTD) | **1,826** |
+| Commits (2026 YTD) | **1,828** |
 <!-- profile-stats:end -->
 
 <p align="center">
