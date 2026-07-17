@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh dynamic stats inside neofetch.svg using the GitHub GraphQL API."""
+"""Refresh dynamic stats in Apple banner SVGs + README tables."""
 
 from __future__ import annotations
 
@@ -14,13 +14,16 @@ from xml.etree import ElementTree as ET
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-SVG_PATH = ROOT / "neofetch.svg"
+SVG_PATHS = [
+    ROOT / "neofetch.svg",
+    ROOT / "banner-dark.svg",
+    ROOT / "banner-light.svg",
+]
 README_PATH = ROOT / "README.md"
 USER = os.environ.get("USER_NAME", "mangeshraut712")
 TOKEN = os.environ.get("ACCESS_TOKEN") or os.environ.get("GITHUB_TOKEN")
 ACCOUNT_CREATED = date(2021, 11, 27)
 
-NS = {"svg": "http://www.w3.org/2000/svg"}
 ET.register_namespace("", "http://www.w3.org/2000/svg")
 ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")
 
@@ -81,7 +84,6 @@ def fetch_stats() -> dict:
               totalPullRequestContributions
             }
           }
-          viewer { repositories(privacy: PUBLIC) { totalCount } }
         }
         """,
         {
@@ -104,7 +106,6 @@ def fetch_stats() -> dict:
     elapsed = max(1, (today - date(year, 1, 1)).days + 1)
     avg = ytd / elapsed
 
-    # longest streak in YTD window
     longest = current = 0
     for c in counts:
         if c > 0:
@@ -113,11 +114,8 @@ def fetch_stats() -> dict:
         else:
             current = 0
 
-    # lifetime contributions across years since account creation
     lifetime = 0
     for y in range(ACCOUNT_CREATED.year, year + 1):
-        start = f"{y}-01-01T00:00:00Z"
-        end = f"{y}-12-31T23:59:59Z"
         chunk = gql(
             """
             query($login: String!, $from: DateTime!, $to: DateTime!) {
@@ -128,7 +126,11 @@ def fetch_stats() -> dict:
               }
             }
             """,
-            {"login": USER, "from": start, "to": end},
+            {
+                "login": USER,
+                "from": f"{y}-01-01T00:00:00Z",
+                "to": f"{y}-12-31T23:59:59Z",
+            },
         )
         lifetime += chunk["user"]["contributionsCollection"]["contributionCalendar"][
             "totalContributions"
@@ -151,29 +153,25 @@ def fetch_stats() -> dict:
 
     coll = user["contributionsCollection"]
     return {
-        "uptime_data": age_string(ACCOUNT_CREATED, today),
-        "repo_data": str(user["repositories"]["totalCount"]),
-        "public_data": str(public_repos),
-        "star_data": str(stars),
-        "contrib_data": fmt(lifetime),
-        "follower_data": str(user["followers"]["totalCount"]),
+        "lifetime_data": fmt(lifetime),
         "ytd_data": fmt(ytd),
-        "avg_data": f"{avg:.2f}/day",
-        "streak_data": str(longest),
-        "best_data": str(best),
-        "best_date": best_label,
-        "ytd_raw": ytd,
-        "avg_raw": f"{avg:.2f}",
-        "best_raw": best,
-        "streak_raw": longest,
-        "year": year,
+        "repos_data": str(public_repos),
+        "stars_data": str(stars),
+        "uptime_data": age_string(ACCOUNT_CREATED, today),
+        "follower_data": str(user["followers"]["totalCount"]),
         "owned_raw": user["repositories"]["totalCount"],
         "public_raw": public_repos,
         "stars_raw": stars,
         "followers_raw": user["followers"]["totalCount"],
         "lifetime_raw": lifetime,
+        "ytd_raw": ytd,
+        "avg_raw": f"{avg:.2f}",
+        "best_raw": best,
+        "best_date": best_label,
+        "streak_raw": longest,
         "prs_raw": coll.get("totalPullRequestContributions", 0),
         "commits_raw": coll.get("totalCommitContributions", 0),
+        "year": year,
     }
 
 
@@ -184,33 +182,33 @@ def set_text(root: ET.Element, element_id: str, value: str) -> None:
             return
 
 
-def update_svg(stats: dict) -> None:
-    tree = ET.parse(SVG_PATH)
-    root = tree.getroot()
-    for key in (
-        "uptime_data",
-        "repo_data",
-        "public_data",
-        "star_data",
-        "contrib_data",
-        "follower_data",
-        "ytd_data",
-        "avg_data",
-        "streak_data",
-        "best_data",
-    ):
-        set_text(root, key, stats[key])
+def update_svgs(stats: dict) -> None:
+    mapping = {
+        "lifetime_data": stats["lifetime_data"],
+        "ytd_data": stats["ytd_data"],
+        "repos_data": stats["repos_data"],
+        "stars_data": stats["stars_data"],
+        "lifetime_data_light": stats["lifetime_data"],
+        "ytd_data_light": stats["ytd_data"],
+        "repos_data_light": stats["repos_data"],
+        "stars_data_light": stats["stars_data"],
+    }
+    for path in SVG_PATHS:
+        if not path.exists():
+            continue
+        tree = ET.parse(path)
+        root = tree.getroot()
+        for key, value in mapping.items():
+            set_text(root, key, value)
+        tree.write(path, encoding="utf-8", xml_declaration=True)
 
-    set_text(root, "best_note", f" on {stats['best_date']} · open to AI/SaaS roles")
-    tree.write(SVG_PATH, encoding="utf-8", xml_declaration=True)
 
-
-def update_readme_activity(stats: dict) -> None:
+def update_readme(stats: dict) -> None:
     text = README_PATH.read_text()
     activity = f"""<!-- activity:start -->
 | Metric | Value |
 | --- | --- |
-| Contributions (YTD) | **{stats['ytd_data']}** |
+| Contributions (YTD) | **{fmt(stats['ytd_raw'])}** |
 | Avg / day | **{stats['avg_raw']}** |
 | Best day | **{stats['best_raw']}** ({stats['best_date']}) |
 | Longest streak (YTD) | **{stats['streak_raw']} days** |
@@ -223,7 +221,7 @@ def update_readme_activity(stats: dict) -> None:
 | Stars on owned repos | **{stats['stars_raw']}** |
 | Followers | **{stats['followers_raw']}** |
 | Contributions (all-time) | **{fmt(stats['lifetime_raw'])}** |
-| Contributions ({stats['year']} YTD) | **{stats['ytd_data']}** |
+| Contributions ({stats['year']} YTD) | **{fmt(stats['ytd_raw'])}** |
 | Pull requests ({stats['year']} YTD) | **{fmt(stats['prs_raw'])}** |
 | Commits ({stats['year']} YTD) | **{fmt(stats['commits_raw'])}** |
 <!-- profile-stats:end -->"""
@@ -245,9 +243,9 @@ def update_readme_activity(stats: dict) -> None:
 
 def main() -> int:
     stats = fetch_stats()
-    update_svg(stats)
-    update_readme_activity(stats)
-    print("Updated neofetch.svg and README activity table:")
+    update_svgs(stats)
+    update_readme(stats)
+    print("Updated Apple banners + README stats:")
     for k, v in stats.items():
         print(f"  {k}: {v}")
     return 0

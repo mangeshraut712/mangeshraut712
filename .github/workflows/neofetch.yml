@@ -26,7 +26,7 @@ jobs:
       - name: Install deps
         run: pip install requests
 
-      - name: Refresh neofetch stats
+      - name: Refresh banner stats
         env:
           # Prefer a PAT with read:user if private contributions should be counted.
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -37,11 +37,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add neofetch.svg README.md
+          git add neofetch.svg banner-dark.svg banner-light.svg README.md
           if git diff --staged --quiet; then
             echo "No neofetch changes"
             exit 0
           fi
-          git commit -m "Update neofetch stats - [Skip GitHub Action]"
+          git commit -m "Update profile banner stats - [Skip GitHub Action]"
           git pull --rebase origin main
           git push origin HEAD:main

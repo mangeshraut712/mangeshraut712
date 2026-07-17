@@ -1,37 +1,46 @@
-<a href="https://github.com/mangeshraut712">
-  <img alt="Mangesh Raut — neofetch-style GitHub profile" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/neofetch.svg" />
-</a>
+<!-- Apple-inspired profile: solid black / solid white + Apple blue -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-light.svg" />
+    <img alt="Mangesh Raut — AI + Full-Stack Engineer" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg" />
+  </picture>
+</p>
 
-<h1 align="center">Hi, I'm Mangesh Raut</h1>
-<p align="center"><b>AI + Full-Stack Engineer</b> in Pune · building production agent systems and SaaS</p>
+<h1 align="center">Mangesh Raut</h1>
+<p align="center">
+  <b>AI + Full-Stack Engineer</b><br/>
+  <span>Pune, India · Production agents · SaaS · Realtime UI</span>
+</p>
 
 <p align="center">
-  <a href="https://mangeshraut.pro"><img src="https://img.shields.io/badge/Portfolio-mangeshraut.pro-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-Mangesh%20Raut-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-111827?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://mangeshraut.pro"><img src="https://img.shields.io/badge/Portfolio-mangeshraut.pro-0071E3?style=for-the-badge&labelColor=000000" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-0071E3?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
 ---
 
-## Hello there
+## About
 
 <table>
 <tr>
-<td valign="top" width="58%">
+<td width="58%" valign="top">
 
-- Currently building **agentic SaaS** (MCP, tool calling, multi-agent workflows)
-- Shipping with **Next.js 15/16**, **React 19**, and **FastAPI**
-- Working on LLM products with **OpenRouter / Gemma 4** and RAG where needed
-- Studying language-model systems via **Stanford CS336**
-- Open to **AI / Full-Stack / Agentic SaaS** roles and collaborations
-- Ask me about agents, streaming UIs, or production LLM apps
-- Portfolio: [mangeshraut.pro](https://mangeshraut.pro)
-- Connect on [LinkedIn](https://www.linkedin.com/in/mangeshraut71298/) · [X](https://x.com/mrcommando712)
+I design and ship **agentic products** with clear UX, streaming interfaces, and production reliability.
+
+**Now**
+- Building multi-tenant **AI agent SaaS** with MCP tool orchestration
+- Shipping **Next.js 15/16** + **React 19** products with realtime traces
+- Using **OpenRouter / Gemma 4** and RAG where the product needs it
+- Studying LM systems through **Stanford CS336**
+
+**Open to** AI Engineer · Full-Stack · Agentic SaaS roles
 
 </td>
-<td valign="top" width="42%">
+<td width="42%" valign="top" align="center">
 
-<img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=mangeshraut712&show_icons=true&theme=github_dark&hide_border=true&hide=commits&count_private=false&title_color=58A6FF&icon_color=0EA5E9&text_color=C9D1D9&bg_color=0D1117" alt="Mangesh Raut GitHub stats" />
+<img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=mangeshraut712&show_icons=true&theme=transparent&hide_border=true&hide=commits&count_private=false&title_color=0071E3&icon_color=0071E3&text_color=8B949E&bg_color=00000000" alt="GitHub stats" />
 
 </td>
 </tr>
@@ -39,68 +48,57 @@
 
 ---
 
-## Favorite Tech
-
-Tools, languages, and platforms I use in shipped projects:
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,nodejs,fastapi,postgres,mongodb,supabase,docker,aws,vercel,tensorflow,pytorch,tailwind,swift,git,linux,githubactions" alt="Favorite tech" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/MCP-Model%20Context%20Protocol-0EA5E9?style=flat-square" alt="MCP" />
-  <img src="https://img.shields.io/badge/OpenRouter-Gemma%204-4285F4?style=flat-square" alt="OpenRouter" />
-  <img src="https://img.shields.io/badge/Agents-Tool%20calling%20%7C%20Streaming-8B5CF6?style=flat-square" alt="Agents" />
-  <img src="https://img.shields.io/badge/Realtime-WebSockets-22C55E?style=flat-square" alt="Realtime" />
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
-  <img src="https://img.shields.io/badge/Next.js-15%20%2F%2016-000?style=flat-square&logo=nextdotjs" alt="Next.js" />
-</p>
-
----
-
 ## Flagship Projects
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-light.svg" />
+    <img alt="Flagship projects" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/projects-dark.svg" />
+  </picture>
+</p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">Gravity-SaaS-Agent</a></h3>
-      <p>Multi-tenant agent platform with WhatsApp/Telegram, <b>MCP</b> client, Express, and Supabase.</p>
-      <p><code>Next.js 15.5</code> <code>MCP</code> <code>Supabase</code></p>
-      <p><a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">Repository</a></p>
+      <p>Multi-tenant agent platform with WhatsApp/Telegram, MCP client, Express, and Supabase.</p>
+      <p><code>Next.js 15.5</code> · <code>MCP</code> · <code>Supabase</code></p>
+      <p><a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">View project →</a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mangeshraut712/agent-console">agent-console</a></h3>
-      <p>Real-time agent console with WebSocket streaming, tool-call traces, and timeline UI.</p>
-      <p><code>Next.js 15.3</code> <code>React 19.1</code> <code>WebSockets</code></p>
-      <p><a href="https://github.com/mangeshraut712/agent-console">Repository</a></p>
+      <p>Realtime agent console: WebSocket streaming, tool-call traces, timeline UI.</p>
+      <p><code>Next.js 15.3</code> · <code>React 19.1</code> · <code>WebSockets</code></p>
+      <p><a href="https://github.com/mangeshraut712/agent-console">View project →</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mangeshraut712/Hindai">Hindai</a></h3>
-      <p>Digital Gurukul — scripture learning with <b>Gemma 4 via OpenRouter</b>, RAG, and streaming chat.</p>
-      <p><code>Next.js 15.5</code> <code>React 19.2</code> <code>OpenRouter</code></p>
-      <p><a href="https://github.com/mangeshraut712/Hindai">Repository</a></p>
+      <p>Digital Gurukul with <b>Gemma 4 via OpenRouter</b>, RAG pipelines, and streaming chat.</p>
+      <p><code>Next.js 15.5</code> · <code>React 19.2</code> · <code>OpenRouter</code></p>
+      <p><a href="https://github.com/mangeshraut712/Hindai">View project →</a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mangeshraut712/career-agent-pro">Career-Agent-Pro</a></h3>
-      <p>AI job-search copilot for role analysis, resume tailoring, and application prep.</p>
-      <p><code>Next.js 16.1</code> <code>FastAPI</code> <code>LLM APIs</code></p>
-      <p><a href="https://github.com/mangeshraut712/career-agent-pro">Repository</a> · <a href="https://ai-job-helper-steel.vercel.app/">Live</a></p>
+      <p>AI job-search copilot for role analysis, resume tailoring, and applications.</p>
+      <p><code>Next.js 16.1</code> · <code>FastAPI</code> · <code>LLM APIs</code></p>
+      <p><a href="https://github.com/mangeshraut712/career-agent-pro">View project →</a> · <a href="https://ai-job-helper-steel.vercel.app/">Live →</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mangeshraut712/autonomous-agent-team">autonomous-agent-team</a></h3>
-      <p>Six-agent OpenClaw workspace for research, content, code review, and newsletter automation.</p>
-      <p><code>Python</code> <code>Multi-agent</code> <code>Cron</code></p>
-      <p><a href="https://github.com/mangeshraut712/autonomous-agent-team">Repository</a></p>
+      <p>Six-agent OpenClaw workspace for research, content, code review, newsletter.</p>
+      <p><code>Python</code> · <code>Multi-agent</code> · <code>Cron</code></p>
+      <p><a href="https://github.com/mangeshraut712/autonomous-agent-team">View project →</a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mangeshraut712/Vitals.AI">Vitals.AI</a></h3>
-      <p>Privacy-first health dashboard for biomarkers, recovery, and digital-twin style insights.</p>
-      <p><code>Next.js</code> <code>TypeScript</code> <code>HealthTech</code></p>
-      <p><a href="https://github.com/mangeshraut712/Vitals.AI">Repository</a></p>
+      <p>Privacy-first health dashboard for biomarkers, recovery, and digital-twin insights.</p>
+      <p><code>Next.js</code> · <code>TypeScript</code> · <code>HealthTech</code></p>
+      <p><a href="https://github.com/mangeshraut712/Vitals.AI">View project →</a></p>
     </td>
   </tr>
 </table>
@@ -121,13 +119,41 @@ Tools, languages, and platforms I use in shipped projects:
 
 ---
 
+## Favorite Tech
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,nodejs,fastapi,postgres,mongodb,supabase,docker,aws,vercel,tensorflow,pytorch,tailwind,swift,git" alt="Tech stack" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MCP-0071E3?style=flat-square&labelColor=000000" alt="MCP" />
+  <img src="https://img.shields.io/badge/OpenRouter%20%2F%20Gemma%204-0071E3?style=flat-square&labelColor=000000" alt="OpenRouter" />
+  <img src="https://img.shields.io/badge/React%2019-0071E3?style=flat-square&labelColor=000000" alt="React 19" />
+  <img src="https://img.shields.io/badge/Next.js%2015%2F16-0071E3?style=flat-square&labelColor=000000" alt="Next.js" />
+  <img src="https://img.shields.io/badge/WebSockets-0071E3?style=flat-square&labelColor=000000" alt="WebSockets" />
+</p>
+
+---
+
+## Selected Live Demos
+
+| Product | Link |
+| --- | --- |
+| Portfolio | [mangeshraut.pro](https://mangeshraut.pro) |
+| Career-Agent-Pro | [Live demo](https://ai-job-helper-steel.vercel.app/) |
+| AssistMe | [Live demo](https://assist-me-virtual-assistant.vercel.app/) |
+| PicoTuri-EditJudge | [Live demo](https://pico-turi-edit-judge.vercel.app/) |
+| Alpha Quant Academy | [Live demo](https://alpha-quant-academy.vercel.app/) |
+
+---
+
 ## 2026 Activity
 
 <!-- activity:start -->
 | Metric | Value |
 | --- | --- |
-| Contributions (YTD) | **1,888** |
-| Avg / day | **9.54** |
+| Contributions (YTD) | **1,890** |
+| Avg / day | **9.55** |
 | Best day | **94** (Mar 27) |
 | Longest streak (YTD) | **13 days** |
 <!-- activity:end -->
@@ -136,21 +162,19 @@ Tools, languages, and platforms I use in shipped projects:
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake-dark.svg" />
+    <img alt="Contribution snake" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake-dark.svg" />
   </picture>
 </p>
 
-### Contribution graph
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mangeshraut712&theme=github-dark&hide_border=true&area=true&color=0EA5E9&line=38BDF8&point=58A6FF" alt="Mangesh Raut contribution graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mangeshraut712&theme=react-dark&hide_border=true&area=true&color=0071E3&line=2997FF&point=0071E3" alt="Contribution graph" width="100%" />
 </p>
 
 ---
 
 ## GitHub Stats
 
-API-verified profile totals (updated by workflow):
+API-verified totals (auto-updated):
 
 <!-- profile-stats:start -->
 | Metric | Value |
@@ -159,14 +183,14 @@ API-verified profile totals (updated by workflow):
 | Owned (non-fork) | **38** |
 | Stars on owned repos | **9** |
 | Followers | **3** |
-| Contributions (all-time) | **4,021** |
-| Contributions (2026 YTD) | **1,888** |
+| Contributions (all-time) | **4,019** |
+| Contributions (2026 YTD) | **1,890** |
 | Pull requests (2026 YTD) | **49** |
-| Commits (2026 YTD) | **1,823** |
+| Commits (2026 YTD) | **1,825** |
 <!-- profile-stats:end -->
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-one.vercel.app/?user=mangeshraut712&theme=github_dark&hide_border=true" alt="GitHub streak stats" />
+  <img src="https://github-readme-streak-stats-one.vercel.app/?user=mangeshraut712&theme=dark&hide_border=true&background=000000&ring=0071E3&fire=2997FF&currStreakNum=F5F5F7&sideNums=F5F5F7&currStreakLabel=A1A1A6&sideLabels=A1A1A6&dates=6E6E73" alt="GitHub streak stats" />
 </p>
 
 <p align="center">
@@ -177,11 +201,13 @@ API-verified profile totals (updated by workflow):
 
 ## Open to work
 
-Open to **AI Engineer / Full-Stack / Agentic SaaS** roles and collaborations.
+<p align="center">
+  Open to <b>AI Engineer / Full-Stack / Agentic SaaS</b> roles and collaborations.
+</p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-Message%20me-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://mangeshraut.pro"><img src="https://img.shields.io/badge/Portfolio-Hire%20%2F%20Collab-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/Message%20on%20LinkedIn-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://mangeshraut.pro"><img src="https://img.shields.io/badge/Hire%20%2F%20Collab-0071E3?style=for-the-badge&labelColor=FFFFFF" alt="Portfolio" /></a>
 </p>
 
 ---
@@ -189,7 +215,6 @@ Open to **AI Engineer / Full-Stack / Agentic SaaS** roles and collaborations.
 ## Support
 
 <p align="center">
-  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-Sponsor-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" /></a>
-  &nbsp;&nbsp;
-  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-Sponsor-003087?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" /></a>
+  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-Sponsor-635BFF?style=for-the-badge&labelColor=000000&logo=stripe&logoColor=white" alt="Stripe" /></a>
+  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-Sponsor-0071E3?style=for-the-badge&labelColor=000000&logo=paypal&logoColor=white" alt="PayPal" /></a>
 </p>

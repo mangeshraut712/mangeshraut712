@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1104 454" role="img" aria-label="Flagship projects">
+  <rect width="1104" height="454" fill="#FFFFFF" rx="28"/>
+  <text x="24" y="44" fill="#1D1D1F" font-size="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Flagship Projects</text>
+  <a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent" target="_blank">
+    <g transform="translate(24,84)">
+      <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
+      <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
+      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Gravity-SaaS-Agent</text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Multi-tenant agents with MCP,</tspan><tspan x="22" dy="18">WhatsApp/Telegram, and Supabase.</tspan></text>
+      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.5 · MCP · Supabase</text>
+    </g>
+  </a>
+  <a href="https://github.com/mangeshraut712/agent-console" target="_blank">
+    <g transform="translate(382,84)">
+      <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
+      <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
+      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">agent-console</text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Realtime console with WebSocket streaming</tspan><tspan x="22" dy="18">and tool-call traces.</tspan></text>
+      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.3 · React 19.1 · WS</text>
+    </g>
+  </a>
+  <a href="https://github.com/mangeshraut712/Hindai" target="_blank">
+    <g transform="translate(740,84)">
+      <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
+      <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
+      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Hindai</text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Scripture learning with Gemma 4 via</tspan><tspan x="22" dy="18">OpenRouter and RAG.</tspan></text>
+      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.5 · React 19.2 · OpenRouter</text>
+    </g>
+  </a>
+  <a href="https://github.com/mangeshraut712/career-agent-pro" target="_blank">
+    <g transform="translate(24,270)">
+      <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
+      <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
+      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Career-Agent-Pro</text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">AI job-search copilot for resumes, roles,</tspan><tspan x="22" dy="18">and applications.</tspan></text>
+      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 16.1 · FastAPI · LLM APIs</text>
+    </g>
+  </a>
+  <a href="https://github.com/mangeshraut712/autonomous-agent-team" target="_blank">
+    <g transform="translate(382,270)">
+      <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
+      <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
+      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">autonomous-agent-team</text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Six-agent OpenClaw workspace on cron</tspan><tspan x="22" dy="18">automation.</tspan></text>
+      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Python · Multi-agent · Cron</text>
+    </g>
+  </a>
+  <a href="https://github.com/mangeshraut712/Vitals.AI" target="_blank">
+    <g transform="translate(740,270)">
+      <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
+      <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
+      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Vitals.AI</text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Privacy-first health dashboard for</tspan><tspan x="22" dy="18">biomarkers and recovery.</tspan></text>
+      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js · TypeScript · HealthTech</text>
+    </g>
+  </a>
+</svg>
