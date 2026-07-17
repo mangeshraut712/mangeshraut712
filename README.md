@@ -152,7 +152,7 @@ I design and ship **agentic products** with clear UX, streaming interfaces, and 
 <!-- activity:start -->
 | Metric | Value |
 | --- | --- |
-| Contributions (YTD) | **1,890** |
+| Contributions (YTD) | **1,891** |
 | Avg / day | **9.55** |
 | Best day | **94** (Mar 27) |
 | Longest streak (YTD) | **13 days** |
@@ -183,10 +183,10 @@ API-verified totals (auto-updated):
 | Owned (non-fork) | **38** |
 | Stars on owned repos | **9** |
 | Followers | **3** |
-| Contributions (all-time) | **4,019** |
-| Contributions (2026 YTD) | **1,890** |
+| Contributions (all-time) | **4,024** |
+| Contributions (2026 YTD) | **1,891** |
 | Pull requests (2026 YTD) | **49** |
-| Commits (2026 YTD) | **1,825** |
+| Commits (2026 YTD) | **1,826** |
 <!-- profile-stats:end -->
 
 <p align="center">
