@@ -1,203 +1,123 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F18,100:1E293B&height=200&section=header&text=Mangesh%20Raut&fontColor=F8FAFC&fontSize=70&fontAlignY=35&desc=AI%20%2B%20Full-Stack%20Engineer%20%E2%80%A2%20Architecting%20the%20Future&descAlignY=60&descColor=94A3B8&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F18,100:1E293B&height=180&section=header&text=Mangesh%20Raut&fontColor=F8FAFC&fontSize=64&fontAlignY=40&desc=AI%20%2B%20Full-Stack%20Engineer&descAlignY=65&descColor=94A3B8&animation=fadeIn" />
 </p>
 
 <p align="center">
-  <b>Pune, MH, India</b> · AI + Full‑Stack Engineer building production‑grade web apps and ML systems
+  <b>Pune, MH, India</b> · Building production AI agents, SaaS platforms, and real-time web systems
 </p>
 
 <p align="center">
   <a href="https://mangeshraut.pro"><img src="https://img.shields.io/badge/Portfolio-mangeshraut.pro-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-Mangesh%20Raut-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-111827?style=for-the-badge&logo=x&logoColor=white" /></a>
-  <a href="https://www.youtube.com/@mangeshraut71298"><img src="https://img.shields.io/badge/YouTube-mangeshraut71298-DC2626?style=for-the-badge&logo=youtube&logoColor=white" /></a>
-  <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-@mangesh_d_charming_guy-DB2777?style=for-the-badge&logo=instagram&logoColor=white" /></a>
 </p>
 
 ---
 
 ## About
-Full‑Stack AI Engineer focused on **agentic workflows**, **premium UI**, and **production‑grade systems**.
 
-## 2026 Focus
-- AI agents for real‑world workflows (MCP, tool orchestration, evals)
-- Production SaaS with strict UX, performance, and reliability standards
-- Applied ML in NLP & CV (TensorFlow, PyTorch, OpenCV)
-- Real‑time systems (WebSockets, streaming, low‑latency UI)
+AI + Full-Stack Engineer focused on **agentic workflows**, **MCP tool orchestration**, and **production-grade SaaS**. I ship multi-tenant platforms, LLM-backed products, and low-latency UIs with clear UX and reliability standards.
 
-## Signature Work
-- Agentic SaaS Platforms — multi‑tenant systems with billing + orchestration
-- Applied ML Systems — NLP & CV pipelines from research to product
-- Real‑Time Experiences — streaming UIs with performance budgets
+---
 
-## Engineering Principles
-- Clarity over complexity  
-- Performance budgets from day one  
-- Product‑grade UX with measurable outcomes  
+## Open to work
+
+Open to **AI / Full-Stack / SaaS** roles and collaborations.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-Message%20me-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://mangeshraut.pro"><img src="https://img.shields.io/badge/Portfolio-Hire%20%2F%20Collab-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+</p>
 
 ---
 
 ## Flagship Projects
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🌌 Gravity‑SaaS‑Agent</h4>
-      <p>Multi‑tenant AI agent platform with WhatsApp + MCP + billing.</p>
-      <code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code><br/>
-      <a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">Repository</a>
+      <h3><a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">Gravity-SaaS-Agent</a></h3>
+      <p>Multi-tenant AI agent platform with WhatsApp, MCP integrations, and billing — deploy agents as a product, not a demo.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>MCP</code> <code>Billing</code></p>
+      <p><a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">Repository</a></p>
     </td>
     <td width="50%" valign="top">
-      <h4>💼 Career‑Agent‑Pro</h4>
-      <p>AI job‑search copilot for role analysis, resume tailoring, and automation.</p>
-      <code>Next.js</code> <code>FastAPI</code> <code>LLM APIs</code><br/>
-      <a href="https://github.com/mangeshraut712/career-agent-pro">Repository</a> · <a href="https://ai-job-helper-steel.vercel.app/">Live</a>
+      <h3><a href="https://github.com/mangeshraut712/career-agent-pro">Career-Agent-Pro</a></h3>
+      <p>AI job-search copilot for role analysis, resume tailoring, and application prep — end-to-end workflow automation.</p>
+      <p><code>Next.js</code> <code>FastAPI</code> <code>LLM APIs</code></p>
+      <p><a href="https://github.com/mangeshraut712/career-agent-pro">Repository</a> · <a href="https://ai-job-helper-steel.vercel.app/">Live</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🤖 autonomous‑agent‑team</h4>
-      <p>Production-ready OpenClaw workspace for a 6-agent AI team running 24/7 on cron.</p>
-      <code>Python</code> <code>Cron</code> <code>OpenClaw</code><br/>
-      <a href="https://github.com/mangeshraut712/autonomous-agent-team">Repository</a>
+      <h3><a href="https://github.com/mangeshraut712/autonomous-agent-team">autonomous-agent-team</a></h3>
+      <p>Six-agent OpenClaw workspace for research, content, code review, and newsletter — running 24/7 on cron.</p>
+      <p><code>Python</code> <code>Cron</code> <code>OpenClaw</code> <code>LLM</code></p>
+      <p><a href="https://github.com/mangeshraut712/autonomous-agent-team">Repository</a></p>
     </td>
     <td width="50%" valign="top">
-      <h4>📈 ForexScalpingBot</h4>
-      <p>SwiftUI iOS trading-assistant UI demo for forex signals.</p>
-      <code>SwiftUI</code> <code>Swift</code> <code>iOS</code><br/>
-      <a href="https://github.com/mangeshraut712/ForexScalpingBot">Repository</a>
+      <h3><a href="https://github.com/mangeshraut712/agent-console">agent-console</a></h3>
+      <p>Real-time agent console with WebSocket streaming, tool-call traces, and a chaos-survival timeline UI.</p>
+      <p><code>Next.js 15</code> <code>React 19</code> <code>WebSockets</code></p>
+      <p><a href="https://github.com/mangeshraut712/agent-console">Repository</a></p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🌟 Starred & Forked Repositories
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📖 sarvam‑ai‑cookbook</h4>
-      <p>Enterprise-grade reference implementations for India-first AI products (Forked).</p>
-      <code>Python</code> <code>Sarvam AI</code> <code>LLMs</code><br/>
-      <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook">Repository</a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🍎 apple‑FastVLM‑0.5B</h4>
-      <p>Unofficial mirror and notes for CVPR 2025 FastVLM efficient vision encoder.</p>
-      <code>Python</code> <code>PyTorch</code> <code>Vision-Language</code><br/>
-      <a href="https://github.com/mangeshraut712/apple-FastVLM-0.5B">Repository</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🧊 ai‑rubiks‑cube</h4>
-      <p>2x2x2 Rubik's Cube solver with BFS/A*/IDA* and 3D visualization.</p>
-      <code>JavaScript</code> <code>WebGL</code> <code>Three.js</code><br/>
-      <a href="https://github.com/mangeshraut712/ai-rubiks-cube">Repository</a>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🎯 Lead‑Pred</h4>
-      <p>Lead conversion prediction using logistic regression and scikit-learn (Forked).</p>
-      <code>Python</code> <code>Scikit-Learn</code> <code>Machine Learning</code><br/>
-      <a href="https://github.com/mangeshraut712/Lead-Pred">Repository</a>
-    </td>
-  </tr>
-</table>
+## Selected Live Demos
+
+| Project | What it shows | Link |
+| --- | --- | --- |
+| **Portfolio** | Product + engineering brand site | [mangeshraut.pro](https://mangeshraut.pro) |
+| **Career-Agent-Pro** | LLM job-search workflow | [Live](https://ai-job-helper-steel.vercel.app/) |
+| **AssistMe** | Multi-modal assistant with voice + research tools | [Live](https://assist-me-virtual-assistant.vercel.app/) |
+| **PicoTuri-EditJudge** | Research UI for text-guided image edit evaluation | [Live](https://pico-turi-edit-judge.vercel.app/) |
+| **Alpha Quant Academy** | Quant training + AI stock analysis | [Live](https://alpha-quant-academy.vercel.app/) |
+
+More client and personal sites live on the [portfolio](https://mangeshraut.pro).
 
 ---
 
-## Live Projects
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <ul>
-        <li>Portfolio: https://mangeshraut.pro</li>
-        <li>AssistMe: https://assist-me-virtual-assistant.vercel.app/</li>
-        <li>Kashish Beauty Parlour: https://kashishbeautyparlour.vercel.app/</li>
-        <li>MT Immigration (redesign): https://mt-immigration.vercel.app/</li>
-        <li>Alpha Quant Academy: https://alpha-quant-academy.vercel.app/</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <ul>
-        <li>Vidya Raut Portfolio: https://vidyaraut-five.vercel.app/</li>
-        <li>CES (redesign): https://ces-ltd-com.vercel.app/</li>
-        <li>PicoTuri‑EditJudge: https://pico-turi-edit-judge.vercel.app/</li>
-        <li>Bug Reporting System: https://bug-reporting-system-psi.vercel.app/</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+## Tech Stack
 
----
+**AI / ML**  
+`Python` · `PyTorch` · `TensorFlow` · `OpenCV` · `LLM APIs` · `MCP` · `Agent orchestration`
 
-## Tech Stack & Tools
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,rust,react,nextjs,fastapi,flask,django,postgres,docker,tensorflow,pytorch,opencv,swift,aws,vercel" />
-</p>
+**Frontend**  
+`TypeScript` · `React` · `Next.js` · `Tailwind` · `SwiftUI`
+
+**Backend & Data**  
+`FastAPI` · `Flask` · `Django` · `PostgreSQL` · `WebSockets`
+
+**Infra**  
+`Docker` · `AWS` · `Vercel`
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-AI%20Agents%20%7C%20SaaS%20%7C%20Real--Time-0EA5E9?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,fastapi,postgres,docker,tensorflow,pytorch,aws,vercel" />
 </p>
 
 ---
 
 ## GitHub Metrics
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/github-metrics.svg?v=12" alt="GitHub Metrics" width="100%" />
-</p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F18,100:1E293B&height=40&section=footer&text=Follow%20my%20journey%20on%20GitHub&fontColor=C9D1D9&fontSize=20" />
+  <img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/github-metrics.svg?v=13" alt="GitHub Metrics" width="100%" />
 </p>
 
 ---
 
-## 💖 Support My Work
-If you find my projects helpful or want to support my open-source journey, feel free to sponsor me:
+## Support
+
+If my open-source work is useful, you can sponsor it here:
 
 <p align="center">
-  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-Sponsor%20via%20Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-Sponsor%20via%20PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" /></a>
+  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-Sponsor-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-Sponsor-003087?style=for-the-badge&logo=paypal&logoColor=white" /></a>
 </p>
 
----
-
-<!-- codex:project-diagram:start -->
-
-## Project Diagram
-
-```mermaid
-flowchart TD
-    classDef default fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#F8FAFC;
-    classDef highlight fill:#1E293B,stroke:#F43F5E,stroke-width:2px,color:#F8FAFC;
-    classDef green fill:#0F172A,stroke:#10B981,stroke-width:1px,color:#F8FAFC;
-    classDef blue fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#F8FAFC;
-
-    A["👤 Visitor"] --> B["📄 GitHub Profile"]:::highlight
-    B --> C["🌌 Flagship Projects"]
-    B --> S["🌟 Starred & Forked Repos"]:::blue
-    B --> D["🛠️ Tech Stack & Skills"]
-    B --> E["💬 Contact & Socials"]
-    B --> F["💖 Support & Sponsorship"]:::green
-
-    C --> C1["Gravity-SaaS-Agent"]
-    C --> C2["Career-Agent-Pro"]
-    C --> C3["autonomous-agent-team"]
-    C --> C4["ForexScalpingBot"]
-
-    S --> S1["sarvam-ai-cookbook"]
-    S --> S2["apple-FastVLM-0.5B"]
-    S --> S3["ai-rubiks-cube"]
-    S --> S4["Lead-Pred"]
-
-    E --> E1["mangeshraut.pro"]
-    E --> E2["LinkedIn / X"]
-
-    F --> F1["Stripe Payment"]
-    F --> F2["PayPal Checkout"]
-```
-
-_Visual mapping of how visitors navigate my GitHub profile, projects, and support channels._
-
-<!-- codex:project-diagram:end -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F18,100:1E293B&height=40&section=footer&text=Building%20production%20AI%20systems&fontColor=C9D1D9&fontSize=18" />
+</p>
