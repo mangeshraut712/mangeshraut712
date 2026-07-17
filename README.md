@@ -1,5 +1,5 @@
 <a href="https://github.com/mangeshraut712">
-  <img alt="Mangesh Raut — neofetch-style GitHub profile" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/neofetch.svg?v=15" />
+  <img alt="Mangesh Raut — neofetch-style GitHub profile" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/neofetch.svg?v=16" />
 </a>
 
 <p align="center">
