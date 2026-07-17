@@ -1,10 +1,8 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F18,100:1E293B&height=180&section=header&text=Mangesh%20Raut&fontColor=F8FAFC&fontSize=64&fontAlignY=40&desc=AI%20%2B%20Full-Stack%20Engineer&descAlignY=65&descColor=94A3B8&animation=fadeIn" />
-</p>
-
-<p align="center">
-  <b>Pune, MH, India</b> · Building production AI agents, SaaS platforms, and real-time web systems
-</p>
+<a href="https://github.com/mangeshraut712">
+  <picture>
+    <img alt="Mangesh Raut — neofetch-style GitHub profile" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/neofetch.svg" />
+  </picture>
+</a>
 
 <p align="center">
   <a href="https://mangeshraut.pro"><img src="https://img.shields.io/badge/Portfolio-mangeshraut.pro-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
@@ -17,6 +15,17 @@
 ## About
 
 AI + Full-Stack Engineer focused on **agentic workflows**, **MCP tool orchestration**, and **production-grade SaaS**. I ship multi-tenant platforms, LLM-backed products, and low-latency UIs with clear UX and reliability standards.
+
+---
+
+## 2026 Activity
+
+| Metric | Value |
+| --- | --- |
+| Contributions (YTD) | **3,643** |
+| Avg / day | **19.59** |
+| Best day | **163** (Jul 6) |
+| Longest streak | **43 days** |
 
 ---
 
@@ -103,7 +112,7 @@ More client and personal sites live on the [portfolio](https://mangeshraut.pro).
 ## GitHub Metrics
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/github-metrics.svg?v=13" alt="GitHub Metrics" width="100%" />
+  <img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/github-metrics.svg?v=14" alt="GitHub Metrics" width="100%" />
 </p>
 
 ---
@@ -116,8 +125,4 @@ If my open-source work is useful, you can sponsor it here:
   <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-Sponsor-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /></a>
   &nbsp;&nbsp;
   <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-Sponsor-003087?style=for-the-badge&logo=paypal&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0F18,100:1E293B&height=40&section=footer&text=Building%20production%20AI%20systems&fontColor=C9D1D9&fontSize=18" />
 </p>
