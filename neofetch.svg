@@ -33,19 +33,18 @@
 <tspan x="380" y="40" fill="#F5F5F7" font-weight="700" font-size="14">mangesh@raut</tspan><tspan fill="#8E8E93"> ————————————————————</tspan>
 <tspan x="380" y="57" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">OS</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">macOS, Linux</tspan>
 <tspan x="380" y="72" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Uptime</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="uptime_data">4 years, 7 months, 20 days</tspan>
-<tspan x="380" y="87" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Host</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Pune, MH, India</tspan>
+<tspan x="380" y="87" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Host</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="host_data">Pune, MH, India</tspan>
 <tspan x="380" y="102" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Kernel</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">AI + Full-Stack Engineer</tspan>
 <tspan x="380" y="117" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">IDE</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Cursor, VS Code</tspan>
 <tspan x="380" y="132" fill="#8E8E93">·</tspan>
-<tspan x="380" y="147" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Languages.Programming</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">TypeScript, Python, Swift</tspan>
-<tspan x="380" y="162" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Languages.AI</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">MCP, Agents, Gemma, PyTorch</tspan>
-<tspan x="380" y="177" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Languages.Real</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">English, Hindi, Marathi</tspan>
+<tspan x="380" y="147" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Languages</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="langs_data">TypeScript, Python, JavaScript, Swift</tspan>
+<tspan x="380" y="162" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.AI</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">MCP, Agents, Gemma, PyTorch</tspan>
+<tspan x="380" y="177" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.Stack</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Next.js 15/16, React 19, FastAPI</tspan>
 <tspan x="380" y="192" fill="#8E8E93">·</tspan>
-<tspan x="380" y="207" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.Product</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Agentic SaaS, Realtime UI</tspan>
-<tspan x="380" y="222" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.Stack</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Next.js 15/16, React 19, FastAPI</tspan>
-<tspan x="380" y="241" fill="#F5F5F7" font-weight="700">- GitHub Stats</tspan><tspan fill="#8E8E93"> ———————————</tspan>
-<tspan x="380" y="256" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">40</tspan><tspan fill="#8E8E93"> | </tspan><tspan fill="#2997FF" font-weight="700">Stars</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="stars_data">9</tspan>
-<tspan x="380" y="271" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contributions</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,029</tspan><tspan fill="#8E8E93"> | Followers: </tspan><tspan fill="#F5F5F7" id="follower_data">3</tspan>
-<tspan x="380" y="286" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">2026 YTD</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">1,896</tspan>
+<tspan x="380" y="207" fill="#F5F5F7" font-weight="700">- GitHub (full account)</tspan><tspan fill="#8E8E93"> ————————</tspan>
+<tspan x="380" y="222" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">40</tspan><tspan fill="#8E8E93"> | Owned: </tspan><tspan fill="#F5F5F7" id="owned_data">38</tspan><tspan fill="#8E8E93"> | Stars: </tspan><tspan fill="#F5F5F7" id="stars_data">9</tspan>
+<tspan x="380" y="237" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Forks</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="forks_data">3</tspan><tspan fill="#8E8E93"> | Followers: </tspan><tspan fill="#F5F5F7" id="follower_data">3</tspan>
+<tspan x="380" y="252" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contributions</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,030</tspan><tspan fill="#8E8E93"> (all-time)</tspan>
+<tspan x="380" y="267" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">2026 YTD</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">1,897</tspan><tspan fill="#8E8E93"> | PRs: </tspan><tspan fill="#F5F5F7" id="prs_data">49</tspan><tspan fill="#8E8E93"> | Commits: </tspan><tspan fill="#F5F5F7" id="commits_data">1,832</tspan>
   </text>
 </svg>

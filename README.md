@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=24" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=24" />
-    <img alt="Mangesh Raut — coded Apple profile card" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=24" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=25" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=25" />
+    <img alt="Mangesh Raut — coded Apple profile card" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=25" />
   </picture>
 </p>
 
@@ -14,15 +14,30 @@
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-0071E3?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
+
+<!-- github-data:start -->
+<p align="center">
+  <sup>Synced from full GitHub account · 2026-07-17</sup><br/>
+  <code>40 repos</code>
+  · <code>38 owned</code>
+  · <code>9 stars</code>
+  · <code>3 forks</code>
+  · <code>4,030 contributions</code>
+  · <code>1,897 in 2026</code>
+  · <code>49 PRs</code>
+  · <code>TypeScript, Python, JavaScript, Swift</code>
+</p>
+<!-- github-data:end -->
+
 ---
 
 ### Built
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=24" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=24" />
-    <img alt="Flagship projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=24" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=25" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=25" />
+    <img alt="Flagship projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=25" />
   </picture>
 </p>
 
@@ -58,7 +73,7 @@
 ### Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,py,react,nextjs,fastapi,postgres,supabase,docker,aws,vercel,pytorch,swift" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,swift,react,nextjs,fastapi,postgres,supabase,docker,aws,vercel,pytorch" alt="Tech stack" />
 </p>
 
 ---
