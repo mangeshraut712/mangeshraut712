@@ -34,8 +34,8 @@ What I ship:
 <!-- activity:start -->
 | Metric | Value |
 | --- | --- |
-| Contributions (YTD) | **1,887** |
-| Avg / day | **9.53** |
+| Contributions (YTD) | **1,888** |
+| Avg / day | **9.54** |
 | Best day | **94** (Mar 27) |
 | Longest streak (YTD) | **13 days** |
 <!-- activity:end -->
@@ -192,10 +192,10 @@ Numbers below are from the GitHub API / profile metrics workflow (not third-part
 | Owned (non-fork) | **38** |
 | Stars on owned repos | **9** |
 | Followers | **3** |
-| Contributions (all-time) | **4,020** |
-| Contributions (2026 YTD) | **1,887** |
+| Contributions (all-time) | **4,021** |
+| Contributions (2026 YTD) | **1,888** |
 | Pull requests (2026 YTD) | **49** |
-| Commits (2026 YTD) | **1,822** |
+| Commits (2026 YTD) | **1,823** |
 <!-- profile-stats:end -->
 
 <p align="center">
