@@ -9,7 +9,7 @@
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Gravity-SaaS-Agent</text>
       <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Multi-tenant agents with MCP,</tspan><tspan x="22" dy="18">WhatsApp adapters, and Supabase.</tspan></text>
-      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.5 · MCP · Supabase</text>
+      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.5 Â -  MCP Â -  Supabase</text>
     </g>
   </a>
   <a href="https://github.com/mangeshraut712/agent-console" target="_blank">
@@ -18,7 +18,7 @@
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">agent-console</text>
       <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Realtime console with WebSocket streaming</tspan><tspan x="22" dy="18">and tool-call traces.</tspan></text>
-      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.3 · React 19.1 · WS</text>
+      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.3 Â -  React 19.1 Â -  WS</text>
     </g>
   </a>
   <a href="https://hindai-nine.vercel.app" target="_blank">
@@ -27,7 +27,7 @@
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Hindai</text>
       <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Scripture learning with Gemma 4 via</tspan><tspan x="22" dy="18">OpenRouter and RAG.</tspan></text>
-      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.5 · React 19.2 · OpenRouter</text>
+      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 15.5 Â -  React 19.2 Â -  OpenRouter</text>
     </g>
   </a>
   <a href="https://ai-job-helper-steel.vercel.app/" target="_blank">
@@ -36,7 +36,7 @@
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Career-Agent-Pro</text>
       <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">AI job-search copilot for resumes, roles,</tspan><tspan x="22" dy="18">and applications.</tspan></text>
-      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 16.1 · FastAPI · LLM APIs</text>
+      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 16.1 Â -  FastAPI Â -  LLM APIs</text>
     </g>
   </a>
   <a href="https://github.com/mangeshraut712/autonomous-agent-team" target="_blank">
@@ -45,7 +45,7 @@
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">autonomous-agent-team</text>
       <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Six-agent OpenClaw workspace on cron</tspan><tspan x="22" dy="18">automation.</tspan></text>
-      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Python · Multi-agent · Cron</text>
+      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Python Â -  Multi-agent Â -  Cron</text>
     </g>
   </a>
   <a href="https://vitals-ai.vercel.app" target="_blank">
@@ -54,7 +54,7 @@
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
       <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Vitals.AI</text>
       <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Privacy-first health dashboard for</tspan><tspan x="22" dy="18">biomarkers and recovery.</tspan></text>
-      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 16.1 · React 19.2 · HealthTech</text>
+      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 16.1 Â -  React 19.2 Â -  HealthTech</text>
     </g>
   </a>
 </svg>

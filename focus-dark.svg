@@ -11,7 +11,7 @@
   <circle cx="48" cy="48" r="6" fill="#2997FF"/>
   <text x="66" y="54" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600" letter-spacing="1.5">NOW</text>
   <text x="48" y="96" fill="#F5F5F7" font-size="32" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Building agentic products people can ship.</text>
-  <text x="48" y="132" fill="#A1A1A6" font-size="16" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif">Multi-tenant AI agents · realtime tool traces · production Next.js + FastAPI</text>
+  <text x="48" y="132" fill="#A1A1A6" font-size="16" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif">Multi-tenant AI agents  -  realtime tool traces  -  production Next.js + FastAPI</text>
   <g font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="13" font-weight="600">
     <rect x="48" y="158" width="168" height="34" rx="17" fill="#1C1C1E" stroke="#2C2C2E"/>
     <text x="132" y="180" text-anchor="middle" fill="#F5F5F7">MCP orchestration</text>

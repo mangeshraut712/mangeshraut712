@@ -1,7 +1,7 @@
 {
   "login": "mangeshraut712",
   "source": "GitHub GraphQL + REST (full owned-repo inventory + all-year contributions)",
-  "synced_at": "2026-07-17T18:09:55Z",
+  "synced_at": "2026-07-17T18:12:18Z",
   "created_at": "2021-11-27",
   "location": "Pune, MH, India",
   "bio": "AI + Full-Stack Engineer building production-grade web apps and ML systems.",
@@ -12,19 +12,19 @@
   "followers": 3,
   "following": 5,
   "contributed_to_repos": 3,
-  "contributions_all_time": 4033,
+  "contributions_all_time": 4032,
   "contributions_by_year": {
     "2021": 1,
     "2022": 0,
     "2023": 3,
     "2024": 10,
     "2025": 2119,
-    "2026": 1900
+    "2026": 1899
   },
   "ytd": {
     "year": 2026,
-    "contributions": 1900,
-    "commits": 1835,
+    "contributions": 1901,
+    "commits": 1836,
     "pull_requests": 49,
     "issues": 0,
     "reviews": 0,
