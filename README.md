@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=25" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=25" />
-    <img alt="Mangesh Raut — coded Apple profile card" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=25" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=26" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=26" />
+    <img alt="Mangesh Raut — coded Apple profile card" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=26" />
   </picture>
 </p>
 
@@ -25,6 +25,7 @@
   · <code>4,031 contributions</code>
   · <code>1,898 in 2026</code>
   · <code>49 PRs</code>
+  · <code>1833 commits</code>
   · <code>TypeScript, Python, JavaScript, Swift</code>
 </p>
 <!-- github-data:end -->
@@ -35,9 +36,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=25" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=25" />
-    <img alt="Flagship projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=25" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=26" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=26" />
+    <img alt="Flagship projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=26" />
   </picture>
 </p>
 
@@ -53,6 +54,8 @@
   <a href="https://pico-turi-edit-judge.vercel.app/">PicoTuri</a>
   ·
   <a href="https://alpha-quant-academy.vercel.app/">Alpha Quant</a>
+  ·
+  <a href="https://dotfit-fitness.vercel.app/">Dotfit</a>
 </p>
 
 <details>
@@ -62,9 +65,11 @@
 
 | | |
 | --- | --- |
-| [Stanford-CS336](https://github.com/mangeshraut712/Stanford-CS336) | Self-study LM systems · BPE · transformers · GRPO |
-| [creator-cards-api](https://github.com/mangeshraut712/creator-cards-api) | Node.js · Express · MongoDB · Render |
-| [apple-FastVLM-0.5B](https://github.com/mangeshraut712/apple-FastVLM-0.5B) | Apple FastVLM exploration |
+| [Stanford-CS336](https://github.com/mangeshraut712/Stanford-CS336) | Python · LM systems · BPE · transformers · GRPO |
+| [creator-cards-api](https://github.com/mangeshraut712/creator-cards-api) | Express · MongoDB · Render |
+| [apple-FastVLM-0.5B](https://github.com/mangeshraut712/apple-FastVLM-0.5B) | Apple FastVLM · multimodal research |
+| [ForexScalpingBot](https://github.com/mangeshraut712/ForexScalpingBot) | SwiftUI · iOS trading assistant UI |
+| [mangeshrautarchive](https://github.com/mangeshraut712/mangeshrautarchive) | Portfolio · FastAPI · [mangeshraut.pro](https://mangeshraut.pro) |
 
 </details>
 
@@ -73,7 +78,13 @@
 ### Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,swift,react,nextjs,fastapi,postgres,supabase,docker,aws,vercel,pytorch" alt="Tech stack" />
+  <!-- stack-icons:start -->
+  <img src="https://skillicons.dev/icons?i=ts,js,py,swift,react,nextjs,tailwind,fastapi,express,postgres,supabase,mongodb,docker,vercel,pytorch" alt="Tech stack from GitHub repos" />
+  <!-- stack-icons:end -->
+</p>
+
+<p align="center">
+  <sup><!-- stack-label:start -->TypeScript · JavaScript · Python · Swift · React · Next.js 15/16 · FastAPI · Tailwind · Express · PyTorch · Supabase · MongoDB · Docker · Vercel<!-- stack-label:end --></sup>
 </p>
 
 ---

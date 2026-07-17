@@ -38,8 +38,8 @@
 <tspan x="380" y="117" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">IDE</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Cursor, VS Code</tspan>
 <tspan x="380" y="132" fill="#8E8E93">·</tspan>
 <tspan x="380" y="147" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Languages</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="langs_data">TypeScript, Python, JavaScript, Swift</tspan>
-<tspan x="380" y="162" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.AI</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">MCP, Agents, Gemma, PyTorch</tspan>
-<tspan x="380" y="177" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.Stack</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Next.js 15/16, React 19, FastAPI</tspan>
+<tspan x="380" y="162" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.AI</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="focus_ai_data">MCP, Agents, OpenRouter, PyTorch</tspan>
+<tspan x="380" y="177" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.Stack</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="focus_stack_data">Next.js 15/16, React 19, FastAPI, Tailwind</tspan>
 <tspan x="380" y="192" fill="#8E8E93">·</tspan>
 <tspan x="380" y="207" fill="#F5F5F7" font-weight="700">- GitHub (full account)</tspan><tspan fill="#8E8E93"> ————————</tspan>
 <tspan x="380" y="222" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">40</tspan><tspan fill="#8E8E93"> | Owned: </tspan><tspan fill="#F5F5F7" id="owned_data">38</tspan><tspan fill="#8E8E93"> | Stars: </tspan><tspan fill="#F5F5F7" id="stars_data">9</tspan>

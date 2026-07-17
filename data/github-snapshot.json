@@ -1,7 +1,7 @@
 {
   "login": "mangeshraut712",
   "source": "GitHub GraphQL + REST (full owned-repo inventory + all-year contributions)",
-  "synced_at": "2026-07-17T18:04:21Z",
+  "synced_at": "2026-07-17T18:08:21Z",
   "created_at": "2021-11-27",
   "location": "Pune, MH, India",
   "bio": "AI + Full-Stack Engineer building production-grade web apps and ML systems.",
@@ -44,5 +44,25 @@
     "Java": 1,
     "MATLAB": 1,
     "TSQL": 1
+  },
+  "stack": {
+    "icons": "ts,js,py,swift,react,nextjs,tailwind,fastapi,express,postgres,supabase,mongodb,docker,vercel,pytorch",
+    "label": "TypeScript \u00b7 JavaScript \u00b7 Python \u00b7 Swift \u00b7 React \u00b7 Next.js 15/16 \u00b7 FastAPI \u00b7 Tailwind \u00b7 Express \u00b7 PyTorch \u00b7 Supabase \u00b7 MongoDB \u00b7 Docker \u00b7 Vercel",
+    "focus_ai": "MCP, Agents, OpenRouter, PyTorch",
+    "focus_stack": "Next.js 15/16, React 19, FastAPI, Tailwind",
+    "evidence": {
+      "next_js": "15.3\u201316.1 across flagship apps",
+      "react": "18.2 / 19.x across apps",
+      "top_deps": [
+        "typescript",
+        "react",
+        "next",
+        "tailwindcss",
+        "fastapi",
+        "pytorch",
+        "express",
+        "supabase"
+      ]
+    }
   }
 }

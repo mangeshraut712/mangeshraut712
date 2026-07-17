@@ -32,6 +32,18 @@ ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")
 # Prefer real GitHub primary languages; skip junk labels.
 LANG_SKIP = {"None", "HTML", "CSS", "Jupyter Notebook", "TSQL", "MATLAB"}
 
+# Verified across owned repos (package.json / requirements inventory, Jul 2026).
+FOCUS_AI = "MCP, Agents, OpenRouter, PyTorch"
+FOCUS_STACK = "Next.js 15/16, React 19, FastAPI, Tailwind"
+STACK_ICONS = (
+    "ts,js,py,swift,react,nextjs,tailwind,fastapi,express,"
+    "postgres,supabase,mongodb,docker,vercel,pytorch"
+)
+STACK_LABEL = (
+    "TypeScript · JavaScript · Python · Swift · React · Next.js 15/16 · "
+    "FastAPI · Tailwind · Express · PyTorch · Supabase · MongoDB · Docker · Vercel"
+)
+
 
 def gql(query: str, variables: dict | None = None) -> dict:
     if not TOKEN:
@@ -252,10 +264,14 @@ def fetch_stats() -> dict:
         "prs_data": fmt(ytd_block.get("totalPullRequestContributions", 0)),
         "commits_data": fmt(ytd_block.get("totalCommitContributions", 0)),
         "langs_data": langs_label,
+        "focus_ai_data": FOCUS_AI,
+        "focus_stack_data": FOCUS_STACK,
         "host_data": location,
         "uptime_data": age_string(created, today),
         "follower_data": str(profile["followers"]["totalCount"]),
         "following_data": str(profile["following"]["totalCount"]),
+        "stack_icons": STACK_ICONS,
+        "stack_label": STACK_LABEL,
         # raw / snapshot fields
         "owned_raw": len(owned),
         "public_raw": public_repos,
@@ -304,6 +320,8 @@ def update_svgs(stats: dict) -> None:
         "prs_data": stats["prs_data"],
         "commits_data": stats["commits_data"],
         "langs_data": stats["langs_data"],
+        "focus_ai_data": stats["focus_ai_data"],
+        "focus_stack_data": stats["focus_stack_data"],
         "host_data": stats["host_data"],
         "follower_data": stats["follower_data"],
         "uptime_data": stats["uptime_data"],
@@ -317,6 +335,8 @@ def update_svgs(stats: dict) -> None:
         "prs_data_light": stats["prs_data"],
         "commits_data_light": stats["commits_data"],
         "langs_data_light": stats["langs_data"],
+        "focus_ai_data_light": stats["focus_ai_data"],
+        "focus_stack_data_light": stats["focus_stack_data"],
         "host_data_light": stats["host_data"],
         "follower_data_light": stats["follower_data"],
         "uptime_data_light": stats["uptime_data"],
@@ -363,12 +383,32 @@ def write_snapshot(stats: dict) -> None:
             "longest_streak_days": stats["streak_raw"],
         },
         "primary_languages": stats["languages"],
+        "stack": {
+            "icons": stats["stack_icons"],
+            "label": stats["stack_label"],
+            "focus_ai": stats["focus_ai_data"],
+            "focus_stack": stats["focus_stack_data"],
+            "evidence": {
+                "next_js": "15.3–16.1 across flagship apps",
+                "react": "18.2 / 19.x across apps",
+                "top_deps": [
+                    "typescript",
+                    "react",
+                    "next",
+                    "tailwindcss",
+                    "fastapi",
+                    "pytorch",
+                    "express",
+                    "supabase",
+                ],
+            },
+        },
     }
     SNAPSHOT_PATH.write_text(json.dumps(payload, indent=2) + "\n")
 
 
 def update_readme(stats: dict) -> None:
-    """Keep a single auto-synced GitHub source block in the README."""
+    """Keep auto-synced GitHub source + stack blocks in the README."""
     if not README_PATH.exists():
         return
     block = f"""<!-- github-data:start -->
@@ -381,20 +421,36 @@ def update_readme(stats: dict) -> None:
   · <code>{fmt(stats['lifetime_raw'])} contributions</code>
   · <code>{fmt(stats['ytd_raw'])} in {stats['year']}</code>
   · <code>{stats['prs_raw']} PRs</code>
+  · <code>{stats['commits_raw']} commits</code>
   · <code>{stats['langs_data']}</code>
 </p>
 <!-- github-data:end -->"""
+    icons = f"""<!-- stack-icons:start -->
+  <img src="https://skillicons.dev/icons?i={stats['stack_icons']}" alt="Tech stack from GitHub repos" />
+  <!-- stack-icons:end -->"""
+    label = (
+        f"<!-- stack-label:start -->{stats['stack_label']}<!-- stack-label:end -->"
+    )
+
     text = README_PATH.read_text()
-    pattern = r"<!-- github-data:start -->[\s\S]*?<!-- github-data:end -->"
-    if re.search(pattern, text):
-        text = re.sub(pattern, block, text, count=1)
-    else:
-        # Place after hero badges / before Built
-        anchor = "\n---\n\n### Built"
-        if anchor in text:
-            text = text.replace(anchor, "\n\n" + block + "\n\n---\n\n### Built", 1)
-        else:
-            text = text.rstrip() + "\n\n" + block + "\n"
+    text, _ = re.subn(
+        r"<!-- github-data:start -->[\s\S]*?<!-- github-data:end -->",
+        block,
+        text,
+        count=1,
+    )
+    text, _ = re.subn(
+        r"<!-- stack-icons:start -->[\s\S]*?<!-- stack-icons:end -->",
+        icons,
+        text,
+        count=1,
+    )
+    text, _ = re.subn(
+        r"<!-- stack-label:start -->[\s\S]*?<!-- stack-label:end -->",
+        label,
+        text,
+        count=1,
+    )
     README_PATH.write_text(text)
 
 
