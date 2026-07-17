@@ -41,20 +41,20 @@ text, tspan { white-space: pre; }
 <tspan x="360" y="100" class="cc">. </tspan><tspan class="key">Kernel</tspan><tspan class="cc">:</tspan><tspan class="cc"> . </tspan><tspan class="value">AI + Full-Stack Engineer</tspan>
 <tspan x="360" y="118" class="cc">. </tspan><tspan class="key">IDE</tspan><tspan class="cc">:</tspan><tspan class="cc"> ............ </tspan><tspan class="value">Cursor, VS Code</tspan>
 <tspan x="360" y="136" class="cc">. </tspan>
-<tspan x="360" y="154" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Programming</tspan><tspan class="cc">:</tspan><tspan class="cc"> .. </tspan><tspan class="value">TS, Python, JS</tspan>
-<tspan x="360" y="172" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">AI</tspan><tspan class="cc">:</tspan><tspan class="cc"> . </tspan><tspan class="value">PyTorch, TF, MCP, LLMs</tspan>
+<tspan x="360" y="154" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Programming</tspan><tspan class="cc">:</tspan><tspan class="cc"> .. </tspan><tspan class="value">TypeScript, Python, Swift</tspan>
+<tspan x="360" y="172" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">AI</tspan><tspan class="cc">:</tspan><tspan class="cc"> . </tspan><tspan class="value">MCP, Agents, Ollama, PyTorch</tspan>
 <tspan x="360" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Real</tspan><tspan class="cc">:</tspan><tspan class="cc"> . </tspan><tspan class="value">English, Hindi, Marathi</tspan>
 <tspan x="360" y="208" class="cc">. </tspan>
-<tspan x="360" y="226" class="cc">. </tspan><tspan class="key">Focus</tspan><tspan class="cc">.</tspan><tspan class="key">Product</tspan><tspan class="cc">:</tspan><tspan class="cc"> . </tspan><tspan class="value">AI Agents, SaaS, Real-Time</tspan>
-<tspan x="360" y="244" class="cc">. </tspan><tspan class="key">Focus</tspan><tspan class="cc">.</tspan><tspan class="key">Stack</tspan><tspan class="cc">:</tspan><tspan class="cc"> . </tspan><tspan class="value">Next.js, FastAPI, Postgres</tspan>
+<tspan x="360" y="226" class="cc">. </tspan><tspan class="key">Focus</tspan><tspan class="cc">.</tspan><tspan class="key">Product</tspan><tspan class="cc">:</tspan><tspan class="cc"> . </tspan><tspan class="value">Agentic SaaS, Local AI, RT UI</tspan>
+<tspan x="360" y="244" class="cc">. </tspan><tspan class="key">Focus</tspan><tspan class="cc">.</tspan><tspan class="key">Stack</tspan><tspan class="cc">:</tspan><tspan class="cc"> . </tspan><tspan class="value">Next.js 15, React 19, FastAPI</tspan>
 <tspan x="360" y="266">- Contact</tspan><tspan class="cc"> —————————————————————————————</tspan>
 <tspan x="360" y="284" class="cc">. </tspan><tspan class="key">Portfolio</tspan><tspan class="cc">: .......... </tspan><a href="https://mangeshraut.pro"><tspan class="value">mangeshraut.pro</tspan></a>
 <tspan x="360" y="302" class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ......... </tspan><a href="https://www.linkedin.com/in/mangeshraut71298/"><tspan class="value">mangeshraut71298</tspan></a>
 <tspan x="360" y="320" class="cc">. </tspan><tspan class="key">X</tspan><tspan class="cc">: ................. </tspan><a href="https://x.com/mrcommando712"><tspan class="value">@mrcommando712</tspan></a>
 <tspan x="360" y="342">- GitHub Stats</tspan><tspan class="cc"> —————————————————————————</tspan>
 <tspan x="360" y="360" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="repo_data">38</tspan> {<tspan class="key">Public</tspan>: <tspan class="value" id="public_data">40</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="star_data">9</tspan>
-<tspan x="360" y="378" class="cc">. </tspan><tspan class="key">Contributions</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="contrib_data">4,016</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="follower_data">3</tspan>
-<tspan x="360" y="396" class="cc">. </tspan><tspan class="key">2026 YTD</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="ytd_data">1,884</tspan> (<tspan class="addColor" id="avg_data">9.52/day</tspan>, streak <tspan class="value" id="streak_data">13</tspan>)
+<tspan x="360" y="378" class="cc">. </tspan><tspan class="key">Contributions</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="contrib_data">4,019</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="follower_data">3</tspan>
+<tspan x="360" y="396" class="cc">. </tspan><tspan class="key">2026 YTD</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="ytd_data">1,886</tspan> (<tspan class="addColor" id="avg_data">9.53/day</tspan>, streak <tspan class="value" id="streak_data">13</tspan>)
 <tspan x="360" y="414" class="cc">. </tspan><tspan class="key">Best Day</tspan>:<tspan class="cc"> </tspan><tspan class="value" id="best_data">94</tspan><tspan class="cc" id="best_note"> on Mar 27 · open to AI/SaaS roles</tspan>
 </text>
 </svg>
