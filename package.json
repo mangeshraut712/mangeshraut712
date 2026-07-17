@@ -1,25 +1,12 @@
 {
   "name": "mangeshraut712",
-  "version": "1.0.0",
-  "description": "<!-- Apple-inspired profile: solid black / solid white + Apple blue --> <p align=\"center\">   <picture>     <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg\" />     <source media=\"(prefers-color-scheme: light)\" srcset=\"https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-light.svg\" />     <img alt=\"Mangesh Raut — AI + Full-Stack Engineer\" width=\"100%\" src=\"https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@main/banner-dark.svg\" />   </picture> </p>",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mangeshraut712/mangeshraut712.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "private": true,
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/mangeshraut712/mangeshraut712/issues"
+  "description": "GitHub profile README assets and Apple-inspired intro renderer",
+  "scripts": {
+    "render:intro": "node intro/render.mjs"
   },
-  "homepage": "https://github.com/mangeshraut712/mangeshraut712#readme",
   "dependencies": {
     "playwright": "^1.61.1"
-  },
-  "private": true
+  }
 }
