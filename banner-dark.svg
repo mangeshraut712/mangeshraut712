@@ -32,7 +32,7 @@
   <text xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12.5">
 <tspan x="380" y="40" fill="#F5F5F7" font-weight="700" font-size="14">mangesh@raut</tspan><tspan fill="#8E8E93"> ————————————————————</tspan>
 <tspan x="380" y="57" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">OS</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">macOS, Linux</tspan>
-<tspan x="380" y="72" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Uptime</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="uptime_data">4 years, 7 months, 20 days</tspan>
+<tspan x="380" y="72" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Uptime</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="uptime_data">4 years, 7 months, 21 days</tspan>
 <tspan x="380" y="87" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Host</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="host_data">Pune, MH, India</tspan>
 <tspan x="380" y="102" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Kernel</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">AI + Full-Stack Engineer</tspan>
 <tspan x="380" y="117" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">IDE</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Cursor, VS Code</tspan>
@@ -42,9 +42,9 @@
 <tspan x="380" y="177" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.Stack</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="focus_stack_data">Next.js 15/16, React 19, FastAPI, Tailwind</tspan>
 <tspan x="380" y="192" fill="#8E8E93">·</tspan>
 <tspan x="380" y="207" fill="#F5F5F7" font-weight="700">- GitHub (full account)</tspan><tspan fill="#8E8E93"> ————————</tspan>
-<tspan x="380" y="222" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">40</tspan><tspan fill="#8E8E93"> | Owned: </tspan><tspan fill="#F5F5F7" id="owned_data">38</tspan><tspan fill="#8E8E93"> | Stars: </tspan><tspan fill="#F5F5F7" id="stars_data">9</tspan>
-<tspan x="380" y="237" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Forks</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="forks_data">3</tspan><tspan fill="#8E8E93"> | Followers: </tspan><tspan fill="#F5F5F7" id="follower_data">3</tspan>
-<tspan x="380" y="252" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contributions</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,032</tspan><tspan fill="#8E8E93"> (all-time)</tspan>
-<tspan x="380" y="267" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">2026 YTD</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">1,901</tspan><tspan fill="#8E8E93"> | PRs: </tspan><tspan fill="#F5F5F7" id="prs_data">49</tspan><tspan fill="#8E8E93"> | Commits: </tspan><tspan fill="#F5F5F7" id="commits_data">1,836</tspan>
+<tspan x="380" y="222" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">41</tspan><tspan fill="#8E8E93"> | Owned: </tspan><tspan fill="#F5F5F7" id="owned_data">39</tspan><tspan fill="#8E8E93"> | Stars: </tspan><tspan fill="#F5F5F7" id="stars_data">9</tspan>
+<tspan x="380" y="237" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Forks</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="forks_data">3</tspan><tspan fill="#8E8E93"> | Followers: </tspan><tspan fill="#F5F5F7" id="follower_data">4</tspan>
+<tspan x="380" y="252" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contributions</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,070</tspan><tspan fill="#8E8E93"> (all-time)</tspan>
+<tspan x="380" y="267" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">2026 YTD</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">1,937</tspan><tspan fill="#8E8E93"> | PRs: </tspan><tspan fill="#F5F5F7" id="prs_data">49</tspan><tspan fill="#8E8E93"> | Commits: </tspan><tspan fill="#F5F5F7" id="commits_data">1,871</tspan>
   </text>
 </svg>
