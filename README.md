@@ -2,24 +2,45 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=39" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=39" />
-    <img alt="Mangesh Raut — Applied AI Engineer profile" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=39" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=40" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=40" />
+    <img alt="Mangesh Raut — Applied AI Engineer profile" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=40" />
   </picture>
 </p>
+
+### About
+
+Applied AI engineer in **Pune, India** (open to remote). I ship speech VAD, RAG/LLM eval, and Indic product apps with **CI-verified gates** — not demos that only work on my laptop.
+
+**Shipping now (Jul 2026):** hiring monorepo [`ai-ml-portfolio`](https://github.com/mangeshraut712/ai-ml-portfolio) — NumPy MLFS · WebRTC VAD FULL_PASS (F1 **0.9569**) · offline BM25 RAG eval.
 
 ### Collaborate
 
 <p align="center">
-  Open to <b>AI Engineer / Full-Stack / Agentic SaaS</b> roles —
-  proof in <a href="https://github.com/mangeshraut712/ai-ml-portfolio">ai-ml-portfolio</a>
-  (<code>make verify-all</code> · VAD F1 <b>0.9569</b> ·
-  <a href="https://github.com/mangeshraut712/ai-ml-portfolio/actions/workflows/ci.yml">CI</a> on Python 3.10–3.12).
+  Open to <b>AI Engineer / Full-Stack / Agentic SaaS</b> roles.
+  Contact: <a href="mailto:mbr63@drexel.edu">mbr63@drexel.edu</a>
+  · <a href="https://www.linkedin.com/in/mangeshraut71298/">LinkedIn</a>
+  · proof: <a href="https://github.com/mangeshraut712/ai-ml-portfolio">ai-ml-portfolio</a>
 </p>
 
+<details>
+<summary><b>60-second verify</b></summary>
+
+```bash
+git clone https://github.com/mangeshraut712/ai-ml-portfolio.git
+cd ai-ml-portfolio
+make install
+make verify-all
+```
+
+Expect MLFS tests + LLM-eval smoke + VAD **FULL_PASS**. CI: [ai-ml-portfolio/actions](https://github.com/mangeshraut712/ai-ml-portfolio/actions/workflows/ci.yml) (Python 3.10–3.12).
+
+</details>
+
 <p align="center">
-  <a href="https://github.com/mangeshraut712"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&labelColor=000000&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:mbr63@drexel.edu"><img src="https://img.shields.io/badge/Email-0071E3?style=for-the-badge&labelColor=000000&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/mangeshraut712"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&labelColor=000000&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-0071E3?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X" /></a>
   <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&labelColor=000000&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Sponsor-Stripe-635BFF?style=for-the-badge&labelColor=000000&logo=stripe&logoColor=white" alt="Stripe" /></a>
@@ -32,9 +53,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=39" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=39" />
-    <img alt="Current focus" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=39" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=40" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=40" />
+    <img alt="Current focus" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=40" />
   </picture>
 </p>
 
@@ -44,11 +65,18 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=39" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=39" />
-    <img alt="Selected work" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=39" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=40" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=40" />
+    <img alt="Selected work" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=40" />
   </picture>
 </p>
+
+- [ai-ml-portfolio](https://github.com/mangeshraut712/ai-ml-portfolio) — hiring proof (VAD · RAG eval · MLFS)
+- [sarvam-ai-cookbook](https://github.com/mangeshraut712/sarvam-ai-cookbook) — India-first Sarvam STT/TTS/chat demos
+- [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) — multi-tenant MCP agent SaaS
+- [agent-console](https://github.com/mangeshraut712/agent-console) — realtime agent observability
+- [Stanford-CS336](https://github.com/mangeshraut712/Stanford-CS336) — LM systems self-study
+- [Hindai](https://github.com/mangeshraut712/Hindai) — Indic learning with local Gemma / Ollama
 
 ---
 
@@ -56,9 +84,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=39" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=39" />
-    <img alt="Technology stack" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=39" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=40" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=40" />
+    <img alt="Technology stack" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=40" />
   </picture>
 </p>
 
@@ -68,10 +96,14 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=39" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=39" />
-    <img alt="Contribution trajectory by year" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=39" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=40" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=40" />
+    <img alt="Contribution trajectory by year" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=40" />
   </picture>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/github-metrics.svg?v=40" alt="GitHub metrics — languages and activity" width="100%" />
 </p>
 
 <p align="center">
