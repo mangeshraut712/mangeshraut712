@@ -48,7 +48,7 @@
   ·
   <a href="https://dotfit-fitness.vercel.app/">Dotfit</a>
   ·
-  <a href="https://pico-turi-edit-judge.vercel.app/">PicoTuri</a>
+  <a href="https://github.com/mangeshraut712/Hindai">Hindai</a>
 </p>
 
 <details>
