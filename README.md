@@ -8,17 +8,6 @@
   </picture>
 </p>
 
-<p align="center">
-  Verify banner stats:
-  <a href="https://github.com/mangeshraut712?tab=overview&from=2026-01-01&to=2026-12-31">2026 contributions</a>
-  ·
-  <a href="https://github.com/mangeshraut712?tab=repositories">repos</a>
-  ·
-  <a href="https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json">snapshot JSON</a>
-  ·
-  <a href="https://github.com/mangeshraut712/ai-ml-portfolio">hiring proof</a>
-</p>
-
 ### Recruiter?
 
 <p align="center">
