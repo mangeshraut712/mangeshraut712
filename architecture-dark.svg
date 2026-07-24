@@ -24,15 +24,15 @@
   <polygon points="690,133 702,138 690,143" fill="#2997FF"/>
 
   <rect x="710" y="100" width="350" height="76" rx="14" fill="#1C1C1E" stroke="#2C2C2E"/>
-  <text x="885" y="132" text-anchor="middle" fill="#2997FF" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="700">MODELS · TOOLS · DATA</text>
-  <text x="885" y="154" text-anchor="middle" fill="#F5F5F7" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif">OpenRouter · MCP · GitHub API · PyTorch</text>
+  <text x="885" y="132" text-anchor="middle" fill="#2997FF" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="700">MODELS / TOOLS / DATA</text>
+  <text x="885" y="154" text-anchor="middle" fill="#F5F5F7" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif">OpenRouter / MCP / GitHub API / PyTorch</text>
 
   <rect x="40" y="210" width="240" height="44" rx="12" fill="#111114" stroke="#2C2C2E"/>
-  <text x="160" y="237" text-anchor="middle" fill="#F5F5F7" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">WebRTC · VAD · Speech</text>
+  <text x="160" y="237" text-anchor="middle" fill="#F5F5F7" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">WebRTC / VAD / Speech</text>
   <rect x="300" y="210" width="240" height="44" rx="12" fill="#111114" stroke="#2C2C2E"/>
-  <text x="420" y="237" text-anchor="middle" fill="#F5F5F7" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">BM25 · RAG · Eval gates</text>
+  <text x="420" y="237" text-anchor="middle" fill="#F5F5F7" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">BM25 / RAG / Eval gates</text>
   <rect x="560" y="210" width="240" height="44" rx="12" fill="#111114" stroke="#2C2C2E"/>
-  <text x="680" y="237" text-anchor="middle" fill="#F5F5F7" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Agents · Tool calling</text>
+  <text x="680" y="237" text-anchor="middle" fill="#F5F5F7" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Agents / Tool calling</text>
   <rect x="820" y="210" width="240" height="44" rx="12" fill="#111114" stroke="#2C2C2E"/>
-  <text x="940" y="237" text-anchor="middle" fill="#F5F5F7" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Docker · Vercel · CI</text>
+  <text x="940" y="237" text-anchor="middle" fill="#F5F5F7" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Docker / Vercel / CI</text>
 </svg>

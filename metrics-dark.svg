@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1104 220" role="img" aria-label="Verified engineering metrics">
   <rect width="1104" height="220" rx="28" fill="#000000"/>
   <rect x="1" y="1" width="1102" height="218" rx="27" fill="none" stroke="#2C2C2E" stroke-width="1"/>
-  <text x="40" y="42" fill="#A1A1A6" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600" letter-spacing="1.4">ENGINEERING  VERIFIED</text>
+  <text x="40" y="42" fill="#A1A1A6" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600" letter-spacing="1.4">ENGINEERING - VERIFIED</text>
   <text x="40" y="70" fill="#F5F5F7" font-size="22" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Measured gates, not vibes</text>
 
   <g font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif">
@@ -20,6 +20,6 @@
 
     <rect x="820" y="100" width="240" height="88" rx="16" fill="#1C1C1E"/>
     <text x="940" y="138" text-anchor="middle" fill="#30D158" font-size="28" font-weight="700">CI</text>
-    <text x="940" y="164" text-anchor="middle" fill="#A1A1A6" font-size="13" font-weight="600">Python 3.103.12</text>
+    <text x="940" y="164" text-anchor="middle" fill="#A1A1A6" font-size="13" font-weight="600">Python 3.10-3.12</text>
   </g>
 </svg>
