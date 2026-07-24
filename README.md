@@ -8,34 +8,7 @@
   </picture>
 </p>
 
-### About
-
-Applied AI engineer in **Pune, India** (open to remote). I ship speech VAD, RAG/LLM eval, and Indic product apps with **CI-verified gates** — not demos that only work on my laptop.
-
-**Shipping now (Jul 2026):** hiring monorepo [`ai-ml-portfolio`](https://github.com/mangeshraut712/ai-ml-portfolio) — NumPy MLFS · WebRTC VAD FULL_PASS (F1 **0.9569**) · offline BM25 RAG eval.
-
 ### Collaborate
-
-<p align="center">
-  Open to <b>AI Engineer / Full-Stack / Agentic SaaS</b> roles.
-  Contact: <a href="mailto:mbr63@drexel.edu">mbr63@drexel.edu</a>
-  · <a href="https://www.linkedin.com/in/mangeshraut71298/">LinkedIn</a>
-  · proof: <a href="https://github.com/mangeshraut712/ai-ml-portfolio">ai-ml-portfolio</a>
-</p>
-
-<details>
-<summary><b>60-second verify</b></summary>
-
-```bash
-git clone https://github.com/mangeshraut712/ai-ml-portfolio.git
-cd ai-ml-portfolio
-make install
-make verify-all
-```
-
-Expect MLFS tests + LLM-eval smoke + VAD **FULL_PASS**. CI: [ai-ml-portfolio/actions](https://github.com/mangeshraut712/ai-ml-portfolio/actions/workflows/ci.yml) (Python 3.10–3.12).
-
-</details>
 
 <p align="center">
   <a href="mailto:mbr63@drexel.edu"><img src="https://img.shields.io/badge/Email-0071E3?style=for-the-badge&labelColor=000000&logo=gmail&logoColor=white" alt="Email" /></a>
