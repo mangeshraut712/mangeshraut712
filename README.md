@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=31" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=31" />
-    <img alt="Mangesh Raut — Applied AI profile card" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=31" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=32" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=32" />
+    <img alt="Mangesh Raut — Applied AI profile card" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=32" />
   </picture>
 </p>
 
@@ -15,19 +15,22 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/mangeshraut712"><img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/cta-github.svg?v=31" alt="GitHub" height="48" /></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/cta-linkedin.svg?v=31" alt="LinkedIn" height="48" /></a>
-  &nbsp;
-  <a href="https://x.com/mrcommando712"><img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/cta-x.svg?v=31" alt="X" height="48" /></a>
-  &nbsp;
-  <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/cta-instagram.svg?v=31" alt="Instagram" height="48" /></a>
+  Hiring proof: <a href="https://github.com/mangeshraut712/ai-ml-portfolio">ai-ml-portfolio</a>
+  — <code>make verify-all</code>
+  · VAD clean F1 <b>0.9569</b>
+  · CI green on Python 3.10–3.12
 </p>
 
 <p align="center">
-  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/cta-stripe.svg?v=31" alt="Sponsor with Stripe" height="56" /></a>
-  &nbsp;&nbsp;
-  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/cta-paypal.svg?v=31" alt="Sponsor with PayPal" height="56" /></a>
+  <a href="https://github.com/mangeshraut712"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&labelColor=000000&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-0071E3?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&labelColor=000000&logo=instagram&logoColor=white" alt="Instagram" /></a>
+</p>
+
+<p align="center">
+  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Sponsor-Stripe-635BFF?style=for-the-badge&labelColor=000000&logo=stripe&logoColor=white" alt="Stripe" /></a>
+  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/Sponsor-PayPal-0071E3?style=for-the-badge&labelColor=000000&logo=paypal&logoColor=white" alt="PayPal" /></a>
 </p>
 
 ---
@@ -36,9 +39,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=31" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=31" />
-    <img alt="Current focus" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=31" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=32" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=32" />
+    <img alt="Current focus" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=32" />
   </picture>
 </p>
 
@@ -48,9 +51,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=31" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=31" />
-    <img alt="Selected work" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=31" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=32" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=32" />
+    <img alt="Selected work" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=32" />
   </picture>
 </p>
 
@@ -88,9 +91,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=31" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=31" />
-    <img alt="Technology stack" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=31" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=32" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=32" />
+    <img alt="Technology stack" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=32" />
   </picture>
 </p>
 
@@ -100,9 +103,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=31" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=31" />
-    <img alt="Contribution trajectory by year" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=31" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=32" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=32" />
+    <img alt="Contribution trajectory by year" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=32" />
   </picture>
 </p>
 
