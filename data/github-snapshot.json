@@ -1,12 +1,12 @@
 {
   "login": "mangeshraut712",
   "source": "GitHub GraphQL + REST (full owned-repo inventory + all-year contributions)",
-  "synced_at": "2026-07-24T06:07:39Z",
+  "synced_at": "2026-07-24T06:10:00Z",
   "created_at": "2021-11-27",
   "location": "Pune, MH, India",
   "bio": "Applied AI \u00b7 speech VAD \u00b7 RAG eval \u00b7 Indic apps | Open to AI Engineer / Full-Stack roles",
   "public_repos": 16,
-  "owned_non_fork": 15,
+  "owned_non_fork": 31,
   "stars_on_owned": 5,
   "forks_on_owned": 2,
   "followers": 4,
@@ -24,8 +24,8 @@
   "ytd": {
     "year": 2026,
     "contributions": 1931,
-    "commits": 1668,
-    "pull_requests": 24,
+    "commits": 1876,
+    "pull_requests": 42,
     "issues": 0,
     "reviews": 0,
     "private": 229,
@@ -43,8 +43,8 @@
   "stack": {
     "icons": "ts,js,py,swift,react,nextjs,tailwind,fastapi,express,postgres,supabase,mongodb,docker,vercel,pytorch",
     "label": "TypeScript \u00b7 JavaScript \u00b7 Python \u00b7 Swift \u00b7 React \u00b7 Next.js 15/16 \u00b7 FastAPI \u00b7 Tailwind \u00b7 Express \u00b7 PyTorch \u00b7 Supabase \u00b7 MongoDB \u00b7 Docker \u00b7 Vercel",
-    "focus_ai": "MCP, Agents, OpenRouter, PyTorch",
-    "focus_stack": "Next.js 15/16, React 19, FastAPI, Tailwind",
+    "focus_ai": "Speech VAD \u00b7 RAG eval \u00b7 Agents \u00b7 PyTorch",
+    "focus_stack": "Next.js 16 \u00b7 React 19 \u00b7 FastAPI \u00b7 Python",
     "evidence": {
       "next_js": "15.3\u201316.1 across flagship apps",
       "react": "18.2 / 19.x across apps",

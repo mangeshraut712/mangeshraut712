@@ -37,8 +37,9 @@ ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")
 LANG_SKIP = {"None", "HTML", "CSS", "Jupyter Notebook", "TSQL", "MATLAB"}
 
 # Verified across owned repos (package.json / requirements inventory, Jul 2026).
-FOCUS_AI = "MCP, Agents, OpenRouter, PyTorch"
-FOCUS_STACK = "Next.js 15/16, React 19, FastAPI, Tailwind"
+FOCUS_AI = "Speech VAD · RAG eval · Agents · PyTorch"
+FOCUS_STACK = "Next.js 16 · React 19 · FastAPI · Python"
+ROLE = "Applied AI Engineer"
 STACK_ICONS = (
     "ts,js,py,swift,react,nextjs,tailwind,fastapi,express,"
     "postgres,supabase,mongodb,docker,vercel,pytorch"
@@ -256,7 +257,7 @@ def fetch_stats() -> dict:
         best_label = "—"
 
     location = (profile.get("location") or "Pune, MH, India").strip()
-    langs_label = ", ".join(top_langs) if top_langs else "—"
+    langs_label = " · ".join(top_langs) if top_langs else "—"
 
     return {
         "lifetime_data": fmt(lifetime),
@@ -268,6 +269,7 @@ def fetch_stats() -> dict:
         "prs_data": fmt(ytd_block.get("totalPullRequestContributions", 0)),
         "commits_data": fmt(ytd_block.get("totalCommitContributions", 0)),
         "langs_data": langs_label,
+        "role_data": ROLE,
         "focus_ai_data": FOCUS_AI,
         "focus_stack_data": FOCUS_STACK,
         "host_data": location,
@@ -324,6 +326,7 @@ def update_svgs(stats: dict) -> None:
         "prs_data": stats["prs_data"],
         "commits_data": stats["commits_data"],
         "langs_data": stats["langs_data"],
+        "role_data": stats["role_data"],
         "focus_ai_data": stats["focus_ai_data"],
         "focus_stack_data": stats["focus_stack_data"],
         "host_data": stats["host_data"],
@@ -339,6 +342,7 @@ def update_svgs(stats: dict) -> None:
         "prs_data_light": stats["prs_data"],
         "commits_data_light": stats["commits_data"],
         "langs_data_light": stats["langs_data"],
+        "role_data_light": stats["role_data"],
         "focus_ai_data_light": stats["focus_ai_data"],
         "focus_stack_data_light": stats["focus_stack_data"],
         "host_data_light": stats["host_data"],

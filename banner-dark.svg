@@ -1,50 +1,77 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1020 436" role="img" aria-label="Mangesh Raut Apple-style coded profile card">
-  <rect width="1020" height="436" rx="24" fill="#000000" />
-  <rect x="12" y="12" width="350" height="412" rx="20" fill="#0B0B0F" stroke="#1C1C1E" stroke-width="1" />
-  <circle cx="334" cy="36" r="5" fill="#2997FF" />
-  <text xml:space="preserve" fill="#F5F5F7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12.5" letter-spacing="0.6">
-<tspan x="28" y="40">.............. .`:=++++*+=^:'.  ............</tspan>
-<tspan x="28" y="55">............ .=#@@@@@@@@@%##*#*^............</tspan>
-<tspan x="28" y="70">........... :#@@@%%%%%%%%%@@@%@%^...........</tspan>
-<tspan x="28" y="85">......... .+@@%%@@@@@@@%%%%%%@%%#'..........</tspan>
-<tspan x="28" y="100">......... *@%%@@@@@%%%%%%%@@@%%%#. .........</tspan>
-<tspan x="28" y="115">........ ^@%@@%%%@@@@@@@@@@%%@%%%#^ ........</tspan>
-<tspan x="28" y="130">........ +%%@@@@@@%%%%%%%%%@@@@@@@%' .......</tspan>
-<tspan x="28" y="145">........ +@%%@%#*+===^^==++#%@@%%%%` .......</tspan>
-<tspan x="28" y="160">........ =@%@%+^^:::::::^^^=+*%@%@%' .......</tspan>
-<tspan x="28" y="175">........ +@%%+==^:````'''`:^^=+%%@#.........</tspan>
-<tspan x="28" y="190">........ '%@+=**##%*+^:^*%###*=+@@^ ........</tspan>
-<tspan x="28" y="205">..........#%:^+*##*#*^^+###%##=^%%: ........</tspan>
-<tspan x="28" y="220">..........=*:::::::^=::+=:^^^^^:+*+.........</tspan>
-<tspan x="28" y="235">......... ^+::`''`^^:':==:''`:^^+*:.........</tspan>
-<tspan x="28" y="250">......... `+^^```^=+*^+*=^:``:^^**. ........</tspan>
-<tspan x="28" y="265">......... `*==^^*##%%##%#*+^^^==#=..........</tspan>
-<tspan x="28" y="280">...........=++=+%%%*+++*#%@*^=+*+'..........</tspan>
-<tspan x="28" y="295">.......... '**+=^^=+++++++===**#: ..........</tspan>
-<tspan x="28" y="310">............*%*=^^^^+##+^^^^+#%#............</tspan>
-<tspan x="28" y="325">........... '#%*+=^^::::^^=*#%@+ ...........</tspan>
-<tspan x="28" y="340">............ =@@%%##***###%@@@%%*. .........</tspan>
-<tspan x="28" y="355">........... +@%%@@@@@@@@@@@@@@@@@#' ........</tspan>
-<tspan x="28" y="370">.......    ^@%@%%%@@@@@@@@%%%%@@%@#`     ...</tspan>
-<tspan x="28" y="385">.......':=+%%%@%%##%%%%%%####%@@@%@%*+^`'...</tspan>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1100 420" role="img" aria-label="Mangesh Raut — Applied AI profile card">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="100%" stop-color="#0A0A0C"/>
+    </linearGradient>
+    <linearGradient id="mono" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F5F7"/>
+      <stop offset="100%" stop-color="#A1A1A6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2997FF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2997FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Shell -->
+  <rect width="1100" height="420" rx="28" fill="#000000"/>
+  <rect x="1" y="1" width="1098" height="418" rx="27" fill="none" stroke="#1C1C1E" stroke-width="1"/>
+
+  <!-- Left mark panel -->
+  <rect x="16" y="16" width="320" height="388" rx="22" fill="url(#panel)" stroke="#2C2C2E" stroke-width="1"/>
+  <rect x="16" y="16" width="320" height="388" rx="22" fill="url(#glow)"/>
+  <circle cx="308" cy="40" r="4.5" fill="#2997FF"/>
+
+  <!-- Concentric rings -->
+  <circle cx="176" cy="168" r="108" fill="none" stroke="#2C2C2E" stroke-width="1"/>
+  <circle cx="176" cy="168" r="78" fill="none" stroke="#3A3A3C" stroke-width="1" stroke-dasharray="2 6"/>
+  <circle cx="176" cy="168" r="52" fill="none" stroke="#2997FF" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- Monogram -->
+  <text x="176" y="186" text-anchor="middle" fill="url(#mono)" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-size="72" font-weight="700" letter-spacing="-2">MR</text>
+  <text x="176" y="248" text-anchor="middle" fill="#6E6E73" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="3">MANGESH RAUT</text>
+  <text x="176" y="340" text-anchor="middle" fill="#A1A1A6" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="13" font-weight="500">Applied AI · Pune</text>
+
+  <!-- Right info -->
+  <text x="372" y="52" fill="#F5F5F7" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-size="22" font-weight="700">mangesh@raut</text>
+  <line x1="372" y1="66" x2="1068" y2="66" stroke="#2C2C2E" stroke-width="1"/>
+
+  <!-- Identity -->
+  <text x="372" y="98" fill="#6E6E73" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="1.2">IDENTITY</text>
+  <text x="372" y="122" fill="#8E8E93" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Role</text>
+  <text x="500" y="122" fill="#F5F5F7" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="role_data">Applied AI Engineer</text>
+  <text x="372" y="146" fill="#8E8E93" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Host</text>
+  <text x="500" y="146" fill="#F5F5F7" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="host_data">Pune, MH, India</text>
+  <text x="372" y="170" fill="#8E8E93" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Uptime</text>
+  <text x="500" y="170" fill="#F5F5F7" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="uptime_data">4 years, 7 months, 27 days</text>
+  <text x="372" y="194" fill="#8E8E93" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Tools</text>
+  <text x="500" y="194" fill="#F5F5F7" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600">Cursor · VS Code · macOS / Linux</text>
+
+  <!-- Focus -->
+  <text x="372" y="230" fill="#6E6E73" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="1.2">FOCUS</text>
+  <text x="372" y="254" fill="#8E8E93" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">AI</text>
+  <text x="500" y="254" fill="#F5F5F7" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="focus_ai_data">Speech VAD · RAG eval · Agents · PyTorch</text>
+  <text x="372" y="278" fill="#8E8E93" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Stack</text>
+  <text x="500" y="278" fill="#F5F5F7" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="focus_stack_data">Next.js 16 · React 19 · FastAPI · Python</text>
+  <text x="372" y="302" fill="#8E8E93" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Languages</text>
+  <text x="500" y="302" fill="#F5F5F7" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="langs_data">TypeScript · Python · JavaScript · Swift</text>
+
+  <!-- GitHub -->
+  <line x1="372" y1="320" x2="1068" y2="320" stroke="#2C2C2E" stroke-width="1"/>
+  <text x="372" y="346" fill="#6E6E73" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="1.2">GITHUB</text>
+  <text x="372" y="370" fill="#F5F5F7" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">
+    <tspan fill="#8E8E93">Public </tspan><tspan id="repos_data" font-weight="600">16</tspan>
+    <tspan fill="#8E8E93">  ·  Owned </tspan><tspan id="owned_data" font-weight="600">31</tspan>
+    <tspan fill="#8E8E93">  ·  ★ </tspan><tspan id="stars_data" font-weight="600">5</tspan>
+    <tspan fill="#8E8E93">  ·  Forks </tspan><tspan id="forks_data" font-weight="600">2</tspan>
+    <tspan fill="#8E8E93">  ·  Followers </tspan><tspan id="follower_data" font-weight="600">4</tspan>
   </text>
-  <text xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12.5">
-<tspan x="380" y="40" fill="#F5F5F7" font-weight="700" font-size="14">mangesh@raut</tspan><tspan fill="#8E8E93"> ————————————————————</tspan>
-<tspan x="380" y="57" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">OS</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">macOS, Linux</tspan>
-<tspan x="380" y="72" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Uptime</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="uptime_data">4 years, 7 months, 27 days</tspan>
-<tspan x="380" y="87" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Host</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="host_data">Pune, MH, India</tspan>
-<tspan x="380" y="102" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Kernel</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">AI + Full-Stack Engineer</tspan>
-<tspan x="380" y="117" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">IDE</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Cursor, VS Code</tspan>
-<tspan x="380" y="132" fill="#8E8E93">·</tspan>
-<tspan x="380" y="147" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Languages</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="langs_data">TypeScript, Python, JavaScript</tspan>
-<tspan x="380" y="162" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.AI</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="focus_ai_data">MCP, Agents, OpenRouter, PyTorch</tspan>
-<tspan x="380" y="177" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Focus.Stack</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="focus_stack_data">Next.js 15/16, React 19, FastAPI, Tailwind</tspan>
-<tspan x="380" y="192" fill="#8E8E93">·</tspan>
-<tspan x="380" y="207" fill="#F5F5F7" font-weight="700">- GitHub (full account)</tspan><tspan fill="#8E8E93"> ————————</tspan>
-<tspan x="380" y="222" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">16</tspan><tspan fill="#8E8E93"> | Owned: </tspan><tspan fill="#F5F5F7" id="owned_data">15</tspan><tspan fill="#8E8E93"> | Stars: </tspan><tspan fill="#F5F5F7" id="stars_data">5</tspan>
-<tspan x="380" y="237" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Forks</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="forks_data">2</tspan><tspan fill="#8E8E93"> | Followers: </tspan><tspan fill="#F5F5F7" id="follower_data">4</tspan>
-<tspan x="380" y="252" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contributions</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,045</tspan><tspan fill="#8E8E93"> (all-time)</tspan>
-<tspan x="380" y="267" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">2026 YTD</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">1,931</tspan><tspan fill="#8E8E93"> | PRs: </tspan><tspan fill="#F5F5F7" id="prs_data">24</tspan><tspan fill="#8E8E93"> | Commits: </tspan><tspan fill="#F5F5F7" id="commits_data">1,668</tspan>
+  <text x="372" y="390" fill="#F5F5F7" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">
+    <tspan fill="#8E8E93">All-time </tspan><tspan id="lifetime_data" font-weight="600">4,137</tspan>
+    <tspan fill="#8E8E93">  ·  2026 YTD </tspan><tspan id="ytd_data" fill="#30D158" font-weight="700">1,931</tspan>
+    <tspan fill="#8E8E93">  ·  PRs </tspan><tspan id="prs_data" font-weight="600">42</tspan>
+    <tspan fill="#8E8E93">  ·  Commits </tspan><tspan id="commits_data" font-weight="600">1,876</tspan>
   </text>
 </svg>
