@@ -2,10 +2,21 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=44" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=44" />
-    <img alt="Mangesh Raut — Applied AI Engineer" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=45" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=45" />
+    <img alt="Mangesh Raut — Applied AI Engineer" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=45" />
   </picture>
+</p>
+
+<p align="center">
+  Verify banner stats:
+  <a href="https://github.com/mangeshraut712?tab=overview&from=2026-01-01&to=2026-12-31">2026 contributions</a>
+  ·
+  <a href="https://github.com/mangeshraut712?tab=repositories">repos</a>
+  ·
+  <a href="https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json">snapshot JSON</a>
+  ·
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio">hiring proof</a>
 </p>
 
 ### Recruiter?
@@ -30,11 +41,11 @@
 
 Building **production AI systems** that combine:
 
-- Agentic workflows &amp; tool calling
-- Realtime speech AI (WebRTC VAD)
-- Retrieval, evaluation &amp; measurable gates
-- Full-stack product engineering
-- Developer tooling &amp; OSS
+- Agentic workflows &amp; tool calling — [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · [agent-console](https://github.com/mangeshraut712/agent-console)
+- Realtime speech AI (WebRTC VAD) — [ai-ml-portfolio / labs/vad](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/vad)
+- Retrieval, evaluation &amp; measurable gates — [llm-eval](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval) · [CI](https://github.com/mangeshraut712/ai-ml-portfolio/actions/workflows/ci.yml)
+- Full-stack product engineering — [portfolio site](https://mangeshraut712.github.io/mangeshrautarchive/)
+- Developer tooling &amp; OSS — [sarvam-ai-cookbook](https://github.com/mangeshraut712/sarvam-ai-cookbook) · [Hindai](https://github.com/mangeshraut712/Hindai)
 
 ---
 
@@ -42,10 +53,25 @@ Building **production AI systems** that combine:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=44" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=44" />
-    <img alt="Featured projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=45" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=45" />
+    <img alt="Featured projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=45" />
   </picture>
+</p>
+
+<p align="center">
+  Open repos:
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio">Realtime Speech AI</a>
+  ·
+  <a href="https://github.com/mangeshraut712/Hindai">HindAI</a>
+  ·
+  <a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">Gravity SaaS Agent</a>
+  ·
+  <a href="https://github.com/mangeshraut712/agent-console">Agent Console</a>
+  ·
+  <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook">Sarvam Cookbook</a>
+  ·
+  <a href="https://github.com/mangeshraut712/Stanford-CS336">Stanford CS336</a>
 </p>
 
 ---
@@ -54,10 +80,23 @@ Building **production AI systems** that combine:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=44" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-light.svg?v=44" />
-    <img alt="Architecture" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=45" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-light.svg?v=45" />
+    <img alt="Architecture" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=45" />
   </picture>
+</p>
+
+<p align="center">
+  Cross-check stacks:
+  <a href="https://github.com/mangeshraut712/agent-console/blob/main/package.json">Next.js / React (agent-console)</a>
+  ·
+  <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook/blob/main/requirements.txt">FastAPI (cookbook)</a>
+  ·
+  <a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">MCP / agents (Gravity)</a>
+  ·
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/vad">WebRTC VAD</a>
+  ·
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval">BM25 RAG eval</a>
 </p>
 
 ---
@@ -66,10 +105,21 @@ Building **production AI systems** that combine:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=44" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=44" />
-    <img alt="Verified engineering metrics" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=45" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=45" />
+    <img alt="Verified engineering metrics" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=45" />
   </picture>
+</p>
+
+<p align="center">
+  Verify numbers:
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/README.md">VAD F1 0.9569 · p95 ~19ms</a>
+  ·
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio/actions/workflows/ci.yml">CI Python 3.10–3.12</a>
+  ·
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/Makefile">make verify-all</a>
+  ·
+  <a href="https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31">4,000+ contributions</a>
 </p>
 
 ---
@@ -78,10 +128,23 @@ Building **production AI systems** that combine:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=44" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=44" />
-    <img alt="Currently building" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=45" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=45" />
+    <img alt="Currently building" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=45" />
   </picture>
+</p>
+
+<p align="center">
+  Active work:
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/vad">Speech AI / VAD</a>
+  ·
+  <a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent">MCP apps</a>
+  ·
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval">RAG eval</a>
+  ·
+  <a href="https://github.com/mangeshraut712/agent-console">Agent tooling</a>
+  ·
+  <a href="https://github.com/mangeshraut712/Stanford-CS336">LM systems</a>
 </p>
 
 ---
@@ -90,29 +153,42 @@ Building **production AI systems** that combine:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=44" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=44" />
-    <img alt="AI stack" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=45" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=45" />
+    <img alt="AI stack" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=45" />
   </picture>
+</p>
+
+<p align="center">
+  Evidence in code:
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/pyproject.toml">NumPy / webrtcvad / BM25</a>
+  ·
+  <a href="https://github.com/mangeshraut712/agent-console/blob/main/package.json">Next.js 15 · React 19 · Turbopack</a>
+  ·
+  <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook/blob/main/requirements.txt">FastAPI · Sarvam SDK</a>
+  ·
+  <a href="https://github.com/mangeshraut712/Hindai">Gemma / Ollama</a>
+  ·
+  <a href="https://github.com/mangeshraut712/Stanford-CS336">PyTorch / CS336</a>
 </p>
 
 ---
 
 ### Engineering Principles
 
-- Measure everything — ship gates, not vibes
-- Local-first whenever possible (offline eval, Ollama)
-- Reliability over novelty
-- AI should augment — not obscure — the system
-- Developer experience matters
-- Simple systems scale better
+- Measure everything — [CI gates](https://github.com/mangeshraut712/ai-ml-portfolio/actions/workflows/ci.yml) · [Makefile verify](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/Makefile)
+- Local-first whenever possible — [offline llm-eval](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval) · [Hindai / Ollama](https://github.com/mangeshraut712/Hindai)
+- Reliability over novelty — [VAD FULL_PASS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/README.md)
+- AI should augment — not obscure — the system — [Interview notes](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/INTERVIEW_NOTES.md)
+- Developer experience matters — [agent-console](https://github.com/mangeshraut712/agent-console)
+- Simple systems scale better — [portfolio architecture](https://mangeshraut712.github.io/mangeshrautarchive/)
 
 ---
 
 ### Writing / Notes
 
-- [Technical writings RSS](https://mangeshraut712.github.io/mangeshrautarchive/rss.xml)
-- [LLM eval data card](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md)
+- [Portfolio site](https://mangeshraut712.github.io/mangeshrautarchive/) · [Technical writings RSS](https://mangeshraut712.github.io/mangeshrautarchive/rss.xml)
+- [LLM eval data card](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md) · [RESULTS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md)
 - [Stanford CS336 labs](https://github.com/mangeshraut712/Stanford-CS336)
 
 ---
@@ -121,10 +197,18 @@ Building **production AI systems** that combine:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=44" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=44" />
-    <img alt="Contribution trajectory" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=45" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=45" />
+    <img alt="Contribution trajectory" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=45" />
   </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31">Open GitHub contribution graph</a>
+  ·
+  <a href="https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json">yearly snapshot</a>
+  ·
+  <a href="https://github.com/mangeshraut712">profile</a>
 </p>
 
 <p align="center">
@@ -136,5 +220,5 @@ Building **production AI systems** that combine:
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-one.vercel.app/?user=mangeshraut712&theme=dark&hide_border=true&background=000000&ring=0071E3&fire=2997FF&currStreakNum=F5F5F7&sideNums=F5F5F7&currStreakLabel=A1A1A6&sideLabels=A1A1A6&dates=6E6E73" alt="GitHub streak" />
+  <a href="https://github.com/mangeshraut712"><img src="https://github-readme-streak-stats-one.vercel.app/?user=mangeshraut712&theme=dark&hide_border=true&background=000000&ring=0071E3&fire=2997FF&currStreakNum=F5F5F7&sideNums=F5F5F7&currStreakLabel=A1A1A6&sideLabels=A1A1A6&dates=6E6E73" alt="GitHub streak" /></a>
 </p>
