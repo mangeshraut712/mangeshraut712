@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1100 410" role="img" aria-label="Mangesh Raut — Applied AI profile card">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1100 410" role="img" aria-label="Mangesh Raut — Applied AI profile card">
   <defs>
     <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#FFFFFF"/>
@@ -9,37 +9,33 @@
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="100%" stop-color="#F2F2F7"/>
     </linearGradient>
-    <linearGradient id="mono" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1D1D1F"/>
-      <stop offset="100%" stop-color="#6E6E73"/>
-    </linearGradient>
     <radialGradient id="disc" cx="50%" cy="42%" r="55%">
-      <stop offset="0%" stop-color="#0071E3" stop-opacity="0.14"/>
-      <stop offset="70%" stop-color="#0071E3" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#0071E3" stop-opacity="0.12"/>
       <stop offset="100%" stop-color="#0071E3" stop-opacity="0"/>
     </radialGradient>
+    <clipPath id="avatarClip">
+      <circle cx="168" cy="168" r="78"/>
+    </clipPath>
   </defs>
 
-  <!-- Outer shell -->
   <rect width="1100" height="410" rx="28" fill="url(#shell)"/>
   <rect x="1" y="1" width="1098" height="408" rx="27" fill="none" stroke="#D2D2D7" stroke-width="1"/>
 
-  <!-- Left mark -->
+  <!-- Left: profile photo -->
   <rect x="18" y="18" width="300" height="374" rx="22" fill="url(#panel)" stroke="#D2D2D7" stroke-width="1"/>
   <circle cx="292" cy="42" r="4" fill="#0071E3"/>
-  <circle cx="168" cy="175" r="118" fill="url(#disc)"/>
-  <circle cx="168" cy="175" r="96" fill="none" stroke="#D2D2D7" stroke-width="1"/>
-  <circle cx="168" cy="175" r="72" fill="none" stroke="#C7C7CC" stroke-width="1" stroke-dasharray="1.5 5"/>
-  <circle cx="168" cy="175" r="50" fill="#FFFFFF" stroke="#0071E3" stroke-opacity="0.40" stroke-width="1.5"/>
-  <text x="168" y="188" text-anchor="middle" fill="url(#mono)" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-size="54" font-weight="700" letter-spacing="-1.5">MR</text>
+  <circle cx="168" cy="168" r="118" fill="url(#disc)"/>
+  <circle cx="168" cy="168" r="100" fill="none" stroke="#D2D2D7" stroke-width="1"/>
+  <circle cx="168" cy="168" r="88" fill="none" stroke="#C7C7CC" stroke-width="1" stroke-dasharray="1.5 5"/>
+  <circle cx="168" cy="168" r="80" fill="none" stroke="#0071E3" stroke-opacity="0.50" stroke-width="2"/>
+  <image href="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/profile.png" xlink:href="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/profile.png" x="90" y="90" width="156" height="156" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
   <text x="168" y="292" text-anchor="middle" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="13" font-weight="600" letter-spacing="2.5">MANGESH RAUT</text>
   <text x="168" y="318" text-anchor="middle" fill="#6E6E73" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="13">Applied AI · Pune</text>
 
-  <!-- Right column -->
+  <!-- Right column (unchanged data) -->
   <text x="350" y="48" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-size="24" font-weight="700">mangesh@raut</text>
   <line x1="350" y1="62" x2="1072" y2="62" stroke="#D2D2D7" stroke-width="1"/>
 
-  <!-- IDENTITY -->
   <text x="350" y="92" fill="#0071E3" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">IDENTITY</text>
   <text x="470" y="118" text-anchor="end" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Role</text>
   <text x="490" y="118" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="role_data_light">Applied AI Engineer</text>
@@ -50,7 +46,6 @@
   <text x="470" y="190" text-anchor="end" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Tools</text>
   <text x="490" y="190" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600">Cursor · VS Code · macOS / Linux</text>
 
-  <!-- FOCUS -->
   <text x="350" y="228" fill="#0071E3" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">FOCUS</text>
   <text x="470" y="254" text-anchor="end" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">AI</text>
   <text x="490" y="254" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="focus_ai_data_light">Speech VAD · RAG eval · Agents · PyTorch</text>
@@ -59,7 +54,6 @@
   <text x="470" y="302" text-anchor="end" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Languages</text>
   <text x="490" y="302" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="langs_data_light">TypeScript · Python · JavaScript · Swift</text>
 
-  <!-- GITHUB -->
   <line x1="350" y1="324" x2="1072" y2="324" stroke="#D2D2D7" stroke-width="1"/>
   <text x="350" y="350" fill="#0071E3" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">GITHUB</text>
   <text x="350" y="376" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="13.5">
