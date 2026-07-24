@@ -11,12 +11,11 @@
 ### Recruiter?
 
 <p align="center">
-  <a href="https://github.com/mangeshraut712/ai-ml-portfolio"><img src="https://img.shields.io/badge/Portfolio-0071E3?style=for-the-badge&labelColor=000000" alt="Portfolio" /></a>
-  <a href="mailto:mbr63@drexel.edu?subject=Resume%20request%20—%20Mangesh%20Raut"><img src="https://img.shields.io/badge/Resume-0071E3?style=for-the-badge&labelColor=000000" alt="Resume" /></a>
-  <a href="https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/INTERVIEW_NOTES.md"><img src="https://img.shields.io/badge/Engineering%20Notebook-1D1D1F?style=for-the-badge&labelColor=000000" alt="Engineering Notebook" /></a>
+  <a href="https://mangeshraut712.github.io/mangeshrautarchive/"><img src="https://img.shields.io/badge/Portfolio-0071E3?style=for-the-badge&labelColor=000000" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:mbr63@drexel.edu"><img src="https://img.shields.io/badge/Email-0071E3?style=for-the-badge&labelColor=000000&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/mangeshraut712"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&labelColor=000000&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:mbr63drexel@gmail.com"><img src="https://img.shields.io/badge/Email-0071E3?style=for-the-badge&labelColor=000000&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-@mrcommando712-0071E3?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&labelColor=000000&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
 <p align="center">
@@ -35,7 +34,6 @@
 <p align="center">
   <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Sponsor-Stripe-635BFF?style=for-the-badge&labelColor=000000&logo=stripe&logoColor=white" alt="Stripe" /></a>
   <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/Donate-PayPal-0071E3?style=for-the-badge&labelColor=000000&logo=paypal&logoColor=white" alt="PayPal" /></a>
-  <a href="https://www.buymeacoffee.com/mangeshraut712"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&labelColor=000000&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee" /></a>
 </p>
 
 ### Mission
@@ -175,7 +173,7 @@ Always accepting issues and PRs on:
 
 ### Writing / Notes
 
-- [Interview notes — MLFS · VAD · RAG](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/INTERVIEW_NOTES.md)
+- [Portfolio writings](https://mangeshraut712.github.io/mangeshrautarchive/) · [RSS](https://mangeshraut712.github.io/mangeshrautarchive/rss.xml)
 - [LLM eval data card](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md)
 - [Stanford CS336 labs](https://github.com/mangeshraut712/Stanford-CS336)
 
