@@ -48,7 +48,7 @@
   ·
   <a href="https://dotfit-fitness.vercel.app/">Dotfit</a>
   ·
-  <a href="https://creator-cards-api-1p52.onrender.com">creator-cards-api</a>
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio">ai-ml-portfolio</a>
 </p>
 
 <details>
@@ -59,7 +59,8 @@
 | | |
 | --- | --- |
 | [Stanford-CS336](https://github.com/mangeshraut712/Stanford-CS336) | Self-study LM systems — BPE, transformers, scaling, GRPO |
-| [apple-FastVLM-0.5B](https://github.com/mangeshraut712/apple-FastVLM-0.5B) | Apple FastVLM multimodal exploration |
+| [ai-ml-portfolio](https://github.com/mangeshraut712/ai-ml-portfolio) | Hiring monorepo — MLFS · VAD FULL_PASS · LLM eval |
+| [sarvam-ai-cookbook](https://github.com/mangeshraut712/sarvam-ai-cookbook) | India-first Sarvam demos + speech/RAG labs |
 | [ForexScalpingBot](https://github.com/mangeshraut712/ForexScalpingBot) | SwiftUI iOS trading-assistant UI |
 | [UIDAI-Data-Hackathon-2026](https://github.com/mangeshraut712/UIDAI-Data-Hackathon-2026) | Aadhaar dataset analysis · Hackathon 2026 |
 

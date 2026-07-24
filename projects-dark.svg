@@ -39,13 +39,13 @@
       <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Next.js 16.1 Â -  FastAPI Â -  LLM APIs</text>
     </g>
   </a>
-  <a href="https://github.com/mangeshraut712/autonomous-agent-team" target="_blank">
+  <a href="https://github.com/mangeshraut712/ai-ml-portfolio" target="_blank">
     <g transform="translate(382,286)">
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
-      <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">autonomous-agent-team</text>
-      <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">Six-agent OpenClaw workspace on cron</tspan><tspan x="22" dy="18">automation.</tspan></text>
-      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Python Â -  Multi-agent Â -  Cron</text>
+      <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">ai-ml-portfolio</text>
+      <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif"><tspan x="22" dy="0">MLFS + VAD FULL_PASS + offline</tspan><tspan x="22" dy="18">LLM/RAG evaluation labs.</tspan></text>
+      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600">Python Â -  Speech Â -  Eval</text>
     </g>
   </a>
   <a href="https://vitals-ai.vercel.app" target="_blank">
