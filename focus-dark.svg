@@ -9,19 +9,19 @@
   <rect width="1104" height="220" rx="28" fill="url(#g)"/>
   <rect x="1" y="1" width="1102" height="218" rx="27" fill="none" stroke="#2C2C2E" stroke-width="1"/>
   <circle cx="48" cy="48" r="6" fill="#2997FF"/>
-  <text x="66" y="54" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600" letter-spacing="1.5">NOW</text>
-  <text x="48" y="96" fill="#F5F5F7" font-size="32" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Applied AI with measurable gates.</text>
-  <text x="48" y="132" fill="#A1A1A6" font-size="16" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif">Speech VAD FULL_PASS · RAG / LLM eval · Indic product apps</text>
+  <text x="66" y="54" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="600" letter-spacing="1.5">NOW · 2026</text>
+  <text x="48" y="96" fill="#F5F5F7" font-size="30" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Applied AI with CI-verified gates.</text>
+  <text x="48" y="132" fill="#A1A1A6" font-size="15" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif">WebRTC VAD FULL_PASS · BM25 RAG eval · Indic Sarvam apps · MCP agents</text>
   <g font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="13" font-weight="600">
     <rect x="48" y="158" width="148" height="34" rx="17" fill="#1C1C1E" stroke="#2C2C2E"/>
     <text x="122" y="180" text-anchor="middle" fill="#F5F5F7">VAD FULL_PASS</text>
-    <rect x="208" y="158" width="120" height="34" rx="17" fill="#1C1C1E" stroke="#2C2C2E"/>
-    <text x="268" y="180" text-anchor="middle" fill="#F5F5F7">RAG eval</text>
-    <rect x="340" y="158" width="130" height="34" rx="17" fill="#1C1C1E" stroke="#2C2C2E"/>
-    <text x="405" y="180" text-anchor="middle" fill="#F5F5F7">Indic apps</text>
-    <rect x="482" y="158" width="150" height="34" rx="17" fill="#1C1C1E" stroke="#2C2C2E"/>
-    <text x="557" y="180" text-anchor="middle" fill="#F5F5F7">Stanford CS336</text>
-    <rect x="644" y="158" width="140" height="34" rx="17" fill="#1C1C1E" stroke="#2C2C2E"/>
-    <text x="714" y="180" text-anchor="middle" fill="#F5F5F7">Agent SaaS</text>
+    <rect x="208" y="158" width="128" height="34" rx="17" fill="#1C1C1E" stroke="#2C2C2E"/>
+    <text x="272" y="180" text-anchor="middle" fill="#F5F5F7">RAG / BM25</text>
+    <rect x="348" y="158" width="132" height="34" rx="17" fill="#1C1C1E" stroke="#2C2C2E"/>
+    <text x="414" y="180" text-anchor="middle" fill="#F5F5F7">Sarvam / Indic</text>
+    <rect x="492" y="158" width="118" height="34" rx="17" fill="#1C1C1E" stroke="#2C2C2E"/>
+    <text x="551" y="180" text-anchor="middle" fill="#F5F5F7">MCP agents</text>
+    <rect x="622" y="158" width="150" height="34" rx="17" fill="#1C1C1E" stroke="#2C2C2E"/>
+    <text x="697" y="180" text-anchor="middle" fill="#F5F5F7">Next.js 16 / R19</text>
   </g>
 </svg>

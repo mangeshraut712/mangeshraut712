@@ -37,16 +37,17 @@ ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")
 LANG_SKIP = {"None", "HTML", "CSS", "Jupyter Notebook", "TSQL", "MATLAB"}
 
 # Verified across owned repos (package.json / requirements inventory, Jul 2026).
-FOCUS_AI = "Speech VAD · RAG eval · Agents · PyTorch"
-FOCUS_STACK = "Next.js 16 · React 19 · FastAPI · Python"
+FOCUS_AI = "WebRTC VAD · RAG/BM25 · MCP · PyTorch"
+FOCUS_STACK = "Next.js 16 · React 19 · FastAPI · Turbopack"
 ROLE = "Applied AI Engineer"
 STACK_ICONS = (
     "ts,js,py,swift,react,nextjs,tailwind,fastapi,express,"
     "postgres,supabase,mongodb,docker,vercel,pytorch"
 )
 STACK_LABEL = (
-    "TypeScript · JavaScript · Python · Swift · React · Next.js 15/16 · "
-    "FastAPI · Tailwind · Express · PyTorch · Supabase · MongoDB · Docker · Vercel"
+    "TypeScript · Python · JavaScript · Swift · Next.js 15/16 · React 19 · "
+    "FastAPI · Turbopack · PyTorch · WebRTC VAD · BM25 · MCP · Sarvam · "
+    "Postgres · Docker · Vercel · GitHub Actions"
 )
 
 

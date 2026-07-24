@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1104 280" role="img" aria-label="Technology stack">
-  <rect width="1104" height="280" rx="28" fill="#FFFFFF"/>
-  <rect x="1" y="1" width="1102" height="278" rx="27" fill="none" stroke="#D2D2D7" stroke-width="1"/>
-  <text x="40" y="48" fill="#1D1D1F" font-size="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Stack</text>
-  <text x="40" y="74" fill="#6E6E73" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif">From the full GitHub account  -  languages by repo  -  frameworks by shipped apps</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1104 340" role="img" aria-label="Technology stack 2026">
+  <rect width="1104" height="340" rx="28" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="1102" height="338" rx="27" fill="none" stroke="#D2D2D7" stroke-width="1"/>
+  <text x="40" y="44" fill="#1D1D1F" font-size="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="700">Stack · 2026</text>
+  <text x="40" y="70" fill="#6E6E73" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif">Libraries and runtimes from shipped repos — hiring pillars + product apps</text>
 
-  <text x="40" y="118" fill="#0071E3" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="700" letter-spacing="1.2">LANGUAGES</text>
-  <text x="40" y="142" fill="#1D1D1F" font-size="18" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="600">TypeScript  -  JavaScript  -  Python  -  Swift</text>
+  <text x="40" y="110" fill="#0071E3" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="700" letter-spacing="1.2">LANGUAGES</text>
+  <text x="40" y="134" fill="#1D1D1F" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="600">TypeScript  ·  Python  ·  JavaScript  ·  Swift</text>
 
-  <text x="40" y="178" fill="#0071E3" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="700" letter-spacing="1.2">PRODUCT</text>
-  <text x="40" y="202" fill="#1D1D1F" font-size="18" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="600">Next.js 15/16  -  React 19  -  FastAPI  -  Tailwind  -  Express</text>
+  <text x="40" y="170" fill="#0071E3" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="700" letter-spacing="1.2">PRODUCT  ·  RUNTIME</text>
+  <text x="40" y="194" fill="#1D1D1F" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="600">Next.js 15/16  ·  React 19  ·  Turbopack  ·  FastAPI  ·  Tailwind  ·  Express</text>
 
-  <text x="40" y="238" fill="#0071E3" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="700" letter-spacing="1.2">AI  -  DATA  -  CLOUD</text>
-  <text x="40" y="262" fill="#1D1D1F" font-size="18" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="600">MCP  -  OpenRouter  -  PyTorch  -  Supabase  -  MongoDB  -  Postgres  -  Docker  -  Vercel</text>
+  <text x="40" y="230" fill="#0071E3" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="700" letter-spacing="1.2">AI  ·  ML  ·  EVAL</text>
+  <text x="40" y="254" fill="#1D1D1F" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="600">PyTorch  ·  NumPy  ·  WebRTC VAD  ·  BM25  ·  scikit-learn  ·  MCP  ·  Sarvam SDK</text>
+
+  <text x="40" y="290" fill="#0071E3" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-weight="700" letter-spacing="1.2">DATA  ·  PLATFORM</text>
+  <text x="40" y="314" fill="#1D1D1F" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-weight="600">Postgres  ·  Supabase  ·  MongoDB  ·  Docker  ·  Vercel  ·  GitHub Actions  ·  Vitest</text>
 </svg>
