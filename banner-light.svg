@@ -1,77 +1,78 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1100 420" role="img" aria-label="Mangesh Raut — Applied AI profile card">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1100 410" role="img" aria-label="Mangesh Raut — Applied AI profile card">
   <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="100%" stop-color="#F5F5F7" />
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F5F5F7"/>
     </linearGradient>
-    <linearGradient id="mono" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1D1D1F" />
-      <stop offset="100%" stop-color="#6E6E73" />
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F2F2F7"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#0071E3" stop-opacity="0.10" />
-      <stop offset="100%" stop-color="#0071E3" stop-opacity="0" />
+    <linearGradient id="mono" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1D1D1F"/>
+      <stop offset="100%" stop-color="#6E6E73"/>
+    </linearGradient>
+    <radialGradient id="disc" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#0071E3" stop-opacity="0.14"/>
+      <stop offset="70%" stop-color="#0071E3" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#0071E3" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  
-  <rect width="1100" height="420" rx="28" fill="#FFFFFF" />
-  <rect x="1" y="1" width="1098" height="418" rx="27" fill="none" stroke="#D2D2D7" stroke-width="1" />
+  <!-- Outer shell -->
+  <rect width="1100" height="410" rx="28" fill="url(#shell)"/>
+  <rect x="1" y="1" width="1098" height="408" rx="27" fill="none" stroke="#D2D2D7" stroke-width="1"/>
 
-  
-  <rect x="16" y="16" width="320" height="388" rx="22" fill="url(#panel)" stroke="#D2D2D7" stroke-width="1" />
-  <rect x="16" y="16" width="320" height="388" rx="22" fill="url(#glow)" />
-  <circle cx="308" cy="40" r="4.5" fill="#0071E3" />
+  <!-- Left mark -->
+  <rect x="18" y="18" width="300" height="374" rx="22" fill="url(#panel)" stroke="#D2D2D7" stroke-width="1"/>
+  <circle cx="292" cy="42" r="4" fill="#0071E3"/>
+  <circle cx="168" cy="175" r="118" fill="url(#disc)"/>
+  <circle cx="168" cy="175" r="96" fill="none" stroke="#D2D2D7" stroke-width="1"/>
+  <circle cx="168" cy="175" r="72" fill="none" stroke="#C7C7CC" stroke-width="1" stroke-dasharray="1.5 5"/>
+  <circle cx="168" cy="175" r="50" fill="#FFFFFF" stroke="#0071E3" stroke-opacity="0.40" stroke-width="1.5"/>
+  <text x="168" y="188" text-anchor="middle" fill="url(#mono)" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-size="54" font-weight="700" letter-spacing="-1.5">MR</text>
+  <text x="168" y="292" text-anchor="middle" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="13" font-weight="600" letter-spacing="2.5">MANGESH RAUT</text>
+  <text x="168" y="318" text-anchor="middle" fill="#6E6E73" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="13">Applied AI · Pune</text>
 
-  
-  <circle cx="176" cy="168" r="108" fill="none" stroke="#D2D2D7" stroke-width="1" />
-  <circle cx="176" cy="168" r="78" fill="none" stroke="#C7C7CC" stroke-width="1" stroke-dasharray="2 6" />
-  <circle cx="176" cy="168" r="52" fill="none" stroke="#0071E3" stroke-opacity="0.35" stroke-width="1.5" />
+  <!-- Right column -->
+  <text x="350" y="48" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-size="24" font-weight="700">mangesh@raut</text>
+  <line x1="350" y1="62" x2="1072" y2="62" stroke="#D2D2D7" stroke-width="1"/>
 
-  
-  <text x="176" y="186" text-anchor="middle" fill="url(#mono)" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-size="72" font-weight="700" letter-spacing="-2">MR</text>
-  <text x="176" y="248" text-anchor="middle" fill="#6E6E73" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="3">MANGESH RAUT</text>
-  <text x="176" y="340" text-anchor="middle" fill="#6E6E73" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="13" font-weight="500">Applied AI · Pune</text>
+  <!-- IDENTITY -->
+  <text x="350" y="92" fill="#0071E3" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">IDENTITY</text>
+  <text x="470" y="118" text-anchor="end" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Role</text>
+  <text x="490" y="118" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="role_data_light">Applied AI Engineer</text>
+  <text x="470" y="142" text-anchor="end" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Host</text>
+  <text x="490" y="142" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="host_data_light">Pune, MH, India</text>
+  <text x="470" y="166" text-anchor="end" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Uptime</text>
+  <text x="490" y="166" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="uptime_data_light">4 years, 7 months, 27 days</text>
+  <text x="470" y="190" text-anchor="end" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Tools</text>
+  <text x="490" y="190" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600">Cursor · VS Code · macOS / Linux</text>
 
-  
-  <text x="372" y="52" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif" font-size="22" font-weight="700">mangesh@raut</text>
-  <line x1="372" y1="66" x2="1068" y2="66" stroke="#D2D2D7" stroke-width="1" />
+  <!-- FOCUS -->
+  <text x="350" y="228" fill="#0071E3" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">FOCUS</text>
+  <text x="470" y="254" text-anchor="end" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">AI</text>
+  <text x="490" y="254" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="focus_ai_data_light">Speech VAD · RAG eval · Agents · PyTorch</text>
+  <text x="470" y="278" text-anchor="end" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Stack</text>
+  <text x="490" y="278" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="focus_stack_data_light">Next.js 16 · React 19 · FastAPI · Python</text>
+  <text x="470" y="302" text-anchor="end" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Languages</text>
+  <text x="490" y="302" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="langs_data_light">TypeScript · Python · JavaScript · Swift</text>
 
-  
-  <text x="372" y="98" fill="#6E6E73" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="1.2">IDENTITY</text>
-  <text x="372" y="122" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Role</text>
-  <text x="500" y="122" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="role_data_light">Applied AI Engineer</text>
-  <text x="372" y="146" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Host</text>
-  <text x="500" y="146" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="host_data_light">Pune, MH, India</text>
-  <text x="372" y="170" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Uptime</text>
-  <text x="500" y="170" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="uptime_data_light">4 years, 7 months, 27 days</text>
-  <text x="372" y="194" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Tools</text>
-  <text x="500" y="194" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600">Cursor · VS Code · macOS / Linux</text>
-
-  
-  <text x="372" y="230" fill="#6E6E73" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="1.2">FOCUS</text>
-  <text x="372" y="254" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">AI</text>
-  <text x="500" y="254" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="focus_ai_data_light">Speech VAD · RAG eval · Agents · PyTorch</text>
-  <text x="372" y="278" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Stack</text>
-  <text x="500" y="278" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="focus_stack_data_light">Next.js 16 · React 19 · FastAPI · Python</text>
-  <text x="372" y="302" fill="#86868B" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">Languages</text>
-  <text x="500" y="302" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14" font-weight="600" id="langs_data_light">TypeScript · Python · JavaScript</text>
-
-  
-  <line x1="372" y1="320" x2="1068" y2="320" stroke="#D2D2D7" stroke-width="1" />
-  <text x="372" y="346" fill="#6E6E73" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="1.2">GITHUB</text>
-  <text x="372" y="370" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">
-    <tspan fill="#86868B">Public </tspan><tspan id="repos_data_light" font-weight="600">16</tspan>
-    <tspan fill="#86868B">  ·  Owned </tspan><tspan id="owned_data_light" font-weight="600">15</tspan>
-    <tspan fill="#86868B">  ·  ★ </tspan><tspan id="stars_data_light" font-weight="600">5</tspan>
-    <tspan fill="#86868B">  ·  Forks </tspan><tspan id="forks_data_light" font-weight="600">2</tspan>
-    <tspan fill="#86868B">  ·  Followers </tspan><tspan id="follower_data_light" font-weight="600">4</tspan>
+  <!-- GITHUB -->
+  <line x1="350" y1="324" x2="1072" y2="324" stroke="#D2D2D7" stroke-width="1"/>
+  <text x="350" y="350" fill="#0071E3" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">GITHUB</text>
+  <text x="350" y="376" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="13.5">
+    <tspan fill="#86868B">Public </tspan><tspan id="repos_data_light" font-weight="700">16</tspan>
+    <tspan fill="#C7C7CC">  ·  </tspan><tspan fill="#86868B">Owned </tspan><tspan id="owned_data_light" font-weight="700">15</tspan>
+    <tspan fill="#C7C7CC">  ·  </tspan><tspan fill="#86868B">★ </tspan><tspan id="stars_data_light" font-weight="700">5</tspan>
+    <tspan fill="#C7C7CC">  ·  </tspan><tspan fill="#86868B">Forks </tspan><tspan id="forks_data_light" font-weight="700">2</tspan>
+    <tspan fill="#C7C7CC">  ·  </tspan><tspan fill="#86868B">Followers </tspan><tspan id="follower_data_light" font-weight="700">4</tspan>
   </text>
-  <text x="372" y="390" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="14">
-    <tspan fill="#86868B">All-time </tspan><tspan id="lifetime_data_light" font-weight="600">4,046</tspan>
-    <tspan fill="#86868B">  ·  2026 YTD </tspan><tspan id="ytd_data_light" fill="#34C759" font-weight="700">1,932</tspan>
-    <tspan fill="#86868B">  ·  PRs </tspan><tspan id="prs_data_light" font-weight="600">24</tspan>
-    <tspan fill="#86868B">  ·  Commits </tspan><tspan id="commits_data_light" font-weight="600">1,669</tspan>
+  <text x="350" y="396" fill="#1D1D1F" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif" font-size="13.5">
+    <tspan fill="#86868B">All-time </tspan><tspan id="lifetime_data_light" font-weight="700">4,046</tspan>
+    <tspan fill="#C7C7CC">  ·  </tspan><tspan fill="#86868B">2026 YTD </tspan><tspan id="ytd_data_light" fill="#34C759" font-weight="700">1,932</tspan>
+    <tspan fill="#C7C7CC">  ·  </tspan><tspan fill="#86868B">PRs </tspan><tspan id="prs_data_light" font-weight="700">24</tspan>
+    <tspan fill="#C7C7CC">  ·  </tspan><tspan fill="#86868B">Commits </tspan><tspan id="commits_data_light" font-weight="700">1,669</tspan>
   </text>
 </svg>
