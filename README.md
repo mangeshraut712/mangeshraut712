@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=43" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=43" />
-    <img alt="Mangesh Raut — Applied AI Engineer" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=43" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=44" />
+    <img alt="Mangesh Raut — Applied AI Engineer" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=44" />
   </picture>
 </p>
 
@@ -42,20 +42,11 @@ Building **production AI systems** that combine:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=43" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=43" />
-    <img alt="Featured projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=43" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=44" />
+    <img alt="Featured projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=44" />
   </picture>
 </p>
-
-| Project | What it proves | Links |
-| --- | --- | --- |
-| **Realtime Speech AI** | WebRTC VAD FULL_PASS · F1 **0.9569** · BM25 RAG eval · CI | [Repo](https://github.com/mangeshraut712/ai-ml-portfolio) |
-| **HindAI** | Grounded Gemma RAG for Indic learning (Ollama) | [Repo](https://github.com/mangeshraut712/Hindai) |
-| **Gravity SaaS Agent** | Multi-tenant MCP agents · WhatsApp · billing | [Repo](https://github.com/mangeshraut712/Gravity-SaaS-Agent) |
-| **Agent Console** | Realtime WS tool traces · chaos survival | [Repo](https://github.com/mangeshraut712/agent-console) |
-| **Sarvam Cookbook** | India-first STT/TTS/chat + speech/RAG labs | [Repo](https://github.com/mangeshraut712/sarvam-ai-cookbook) |
-| **Stanford CS336** | BPE · transformers · scaling · GRPO | [Repo](https://github.com/mangeshraut712/Stanford-CS336) |
 
 ---
 
@@ -63,9 +54,9 @@ Building **production AI systems** that combine:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=43" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-light.svg?v=43" />
-    <img alt="Architecture" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=43" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-light.svg?v=44" />
+    <img alt="Architecture" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=44" />
   </picture>
 </p>
 
@@ -75,13 +66,11 @@ Building **production AI systems** that combine:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=43" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=43" />
-    <img alt="Verified engineering metrics" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=43" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=44" />
+    <img alt="Verified engineering metrics" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=44" />
   </picture>
 </p>
-
-> Numbers above are from CI-gated labs in [`ai-ml-portfolio`](https://github.com/mangeshraut712/ai-ml-portfolio) (`make verify-all`) — not marketing claims.
 
 ---
 
@@ -89,17 +78,11 @@ Building **production AI systems** that combine:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=43" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=43" />
-    <img alt="Currently building" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=43" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=44" />
+    <img alt="Currently building" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=44" />
   </picture>
 </p>
-
-- Realtime speech AI (VAD gates + latency)
-- MCP-native applications &amp; agent SaaS
-- AI evaluation pipelines (RAG / faithfulness)
-- Agentic developer tools
-- Open-source AI frameworks &amp; hiring proof pack
 
 ---
 
@@ -107,26 +90,11 @@ Building **production AI systems** that combine:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=43" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=43" />
-    <img alt="AI stack" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=43" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=44" />
+    <img alt="AI stack" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=44" />
   </picture>
 </p>
-
-**Depth areas:** agentic systems · MCP · RAG · realtime speech · tool calling · prompt engineering · evaluation · model routing · streaming · BM25 · WebRTC VAD
-
-**IDE / agents:** Cursor · Codex · VS Code · Claude
-
----
-
-### Case Studies
-
-| Case | Signal |
-| --- | --- |
-| **Speech VAD pipeline** | Denoiser → WebRTC GMM → hangover · clean F1 **0.9569** · p95 ~**19 ms** · FULL_PASS in CI |
-| **RAG / LLM eval lab** | TF-IDF + BM25 fusion · faithfulness / hallucination · cost matrix · offline-first |
-| **HindAI** | Local Gemma via Ollama · grounded Indic RAG product surface |
-| **Gravity / Agent Console** | Multi-tenant MCP SaaS + realtime observability for tool-calling agents |
 
 ---
 
@@ -136,34 +104,14 @@ Building **production AI systems** that combine:
 - Local-first whenever possible (offline eval, Ollama)
 - Reliability over novelty
 - AI should augment — not obscure — the system
-- Developer experience matters (`make verify-all`)
+- Developer experience matters
 - Simple systems scale better
-
----
-
-### 2026
-
-- Built WebRTC speech VAD with CI FULL_PASS
-- Shipped BM25 RAG / LLM evaluation lab
-- Production MCP agent SaaS (Gravity) + agent console
-- HindAI grounded RAG · Sarvam Indic cookbook
-- Stanford CS336 LM systems self-study
-- **4,000+** GitHub contributions · public hiring monorepo
-
----
-
-### Open Source
-
-Always accepting issues and PRs on:
-
-- [ai-ml-portfolio](https://github.com/mangeshraut712/ai-ml-portfolio) · [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · [agent-console](https://github.com/mangeshraut712/agent-console)
-- [Hindai](https://github.com/mangeshraut712/Hindai) · [sarvam-ai-cookbook](https://github.com/mangeshraut712/sarvam-ai-cookbook) · [Vitals.AI](https://github.com/mangeshraut712/Vitals.AI)
 
 ---
 
 ### Writing / Notes
 
-- [Portfolio writings](https://mangeshraut712.github.io/mangeshrautarchive/) · [RSS](https://mangeshraut712.github.io/mangeshrautarchive/rss.xml)
+- [Technical writings RSS](https://mangeshraut712.github.io/mangeshrautarchive/rss.xml)
 - [LLM eval data card](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md)
 - [Stanford CS336 labs](https://github.com/mangeshraut712/Stanford-CS336)
 
@@ -173,14 +121,10 @@ Always accepting issues and PRs on:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=43" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=43" />
-    <img alt="Contribution trajectory" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=43" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=44" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=44" />
+    <img alt="Contribution trajectory" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=44" />
   </picture>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/github-metrics.svg?v=43" alt="GitHub metrics" width="100%" />
 </p>
 
 <p align="center">
