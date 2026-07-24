@@ -18,13 +18,6 @@
   <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&labelColor=000000&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/mangeshraut712/ai-ml-portfolio/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/mangeshraut712/ai-ml-portfolio/ci.yml?style=flat-square&label=ai-ml-portfolio%20CI&labelColor=000000" alt="CI" /></a>
-  <img src="https://img.shields.io/github/repos/mangeshraut712?style=flat-square&label=public%20repos&labelColor=000000&color=0071E3" alt="Repos" />
-  <img src="https://img.shields.io/badge/last%20updated-Jul%202026-34C759?style=flat-square&labelColor=000000" alt="Updated" />
-  <a href="https://github.com/mangeshraut712/ai-ml-portfolio"><img src="https://img.shields.io/badge/verify-make%20verify--all-0071E3?style=flat-square&labelColor=000000" alt="Verify" /></a>
-</p>
-
 ### Sponsor / Donate
 
 <p align="center">
