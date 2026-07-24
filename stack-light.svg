@@ -14,6 +14,6 @@
   <text x="40" y="230" fill="#0071E3" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="700" letter-spacing="1.2">AGENTS · TOOLING</text>
   <text x="40" y="254" fill="#1D1D1F" font-size="16" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="600">MCP  ·  tool calling  ·  streaming  ·  WebSockets  ·  Ollama</text>
 
-  <text x="40" y="290" fill="#0071E3" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="700" letter-spacing="1.2">PRODUCT · PLATFORM</text>
-  <text x="40" y="314" fill="#1D1D1F" font-size="16" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="600">Next.js 15/16  ·  React 19  ·  FastAPI  ·  Turbopack  ·  Docker  ·  Vercel  ·  GitHub Actions</text>
+  <text x="40" y="290" fill="#0071E3" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="700" letter-spacing="1.2">IDE · AGENTS · PLATFORM</text>
+  <text x="40" y="314" fill="#1D1D1F" font-size="16" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="600">Cursor  ·  Codex  ·  VS Code  ·  Claude  ·  Next.js  ·  FastAPI  ·  Docker  ·  Vercel</text>
 </svg>
