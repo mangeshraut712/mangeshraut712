@@ -51,7 +51,7 @@
     <tspan x="404" y="66" fill="#D2D2D7">────────────────────────────────────</tspan>
 
     <tspan x="404" y="92" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">OS</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F">macOS · Linux</tspan>
-    <tspan x="404" y="112" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Uptime</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="uptime_data_light">4 years, 7 months, 29 days</tspan>
+    <tspan x="404" y="112" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Uptime</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="uptime_data_light">4 years, 8 months, 0 days</tspan>
     <tspan x="404" y="132" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Host</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="host_data_light">Pune, MH, India</tspan>
     <tspan x="404" y="152" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Kernel</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="role_data_light">Applied AI Engineer</tspan>
     <tspan x="404" y="172" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">IDE</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F">Cursor · Codex · VS Code · Claude</tspan>
