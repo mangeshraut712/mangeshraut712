@@ -51,7 +51,7 @@
     <tspan x="404" y="66" fill="#3A3A3C">────────────────────────────────────</tspan>
 
     <tspan x="404" y="92" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">OS</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">macOS · Linux</tspan>
-    <tspan x="404" y="112" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Uptime</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="uptime_data">4 years, 8 months, 0 days</tspan>
+    <tspan x="404" y="112" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Uptime</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="uptime_data">4 years, 8 months, 1 days</tspan>
     <tspan x="404" y="132" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Host</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="host_data">Pune, MH, India</tspan>
     <tspan x="404" y="152" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Kernel</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="role_data">Applied AI Engineer</tspan>
     <tspan x="404" y="172" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">IDE</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7">Cursor · Codex · VS Code · Claude</tspan>
@@ -66,8 +66,8 @@
 
     <tspan x="404" y="330" fill="#3A3A3C">────────────────────────────────────</tspan>
 
-    <tspan x="404" y="356" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">32</tspan><tspan fill="#8E8E93"> · Owned </tspan><tspan fill="#F5F5F7" id="owned_data">31</tspan><tspan fill="#8E8E93"> · Stars </tspan><tspan fill="#F5F5F7" id="stars_data">5</tspan><tspan fill="#8E8E93"> · Forks </tspan><tspan fill="#F5F5F7" id="forks_data">2</tspan>
-    <tspan x="404" y="376" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contrib</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,083</tspan><tspan fill="#8E8E93"> all-time · </tspan><tspan fill="#2997FF" font-weight="700">2026</tspan><tspan fill="#8E8E93"> </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">1,969</tspan><tspan fill="#8E8E93"> · PRs </tspan><tspan fill="#F5F5F7" id="prs_data">42</tspan><tspan fill="#8E8E93"> · Commits </tspan><tspan fill="#F5F5F7" id="commits_data">1,914</tspan>
+    <tspan x="404" y="356" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">33</tspan><tspan fill="#8E8E93"> · Owned </tspan><tspan fill="#F5F5F7" id="owned_data">32</tspan><tspan fill="#8E8E93"> · Stars </tspan><tspan fill="#F5F5F7" id="stars_data">5</tspan><tspan fill="#8E8E93"> · Forks </tspan><tspan fill="#F5F5F7" id="forks_data">2</tspan>
+    <tspan x="404" y="376" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contrib</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,097</tspan><tspan fill="#8E8E93"> all-time · </tspan><tspan fill="#2997FF" font-weight="700">2026</tspan><tspan fill="#8E8E93"> </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">1,983</tspan><tspan fill="#8E8E93"> · PRs </tspan><tspan fill="#F5F5F7" id="prs_data">44</tspan><tspan fill="#8E8E93"> · Commits </tspan><tspan fill="#F5F5F7" id="commits_data">1,925</tspan>
     <tspan x="404" y="396" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Followers</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="follower_data">4</tspan><tspan fill="#8E8E93"> · Status: </tspan><tspan fill="#30D158" font-weight="700">Open to work</tspan>
   </text>
 
