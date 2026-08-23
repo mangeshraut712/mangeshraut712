@@ -18,17 +18,20 @@
   <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&labelColor=000000&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
-### Sponsor / Donate
-
-<p align="center">
-  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Sponsor-Stripe-635BFF?style=for-the-badge&labelColor=000000&logo=stripe&logoColor=white" alt="Stripe" /></a>
-  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/Donate-PayPal-0071E3?style=for-the-badge&labelColor=000000&logo=paypal&logoColor=white" alt="PayPal" /></a>
-  <a href="https://www.buymeacoffee.com/xzvwsqf84xy"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&labelColor=000000&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee" /></a>
-</p>
-
 ### Mission
 
 Building **production AI systems** that combine agentic workflows, realtime speech AI, retrieval &amp; evaluation gates, full-stack product engineering, and developer tooling.
+
+---
+
+### Open-Source Contributions
+
+| Project | Contribution | Status |
+| --- | --- | --- |
+| [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/2416) | Added a built-in model catalog fallback when `models.dev` is unavailable | **Merged** · build, lint, typecheck, tests, and Nix checks passed |
+| [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | Hardened CI detection of unquoted TypeScript/JavaScript model keys | **Merged** |
+| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1178) | Added schema support for exact-domain-only password rules | **Merged** |
+| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1179) | Added shared-credential mappings for Bluesky domains | **Merged** |
 
 ---
 
@@ -51,7 +54,7 @@ Building **production AI systems** that combine agentic workflows, realtime spee
   ·
   <a href="https://github.com/mangeshraut712/agent-console">agent-console</a>
   ·
-  <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook">sarvam-ai-cookbook</a>
+  <a href="https://github.com/mangeshraut712/forge-api-platform">forge-api-platform</a>
   ·
   <a href="https://github.com/mangeshraut712/Stanford-CS336">Stanford-CS336</a>
 </p>
@@ -168,4 +171,14 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
 
 <p align="center">
   <a href="https://github.com/mangeshraut712"><img src="https://github-readme-streak-stats-one.vercel.app/?user=mangeshraut712&theme=dark&hide_border=true&background=000000&ring=0071E3&fire=2997FF&currStreakNum=F5F5F7&sideNums=F5F5F7&currStreakLabel=A1A1A6&sideLabels=A1A1A6&dates=6E6E73" alt="GitHub streak" /></a>
+</p>
+
+---
+
+### Sponsor / Donate
+
+<p align="center">
+  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Sponsor-Stripe-635BFF?style=for-the-badge&labelColor=000000&logo=stripe&logoColor=white" alt="Stripe" /></a>
+  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/Donate-PayPal-0071E3?style=for-the-badge&labelColor=000000&logo=paypal&logoColor=white" alt="PayPal" /></a>
+  <a href="https://www.buymeacoffee.com/xzvwsqf84xy"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&labelColor=000000&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee" /></a>
 </p>
