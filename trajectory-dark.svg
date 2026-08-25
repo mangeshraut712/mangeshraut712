@@ -28,7 +28,7 @@
     <text x="770" y="180" text-anchor="middle" fill="#F5F5F7" font-size="13" font-weight="600">2025</text>
 
     <rect x="880" y="96" width="100" height="64" rx="8" fill="#0071E3" />
-    <text x="930" y="88" text-anchor="middle" fill="#30D158" font-size="13" font-weight="700" id="y2026_count">2,278</text>
+    <text x="930" y="88" text-anchor="middle" fill="#30D158" font-size="13" font-weight="700" id="y2026_count">2,296</text>
     <text x="930" y="180" text-anchor="middle" fill="#F5F5F7" font-size="13" font-weight="600">2026</text>
   </g>
 </svg>
