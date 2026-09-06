@@ -1,18 +1,18 @@
-<!-- Apple-inspired engineering portfolio · black / white / #0071E3 · Jul 2026 -->
+<!-- Apple-inspired engineering portfolio · black / white / #0071E3 · Sep 2026 -->
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=20260906b" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=20260906b" />
-    <img alt="Mangesh Raut — Applied AI Engineer" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=20260906b" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=20260906c" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=20260906c" />
+    <img alt="Mangesh Raut — Applied AI Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=20260906c" />
   </picture>
 </p>
 
-<!-- profile-views:hit — Camo loads this so komarev counts; number is painted in the banner SVG -->
-<img src="https://komarev.com/ghpvc/?username=mangeshraut712&style=flat&color=0071E3" width="1" height="1" alt="" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mangeshraut712&label=Profile%20views&color=0071E3&style=for-the-badge" alt="Profile views" />
+</p>
 
-### Recruiter?
-
+<p align="center"><sub>Contact</sub></p>
 <p align="center">
   <a href="https://mangeshraut712.github.io/mangeshrautarchive/"><img src="https://img.shields.io/badge/Portfolio-GitHub%20Pages-0071E3?style=for-the-badge&labelColor=000000&logo=githubpages&logoColor=white" alt="Portfolio — GitHub Pages" /></a>
   <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-mangeshraut71298-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -22,12 +22,11 @@
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-%40mrcommando712-000000?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X @mrcommando712" /></a>
 </p>
 
-### Sponsor / Donate
-
+<p align="center"><sub>Sponsor / Donate</sub></p>
 <p align="center">
   <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Sponsor-Stripe-635BFF?style=for-the-badge&labelColor=000000&logo=stripe&logoColor=white" alt="Stripe" /></a>
   <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/Donate-PayPal-0071E3?style=for-the-badge&labelColor=000000&logo=paypal&logoColor=white" alt="PayPal" /></a>
-  <a href="https://www.buymeacoffee.com/xzvwsqf84xy"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&labelColor=000000&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee" /></a>
+  <a href="https://www.buymeacoffee.com/mangeshraut"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&labelColor=000000&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee" /></a>
 </p>
 
 ### Mission
@@ -40,10 +39,10 @@ Building **production AI systems** that combine agentic workflows, realtime spee
 
 | Project | Contribution | Status |
 | --- | --- | --- |
-| [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/2416) | Added a built-in model catalog fallback when `models.dev` is unavailable | **Merged** · build, lint, typecheck, tests, and Nix checks passed |
-| [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | Hardened CI detection of unquoted TypeScript/JavaScript model keys | **Merged** |
-| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1178) | Added schema support for exact-domain-only password rules | **Merged** |
-| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1179) | Added shared-credential mappings for Bluesky domains | **Merged** |
+| [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/2416) | Built-in model catalog fallback when `models.dev` is unavailable | **Merged** |
+| [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | Hardened CI detection of unquoted TS/JS model keys | **Merged** |
+| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1178) | Schema support for exact-domain-only password rules | **Merged** |
+| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1179) | Shared-credential mappings for Bluesky domains | **Merged** |
 
 ---
 
@@ -51,13 +50,15 @@ Building **production AI systems** that combine agentic workflows, realtime spee
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20260906b" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=20260906b" />
-    <img alt="Featured projects" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20260906b" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20260906c" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=20260906c" />
+    <img alt="Featured projects" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20260906c" />
   </picture>
 </p>
 
 <p align="center">
+  <a href="https://github.com/mangeshraut712/Vitals.AI">Vitals.AI</a>
+  ·
   <a href="https://github.com/mangeshraut712/ai-ml-portfolio">ai-ml-portfolio</a>
   ·
   <a href="https://github.com/mangeshraut712/Hindai">Hindai</a>
@@ -66,9 +67,7 @@ Building **production AI systems** that combine agentic workflows, realtime spee
   ·
   <a href="https://github.com/mangeshraut712/agent-console">agent-console</a>
   ·
-  <a href="https://github.com/mangeshraut712/forge-api-platform">forge-api-platform</a>
-  ·
-  <a href="https://github.com/mangeshraut712/Stanford-CS336">Stanford-CS336</a>
+  <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook">sarvam-ai-cookbook</a>
 </p>
 
 ---
@@ -77,9 +76,9 @@ Building **production AI systems** that combine agentic workflows, realtime spee
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=20260906b" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-light.svg?v=20260906b" />
-    <img alt="Architecture" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=20260906b" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=20260906c" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-light.svg?v=20260906c" />
+    <img alt="Architecture" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/architecture-dark.svg?v=20260906c" />
   </picture>
 </p>
 
@@ -89,9 +88,9 @@ Building **production AI systems** that combine agentic workflows, realtime spee
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=20260906b" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=20260906b" />
-    <img alt="Verified engineering metrics" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=20260906b" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=20260906c" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=20260906c" />
+    <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=20260906c" />
   </picture>
 </p>
 
@@ -100,7 +99,7 @@ Building **production AI systems** that combine agentic workflows, realtime spee
 | VAD clean F1 **0.9569** · p95 ~**19 ms** | [ai-ml-portfolio README](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/README.md) |
 | CI green · Python **3.10–3.12** | [CI workflow](https://github.com/mangeshraut712/ai-ml-portfolio/actions/workflows/ci.yml) |
 | `make verify-all` | [Makefile](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/Makefile) |
-| **4,000+** contributions | [GitHub overview](https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31) · [snapshot](https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json) |
+| **4,600+** contributions | [GitHub overview](https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31) · [snapshot](https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json) |
 
 ---
 
@@ -108,9 +107,9 @@ Building **production AI systems** that combine agentic workflows, realtime spee
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=20260906b" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=20260906b" />
-    <img alt="Currently building" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=20260906b" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=20260906c" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=20260906c" />
+    <img alt="Currently building" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=20260906c" />
   </picture>
 </p>
 
@@ -120,9 +119,9 @@ Building **production AI systems** that combine agentic workflows, realtime spee
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=20260906b" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=20260906b" />
-    <img alt="AI stack" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=20260906b" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=20260906c" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=20260906c" />
+    <img alt="AI stack" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=20260906c" />
   </picture>
 </p>
 
@@ -161,9 +160,9 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20260906b" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=20260906b" />
-    <img alt="Contribution trajectory" width="100%" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20260906b" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20260906c" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=20260906c" />
+    <img alt="Contribution trajectory" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20260906c" />
   </picture>
 </p>
 
@@ -177,11 +176,10 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake.svg" />
-    <img alt="Contribution snake" width="100%" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake-dark.svg" />
+    <img alt="Contribution snake" width="820" src="https://cdn.jsdelivr.net/gh/mangeshraut712/mangeshraut712@output/github-contribution-snake-dark.svg" />
   </picture>
 </p>
 
 <p align="center">
   <a href="https://github.com/mangeshraut712"><img src="https://github-readme-streak-stats-one.vercel.app/?user=mangeshraut712&theme=dark&hide_border=true&background=000000&ring=0071E3&fire=2997FF&currStreakNum=F5F5F7&sideNums=F5F5F7&currStreakLabel=A1A1A6&sideLabels=A1A1A6&dates=6E6E73" alt="GitHub streak" /></a>
 </p>
-
