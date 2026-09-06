@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1100 560" role="img" aria-label="Mangesh Raut — Applied AI Engineer neofetch card">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1100 500" role="img" aria-label="Mangesh Raut — Applied AI Engineer neofetch card">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#FFFFFF" />
@@ -11,80 +11,80 @@
     </linearGradient>
   </defs>
 
-  <rect width="1100" height="560" rx="24" fill="url(#bg)" />
-  <rect x="1" y="1" width="1098" height="558" rx="23" fill="none" stroke="#D2D2D7" stroke-width="1" />
+  <rect width="1100" height="500" rx="24" fill="url(#bg)" />
+  <rect x="1" y="1" width="1098" height="498" rx="23" fill="none" stroke="#D2D2D7" stroke-width="1" />
 
-  <rect x="16" y="16" width="360" height="528" rx="18" fill="url(#panel)" stroke="#D2D2D7" stroke-width="1" />
+  <rect x="16" y="16" width="360" height="468" rx="18" fill="url(#panel)" stroke="#D2D2D7" stroke-width="1" />
   <circle cx="40" cy="40" r="5" fill="#FF3B30" />
   <circle cx="58" cy="40" r="5" fill="#FFCC00" />
   <circle cx="76" cy="40" r="5" fill="#34C759" />
 
   <text xml:space="preserve" fill="#1D1D1F" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="0.4">
-    <tspan x="36" y="72" fill="#AEAEB2">.............. .`:=++++*+=^:'.  ............</tspan>
-    <tspan x="36" y="86">............ .=#@@@@@@@@@%##*#*^............</tspan>
-    <tspan x="36" y="100">........... :#@@@%%%%%%%%%@@@%@%^...........</tspan>
-    <tspan x="36" y="114">......... .+@@%%@@@@@@@%%%%%%@%%#'..........</tspan>
-    <tspan x="36" y="128">......... *@%%@@@@@%%%%%%%@@@%%%#. .........</tspan>
-    <tspan x="36" y="142">........ ^@%@@%%%@@@@@@@@@@%%@%%%#^ ........</tspan>
-    <tspan x="36" y="156">........ +%%@@@@@@%%%%%%%%%@@@@@@@%' .......</tspan>
-    <tspan x="36" y="170" fill="#6E6E73">........ +@%%@%#*+===^^==++#%@@%%%%` .......</tspan>
-    <tspan x="36" y="184" fill="#6E6E73">........ =@%@%+^^:::::::^^^=+*%@%@%' .......</tspan>
-    <tspan x="36" y="198" fill="#6E6E73">........ +@%%+==^:````'''`:^^=+%%@#.........</tspan>
-    <tspan x="36" y="212">........ '%@+=**##%*+^:^*%###*=+@@^ ........</tspan>
-    <tspan x="36" y="226">..........#%:^+*##*#*^^+###%##=^%%: ........</tspan>
-    <tspan x="36" y="240" fill="#6E6E73">..........=*:::::::^=::+=:^^^^^:+*+.........</tspan>
-    <tspan x="36" y="254" fill="#6E6E73">......... ^+::`''`^^:':==:''`:^^+*:.........</tspan>
-    <tspan x="36" y="268" fill="#6E6E73">......... `+^^```^=+*^+*=^:``:^^**. ........</tspan>
-    <tspan x="36" y="282">......... `*==^^*##%%##%#*+^^^==#=..........</tspan>
-    <tspan x="36" y="296">...........=++=+%%%*+++*#%@*^=+*+'..........</tspan>
-    <tspan x="36" y="310">.......... '**+=^^=+++++++===**#: ..........</tspan>
-    <tspan x="36" y="324">............*%*=^^^^+##+^^^^+#%#............</tspan>
-    <tspan x="36" y="338">........... '#%*+=^^::::^^=*#%@+ ...........</tspan>
-    <tspan x="36" y="352">............ =@@%%##***###%@@@%%*. .........</tspan>
-    <tspan x="36" y="366">........... +@%%@@@@@@@@@@@@@@@@@#' ........</tspan>
-    <tspan x="36" y="380">.......    ^@%@%%%@@@@@@@@%%%%@@%@#`     ...</tspan>
-    <tspan x="36" y="394" fill="#AEAEB2">.......':=+%%%@%%##%%%%%%####%@@@%@%*+^`'...</tspan>
+    <tspan x="36" y="65" fill="#AEAEB2">.............. .`:=++++*+=^:'.  ............</tspan>
+    <tspan x="36" y="78">............ .=#@@@@@@@@@%##*#*^............</tspan>
+    <tspan x="36" y="90">........... :#@@@%%%%%%%%%@@@%@%^...........</tspan>
+    <tspan x="36" y="102">......... .+@@%%@@@@@@@%%%%%%@%%#'..........</tspan>
+    <tspan x="36" y="114">......... *@%%@@@@@%%%%%%%@@@%%%#. .........</tspan>
+    <tspan x="36" y="127">........ ^@%@@%%%@@@@@@@@@@%%@%%%#^ ........</tspan>
+    <tspan x="36" y="139">........ +%%@@@@@@%%%%%%%%%@@@@@@@%' .......</tspan>
+    <tspan x="36" y="151" fill="#6E6E73">........ +@%%@%#*+===^^==++#%@@%%%%` .......</tspan>
+    <tspan x="36" y="163" fill="#6E6E73">........ =@%@%+^^:::::::^^^=+*%@%@%' .......</tspan>
+    <tspan x="36" y="176" fill="#6E6E73">........ +@%%+==^:````'''`:^^=+%%@#.........</tspan>
+    <tspan x="36" y="188">........ '%@+=**##%*+^:^*%###*=+@@^ ........</tspan>
+    <tspan x="36" y="200">..........#%:^+*##*#*^^+###%##=^%%: ........</tspan>
+    <tspan x="36" y="212" fill="#6E6E73">..........=*:::::::^=::+=:^^^^^:+*+.........</tspan>
+    <tspan x="36" y="225" fill="#6E6E73">......... ^+::`''`^^:':==:''`:^^+*:.........</tspan>
+    <tspan x="36" y="237" fill="#6E6E73">......... `+^^```^=+*^+*=^:``:^^**. ........</tspan>
+    <tspan x="36" y="249">......... `*==^^*##%%##%#*+^^^==#=..........</tspan>
+    <tspan x="36" y="262">...........=++=+%%%*+++*#%@*^=+*+'..........</tspan>
+    <tspan x="36" y="274">.......... '**+=^^=+++++++===**#: ..........</tspan>
+    <tspan x="36" y="286">............*%*=^^^^+##+^^^^+#%#............</tspan>
+    <tspan x="36" y="298">........... '#%*+=^^::::^^=*#%@+ ...........</tspan>
+    <tspan x="36" y="311">............ =@@%%##***###%@@@%%*. .........</tspan>
+    <tspan x="36" y="323">........... +@%%@@@@@@@@@@@@@@@@@#' ........</tspan>
+    <tspan x="36" y="335">.......    ^@%@%%%@@@@@@@@%%%%@@%@#`     ...</tspan>
+    <tspan x="36" y="347" fill="#AEAEB2">.......':=+%%%@%%##%%%%%%####%@@@%@%*+^`'...</tspan>
   </text>
 
   <text xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">
     <tspan x="404" y="48" fill="#1D1D1F" font-weight="700" font-size="16">mangesh</tspan><tspan fill="#0071E3" font-weight="700" font-size="16">@raut</tspan>
     <tspan x="404" y="66" fill="#D2D2D7">────────────────────────────────────</tspan>
 
-    <tspan x="404" y="92" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">OS</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F">macOS · Linux</tspan>
-    <tspan x="404" y="112" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Uptime</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="uptime_data_light">4 years, 9 months, 10 days</tspan>
-    <tspan x="404" y="132" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Host</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="host_data_light">Pune, MH, India</tspan>
-    <tspan x="404" y="152" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Kernel</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="role_data_light">Applied AI Engineer</tspan>
-    <tspan x="404" y="172" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">IDE</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F">Cursor · Codex · VS Code · Claude</tspan>
-    <tspan x="404" y="192" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Shell</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F">zsh · make · pytest · CI</tspan>
+    <tspan x="404" y="83" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">OS</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F">macOS · Linux</tspan>
+    <tspan x="404" y="100" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Uptime</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="uptime_data_light">4 years, 9 months, 10 days</tspan>
+    <tspan x="404" y="118" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Host</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="host_data_light">Pune, MH, India</tspan>
+    <tspan x="404" y="135" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Kernel</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="role_data_light">Applied AI Engineer</tspan>
+    <tspan x="404" y="153" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">IDE</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F">Cursor · Codex · VS Code · Claude</tspan>
+    <tspan x="404" y="170" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Shell</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F">zsh · make · pytest · CI</tspan>
 
-    <tspan x="404" y="218" fill="#D2D2D7">────────────────────────────────────</tspan>
+    <tspan x="404" y="193" fill="#D2D2D7">────────────────────────────────────</tspan>
 
-    <tspan x="404" y="244" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Languages</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="langs_data_light">TypeScript · JavaScript · Python · Swift</tspan>
-    <tspan x="404" y="264" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Focus.AI</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="focus_ai_data_light">WebRTC VAD · RAG/BM25 · MCP · PyTorch</tspan>
-    <tspan x="404" y="284" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Focus.Stack</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="focus_stack_data_light">Next.js 16 · React 19 · FastAPI · Turbopack</tspan>
-    <tspan x="404" y="304" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Proof</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F">VAD F1 0.9569 · make verify-all</tspan>
+    <tspan x="404" y="216" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Languages</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="langs_data_light">TypeScript · JavaScript · Python · Swift</tspan>
+    <tspan x="404" y="233" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Focus.AI</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="focus_ai_data_light">WebRTC VAD · RAG/BM25 · MCP · PyTorch</tspan>
+    <tspan x="404" y="251" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Focus.Stack</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="focus_stack_data_light">Next.js 15 · React 19 · FastAPI · Turbopack</tspan>
+    <tspan x="404" y="269" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Proof</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F">VAD F1 0.9569 · make verify-all</tspan>
 
-    <tspan x="404" y="330" fill="#D2D2D7">────────────────────────────────────</tspan>
+    <tspan x="404" y="291" fill="#D2D2D7">────────────────────────────────────</tspan>
 
-    <tspan x="404" y="356" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Repos</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="repos_data_light">51</tspan><tspan fill="#AEAEB2"> · Owned </tspan><tspan fill="#1D1D1F" id="owned_data_light">37</tspan><tspan fill="#AEAEB2"> · Stars </tspan><tspan fill="#1D1D1F" id="stars_data_light">8</tspan><tspan fill="#AEAEB2"> · Forks </tspan><tspan fill="#1D1D1F" id="forks_data_light">4</tspan>
-    <tspan x="404" y="376" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Contrib</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="lifetime_data_light">4,689</tspan><tspan fill="#AEAEB2"> all-time · </tspan><tspan fill="#0071E3" font-weight="700">2026</tspan><tspan fill="#AEAEB2"> </tspan><tspan fill="#34C759" id="ytd_data_light" font-weight="700">2,575</tspan><tspan fill="#AEAEB2"> · PRs </tspan><tspan fill="#1D1D1F" id="prs_data_light">198</tspan><tspan fill="#AEAEB2"> · Commits </tspan><tspan fill="#1D1D1F" id="commits_data_light">2,344</tspan>
-    <tspan x="404" y="396" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Followers</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="follower_data_light">8</tspan><tspan fill="#AEAEB2"> · </tspan><tspan fill="#0071E3" font-weight="700">Views</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="views_data_light">10</tspan><tspan fill="#AEAEB2"> · Status: </tspan><tspan fill="#34C759" font-weight="700">Open to work</tspan>
+    <tspan x="404" y="314" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Repos</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="repos_data_light">51</tspan><tspan fill="#AEAEB2"> · Owned </tspan><tspan fill="#1D1D1F" id="owned_data_light">37</tspan><tspan fill="#AEAEB2"> · Stars </tspan><tspan fill="#1D1D1F" id="stars_data_light">8</tspan><tspan fill="#AEAEB2"> · Forks </tspan><tspan fill="#1D1D1F" id="forks_data_light">4</tspan>
+    <tspan x="404" y="332" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Contrib</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="lifetime_data_light">4,689</tspan><tspan fill="#AEAEB2"> all-time · </tspan><tspan fill="#0071E3" font-weight="700">2026</tspan><tspan fill="#AEAEB2"> </tspan><tspan fill="#34C759" id="ytd_data_light" font-weight="700">2,575</tspan><tspan fill="#AEAEB2"> · PRs </tspan><tspan fill="#1D1D1F" id="prs_data_light">198</tspan><tspan fill="#AEAEB2"> · Commits </tspan><tspan fill="#1D1D1F" id="commits_data_light">2,344</tspan>
+    <tspan x="404" y="349" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Followers</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="follower_data_light">8</tspan><tspan fill="#AEAEB2"> · </tspan><tspan fill="#0071E3" font-weight="700">Views</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="views_data_light">11</tspan><tspan fill="#AEAEB2"> · Status: </tspan><tspan fill="#34C759" font-weight="700">Open to work</tspan>
 
-    <tspan x="404" y="422" fill="#D2D2D7">────────────────────────────────────</tspan>
+    <tspan x="404" y="372" fill="#D2D2D7">────────────────────────────────────</tspan>
 
-    <tspan x="404" y="442" fill="#0071E3" font-weight="700">WhoBurnedMore</tspan>
-    <tspan x="404" y="462" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Rank</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="burn_rank_data_light">#53 of 296 (top 18%)</tspan>
-    <tspan x="404" y="482" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Lifetime</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="burn_lifetime_data_light">13.51B tokens · $13,477 · 197 active days · 9d streak</tspan>
-    <tspan x="404" y="502" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Today</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="burn_today_data_light">486.2M · $386</tspan>
-    <tspan x="404" y="522" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">This week</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="burn_week_data_light">1.38B · $972</tspan>
+    <tspan x="404" y="389" fill="#0071E3" font-weight="700">WhoBurnedMore</tspan>
+    <tspan x="404" y="407" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Rank</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="burn_rank_data_light">#53 of 296 (top 18%)</tspan>
+    <tspan x="404" y="424" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Lifetime</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="burn_lifetime_data_light">13.51B tokens · $13,477 · 197 active days · 9d streak</tspan>
+    <tspan x="404" y="442" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">Today</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="burn_today_data_light">486.2M · $386</tspan>
+    <tspan x="404" y="460" fill="#AEAEB2">· </tspan><tspan fill="#0071E3" font-weight="700">This week</tspan><tspan fill="#AEAEB2">: </tspan><tspan fill="#1D1D1F" id="burn_week_data_light">1.38B · $972</tspan>
   </text>
 
-  <rect x="404" y="536" width="18" height="10" rx="2" fill="#1D1D1F" />
-  <rect x="426" y="536" width="18" height="10" rx="2" fill="#FF3B30" />
-  <rect x="448" y="536" width="18" height="10" rx="2" fill="#34C759" />
-  <rect x="470" y="536" width="18" height="10" rx="2" fill="#FFCC00" />
-  <rect x="492" y="536" width="18" height="10" rx="2" fill="#0071E3" />
-  <rect x="514" y="536" width="18" height="10" rx="2" fill="#AF52DE" />
-  <rect x="536" y="536" width="18" height="10" rx="2" fill="#5AC8FA" />
-  <rect x="558" y="536" width="18" height="10" rx="2" fill="#F5F5F7" stroke="#D2D2D7" />
+  <rect x="404" y="476" width="18" height="10" rx="2" fill="#1D1D1F" />
+  <rect x="426" y="476" width="18" height="10" rx="2" fill="#FF3B30" />
+  <rect x="448" y="476" width="18" height="10" rx="2" fill="#34C759" />
+  <rect x="470" y="476" width="18" height="10" rx="2" fill="#FFCC00" />
+  <rect x="492" y="476" width="18" height="10" rx="2" fill="#0071E3" />
+  <rect x="514" y="476" width="18" height="10" rx="2" fill="#AF52DE" />
+  <rect x="536" y="476" width="18" height="10" rx="2" fill="#5AC8FA" />
+  <rect x="558" y="476" width="18" height="10" rx="2" fill="#F5F5F7" stroke="#D2D2D7" />
 </svg>
