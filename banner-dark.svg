@@ -15,9 +15,9 @@
   <rect x="1" y="1" width="1098" height="558" rx="23" fill="none" stroke="#2C2C2E" stroke-width="1" />
 
   <rect x="16" y="16" width="360" height="528" rx="18" fill="url(#panel)" stroke="#2C2C2E" stroke-width="1" />
-  <circle cx="348" cy="40" r="5" fill="#30D158" />
-  <circle cx="330" cy="40" r="5" fill="#FFD60A" />
-  <circle cx="312" cy="40" r="5" fill="#FF453A" />
+  <circle cx="40" cy="40" r="5" fill="#FF453A" />
+  <circle cx="58" cy="40" r="5" fill="#FFD60A" />
+  <circle cx="76" cy="40" r="5" fill="#30D158" />
 
   <text xml:space="preserve" fill="#F5F5F7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="0.4">
     <tspan x="36" y="72" fill="#636366">.............. .`:=++++*+=^:'.  ............</tspan>
@@ -68,7 +68,7 @@
 
     <tspan x="404" y="356" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">51</tspan><tspan fill="#8E8E93"> · Owned </tspan><tspan fill="#F5F5F7" id="owned_data">37</tspan><tspan fill="#8E8E93"> · Stars </tspan><tspan fill="#F5F5F7" id="stars_data">8</tspan><tspan fill="#8E8E93"> · Forks </tspan><tspan fill="#F5F5F7" id="forks_data">4</tspan>
     <tspan x="404" y="376" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contrib</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,683</tspan><tspan fill="#8E8E93"> all-time · </tspan><tspan fill="#2997FF" font-weight="700">2026</tspan><tspan fill="#8E8E93"> </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">2,569</tspan><tspan fill="#8E8E93"> · PRs </tspan><tspan fill="#F5F5F7" id="prs_data">198</tspan><tspan fill="#8E8E93"> · Commits </tspan><tspan fill="#F5F5F7" id="commits_data">2,338</tspan>
-    <tspan x="404" y="396" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Followers</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="follower_data">8</tspan><tspan fill="#8E8E93"> · Status: </tspan><tspan fill="#30D158" font-weight="700">Open to work</tspan>
+    <tspan x="404" y="396" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Followers</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="follower_data">8</tspan><tspan fill="#8E8E93"> · </tspan><tspan fill="#2997FF" font-weight="700">Views</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="views_data">10</tspan><tspan fill="#8E8E93"> · Status: </tspan><tspan fill="#30D158" font-weight="700">Open to work</tspan>
 
     <tspan x="404" y="422" fill="#3A3A3C">────────────────────────────────────</tspan>
 
