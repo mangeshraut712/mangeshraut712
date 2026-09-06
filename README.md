@@ -2,33 +2,29 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026090617" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=2026090617" />
-    <img alt="Mangesh Raut — Applied AI Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026090617" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=20260906g" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=20260906g" />
+    <img alt="Mangesh Raut — Applied AI Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=20260906g" />
   </picture>
   <br/>
   <img src="https://komarev.com/ghpvc/?username=mangeshraut712&label=Profile%20views&color=0071E3&style=for-the-badge" alt="Profile views" />
 </p>
 
 <p align="center">
-  <a href="https://mangeshraut712.github.io/mangeshrautarchive/"><img src="https://img.shields.io/badge/Portfolio-GitHub%20Pages-0071E3?style=for-the-badge&labelColor=000000&logo=githubpages&logoColor=white" alt="Portfolio — GitHub Pages" /></a>
-  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-mangeshraut71298-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:mbr63drexel@gmail.com"><img src="https://img.shields.io/badge/Email-mbr63drexel%40gmail.com-0071E3?style=for-the-badge&labelColor=000000&logo=gmail&logoColor=white" alt="Email mbr63drexel@gmail.com" /></a>
-  <a href="https://wa.me/917276819090"><img src="https://img.shields.io/badge/WhatsApp-%2B91%2072768%2019090-25D366?style=for-the-badge&labelColor=000000&logo=whatsapp&logoColor=white" alt="WhatsApp +91 72768 19090" /></a>
-  <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-mangesh__d__charming__guy-E4405F?style=for-the-badge&labelColor=000000&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-%40mrcommando712-000000?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X @mrcommando712" /></a>
+  <a href="https://mangeshraut712.github.io/mangeshrautarchive/"><img src="https://img.shields.io/badge/Portfolio-0071E3?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-0071E3?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:mbr63drexel@gmail.com"><img src="https://img.shields.io/badge/Email-0071E3?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://wa.me/917276819090"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/sponsors/mangeshraut712"><img src="https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge&labelColor=000000&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors" /></a>
-  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Sponsor-Stripe-635BFF?style=for-the-badge&labelColor=000000&logo=stripe&logoColor=white" alt="Stripe" /></a>
-  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/Donate-PayPal-0071E3?style=for-the-badge&labelColor=000000&logo=paypal&logoColor=white" alt="PayPal" /></a>
-  <a href="https://www.buymeacoffee.com/mangeshraut"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&labelColor=000000&logo=buymeacoffee&logoColor=white" alt="Buy Me a Coffee" /></a>
+  <a href="https://github.com/sponsors/mangeshraut712"><img src="https://img.shields.io/badge/GitHub-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors" /></a>
+  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" /></a>
+  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-0071E3?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" /></a>
+  <a href="https://www.buymeacoffee.com/mangeshraut"><img src="https://img.shields.io/badge/Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee" /></a>
 </p>
-
-### Mission
-
-Building **production AI systems** that combine agentic workflows, realtime speech AI, retrieval &amp; evaluation gates, full-stack product engineering, and developer tooling.
 
 ---
 
