@@ -193,6 +193,19 @@ def _sum_period(daily: list[dict], start: date, end: date) -> tuple[float, float
     return tokens, cost
 
 
+
+def fetch_profile_views(username: str | None = None) -> str:
+    """Read current count from komarev GHPVС SVG (also bumps once per workflow run)."""
+    handle = username or USER
+    url = f"https://komarev.com/ghpvc/?username={handle}&style=flat&color=0071E3"
+    res = requests.get(url, timeout=30, headers={"User-Agent": "mangeshraut712-neofetch-sync"})
+    res.raise_for_status()
+    nums = re.findall(r">(\d[\d,]*)<", res.text)
+    if not nums:
+        raise RuntimeError(f"Could not parse profile views for {handle}")
+    return fmt(int(nums[-1].replace(",", "")))
+
+
 def fetch_whoburnedmore(handle: str = WBM_HANDLE) -> dict:
     """Scrape public WhoBurnedMore profile HTML (Next.js flight payload)."""
     res = requests.get(
@@ -543,7 +556,7 @@ def set_text(root: ET.Element, element_id: str, value: str) -> None:
             return
 
 
-def update_svgs(stats: dict | None = None, burn: dict | None = None) -> None:
+def update_svgs(stats: dict | None = None, burn: dict | None = None, views: str | None = None) -> None:
     mapping: dict[str, str] = {}
     if stats:
         mapping.update(
@@ -594,6 +607,9 @@ def update_svgs(stats: dict | None = None, burn: dict | None = None) -> None:
                 "burn_week_data_light": burn["burn_week_data"],
             }
         )
+    if views is not None:
+        mapping["views_data"] = views
+        mapping["views_data_light"] = views
     for path in SVG_PATHS:
         if not path.exists():
             continue
@@ -733,7 +749,9 @@ def main() -> int:
     burn = fetch_whoburnedmore()
     write_whoburnedmore_snapshot(burn)
     update_readme_whoburnedmore(burn)
-    update_svgs(stats, burn)
+    views = fetch_profile_views()
+    update_svgs(stats, burn, views=views)
+    print(f"Synced profile views: {views}")
     print("Synced WhoBurnedMore stats:")
     for k in (
         "handle",
