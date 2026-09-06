@@ -22,28 +22,28 @@
   <text xml:space="preserve" fill="#F5F5F7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" letter-spacing="0.4">
     <tspan x="36" y="64" fill="#636366">.............. .`:=++++*+=^:'.  ............</tspan>
     <tspan x="36" y="80">............ .=#@@@@@@@@@%##*#*^............</tspan>
-    <tspan x="36" y="97">........... :#@@@%%%%%%%%%@@@%@%^...........</tspan>
-    <tspan x="36" y="113">......... .+@@%%@@@@@@@%%%%%%@%%#'..........</tspan>
-    <tspan x="36" y="130">......... *@%%@@@@@%%%%%%%@@@%%%#. .........</tspan>
-    <tspan x="36" y="146">........ ^@%@@%%%@@@@@@@@@@%%@%%%#^ ........</tspan>
-    <tspan x="36" y="163">........ +%%@@@@@@%%%%%%%%%@@@@@@@%' .......</tspan>
-    <tspan x="36" y="179" fill="#A1A1A6">........ +@%%@%#*+===^^==++#%@@%%%%` .......</tspan>
-    <tspan x="36" y="195" fill="#A1A1A6">........ =@%@%+^^:::::::^^^=+*%@%@%' .......</tspan>
-    <tspan x="36" y="212" fill="#A1A1A6">........ +@%%+==^:````'''`:^^=+%%@#.........</tspan>
-    <tspan x="36" y="228">........ '%@+=**##%*+^:^*%###*=+@@^ ........</tspan>
-    <tspan x="36" y="245">..........#%:^+*##*#*^^+###%##=^%%: ........</tspan>
-    <tspan x="36" y="261" fill="#A1A1A6">..........=*:::::::^=::+=:^^^^^:+*+.........</tspan>
-    <tspan x="36" y="278" fill="#A1A1A6">......... ^+::`''`^^:':==:''`:^^+*:.........</tspan>
-    <tspan x="36" y="294" fill="#A1A1A6">......... `+^^```^=+*^+*=^:``:^^**. ........</tspan>
-    <tspan x="36" y="311">......... `*==^^*##%%##%#*+^^^==#=..........</tspan>
-    <tspan x="36" y="327">...........=++=+%%%*+++*#%@*^=+*+'..........</tspan>
-    <tspan x="36" y="343">.......... '**+=^^=+++++++===**#: ..........</tspan>
-    <tspan x="36" y="360">............*%*=^^^^+##+^^^^+#%#............</tspan>
-    <tspan x="36" y="376">........... '#%*+=^^::::^^=*#%@+ ...........</tspan>
-    <tspan x="36" y="393">............ =@@%%##***###%@@@%%*. .........</tspan>
-    <tspan x="36" y="409">........... +@%%@@@@@@@@@@@@@@@@@#' ........</tspan>
-    <tspan x="36" y="426">.......    ^@%@%%%@@@@@@@@%%%%@@%@#`     ...</tspan>
-    <tspan x="36" y="442" fill="#636366">.......':=+%%%@%%##%%%%%%####%@@@%@%*+^`'...</tspan>
+    <tspan x="36" y="96">........... :#@@@%%%%%%%%%@@@%@%^...........</tspan>
+    <tspan x="36" y="111">......... .+@@%%@@@@@@@%%%%%%@%%#'..........</tspan>
+    <tspan x="36" y="127">......... *@%%@@@@@%%%%%%%@@@%%%#. .........</tspan>
+    <tspan x="36" y="143">........ ^@%@@%%%@@@@@@@@@@%%@%%%#^ ........</tspan>
+    <tspan x="36" y="159">........ +%%@@@@@@%%%%%%%%%@@@@@@@%' .......</tspan>
+    <tspan x="36" y="175" fill="#A1A1A6">........ +@%%@%#*+===^^==++#%@@%%%%` .......</tspan>
+    <tspan x="36" y="191" fill="#A1A1A6">........ =@%@%+^^:::::::^^^=+*%@%@%' .......</tspan>
+    <tspan x="36" y="206" fill="#A1A1A6">........ +@%%+==^:````'''`:^^=+%%@#.........</tspan>
+    <tspan x="36" y="222">........ '%@+=**##%*+^:^*%###*=+@@^ ........</tspan>
+    <tspan x="36" y="238">..........#%:^+*##*#*^^+###%##=^%%: ........</tspan>
+    <tspan x="36" y="254" fill="#A1A1A6">..........=*:::::::^=::+=:^^^^^:+*+.........</tspan>
+    <tspan x="36" y="270" fill="#A1A1A6">......... ^+::`''`^^:':==:''`:^^+*:.........</tspan>
+    <tspan x="36" y="286" fill="#A1A1A6">......... `+^^```^=+*^+*=^:``:^^**. ........</tspan>
+    <tspan x="36" y="301">......... `*==^^*##%%##%#*+^^^==#=..........</tspan>
+    <tspan x="36" y="317">...........=++=+%%%*+++*#%@*^=+*+'..........</tspan>
+    <tspan x="36" y="333">.......... '**+=^^=+++++++===**#: ..........</tspan>
+    <tspan x="36" y="349">............*%*=^^^^+##+^^^^+#%#............</tspan>
+    <tspan x="36" y="365">........... '#%*+=^^::::^^=*#%@+ ...........</tspan>
+    <tspan x="36" y="381">............ =@@%%##***###%@@@%%*. .........</tspan>
+    <tspan x="36" y="396">........... +@%%@@@@@@@@@@@@@@@@@#' ........</tspan>
+    <tspan x="36" y="412">.......    ^@%@%%%@@@@@@@@%%%%@@%@#`     ...</tspan>
+    <tspan x="36" y="428" fill="#636366">.......':=+%%%@%%##%%%%%%####%@@@%@%*+^`'...</tspan>
   </text>
 
   <text xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">
@@ -67,13 +67,13 @@
     <tspan x="404" y="270" fill="#3A3A3C">────────────────────────────────────</tspan>
 
     <tspan x="404" y="288" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Repos</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="repos_data">51</tspan><tspan fill="#8E8E93"> · Owned </tspan><tspan fill="#F5F5F7" id="owned_data">37</tspan><tspan fill="#8E8E93"> · Stars </tspan><tspan fill="#F5F5F7" id="stars_data">8</tspan><tspan fill="#8E8E93"> · Forks </tspan><tspan fill="#F5F5F7" id="forks_data">4</tspan>
-    <tspan x="404" y="305" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contrib</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,703</tspan><tspan fill="#8E8E93"> all-time · </tspan><tspan fill="#2997FF" font-weight="700">2026</tspan><tspan fill="#8E8E93"> </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">2,589</tspan><tspan fill="#8E8E93"> · PRs </tspan><tspan fill="#F5F5F7" id="prs_data">198</tspan><tspan fill="#8E8E93"> · Commits </tspan><tspan fill="#F5F5F7" id="commits_data">2,358</tspan>
-    <tspan x="404" y="323" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Followers</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="follower_data">9</tspan><tspan fill="#8E8E93"> · </tspan><tspan fill="#2997FF" font-weight="700">Views</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="views_data">14</tspan><tspan fill="#8E8E93"> · Status: </tspan><tspan fill="#30D158" font-weight="700">Open to work</tspan>
+    <tspan x="404" y="305" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Contrib</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="lifetime_data">4,694</tspan><tspan fill="#8E8E93"> all-time · </tspan><tspan fill="#2997FF" font-weight="700">2026</tspan><tspan fill="#8E8E93"> </tspan><tspan fill="#30D158" id="ytd_data" font-weight="700">2,580</tspan><tspan fill="#8E8E93"> · PRs </tspan><tspan fill="#F5F5F7" id="prs_data">198</tspan><tspan fill="#8E8E93"> · Commits </tspan><tspan fill="#F5F5F7" id="commits_data">2,349</tspan>
+    <tspan x="404" y="323" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Followers</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="follower_data">8</tspan><tspan fill="#8E8E93"> · </tspan><tspan fill="#2997FF" font-weight="700">Views</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="views_data">11</tspan><tspan fill="#8E8E93"> · Status: </tspan><tspan fill="#30D158" font-weight="700">Open to work</tspan>
 
     <tspan x="404" y="340" fill="#3A3A3C">────────────────────────────────────</tspan>
 
     <tspan x="404" y="358" fill="#2997FF" font-weight="700">WhoBurnedMore</tspan>
-    <tspan x="404" y="375" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Rank</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="burn_rank_data">#53 of 298 (top 18%)</tspan>
+    <tspan x="404" y="375" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Rank</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="burn_rank_data">#53 of 297 (top 18%)</tspan>
     <tspan x="404" y="393" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Lifetime</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="burn_lifetime_data">13.51B tokens · $13,477 · 197 active days · 9d streak</tspan>
     <tspan x="404" y="410" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">Today</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="burn_today_data">486.2M · $386</tspan>
     <tspan x="404" y="428" fill="#8E8E93">· </tspan><tspan fill="#2997FF" font-weight="700">This week</tspan><tspan fill="#8E8E93">: </tspan><tspan fill="#F5F5F7" id="burn_week_data">1.38B · $972</tspan>
