@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=202609061757" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=202609061757" />
-    <img alt="Mangesh Raut — Applied AI Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=202609061757" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026090621" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=2026090621" />
+    <img alt="Mangesh Raut — Applied AI Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026090621" />
   </picture>
   <br/>
   <img src="https://komarev.com/ghpvc/?username=mangeshraut712&label=Profile%20views&color=0071E3&style=for-the-badge" alt="Profile views" />
@@ -81,9 +81,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=20260907data" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=20260907data" />
-    <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=20260907data" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202609062131" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=202609062131" />
+    <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202609062131" />
   </picture>
 </p>
 
@@ -92,7 +92,7 @@
 | VAD clean F1 **0.9569** · p95 ~**19 ms** | [ai-ml-portfolio README](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/README.md) |
 | Latest recorded CI passed · Python **3.10–3.12** | [CI run · Jul 24, 2026](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/30069734079) |
 | `make verify-all` | [Makefile](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/Makefile) |
-| **4,703** all-time contributions (Sep 6, 2026 snapshot) | [GitHub overview](https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31) · [snapshot](https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json) |
+| **4,720** all-time contributions (2026-09-06 snapshot) | [GitHub overview](https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31) · [snapshot](https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json) |
 
 ---
 
