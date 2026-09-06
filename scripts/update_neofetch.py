@@ -297,29 +297,19 @@ def bump_banner_cache_buster(stamp: str) -> None:
 
 
 def update_readme_whoburnedmore(burn: dict) -> None:
+    """Keep WhoBurnedMore out of README text — stats live in the banner SVG only."""
     if not README_PATH.exists():
         return
     stamp = datetime.now(timezone.utc).strftime("%Y%m%d")
-    block = f"""<!-- whoburnedmore:start -->
-<p align="center">
-  <sup>
-    <a href="{burn['url']}">WhoBurnedMore @{burn['handle']}</a>
-    · Rank {burn['burn_rank_data']}
-    · Lifetime {burn['burn_lifetime_data']}
-    · Today {burn['burn_today_data']}
-    · This week {burn['burn_week_data']}
-  </sup>
-</p>
-<!-- whoburnedmore:end -->"""
     text = README_PATH.read_text()
-    text, n = re.subn(
-        r"<!-- whoburnedmore:start -->[\s\S]*?<!-- whoburnedmore:end -->",
-        block,
+    text2, n = re.subn(
+        r"\n*<!-- whoburnedmore:start -->[\s\S]*?<!-- whoburnedmore:end -->\n*",
+        "\n",
         text,
         count=1,
     )
     if n:
-        README_PATH.write_text(text)
+        README_PATH.write_text(text2)
     bump_banner_cache_buster(stamp)
 
 
