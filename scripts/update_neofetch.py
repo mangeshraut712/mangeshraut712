@@ -313,7 +313,7 @@ def update_readme_whoburnedmore(burn: dict) -> None:
     """Keep WhoBurnedMore out of README text — stats live in the banner SVG only."""
     if not README_PATH.exists():
         return
-    stamp = datetime.now(timezone.utc).strftime("%Y%m%d")
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%d%H")
     text = README_PATH.read_text()
     text2, n = re.subn(
         r"\n*<!-- whoburnedmore:start -->[\s\S]*?<!-- whoburnedmore:end -->\n*",
