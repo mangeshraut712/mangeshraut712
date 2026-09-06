@@ -42,14 +42,14 @@ LANG_SKIP = {"None", "HTML", "CSS", "Jupyter Notebook", "TSQL", "MATLAB"}
 
 # Verified across owned repos (package.json / requirements inventory, Jul 2026).
 FOCUS_AI = "WebRTC VAD · RAG/BM25 · MCP · PyTorch"
-FOCUS_STACK = "Next.js 16 · React 19 · FastAPI · Turbopack"
+FOCUS_STACK = "Next.js 15 · React 19 · FastAPI · Turbopack"
 ROLE = "Applied AI Engineer"
 STACK_ICONS = (
     "ts,js,py,swift,react,nextjs,tailwind,fastapi,express,"
     "postgres,supabase,mongodb,docker,vercel,pytorch"
 )
 STACK_LABEL = (
-    "TypeScript · Python · JavaScript · Swift · Next.js 15/16 · React 19 · "
+    "TypeScript · Python · JavaScript · Swift · Next.js 15 · React 19 · "
     "FastAPI · Turbopack · PyTorch · WebRTC VAD · BM25 · MCP · Sarvam · "
     "Postgres · Docker · Vercel · GitHub Actions"
 )
@@ -674,7 +674,7 @@ def write_snapshot(stats: dict) -> None:
             "focus_ai": stats["focus_ai_data"],
             "focus_stack": stats["focus_stack_data"],
             "evidence": {
-                "next_js": "15.3–16.1 across flagship apps",
+                "next_js": "15.3 across flagship apps",
                 "react": "18.2 / 19.x across apps",
                 "top_deps": [
                     "typescript",
