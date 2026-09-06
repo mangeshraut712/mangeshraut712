@@ -17,7 +17,7 @@
       <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
       <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">HindAI</text>
-      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Grounded Gemma RAG for Indic</tspan><tspan x="22" dy="18">scripture learning via Ollama.</tspan></text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Grounded Gemma RAG for Indic</tspan><tspan x="22" dy="18">scripture learning via OpenRouter.</tspan></text>
       <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Hindai → Repo</text>
     </g>
   </a>
@@ -43,18 +43,18 @@
     <g transform="translate(382,286)">
       <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
-      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Sarvam Cookbook</text>
-      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">India-first STT/TTS/chat demos +</tspan><tspan x="22" dy="18">speech/RAG labs on FastAPI.</tspan></text>
+      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Sarvam Cookbook (fork)</text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Upstream STT/TTS/chat examples;</tspan><tspan x="22" dy="18">contributions linked in README.</tspan></text>
       <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">sarvam-ai-cookbook → Repo</text>
     </g>
   </a>
-  <a href="https://github.com/mangeshraut712/Stanford-CS336" target="_blank">
+  <a href="https://github.com/mangeshraut712/Vitals.AI" target="_blank">
     <g transform="translate(740,286)">
       <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
-      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Stanford CS336</text>
-      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">LM systems — BPE, transformers,</tspan><tspan x="22" dy="18">scaling, GRPO (self-study).</tspan></text>
-      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Stanford-CS336 → Repo</text>
+      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Vitals.AI</text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Health dashboard and agent tools;</tspan><tspan x="22" dy="18">Pages demo uses sample data.</tspan></text>
+      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Vitals.AI → Repo</text>
     </g>
   </a>
 </svg>

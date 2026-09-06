@@ -43,15 +43,13 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20260906f" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=20260906f" />
-    <img alt="Featured projects" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20260906f" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20260907data" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=20260907data" />
+    <img alt="Featured projects" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20260907data" />
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mangeshraut712/Vitals.AI">Vitals.AI</a>
-  ·
   <a href="https://github.com/mangeshraut712/ai-ml-portfolio">ai-ml-portfolio</a>
   ·
   <a href="https://github.com/mangeshraut712/Hindai">Hindai</a>
@@ -60,7 +58,9 @@
   ·
   <a href="https://github.com/mangeshraut712/agent-console">agent-console</a>
   ·
-  <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook">sarvam-ai-cookbook</a>
+  <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook">sarvam-ai-cookbook (upstream fork)</a>
+  ·
+  <a href="https://github.com/mangeshraut712/Vitals.AI">Vitals.AI</a>
 </p>
 
 ---
@@ -81,18 +81,18 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=20260906f" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=20260906f" />
-    <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=20260906f" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=20260907data" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=20260907data" />
+    <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=20260907data" />
   </picture>
 </p>
 
 | Metric | Source |
 | --- | --- |
 | VAD clean F1 **0.9569** · p95 ~**19 ms** | [ai-ml-portfolio README](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/README.md) |
-| CI green · Python **3.10–3.12** | [CI workflow](https://github.com/mangeshraut712/ai-ml-portfolio/actions/workflows/ci.yml) |
+| Latest recorded CI passed · Python **3.10–3.12** | [CI run · Jul 24, 2026](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/30069734079) |
 | `make verify-all` | [Makefile](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/Makefile) |
-| **4,600+** contributions | [GitHub overview](https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31) · [snapshot](https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json) |
+| **4,703** all-time contributions (Sep 6, 2026 snapshot) | [GitHub overview](https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31) · [snapshot](https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json) |
 
 ---
 
@@ -122,7 +122,7 @@
 | --- | --- |
 | NumPy · webrtcvad · BM25 · scikit-learn | [ai-ml-portfolio/pyproject.toml](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/pyproject.toml) |
 | Next.js 15 · React 19 · Turbopack | [agent-console/package.json](https://github.com/mangeshraut712/agent-console/blob/main/package.json) |
-| FastAPI · Sarvam SDK | [sarvam-ai-cookbook/requirements.txt](https://github.com/mangeshraut712/sarvam-ai-cookbook/blob/main/requirements.txt) |
+| FastAPI · Sarvam SDK (upstream cookbook fork) | [sarvam-ai-cookbook/requirements.txt](https://github.com/mangeshraut712/sarvam-ai-cookbook/blob/main/requirements.txt) |
 | Speech VAD lab | [labs/vad](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/vad) |
 | RAG / LLM eval lab | [labs/llm-eval](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval) · [DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md) · [RESULTS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) |
 

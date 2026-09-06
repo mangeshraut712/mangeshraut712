@@ -15,8 +15,8 @@
     <text x="420" y="164" text-anchor="middle" fill="#A1A1A6" font-size="13" font-weight="600">VAD steady p95</text>
 
     <rect x="560" y="100" width="240" height="88" rx="16" fill="#1C1C1E"/>
-    <text x="680" y="138" text-anchor="middle" fill="#2997FF" font-size="28" font-weight="700">4,000+</text>
-    <text x="680" y="164" text-anchor="middle" fill="#A1A1A6" font-size="13" font-weight="600">GitHub contributions</text>
+    <text x="680" y="138" text-anchor="middle" fill="#2997FF" font-size="28" font-weight="700">4,703</text>
+    <text x="680" y="164" text-anchor="middle" fill="#A1A1A6" font-size="13" font-weight="600">All-time · Sep 6, 2026</text>
 
     <rect x="820" y="100" width="240" height="88" rx="16" fill="#1C1C1E"/>
     <text x="940" y="138" text-anchor="middle" fill="#30D158" font-size="28" font-weight="700">CI</text>
