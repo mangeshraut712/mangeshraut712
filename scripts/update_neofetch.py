@@ -693,13 +693,31 @@ def write_snapshot(stats: dict) -> None:
 
 
 def update_readme(stats: dict) -> None:
-    """Sync stack icons only — stats live in the banner SVG (no README dupes)."""
+    """Keep the existing README and metric cards aligned with the snapshot."""
     if not README_PATH.exists():
         return
     icons = f"""<!-- stack-icons:start -->
   <img src="https://skillicons.dev/icons?i={stats['stack_icons']}" alt="Tech stack from GitHub repos" />
   <!-- stack-icons:end -->"""
     text = README_PATH.read_text()
+    count = f"{stats['lifetime_raw']:,}"
+    as_of = stats["synced_at"][:10]
+    text = re.sub(
+        r"\*\*[\d,]+\*\* all-time contributions \([^\n|]*snapshot\)",
+        f"**{count}** all-time contributions ({as_of} snapshot)",
+        text,
+    )
+    for name in ("metrics-dark.svg", "metrics-light.svg"):
+        path = ROOT / name
+        svg = path.read_text()
+        svg = re.sub(r'(id="contribution_count"[^>]*>)[^<]*',
+                     lambda match: match[1] + count, svg)
+        svg = re.sub(r'(id="contribution_date"[^>]*>)[^<]*',
+                     lambda match: match[1] + f"All-time · {as_of}", svg)
+        path.write_text(svg)
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
+    text = re.sub(r'(metrics-(?:dark|light)\.svg)\?v=[^"\s]+',
+                  lambda match: match[1] + "?v=" + stamp, text)
     # Drop legacy duplicate blocks if present
     text = re.sub(
         r"\n*<!-- github-data:start -->[\s\S]*?<!-- github-data:end -->\n*",
@@ -719,8 +737,7 @@ def update_readme(stats: dict) -> None:
         text,
         count=1,
     )
-    if n:
-        README_PATH.write_text(text)
+    README_PATH.write_text(text)
 
 
 def main() -> int:
