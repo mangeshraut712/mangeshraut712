@@ -18,6 +18,11 @@
   <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&labelColor=000000&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mangeshraut712&label=Profile%20views&color=0071E3&style=for-the-badge" alt="Profile views" />
+  <a href="https://whoburnedmore.com/u/mrcommando712"><img src="https://img.shields.io/badge/WhoBurnedMore-%40mrcommando712-0071E3?style=for-the-badge&labelColor=000000" alt="WhoBurnedMore" /></a>
+</p>
+
 ### Mission
 
 Building **production AI systems** that combine agentic workflows, realtime speech AI, retrieval &amp; evaluation gates, full-stack product engineering, and developer tooling.
