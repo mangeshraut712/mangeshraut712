@@ -11,25 +11,13 @@
 ### Recruiter?
 
 <p align="center">
-  <a href="https://mangeshraut712.github.io/mangeshrautarchive/"><img src="https://img.shields.io/badge/Portfolio-0071E3?style=for-the-badge&labelColor=000000" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:mbr63drexel@gmail.com"><img src="https://img.shields.io/badge/Email-0071E3?style=for-the-badge&labelColor=000000&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-%40mrcommando712-0071E3?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X @mrcommando712" /></a>
-  <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-0071E3?style=for-the-badge&labelColor=000000&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://mangeshraut712.github.io/mangeshrautarchive/"><img src="https://img.shields.io/badge/Portfolio-GitHub%20Pages-0071E3?style=for-the-badge&labelColor=000000&logo=githubpages&logoColor=white" alt="Portfolio — GitHub Pages" /></a>
+  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-mangeshraut71298-0071E3?style=for-the-badge&labelColor=000000&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:mbr63drexel@gmail.com"><img src="https://img.shields.io/badge/Email-mbr63drexel%40gmail.com-0071E3?style=for-the-badge&labelColor=000000&logo=gmail&logoColor=white" alt="Email mbr63drexel@gmail.com" /></a>
+  <a href="https://wa.me/917276819090"><img src="https://img.shields.io/badge/WhatsApp-%2B91%2072768%2019090-25D366?style=for-the-badge&labelColor=000000&logo=whatsapp&logoColor=white" alt="WhatsApp +91 72768 19090" /></a>
+  <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-mangesh__d__charming__guy-E4405F?style=for-the-badge&labelColor=000000&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-%40mrcommando712-000000?style=for-the-badge&labelColor=000000&logo=x&logoColor=white" alt="X @mrcommando712" /></a>
 </p>
-
-<!-- whoburnedmore:start -->
-<p align="center">
-  <sup>
-    <a href="https://whoburnedmore.com/u/mrcommando712">WhoBurnedMore @mrcommando712</a>
-    · Rank #53 of 296 (top 18%)
-    · Lifetime 13.51B tokens · $13,477 · 197 active days · 9d streak
-    · Today 486.2M · $386
-    · This week 1.38B · $972
-  </sup>
-</p>
-<!-- whoburnedmore:end -->
-
 ### Sponsor / Donate
 
 <p align="center">
