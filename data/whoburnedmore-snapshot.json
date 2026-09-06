@@ -5,7 +5,7 @@
   "daily_rank": 8,
   "weekly_rank": 29,
   "all_time_rank": 53,
-  "total_users": 296,
+  "total_users": 297,
   "top_percentile": 18,
   "lifetime_tokens": 13511761369.0,
   "lifetime_cost_usd": 13477.2766088,
@@ -18,6 +18,6 @@
   "week_cost_usd": 971.5069555,
   "week_start": "2026-08-31",
   "as_of": "2026-09-06",
-  "synced_at": "2026-09-06T17:18:29Z",
+  "synced_at": "2026-09-06T17:27:58Z",
   "source": "WhoBurnedMore public profile HTML (Next.js payload)"
 }

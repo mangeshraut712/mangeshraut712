@@ -1,7 +1,7 @@
 {
   "login": "mangeshraut712",
   "source": "GitHub GraphQL + REST (full owned-repo inventory + all-year contributions)",
-  "synced_at": "2026-09-06T17:18:27Z",
+  "synced_at": "2026-09-06T17:27:57Z",
   "created_at": "2021-11-27",
   "location": "Pune, MH, India",
   "bio": "Building production AI: agents \u00b7 speech VAD \u00b7 RAG eval \u00b7 full-stack | Open to AI Engineer roles",
@@ -12,25 +12,25 @@
   "followers": 8,
   "following": 7,
   "contributed_to_repos": 20,
-  "contributions_all_time": 4689,
+  "contributions_all_time": 4694,
   "contributions_by_year": {
     "2021": 1,
     "2022": 0,
     "2023": 3,
     "2024": 10,
     "2025": 2100,
-    "2026": 2575
+    "2026": 2580
   },
   "ytd": {
     "year": 2026,
-    "contributions": 2575,
-    "commits": 2344,
+    "contributions": 2580,
+    "commits": 2349,
     "pull_requests": 198,
     "issues": 1,
     "reviews": 0,
     "private": 0,
-    "avg_per_day": "10.34",
-    "best_day": 113,
+    "avg_per_day": "10.36",
+    "best_day": 118,
     "best_date": "Sep 6",
     "longest_streak_days": 16
   },
@@ -46,11 +46,11 @@
   },
   "stack": {
     "icons": "ts,js,py,swift,react,nextjs,tailwind,fastapi,express,postgres,supabase,mongodb,docker,vercel,pytorch",
-    "label": "TypeScript \u00b7 Python \u00b7 JavaScript \u00b7 Swift \u00b7 Next.js 15/16 \u00b7 React 19 \u00b7 FastAPI \u00b7 Turbopack \u00b7 PyTorch \u00b7 WebRTC VAD \u00b7 BM25 \u00b7 MCP \u00b7 Sarvam \u00b7 Postgres \u00b7 Docker \u00b7 Vercel \u00b7 GitHub Actions",
+    "label": "TypeScript \u00b7 Python \u00b7 JavaScript \u00b7 Swift \u00b7 Next.js 15 \u00b7 React 19 \u00b7 FastAPI \u00b7 Turbopack \u00b7 PyTorch \u00b7 WebRTC VAD \u00b7 BM25 \u00b7 MCP \u00b7 Sarvam \u00b7 Postgres \u00b7 Docker \u00b7 Vercel \u00b7 GitHub Actions",
     "focus_ai": "WebRTC VAD \u00b7 RAG/BM25 \u00b7 MCP \u00b7 PyTorch",
-    "focus_stack": "Next.js 16 \u00b7 React 19 \u00b7 FastAPI \u00b7 Turbopack",
+    "focus_stack": "Next.js 15 \u00b7 React 19 \u00b7 FastAPI \u00b7 Turbopack",
     "evidence": {
-      "next_js": "15.3\u201316.1 across flagship apps",
+      "next_js": "15.3 across flagship apps",
       "react": "18.2 / 19.x across apps",
       "top_deps": [
         "typescript",
