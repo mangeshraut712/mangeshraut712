@@ -66,10 +66,10 @@
     <tspan x="404" y="324" fill="#AEAEB2">·</tspan><tspan x="520" y="324" text-anchor="end" fill="#0071E3" font-weight="700">Followers</tspan><tspan x="528" y="324" fill="#AEAEB2">:</tspan><tspan id="follower_data_light" x="540" fill="#1D1D1F">8</tspan><tspan fill="#AEAEB2"> · Status: </tspan><tspan fill="#34C759" font-weight="700">Open to work</tspan>
     <tspan x="404" y="340" fill="#D2D2D7">────────────────────────────────────────</tspan>
     <tspan x="404" y="358" fill="#0071E3" font-weight="700">WhoBurnedMore</tspan>
-    <tspan x="404" y="376" fill="#AEAEB2">·</tspan><tspan x="520" y="376" text-anchor="end" fill="#0071E3" font-weight="700">Rank</tspan><tspan x="528" y="376" fill="#AEAEB2">:</tspan><tspan id="burn_rank_data_light" x="540" fill="#1D1D1F">#50 of 306 (top 17%)</tspan>
-    <tspan x="404" y="394" fill="#AEAEB2">·</tspan><tspan x="520" y="394" text-anchor="end" fill="#0071E3" font-weight="700">Lifetime</tspan><tspan x="528" y="394" fill="#AEAEB2">:</tspan><tspan id="burn_lifetime_data_light" x="540" fill="#1D1D1F">14.03B tokens · $13,960 · 202 active days · 14d streak</tspan>
-    <tspan x="404" y="412" fill="#AEAEB2">·</tspan><tspan x="520" y="412" text-anchor="end" fill="#0071E3" font-weight="700">Today</tspan><tspan x="528" y="412" fill="#AEAEB2">:</tspan><tspan id="burn_today_data_light" x="540" fill="#1D1D1F">94.4M · $100</tspan>
-    <tspan x="404" y="430" fill="#AEAEB2">·</tspan><tspan x="520" y="430" text-anchor="end" fill="#0071E3" font-weight="700">This week</tspan><tspan x="528" y="430" fill="#AEAEB2">:</tspan><tspan id="burn_week_data_light" x="540" fill="#1D1D1F">488M · $448</tspan>
+    <tspan x="404" y="376" fill="#AEAEB2">·</tspan><tspan x="520" y="376" text-anchor="end" fill="#0071E3" font-weight="700">Rank</tspan><tspan x="528" y="376" fill="#AEAEB2">:</tspan><tspan id="burn_rank_data_light" x="540" fill="#1D1D1F">#51 of 306 (top 17%)</tspan>
+    <tspan x="404" y="394" fill="#AEAEB2">·</tspan><tspan x="520" y="394" text-anchor="end" fill="#0071E3" font-weight="700">Lifetime</tspan><tspan x="528" y="394" fill="#AEAEB2">:</tspan><tspan id="burn_lifetime_data_light" x="540" fill="#1D1D1F">14.07B tokens · $13,978 · 202 active days · 14d streak</tspan>
+    <tspan x="404" y="412" fill="#AEAEB2">·</tspan><tspan x="520" y="412" text-anchor="end" fill="#0071E3" font-weight="700">Today</tspan><tspan x="528" y="412" fill="#AEAEB2">:</tspan><tspan id="burn_today_data_light" x="540" fill="#1D1D1F">133.3M · $118</tspan>
+    <tspan x="404" y="430" fill="#AEAEB2">·</tspan><tspan x="520" y="430" text-anchor="end" fill="#0071E3" font-weight="700">This week</tspan><tspan x="528" y="430" fill="#AEAEB2">:</tspan><tspan id="burn_week_data_light" x="540" fill="#1D1D1F">526.9M · $466</tspan>
   </text>
 
   <rect x="404" y="448" width="18" height="10" rx="2" fill="#F5F5F7" />
