@@ -47,5 +47,7 @@ jobs:
             exit 0
           fi
           git commit -m "Update profile banner stats - [Skip GitHub Action]"
-          git pull --rebase origin main
+          # Generated files: on a concurrent-run race keep this run's fresher output
+          # (during rebase, "theirs" is the commit being replayed, i.e. ours).
+          git pull --rebase -X theirs origin main
           git push origin HEAD:main
