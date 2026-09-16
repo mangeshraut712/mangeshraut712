@@ -19,7 +19,6 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 SVG_PATHS = [
-    ROOT / "neofetch.svg",
     ROOT / "banner-dark.svg",
     ROOT / "banner-light.svg",
 ]

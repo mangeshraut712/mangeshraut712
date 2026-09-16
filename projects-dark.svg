@@ -39,13 +39,13 @@
       <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">agent-console → Repo</text>
     </g>
   </a>
-  <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook" target="_blank">
+  <a href="https://github.com/mangeshraut712/codex-insights" target="_blank">
     <g transform="translate(382,286)">
       <rect width="340" height="168" rx="22" fill="#1C1C1E" stroke="#2C2C2E" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#2997FF"/>
-      <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Sarvam Cookbook (fork)</text>
-      <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Upstream STT/TTS/chat examples;</tspan><tspan x="22" dy="18">contributions linked in README.</tspan></text>
-      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">sarvam-ai-cookbook → Repo</text>
+      <text x="22" y="38" fill="#2997FF" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Codex Insights</text>
+      <text x="22" y="68" fill="#A1A1A6" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">$insights Codex skill + CLI: private,</tspan><tspan x="22" dy="18">trust-aware session reports.</tspan></text>
+      <text x="22" y="140" fill="#F5F5F7" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">codex-insights → Repo</text>
     </g>
   </a>
   <a href="https://github.com/mangeshraut712/Vitals.AI" target="_blank">
