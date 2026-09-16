@@ -139,8 +139,9 @@ def _parse_user_from_text(text: str, handle: str) -> dict | None:
         if '"allTimeRank"' not in window and '"rank"' not in window:
             start = idx + len(marker)
             continue
+        # Rank fields may be null (e.g. no activity today -> "dailyRank":null).
         rank_m = re.search(
-            r'"rank":(\d+),"dailyRank":(\d+),"weeklyRank":(\d+),"allTimeRank":(\d+)',
+            r'"rank":(\d+|null),"dailyRank":(\d+|null),"weeklyRank":(\d+|null),"allTimeRank":(\d+|null)',
             window,
         )
         totals_m = re.search(r'"totals":(\{[^}]+\})', window)
@@ -159,14 +160,18 @@ def _parse_user_from_text(text: str, handle: str) -> dict | None:
             continue
         return {
             "handle": handle,
-            "rank": int(rank_m.group(1)),
-            "dailyRank": int(rank_m.group(2)),
-            "weeklyRank": int(rank_m.group(3)),
-            "allTimeRank": int(rank_m.group(4)),
+            "rank": _rank_int(rank_m.group(1)),
+            "dailyRank": _rank_int(rank_m.group(2)),
+            "weeklyRank": _rank_int(rank_m.group(3)),
+            "allTimeRank": _rank_int(rank_m.group(4)),
             "totals": totals,
             "daily": daily,
         }
     return None
+
+
+def _rank_int(raw: str) -> int:
+    return 0 if raw == "null" else int(raw)
 
 
 def _parse_total_users(html: str, rank: int) -> int | None:
@@ -174,6 +179,10 @@ def _parse_total_users(html: str, rank: int) -> int | None:
     if match:
         return int(match.group(1))
     match = re.search(r"#\d+\s+of\s+(\d+)", html)
+    if match:
+        return int(match.group(1))
+    # Newer page layout exposes the leaderboard size as metrics.devCount.
+    match = re.search(r'"devCount":(\d+)', html)
     if match:
         return int(match.group(1))
     return None
@@ -288,6 +297,39 @@ def fetch_whoburnedmore(handle: str = WBM_HANDLE) -> dict:
         "burn_today_data": today_line,
         "burn_week_data": week_line,
     }
+
+
+def burn_from_snapshot() -> dict:
+    """Rebuild the banner lines from data/whoburnedmore-snapshot.json when the live scrape fails."""
+    snap = json.loads(WBM_SNAPSHOT_PATH.read_text())
+    rank = int(snap.get("all_time_rank") or snap.get("rank") or 0)
+    total_users = snap.get("total_users")
+    percentile = snap.get("top_percentile")
+    if total_users and percentile is not None:
+        rank_line = f"#{rank} of {total_users} (top {percentile}%)"
+    else:
+        rank_line = f"#{rank}"
+    burn = dict(snap)
+    burn.update(
+        {
+            "burn_rank_data": rank_line,
+            "burn_lifetime_data": (
+                f"{fmt_tokens(float(snap.get('lifetime_tokens') or 0))} tokens · "
+                f"{fmt_money(float(snap.get('lifetime_cost_usd') or 0))} · "
+                f"{int(snap.get('active_days') or 0)} active days · "
+                f"{int(snap.get('streak_days') or 0)}d streak"
+            ),
+            "burn_today_data": (
+                f"{fmt_tokens(float(snap.get('today_tokens') or 0))} · "
+                f"{fmt_money(float(snap.get('today_cost_usd') or 0))}"
+            ),
+            "burn_week_data": (
+                f"{fmt_tokens(float(snap.get('week_tokens') or 0))} · "
+                f"{fmt_money(float(snap.get('week_cost_usd') or 0))}"
+            ),
+        }
+    )
+    return burn
 
 
 def write_whoburnedmore_snapshot(burn: dict) -> None:
@@ -763,8 +805,12 @@ def main() -> int:
     else:
         print("Skipping GitHub GraphQL sync (no ACCESS_TOKEN/GITHUB_TOKEN)")
 
-    burn = fetch_whoburnedmore()
-    write_whoburnedmore_snapshot(burn)
+    try:
+        burn = fetch_whoburnedmore()
+        write_whoburnedmore_snapshot(burn)
+    except Exception as exc:  # network / payload-shape changes must not block GitHub sync
+        print(f"WARNING: WhoBurnedMore sync failed ({exc}); using cached snapshot")
+        burn = burn_from_snapshot()
     update_readme_whoburnedmore(burn)
     views = fetch_profile_views()
     update_svgs(stats, burn, views=views)

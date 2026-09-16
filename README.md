@@ -36,6 +36,13 @@
 | [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | Hardened CI detection of unquoted TS/JS model keys | **Merged** |
 | [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1178) | Schema support for exact-domain-only password rules | **Merged** |
 | [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1179) | Shared-credential mappings for Bluesky domains | **Merged** |
+| [OpenAI Codex Security](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance in the CLI | **Merged** |
+| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1239) | Shared-credential mapping for HDFC Bank (`hdfcbank.com` → `hdfc.bank.in`) | **Merged** |
+| [Meta Pyrefly](https://github.com/facebook/pyrefly/pull/4737) | LSP completion for closing triple-quoted strings | Open |
+| [Meta Lexical iOS](https://github.com/facebook/lexical-ios/pull/85) | DocC documentation for `ElementNode` methods | Open |
+| [Anthropic claude-code-action](https://github.com/anthropics/claude-code-action/pull/1821) | Docs: `claude_args` replaces removed `allowed_tools` | Open |
+
+Full list: [merged](https://github.com/pulls?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712) · [open](https://github.com/pulls?q=is%3Apr+author%3Amangeshraut712+is%3Aopen+-user%3Amangeshraut712)
 
 ---
 
@@ -94,7 +101,7 @@
 | Metric | Source |
 | --- | --- |
 | VAD clean F1 **0.9569** · p95 ~**19 ms** | [ai-ml-portfolio README](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/README.md) |
-| Latest recorded CI passed · Python **3.10–3.12** | [CI run · Jul 24, 2026](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/30069734079) |
+| Latest recorded CI passed · Python **3.10–3.12** | [CI run · Sep 11, 2026](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/34574401205) |
 | `make verify-all` | [Makefile](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/Makefile) |
 | **4,848** all-time contributions (2026-09-15 snapshot) | [GitHub overview](https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31) · [snapshot](https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json) |
 
@@ -126,7 +133,8 @@
 | --- | --- |
 | NumPy · webrtcvad · BM25 · scikit-learn | [ai-ml-portfolio/pyproject.toml](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/pyproject.toml) |
 | Next.js 15 · React 19 · Turbopack | [agent-console/package.json](https://github.com/mangeshraut712/agent-console/blob/main/package.json) |
-| FastAPI · Sarvam SDK (upstream cookbook fork) | [sarvam-ai-cookbook/requirements.txt](https://github.com/mangeshraut712/sarvam-ai-cookbook/blob/main/requirements.txt) |
+| FastAPI | [mangeshrautarchive/requirements.txt](https://github.com/mangeshraut712/mangeshrautarchive/blob/main/requirements.txt) · [career-agent-pro/backend](https://github.com/mangeshraut712/career-agent-pro/blob/main/backend/requirements.txt) |
+| Sarvam SDK (upstream cookbook fork) | [Realtime_Speech_Captioning/requirements.txt](https://github.com/mangeshraut712/sarvam-ai-cookbook/blob/main/examples/Realtime_Speech_Captioning/requirements.txt) |
 | Speech VAD lab | [labs/vad](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/vad) |
 | RAG / LLM eval lab | [labs/llm-eval](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval) · [DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md) · [RESULTS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) |
 
