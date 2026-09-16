@@ -61,6 +61,10 @@
   <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook">sarvam-ai-cookbook (upstream fork)</a>
   ·
   <a href="https://github.com/mangeshraut712/Vitals.AI">Vitals.AI</a>
+  ·
+  <a href="https://github.com/mangeshraut712/codex-insights">codex-insights</a>
+  ·
+  <a href="https://github.com/mangeshraut712/erdos142">erdos142</a>
 </p>
 
 ---
@@ -146,6 +150,7 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
 - [Technical writings RSS](https://mangeshraut712.github.io/mangeshrautarchive/rss.xml)
 - [LLM eval DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md)
 - [Stanford CS336](https://github.com/mangeshraut712/Stanford-CS336)
+- [Erdős #142 research notebook](https://github.com/mangeshraut712/erdos142) — offline audits and exact finite verifiers for the r₄(N) = o(N/log N) density-increment route; status OPEN, no new theorem claimed
 
 ---
 
