@@ -9,7 +9,7 @@
 </p>
 
 > [!IMPORTANT]
-> **Open to AI Engineer roles (Pune · remote).** I build production AI: agents with tool calling and failure handling, real-time speech VAD, RAG evaluation harnesses, and the full-stack around them. Every number below links to the file or CI run that produced it.
+> **Open to AI Engineer roles (Pune · remote).** I build the production *shape* of AI systems: agents with tool calling and failure handling, real-time speech VAD with an F1 gate, an offline RAG eval harness, and the full-stack around them. Every number below links to the file or CI run that produced it — stub metrics are labelled stub.
 > Fastest contact: [mbr63drexel@gmail.com](mailto:mbr63drexel@gmail.com)
 
 <p align="center">
@@ -33,9 +33,9 @@
 
 | Project | What it proves | Guardrails / failure handling | Proof |
 | --- | --- | --- | --- |
-| [**ai-ml-portfolio**](https://github.com/mangeshraut712/ai-ml-portfolio) — speech VAD + RAG eval + NumPy ML from scratch | Measured, reproducible ML: labeled F1 gates, an offline eval harness with retrieval metrics, faithfulness, hallucination rate, latency and $/1k-query matrix | Acceptance gate (`challenge_pass.py`) fails CI below fixed thresholds; eval harness falls back to stubs when keys are missing so CI never depends on a live API | [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) · [RESULTS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) |
+| [**ai-ml-portfolio**](https://github.com/mangeshraut712/ai-ml-portfolio) — speech VAD + RAG eval + NumPy ML from scratch | Measured VAD F1 gates (real audio + synthetic labels). Offline RAG/LLM eval harness with retrieval metrics; CI uses **stub** providers, not live APIs | Acceptance gate (`challenge_pass.py`) fails CI below fixed thresholds; eval harness falls back to stubs when keys are missing so CI never depends on a live API | [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) · [RESULTS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) |
 | [**agent-console**](https://github.com/mangeshraut712/agent-console) — real-time agent debug UI over WebSocket | Streaming tokens, tool-call traces, protocol observability for agent backends | Seq-based reorder buffer with dedupe, `RESUME {last_seq}` replay after disconnect, single-fire `TOOL_ACK`, chaos-mode verification (`npm run verify:chaos`) | [DECISIONS.md](https://github.com/mangeshraut712/agent-console/blob/main/DECISIONS.md) · [live demo](https://mangeshraut712.github.io/agent-console/) |
-| [**Gravity-SaaS-Agent**](https://github.com/mangeshraut712/Gravity-SaaS-Agent) — multi-tenant AI agent SaaS (web, WhatsApp, Telegram, API) | Agents as a product: MCP client, skills engine, billing, operator dashboard | Tier-based rate limits, Supabase Row Level Security per tenant, circuit breaker on model calls, OpenRouter multi-model fallback | [README](https://github.com/mangeshraut712/Gravity-SaaS-Agent#readme) · [CI](https://github.com/mangeshraut712/Gravity-SaaS-Agent/actions/workflows/ci.yml) |
+| [**Gravity-SaaS-Agent**](https://github.com/mangeshraut712/Gravity-SaaS-Agent) — multi-tenant agent SaaS starter (Next.js dashboard + Express gateway) | MCP client, skills engine, billing events, operator dashboard | Tier-based `express-rate-limit`, Supabase RLS policies, circuit breaker, OpenRouter fallback. WhatsApp/Telegram adapters in-repo are **simulators** (`enhanced-channels.ts`), not live Business API traffic | [README](https://github.com/mangeshraut712/Gravity-SaaS-Agent#readme) · [CI](https://github.com/mangeshraut712/Gravity-SaaS-Agent/actions/workflows/ci.yml) |
 
 **Reproduce the headline number in one command** (Python 3.10–3.12, no API keys):
 
@@ -56,14 +56,14 @@ make install && make verify-all      # mlfs tests + VAD FULL_PASS gate + offline
   </picture>
 </p>
 
-Headline numbers on the card: clean F1 **0.9569**, p95 **~19 ms**, Python **3.10–3.12**, **4,857** contributions. The table is only what the card does not show: gates, the noisy failure mode, retrieval, and cost.
+Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measured; the code gate is ≤100 ms), CI Python **3.10–3.12**, **4,857** contributions (**2026-09-16 snapshot** — live total moves). The table is only what the card does not show.
 
 | Metric | Measured | Gate / baseline | Source |
 | --- | ---: | ---: | --- |
 | VAD exact F1, noisy — **known failure mode** | **0.7768** | gate ≥ 0.75 (clean gate is ≥ 0.92) | [challenge_pass.py](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/challenge_pass.py) · [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) |
 | VAD soft F1 | **0.8135** | gate ≥ 0.78 | same |
-| RAG retrieval (TF-IDF → BM25 fusion), Recall@5 · MRR · nDCG@5 | **1.000 · 0.981 · 0.986** | 40 gold QA + 15 adversarial, hallucination rate 0.000; stub mode in CI | [RESULTS.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) · [DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md) |
-| Cost & latency tracking | p95 ms and $/1k queries per provider | emitted by the same harness | same RESULTS.md |
+| RAG retrieval **(offline stub, not live models)** — TF-IDF Recall@5 · MRR · nDCG@5 | **1.000 · 0.981 · 0.986** | 40 gold QA + 15 adversarial on 10 FAQ docs. BM25-fusion stub is Recall@3 **0.975** (different cut). Hallucination 0.000 is the stub generator abstaining | [RESULTS.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) (mode STUB, 2026-07-24) · [DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md) |
+| Stub cost / latency matrix | p95 ms and $/1k queries per **stub** provider | optional live path is `EVAL_LIVE=1`; CI never sets it | same RESULTS.md |
 | CI run for `make verify-all` | green | — | [Sep 11, 2026](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/34574401205) |
 
 ---
@@ -145,7 +145,7 @@ flowchart LR
   </picture>
 </p>
 
-The card is the stack names. This table is only the lockfiles.
+The card lists tools I use. **Only the lockfiles below are claims about these repos.** PyTorch / Ollama / DeepSeek on the card are local/tooling names, not pinned dependencies here.
 
 | Stack claim | Source |
 | --- | --- |
