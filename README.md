@@ -33,7 +33,7 @@
 
 | Project | What it proves | Guardrails / failure handling | Proof |
 | --- | --- | --- | --- |
-| [**ai-ml-portfolio**](https://github.com/mangeshraut712/ai-ml-portfolio) — speech VAD + RAG eval + NumPy ML from scratch | Measured, reproducible ML: labeled F1 gates, an offline eval harness with retrieval metrics, faithfulness, hallucination rate, latency and $/1k-query matrix | Acceptance gate (`challenge_pass.py`) fails CI below fixed thresholds; eval harness falls back to stubs when keys are missing so CI never depends on a live API | [CI · Sep 11, 2026](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/34574401205) · [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) · [RESULTS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) |
+| [**ai-ml-portfolio**](https://github.com/mangeshraut712/ai-ml-portfolio) — speech VAD + RAG eval + NumPy ML from scratch | Measured, reproducible ML: labeled F1 gates, an offline eval harness with retrieval metrics, faithfulness, hallucination rate, latency and $/1k-query matrix | Acceptance gate (`challenge_pass.py`) fails CI below fixed thresholds; eval harness falls back to stubs when keys are missing so CI never depends on a live API | [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) · [RESULTS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) |
 | [**agent-console**](https://github.com/mangeshraut712/agent-console) — real-time agent debug UI over WebSocket | Streaming tokens, tool-call traces, protocol observability for agent backends | Seq-based reorder buffer with dedupe, `RESUME {last_seq}` replay after disconnect, single-fire `TOOL_ACK`, chaos-mode verification (`npm run verify:chaos`) | [DECISIONS.md](https://github.com/mangeshraut712/agent-console/blob/main/DECISIONS.md) · [live demo](https://mangeshraut712.github.io/agent-console/) |
 | [**Gravity-SaaS-Agent**](https://github.com/mangeshraut712/Gravity-SaaS-Agent) — multi-tenant AI agent SaaS (web, WhatsApp, Telegram, API) | Agents as a product: MCP client, skills engine, billing, operator dashboard | Tier-based rate limits, Supabase Row Level Security per tenant, circuit breaker on model calls, OpenRouter multi-model fallback | [README](https://github.com/mangeshraut712/Gravity-SaaS-Agent#readme) · [CI](https://github.com/mangeshraut712/Gravity-SaaS-Agent/actions/workflows/ci.yml) |
 
@@ -56,16 +56,15 @@ make install && make verify-all      # mlfs tests + VAD FULL_PASS gate + offline
   </picture>
 </p>
 
+Headline numbers on the card: clean F1 **0.9569**, p95 **~19 ms**, Python **3.10–3.12**, **4,857** contributions. The table is only what the card does not show: gates, the noisy failure mode, retrieval, and cost.
+
 | Metric | Measured | Gate / baseline | Source |
 | --- | ---: | ---: | --- |
-| VAD exact F1, clean | **0.9569** | gate ≥ 0.92 (min per-file ≥ 0.90) | [challenge_pass.py](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/challenge_pass.py) |
-| VAD exact F1, noisy — **known failure mode** | **0.7768** | gate ≥ 0.75 | same; spectral gate + WebRTC GMM degrades under broadband noise, see [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) |
+| VAD exact F1, noisy — **known failure mode** | **0.7768** | gate ≥ 0.75 (clean gate is ≥ 0.92) | [challenge_pass.py](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/challenge_pass.py) · [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) |
 | VAD soft F1 | **0.8135** | gate ≥ 0.78 | same |
-| VAD steady-state p95 latency | **~19 ms** / 30 ms frame | real-time budget 30 ms | [ai-ml-portfolio README](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/README.md) |
-| RAG retrieval (TF-IDF → BM25 fusion), Recall@5 · MRR · nDCG@5 | **1.000 · 0.981 · 0.986** | 40 gold QA + 15 adversarial, hallucination rate 0.000 | [RESULTS.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) (offline stub mode in CI; live providers optional) |
-| Cost & latency tracking | p95 ms and $/1k queries per provider, emitted by the harness | — | [RESULTS.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) · [DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md) |
-| CI | Python **3.10–3.12** matrix green | — | [run · Sep 11, 2026](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/34574401205) |
-| **4,857** all-time contributions (2026-09-16 snapshot) | — | — | [overview](https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31) · [snapshot JSON](https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json) |
+| RAG retrieval (TF-IDF → BM25 fusion), Recall@5 · MRR · nDCG@5 | **1.000 · 0.981 · 0.986** | 40 gold QA + 15 adversarial, hallucination rate 0.000; stub mode in CI | [RESULTS.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) · [DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md) |
+| Cost & latency tracking | p95 ms and $/1k queries per provider | emitted by the same harness | same RESULTS.md |
+| CI run for `make verify-all` | green | — | [Sep 11, 2026](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/34574401205) |
 
 ---
 
@@ -89,22 +88,15 @@ Full list: [merged](https://github.com/pulls?q=is%3Apr+author%3Amangeshraut712+i
 
 ### More projects
 
+The three systems above stay in **Start here**. These cards are everything else.
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20260917" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=20260917" />
-    <img alt="Featured projects" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20260917" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=2026091712" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=2026091712" />
+    <img alt="More shipped projects: Hindai, Stanford CS336, Codex Insights, Vitals.AI, erdos142, sarvam-ai-cookbook" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=2026091712" />
   </picture>
 </p>
-
-| Repo | One line | Agent-era notes |
-| --- | --- | --- |
-| [codex-insights](https://github.com/mangeshraut712/codex-insights) | `$insights` Codex skill + CLI: private HTML/JSON reports from local Codex sessions, trust-aware, `--local-only` by default | Follows the Codex plugin ingestion contract (manifest, skill, `validate_plugin.py`) |
-| [Hindai](https://github.com/mangeshraut712/Hindai) | Static-first Indic scripture learning site; Gemma 4 via a Cloudflare Worker, optional OpenRouter | Rate limiting via Upstash; scripture/tirtha/festival content runs fully offline on Pages |
-| [erdos142](https://github.com/mangeshraut712/erdos142) | Offline research notebook for Erdős #142 — exact finite verifiers for a density-increment route to r₄(N)=o(N/log N) | Status OPEN, no theorem claimed; every audit ships a stdlib-only checker + JSON |
-| [Vitals.AI](https://github.com/mangeshraut712/Vitals.AI) | Privacy-first health dashboard and agent tools; Pages demo uses sample data | — |
-| [Stanford-CS336](https://github.com/mangeshraut712/Stanford-CS336) | Self-study labs: BPE, transformers, GRPO | — |
-| [sarvam-ai-cookbook](https://github.com/mangeshraut712/sarvam-ai-cookbook) (upstream fork) | Indic speech/RAG examples; my CI fix is merged upstream | — |
 
 ---
 
@@ -153,6 +145,8 @@ flowchart LR
   </picture>
 </p>
 
+The card is the stack names. This table is only the lockfiles.
+
 | Stack claim | Source |
 | --- | --- |
 | NumPy · webrtcvad · rank-bm25 · scikit-learn | [ai-ml-portfolio/pyproject.toml](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/pyproject.toml) |
@@ -160,9 +154,7 @@ flowchart LR
 | Next.js 15.5 · React 19.2 · Cloudflare Workers AI | [Hindai/package.json](https://github.com/mangeshraut712/Hindai/blob/main/package.json) · [workers/hindai-gemma](https://github.com/mangeshraut712/Hindai/tree/main/workers) |
 | Next.js 15.5 dashboard · Express gateway · Supabase | [Gravity-SaaS-Agent/apps](https://github.com/mangeshraut712/Gravity-SaaS-Agent/tree/main/apps) |
 | FastAPI | [mangeshrautarchive/requirements.txt](https://github.com/mangeshraut712/mangeshrautarchive/blob/main/requirements.txt) · [career-agent-pro/backend](https://github.com/mangeshraut712/career-agent-pro/blob/main/backend/requirements.txt) |
-| Sarvam SDK (upstream cookbook fork) | [Realtime_Speech_Captioning/requirements.txt](https://github.com/mangeshraut712/sarvam-ai-cookbook/blob/main/examples/Realtime_Speech_Captioning/requirements.txt) |
-| Speech VAD lab | [labs/vad](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/vad) |
-| RAG / LLM eval lab | [labs/llm-eval](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval) · [DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md) · [RESULTS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) |
+| Sarvam SDK | [Realtime_Speech_Captioning/requirements.txt](https://github.com/mangeshraut712/sarvam-ai-cookbook/blob/main/examples/Realtime_Speech_Captioning/requirements.txt) |
 
 </details>
 
@@ -192,12 +184,9 @@ flowchart LR
 
 Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/INTERVIEW_NOTES.md)
 
-**Writing / notes**
+**Writing**
 
 - [Technical writings RSS](https://mangeshraut712.github.io/mangeshrautarchive/rss.xml)
-- [LLM eval DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md)
-- [Stanford CS336](https://github.com/mangeshraut712/Stanford-CS336)
-- [Erdős #142 research notebook](https://github.com/mangeshraut712/erdos142) — offline audits and exact finite verifiers; status OPEN, no new theorem claimed
 
 **Trajectory**
 
