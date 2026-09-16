@@ -2,14 +2,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1104 480" role="img" aria-label="Featured projects">
   <rect width="1104" height="480" fill="#FFFFFF" rx="28"/>
   <text x="24" y="36" fill="#6E6E73" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600" letter-spacing="1.5">FEATURED PROJECTS</text>
-  <text x="24" y="64" fill="#1D1D1F" font-size="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">What recruiters should open first</text>
-  <a href="https://github.com/mangeshraut712/ai-ml-portfolio" target="_blank">
+  <text x="24" y="64" fill="#1D1D1F" font-size="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">More shipped work, not in Start here</text>
+  <a href="https://github.com/mangeshraut712/erdos142" target="_blank">
     <g transform="translate(24,96)">
       <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
-      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Realtime Speech AI</text>
-      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">WebRTC VAD FULL_PASS · F1 0.9569</tspan><tspan x="22" dy="18">· BM25 RAG eval · CI-verified.</tspan></text>
-      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">ai-ml-portfolio → Repo</text>
+      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Erdős 142</text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Offline r4 density-increment audits;</tspan><tspan x="22" dy="18">stdlib checkers. Status OPEN.</tspan></text>
+      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">erdos142 → Repo</text>
     </g>
   </a>
   <a href="https://github.com/mangeshraut712/Hindai" target="_blank">
@@ -21,22 +21,22 @@
       <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Hindai → Repo</text>
     </g>
   </a>
-  <a href="https://github.com/mangeshraut712/Gravity-SaaS-Agent" target="_blank">
+  <a href="https://github.com/mangeshraut712/Stanford-CS336" target="_blank">
     <g transform="translate(740,96)">
       <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
-      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Gravity SaaS Agent</text>
-      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Multi-tenant AI SaaS — MCP tools,</tspan><tspan x="22" dy="18">WhatsApp adapters, billing.</tspan></text>
-      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Gravity-SaaS-Agent → Repo</text>
+      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Stanford CS336</text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Self-study labs: BPE, transformers,</tspan><tspan x="22" dy="18">GRPO. Not a course dump.</tspan></text>
+      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Stanford-CS336 → Repo</text>
     </g>
   </a>
-  <a href="https://github.com/mangeshraut712/agent-console" target="_blank">
+  <a href="https://github.com/mangeshraut712/sarvam-ai-cookbook" target="_blank">
     <g transform="translate(24,286)">
       <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
-      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Agent Console</text>
-      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Realtime observability — WS streams,</tspan><tspan x="22" dy="18">tool traces, chaos survival.</tspan></text>
-      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">agent-console → Repo</text>
+      <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Sarvam Cookbook</text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Indic STT/TTS/RAG examples;</tspan><tspan x="22" dy="18">CI fix merged upstream.</tspan></text>
+      <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">sarvam-ai-cookbook → Repo</text>
     </g>
   </a>
   <a href="https://github.com/mangeshraut712/codex-insights" target="_blank">
