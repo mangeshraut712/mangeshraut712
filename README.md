@@ -10,12 +10,12 @@
 
 > [!IMPORTANT]
 > **Open to AI Engineer roles (Pune · remote).** I build production AI: agents with tool calling and failure handling, real-time speech VAD, RAG evaluation harnesses, and the full-stack around them. Every number below links to the file or CI run that produced it.
-> Fastest contact: [mbr63drexel@gmail.com](mailto:mbr63drexel@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mangeshraut71298/) · [Portfolio](https://mangeshraut712.github.io/mangeshrautarchive/)
+> Fastest contact: [mbr63drexel@gmail.com](mailto:mbr63drexel@gmail.com)
 
 <p align="center">
   <a href="https://mangeshraut712.github.io/mangeshrautarchive/"><img src="https://img.shields.io/badge/Portfolio-0071E3?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-0071E3?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:mbr63drexel@gmail.com"><img src="https://img.shields.io/badge/Email-0071E3?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="https://wa.me/917276819090"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
   <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 </p>
