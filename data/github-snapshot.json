@@ -1,7 +1,7 @@
 {
   "login": "mangeshraut712",
   "source": "GitHub GraphQL + REST (full owned-repo inventory + all-year contributions)",
-  "synced_at": "2026-09-19T05:53:53Z",
+  "synced_at": "2026-09-19T11:00:22Z",
   "created_at": "2021-11-27",
   "location": "Pune, MH, India",
   "bio": "Building production AI: agents \u00b7 speech VAD \u00b7 RAG eval \u00b7 full-stack | Open to AI Engineer roles",
@@ -12,24 +12,24 @@
   "followers": 8,
   "following": 7,
   "contributed_to_repos": 23,
-  "contributions_all_time": 4885,
+  "contributions_all_time": 4898,
   "contributions_by_year": {
     "2021": 1,
     "2022": 0,
     "2023": 3,
     "2024": 10,
     "2025": 2100,
-    "2026": 2771
+    "2026": 2784
   },
   "ytd": {
     "year": 2026,
-    "contributions": 2771,
-    "commits": 2496,
+    "contributions": 2784,
+    "commits": 2509,
     "pull_requests": 230,
     "issues": 2,
     "reviews": 5,
     "private": 0,
-    "avg_per_day": "10.58",
+    "avg_per_day": "10.63",
     "best_day": 144,
     "best_date": "Sep 6",
     "longest_streak_days": 23
