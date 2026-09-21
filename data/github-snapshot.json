@@ -1,7 +1,7 @@
 {
   "login": "mangeshraut712",
   "source": "GitHub GraphQL + REST (full owned-repo inventory + all-year contributions)",
-  "synced_at": "2026-09-19T11:00:22Z",
+  "synced_at": "2026-09-21T18:43:15Z",
   "created_at": "2021-11-27",
   "location": "Pune, MH, India",
   "bio": "Building production AI: agents \u00b7 speech VAD \u00b7 RAG eval \u00b7 full-stack | Open to AI Engineer roles",
@@ -12,37 +12,37 @@
   "followers": 8,
   "following": 7,
   "contributed_to_repos": 23,
-  "contributions_all_time": 4898,
+  "contributions_all_time": 4961,
   "contributions_by_year": {
     "2021": 1,
     "2022": 0,
     "2023": 3,
     "2024": 10,
     "2025": 2100,
-    "2026": 2784
+    "2026": 2847
   },
   "ytd": {
     "year": 2026,
-    "contributions": 2784,
-    "commits": 2509,
-    "pull_requests": 230,
+    "contributions": 2847,
+    "commits": 2564,
+    "pull_requests": 238,
     "issues": 2,
     "reviews": 5,
     "private": 0,
-    "avg_per_day": "10.63",
+    "avg_per_day": "10.78",
     "best_day": 144,
     "best_date": "Sep 6",
-    "longest_streak_days": 23
+    "longest_streak_days": 25
   },
   "primary_languages": {
     "TypeScript": 15,
     "Python": 10,
     "JavaScript": 8,
     "Jupyter Notebook": 2,
-    "Java": 1,
-    "HTML": 1,
+    "MATLAB": 1,
     "Swift": 1,
-    "MATLAB": 1
+    "Java": 1,
+    "HTML": 1
   },
   "stack": {
     "icons": "ts,js,py,swift,react,nextjs,tailwind,fastapi,express,postgres,supabase,mongodb,docker,vercel,pytorch",
