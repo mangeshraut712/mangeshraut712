@@ -50,7 +50,7 @@
     <tspan x="404" y="40" fill="#F5F5F7" font-weight="700" font-size="16">mangesh</tspan><tspan fill="#2997FF" font-weight="700" font-size="16">@raut</tspan>
     <tspan x="404" y="58" fill="#3A3A3C">────────────────────────────────────────</tspan>
     <tspan x="404" y="76" fill="#8E8E93">·</tspan><tspan x="520" y="76" text-anchor="end" fill="#2997FF" font-weight="700">OS</tspan><tspan x="528" y="76" fill="#8E8E93">:</tspan><tspan x="540" fill="#F5F5F7">macOS · Linux</tspan>
-    <tspan x="404" y="94" fill="#8E8E93">·</tspan><tspan x="520" y="94" text-anchor="end" fill="#2997FF" font-weight="700">Uptime</tspan><tspan x="528" y="94" fill="#8E8E93">:</tspan><tspan id="uptime_data" x="540" fill="#F5F5F7">4 years, 9 months, 27 days</tspan>
+    <tspan x="404" y="94" fill="#8E8E93">·</tspan><tspan x="520" y="94" text-anchor="end" fill="#2997FF" font-weight="700">Uptime</tspan><tspan x="528" y="94" fill="#8E8E93">:</tspan><tspan id="uptime_data" x="540" fill="#F5F5F7">4 years, 9 months, 28 days</tspan>
     <tspan x="404" y="112" fill="#8E8E93">·</tspan><tspan x="520" y="112" text-anchor="end" fill="#2997FF" font-weight="700">Host</tspan><tspan x="528" y="112" fill="#8E8E93">:</tspan><tspan id="host_data" x="540" fill="#F5F5F7">Pune, MH, India</tspan>
     <tspan x="404" y="130" fill="#8E8E93">·</tspan><tspan x="520" y="130" text-anchor="end" fill="#2997FF" font-weight="700">Kernel</tspan><tspan x="528" y="130" fill="#8E8E93">:</tspan><tspan id="role_data" x="540" fill="#F5F5F7">Applied AI Engineer</tspan>
     <tspan x="404" y="148" fill="#8E8E93">·</tspan><tspan x="520" y="148" text-anchor="end" fill="#2997FF" font-weight="700">IDE</tspan><tspan x="528" y="148" fill="#8E8E93">:</tspan><tspan x="540" fill="#F5F5F7">Cursor · Codex · VS Code · Claude</tspan>
@@ -68,7 +68,7 @@
     <tspan x="404" y="358" fill="#2997FF" font-weight="700">WhoBurnedMore</tspan>
     <tspan x="404" y="376" fill="#8E8E93">·</tspan><tspan x="520" y="376" text-anchor="end" fill="#2997FF" font-weight="700">Rank</tspan><tspan x="528" y="376" fill="#8E8E93">:</tspan><tspan id="burn_rank_data" x="540" fill="#F5F5F7">#53 of 357 (top 15%)</tspan>
     <tspan x="404" y="394" fill="#8E8E93">·</tspan><tspan x="520" y="394" text-anchor="end" fill="#2997FF" font-weight="700">Lifetime</tspan><tspan x="528" y="394" fill="#8E8E93">:</tspan><tspan id="burn_lifetime_data" x="540" fill="#F5F5F7">16.00B tokens · $15,627 · 214 active days · 26d streak</tspan>
-    <tspan x="404" y="412" fill="#8E8E93">·</tspan><tspan x="520" y="412" text-anchor="end" fill="#2997FF" font-weight="700">Today</tspan><tspan x="528" y="412" fill="#8E8E93">:</tspan><tspan id="burn_today_data" x="540" fill="#F5F5F7">362.5M · $256</tspan>
+    <tspan x="404" y="412" fill="#8E8E93">·</tspan><tspan x="520" y="412" text-anchor="end" fill="#2997FF" font-weight="700">Today</tspan><tspan x="528" y="412" fill="#8E8E93">:</tspan><tspan id="burn_today_data" x="540" fill="#F5F5F7">0 · $0</tspan>
     <tspan x="404" y="430" fill="#8E8E93">·</tspan><tspan x="520" y="430" text-anchor="end" fill="#2997FF" font-weight="700">This week</tspan><tspan x="528" y="430" fill="#8E8E93">:</tspan><tspan id="burn_week_data" x="540" fill="#F5F5F7">1.02B · $794</tspan>
   </text>
 
