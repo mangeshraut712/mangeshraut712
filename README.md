@@ -81,7 +81,7 @@ Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measu
 | [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1239) | Shared-credential mapping for HDFC Bank (`hdfcbank.com` → `hdfc.bank.in`) | **Merged** |
 | [dayx61 / oladayo](https://github.com/dayx61/oladayo/pull/1) | Reusable master README template | **Merged** |
 
-Full list: [merged pull requests](https://github.com/pulls?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712)
+Full list: [merged pull requests](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712)
 
 ---
 
