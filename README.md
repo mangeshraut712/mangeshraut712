@@ -79,23 +79,8 @@ Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measu
 | [OpenAI Codex Security](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance in the CLI | **Merged** |
 | [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1239) | Shared-credential mapping for HDFC Bank (`hdfcbank.com` → `hdfc.bank.in`) | **Merged** |
 | [dayx61 / oladayo](https://github.com/dayx61/oladayo/pull/1) | Reusable master README template | **Merged** |
-| [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/4047) | Cold transcript keeps a prompt-hook note from opening a turn | Open |
-| [Firecrawl pdf-inspector](https://github.com/firecrawl/pdf-inspector/pull/598) | Keep text rendering mode across text objects | Open |
-| [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/183) | Secret scan reads notebooks that start with a UTF-8 BOM | Open |
-| [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/184) | CI checks added lines against the Sarvam model allowlist | Open |
-| [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | Weekly rules sync skips a pull request when only the timestamp changed | Open |
-| [Sarvam skills](https://github.com/sarvamai/skills/pull/5) | Prefer `sarvam-105b` and drop stale MCP code-tool references | Open |
-| [Google SBSim](https://github.com/google/sbsim/pull/187) | Remove internal Blaze/Bazel BUILD files | Open |
-| [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/2516) | Redact Unicode, UNC, and `C:/` paths in telemetry | Open |
-| [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/2511) | Refuse multi-line empty Edit deletions | Open |
-| [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/2508) | Skip empty OpenAI-compatible reasoning stream values | Open |
-| [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/2510) | WSL image paste uses PowerShell STA and the PNG format | Open |
-| [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/2515) | Clarify agent help and document the `-r` session alias | Open |
-| [Meta Pyrefly](https://github.com/facebook/pyrefly/pull/4737) | LSP completion for closing triple-quoted strings | Open |
-| [Meta Lexical iOS](https://github.com/facebook/lexical-ios/pull/85) | DocC documentation for `ElementNode` methods | Open |
-| [Anthropic claude-code-action](https://github.com/anthropics/claude-code-action/pull/1821) | Docs: `claude_args` replaces removed `allowed_tools` | Open |
 
-Full list: [merged](https://github.com/pulls?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712) · [open](https://github.com/pulls?q=is%3Apr+author%3Amangeshraut712+is%3Aopen+-user%3Amangeshraut712)
+Full list: [merged pull requests](https://github.com/pulls?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712)
 
 ---
 
