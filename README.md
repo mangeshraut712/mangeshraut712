@@ -72,6 +72,7 @@ Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measu
 
 | Project | Contribution | Status |
 | --- | --- | --- |
+| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1318) | Shared-credential mapping for start.gg (`smash.gg` → `start.gg`) | **Merged** |
 | [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/2416) | Built-in model catalog fallback when `models.dev` is unavailable | **Merged** |
 | [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | Hardened CI detection of unquoted TS/JS model keys | **Merged** |
 | [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1178) | Schema support for exact-domain-only password rules | **Merged** |
