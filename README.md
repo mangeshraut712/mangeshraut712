@@ -80,6 +80,7 @@ Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measu
 | [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1239) | Shared-credential mapping for HDFC Bank (`hdfcbank.com` → `hdfc.bank.in`) | **Merged** |
 | [dayx61 / oladayo](https://github.com/dayx61/oladayo/pull/1) | Reusable master README template | **Merged** |
 | [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/4047) | Cold transcript keeps a prompt-hook note from opening a turn | Open |
+| [Firecrawl pdf-inspector](https://github.com/firecrawl/pdf-inspector/pull/598) | Keep text rendering mode across text objects | Open |
 | [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/183) | Secret scan reads notebooks that start with a UTF-8 BOM | Open |
 | [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/184) | CI checks added lines against the Sarvam model allowlist | Open |
 | [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | Weekly rules sync skips a pull request when only the timestamp changed | Open |
