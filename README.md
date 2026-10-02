@@ -70,18 +70,23 @@ Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measu
 
 ### Open-source contributions
 
-| Project | Contribution | Status |
+Snapshot **2026-10-03** (Asia/Calcutta). Search `is:pr author:mangeshraut712 is:merged -user:mangeshraut712` returned **9** merged upstream PRs (`incomplete_results: false`). Merges in repos I own are separate: the same-day search `is:pr author:mangeshraut712 is:merged user:mangeshraut712` returned **174**. Rows below are those 9, newest `mergedAt` first.
+
+| Project | Contribution | Merged |
 | --- | --- | --- |
-| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1318) | Shared-credential mapping for start.gg (`smash.gg` → `start.gg`) | **Merged** |
-| [MoonshotAI / Kimi Code](https://github.com/MoonshotAI/kimi-code/pull/2416) | Built-in model catalog fallback when `models.dev` is unavailable | **Merged** |
-| [Sarvam AI Cookbook](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | Hardened CI detection of unquoted TS/JS model keys | **Merged** |
-| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1178) | Schema support for exact-domain-only password rules | **Merged** |
-| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1179) | Shared-credential mappings for Bluesky domains | **Merged** |
-| [OpenAI Codex Security](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance in the CLI | **Merged** |
-| [Apple Password Manager Resources](https://github.com/apple/password-manager-resources/pull/1239) | Shared-credential mapping for HDFC Bank (`hdfcbank.com` → `hdfc.bank.in`) | **Merged** |
-| [dayx61 / oladayo](https://github.com/dayx61/oladayo/pull/1) | Reusable master README template | **Merged** |
+| [Apple Password Manager Resources #1784](https://github.com/apple/password-manager-resources/pull/1784) | Change-password URL for thriftbooks.com | 2026-09-28 20:16 IST |
+| [Apple Password Manager Resources #1318](https://github.com/apple/password-manager-resources/pull/1318) | Shared-credential mapping for start.gg (`smash.gg` → `start.gg`) | 2026-09-27 21:20 IST |
+| [Apple Password Manager Resources #1239](https://github.com/apple/password-manager-resources/pull/1239) | Shared-credential mapping for HDFC Bank (`hdfcbank.com` → `hdfc.bank.in`) | 2026-09-02 21:42 IST |
+| [OpenAI Codex Security #754](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance in the CLI | 2026-08-30 19:35 IST |
+| [Apple Password Manager Resources #1179](https://github.com/apple/password-manager-resources/pull/1179) | Shared-credential mappings for Bluesky domains | 2026-08-03 00:36 IST |
+| [Sarvam AI Cookbook #116](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | CI detection of unquoted TS/JS model keys | 2026-08-02 04:15 IST |
+| [MoonshotAI / Kimi Code #2416](https://github.com/MoonshotAI/kimi-code/pull/2416) | Built-in model catalog fallback when `models.dev` is unavailable | 2026-07-31 17:24 IST |
+| [Apple Password Manager Resources #1178](https://github.com/apple/password-manager-resources/pull/1178) | Schema support for exact-domain-only password rules | 2026-07-30 19:15 IST |
+| [dayx61 / oladayo #1](https://github.com/dayx61/oladayo/pull/1) | Reusable master README template | 2026-03-27 13:52 IST |
 
 Full list: [merged pull requests](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712)
+
+**Still open** the same day (`is:pr author:mangeshraut712 is:open -user:mangeshraut712`): **22**, `incomplete_results: false`, none draft. By repo: [kimi-code](https://github.com/MoonshotAI/kimi-code) 6, [pdf-inspector](https://github.com/firecrawl/pdf-inspector) 5, [sarvam-ai-cookbook](https://github.com/sarvamai/sarvam-ai-cookbook) 3, [llm_intent_entity](https://github.com/sarvamai/llm_intent_entity) 2, and one each in [llm_wer](https://github.com/sarvamai/llm_wer), [skills](https://github.com/sarvamai/skills), [google/sbsim](https://github.com/google/sbsim), [claude-code-action](https://github.com/anthropics/claude-code-action), [lexical-ios](https://github.com/facebook/lexical-ios), [pyrefly](https://github.com/facebook/pyrefly). No `APPROVED` review on any of them in that pull. [Open search](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Aopen+-user%3Amangeshraut712).
 
 ---
 
