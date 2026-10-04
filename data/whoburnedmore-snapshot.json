@@ -12,12 +12,12 @@
   "active_days": 224,
   "streak_days": 36,
   "longest_streak_days": 36,
-  "today_tokens": 241175057.0,
-  "today_cost_usd": 85.7017,
+  "today_tokens": 0.0,
+  "today_cost_usd": 0.0,
   "week_tokens": 1629947102.0,
   "week_cost_usd": 771.6059999999999,
   "week_start": "2026-09-28",
-  "as_of": "2026-10-03",
-  "synced_at": "2026-10-03T23:48:02Z",
+  "as_of": "2026-10-04",
+  "synced_at": "2026-10-04T05:54:31Z",
   "source": "WhoBurnedMore public profile HTML (Next.js payload)"
 }
