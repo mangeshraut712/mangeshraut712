@@ -70,23 +70,33 @@ Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measu
 
 ### Open-source contributions
 
-Snapshot **2026-10-03** (Asia/Calcutta). Search `is:pr author:mangeshraut712 is:merged -user:mangeshraut712` returned **9** merged upstream PRs (`incomplete_results: false`). Merges in repos I own are separate: the same-day search `is:pr author:mangeshraut712 is:merged user:mangeshraut712` returned **174**. Rows below are those 9, newest `mergedAt` first.
+Snapshot **2026-10-10** (Asia/Calcutta). Search `is:pr author:mangeshraut712 is:merged -user:mangeshraut712` returned **11** merged upstream PRs (`incomplete_results: false`). Rows below are those 11, grouped by org, newest merge first.
 
 | Project | Contribution | Merged |
 | --- | --- | --- |
+| [Google sbsim #187](https://github.com/google/sbsim/pull/187) | Remove internal Blaze/Bazel BUILD files | 2026-10-06 21:58 IST |
+| [Sarvam AI Cookbook #185](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | Skip the weekly rules sync when only the timestamp changed | 2026-10-06 13:03 IST |
+| [Sarvam AI Cookbook #116](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | CI detection of unquoted TS/JS model keys | 2026-08-02 04:15 IST |
 | [Apple Password Manager Resources #1784](https://github.com/apple/password-manager-resources/pull/1784) | Change-password URL for thriftbooks.com | 2026-09-28 20:16 IST |
 | [Apple Password Manager Resources #1318](https://github.com/apple/password-manager-resources/pull/1318) | Shared-credential mapping for start.gg (`smash.gg` → `start.gg`) | 2026-09-27 21:20 IST |
 | [Apple Password Manager Resources #1239](https://github.com/apple/password-manager-resources/pull/1239) | Shared-credential mapping for HDFC Bank (`hdfcbank.com` → `hdfc.bank.in`) | 2026-09-02 21:42 IST |
-| [OpenAI Codex Security #754](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance in the CLI | 2026-08-30 19:35 IST |
 | [Apple Password Manager Resources #1179](https://github.com/apple/password-manager-resources/pull/1179) | Shared-credential mappings for Bluesky domains | 2026-08-03 00:36 IST |
-| [Sarvam AI Cookbook #116](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | CI detection of unquoted TS/JS model keys | 2026-08-02 04:15 IST |
-| [MoonshotAI / Kimi Code #2416](https://github.com/MoonshotAI/kimi-code/pull/2416) | Built-in model catalog fallback when `models.dev` is unavailable | 2026-07-31 17:24 IST |
 | [Apple Password Manager Resources #1178](https://github.com/apple/password-manager-resources/pull/1178) | Schema support for exact-domain-only password rules | 2026-07-30 19:15 IST |
+| [OpenAI Codex Security #754](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance in the CLI | 2026-08-30 19:35 IST |
+| [MoonshotAI / Kimi Code #2416](https://github.com/MoonshotAI/kimi-code/pull/2416) | Built-in model catalog fallback when `models.dev` is unavailable | 2026-07-31 17:24 IST |
 | [dayx61 / oladayo #1](https://github.com/dayx61/oladayo/pull/1) | Reusable master README template | 2026-03-27 13:52 IST |
 
 Full list: [merged pull requests](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712)
 
-**Still open** the same day (`is:pr author:mangeshraut712 is:open -user:mangeshraut712`): **22**, `incomplete_results: false`, none draft. By repo: [kimi-code](https://github.com/MoonshotAI/kimi-code) 6, [pdf-inspector](https://github.com/firecrawl/pdf-inspector) 5, [sarvam-ai-cookbook](https://github.com/sarvamai/sarvam-ai-cookbook) 3, [llm_intent_entity](https://github.com/sarvamai/llm_intent_entity) 2, and one each in [llm_wer](https://github.com/sarvamai/llm_wer), [skills](https://github.com/sarvamai/skills), [google/sbsim](https://github.com/google/sbsim), [claude-code-action](https://github.com/anthropics/claude-code-action), [lexical-ios](https://github.com/facebook/lexical-ios), [pyrefly](https://github.com/facebook/pyrefly). No `APPROVED` review on any of them in that pull. [Open search](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Aopen+-user%3Amangeshraut712).
+**Still open** the same day (`is:pr author:mangeshraut712 is:open -user:mangeshraut712`): **20**, `incomplete_results: false`, none draft.
+
+- **MoonshotAI/kimi-code** — [#4047](https://github.com/MoonshotAI/kimi-code/pull/4047) prompt-hook notes opening a turn · [#2516](https://github.com/MoonshotAI/kimi-code/pull/2516) redact Unicode/UNC/`C:/` paths in telemetry · [#2515](https://github.com/MoonshotAI/kimi-code/pull/2515) agent help + `-r` alias · [#2511](https://github.com/MoonshotAI/kimi-code/pull/2511) refuse multi-line empty Edit deletions · [#2510](https://github.com/MoonshotAI/kimi-code/pull/2510) WSL image paste · [#2508](https://github.com/MoonshotAI/kimi-code/pull/2508) empty reasoning stream values
+- **firecrawl/pdf-inspector** — [#602](https://github.com/firecrawl/pdf-inspector/pull/602) sparse columns sharing a baseline · [#601](https://github.com/firecrawl/pdf-inspector/pull/601) repeated body text on short pages · [#600](https://github.com/firecrawl/pdf-inspector/pull/600) AcroForm text decoding · [#599](https://github.com/firecrawl/pdf-inspector/pull/599) owner-password decryption · [#598](https://github.com/firecrawl/pdf-inspector/pull/598) text rendering mode across text objects
+- **sarvamai** — cookbook [#184](https://github.com/sarvamai/sarvam-ai-cookbook/pull/184) allowlist check on added lines · [#183](https://github.com/sarvamai/sarvam-ai-cookbook/pull/183) notebooks with a UTF-8 BOM · llm_intent_entity [#12](https://github.com/sarvamai/llm_intent_entity/pull/12) finite LLM timeout · [#11](https://github.com/sarvamai/llm_intent_entity/pull/11) cached evaluation lookup · llm_wer [#7](https://github.com/sarvamai/llm_wer/pull/7) WER judge schema field · skills [#5](https://github.com/sarvamai/skills/pull/5) prefer sarvam-105b
+- **facebook** — pyrefly [#4737](https://github.com/facebook/pyrefly/pull/4737) complete closing triple-quoted strings · lexical-ios [#85](https://github.com/facebook/lexical-ios/pull/85) DocC for ElementNode methods
+- **anthropics/claude-code-action** — [#1821](https://github.com/anthropics/claude-code-action/pull/1821) `claude_args` docs fix
+
+[Open search](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Aopen+-user%3Amangeshraut712).
 
 ---
 
