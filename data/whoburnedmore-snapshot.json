@@ -1,10 +1,10 @@
 {
   "handle": "mrcommando712",
   "url": "https://whoburnedmore.com/u/mrcommando712",
-  "rank": 60,
+  "rank": 61,
   "daily_rank": 0,
-  "weekly_rank": 97,
-  "all_time_rank": 60,
+  "weekly_rank": 98,
+  "all_time_rank": 61,
   "total_users": 382,
   "top_percentile": 16,
   "lifetime_tokens": 18156210706.0,
@@ -17,7 +17,7 @@
   "week_tokens": 96902701.0,
   "week_cost_usd": 20.18,
   "week_start": "2026-10-05",
-  "as_of": "2026-10-09",
-  "synced_at": "2026-10-09T20:56:30Z",
+  "as_of": "2026-10-10",
+  "synced_at": "2026-10-10T00:52:25Z",
   "source": "WhoBurnedMore public profile HTML (Next.js payload)"
 }
