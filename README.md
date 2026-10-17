@@ -112,6 +112,8 @@ The three systems above stay in **Start here**. These cards are everything else.
   </picture>
 </p>
 
+**Also new:** [**Asset Intelligence Copilot**](https://github.com/mangeshraut712/asset-intelligence-copilot) — FlytBase challenge entry (AI Hackers Collective × Hacktoberfest 2026 Hack Day). A chat copilot for oil-field operators: deterministic tools compute the numbers, answers cite record IDs and SOP passages, and Gemma 4 handles planning and phrasing. Runs locally; MIT.
+
 ---
 
 <details>
