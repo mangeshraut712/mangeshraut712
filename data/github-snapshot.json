@@ -1,7 +1,7 @@
 {
   "login": "mangeshraut712",
   "source": "GitHub GraphQL + REST (full owned-repo inventory + all-year contributions)",
-  "synced_at": "2026-10-17T17:11:35Z",
+  "synced_at": "2026-10-17T19:24:50Z",
   "created_at": "2021-11-27",
   "location": "Pune, MH, India",
   "bio": "Building production AI: agents \u00b7 speech VAD \u00b7 RAG eval \u00b7 full-stack | Open to AI Engineer roles",
@@ -12,24 +12,24 @@
   "followers": 9,
   "following": 7,
   "contributed_to_repos": 39,
-  "contributions_all_time": 5842,
+  "contributions_all_time": 5928,
   "contributions_by_year": {
     "2021": 1,
     "2022": 0,
     "2023": 3,
     "2024": 10,
     "2025": 2100,
-    "2026": 3728
+    "2026": 3814
   },
   "ytd": {
     "year": 2026,
-    "contributions": 3728,
-    "commits": 2768,
-    "pull_requests": 906,
+    "contributions": 3814,
+    "commits": 2816,
+    "pull_requests": 944,
     "issues": 2,
     "reviews": 13,
     "private": 0,
-    "avg_per_day": "12.86",
+    "avg_per_day": "13.15",
     "best_day": 514,
     "best_date": "Sep 28",
     "longest_streak_days": 27
@@ -38,8 +38,8 @@
     "TypeScript": 31,
     "JavaScript": 6,
     "Python": 2,
-    "Jupyter Notebook": 1,
-    "Swift": 1
+    "Swift": 1,
+    "Jupyter Notebook": 1
   },
   "stack": {
     "icons": "ts,js,py,swift,react,nextjs,tailwind,fastapi,express,postgres,supabase,mongodb,docker,vercel,pytorch",
