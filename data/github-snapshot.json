@@ -1,35 +1,35 @@
 {
   "login": "mangeshraut712",
   "source": "GitHub GraphQL + REST (full owned-repo inventory + all-year contributions)",
-  "synced_at": "2026-10-17T04:27:35Z",
+  "synced_at": "2026-10-17T09:22:33Z",
   "created_at": "2021-11-27",
   "location": "Pune, MH, India",
   "bio": "Building production AI: agents \u00b7 speech VAD \u00b7 RAG eval \u00b7 full-stack | Open to AI Engineer roles",
-  "public_repos": 75,
-  "owned_non_fork": 39,
+  "public_repos": 76,
+  "owned_non_fork": 40,
   "stars_on_owned": 12,
   "forks_on_owned": 4,
   "followers": 9,
   "following": 7,
   "contributed_to_repos": 39,
-  "contributions_all_time": 5867,
+  "contributions_all_time": 5881,
   "contributions_by_year": {
     "2021": 1,
     "2022": 0,
     "2023": 3,
     "2024": 10,
     "2025": 2100,
-    "2026": 3753
+    "2026": 3767
   },
   "ytd": {
     "year": 2026,
-    "contributions": 3753,
-    "commits": 2747,
+    "contributions": 3767,
+    "commits": 2760,
     "pull_requests": 932,
     "issues": 2,
     "reviews": 16,
     "private": 0,
-    "avg_per_day": "12.94",
+    "avg_per_day": "12.99",
     "best_day": 516,
     "best_date": "Sep 28",
     "longest_streak_days": 27
@@ -37,7 +37,7 @@
   "primary_languages": {
     "TypeScript": 30,
     "JavaScript": 6,
-    "Python": 1,
+    "Python": 2,
     "Jupyter Notebook": 1,
     "Swift": 1
   },
