@@ -72,6 +72,8 @@ Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measu
 
 **26 merged upstream PRs** as of 2026-10-22. Only merged PRs are listed. Each one was checked with `gh pr view` and has a `mergedAt` date. My own repos are not included.
 
+**Goal: 50 merged PRs.** Progress: 26 / 50 (52%), focused on Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and AWS.
+
 **Big-company orgs**
 
 - **Apple** · password-manager-resources: [#1784 Change-password URL for thriftbooks.com](https://github.com/apple/password-manager-resources/pull/1784) · [#1318 Shared credentials for start.gg](https://github.com/apple/password-manager-resources/pull/1318) · [#1239 Shared credentials for HDFC Bank](https://github.com/apple/password-manager-resources/pull/1239) · [#1179 Shared credentials for Bluesky](https://github.com/apple/password-manager-resources/pull/1179) · [#1178 Exact-domain-only password rules in schema](https://github.com/apple/password-manager-resources/pull/1178)
