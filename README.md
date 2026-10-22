@@ -56,7 +56,7 @@ make install && make verify-all      # mlfs tests + VAD FULL_PASS gate + offline
   </picture>
 </p>
 
-Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measured; the code gate is ≤100 ms), CI Python **3.10–3.12**, **4,857** contributions (**2026-09-16 snapshot** — live total moves). The table is only what the card does not show.
+Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measured; the code gate is ≤100 ms), CI Python **3.10–3.12**. The table is only what the card does not show.
 
 | Metric | Measured | Gate / baseline | Source |
 | --- | ---: | ---: | --- |
@@ -70,33 +70,28 @@ Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measu
 
 ### Open-source contributions
 
-Snapshot **2026-10-10** (Asia/Calcutta). Search `is:pr author:mangeshraut712 is:merged -user:mangeshraut712` returned **11** merged upstream PRs (`incomplete_results: false`). Rows below are those 11, grouped by org, newest merge first.
+**26 merged upstream PRs** as of 2026-10-22. Only merged PRs are listed. Each one was checked with `gh pr view` and has a `mergedAt` date. My own repos are not included.
 
-| Project | Contribution | Merged |
-| --- | --- | --- |
-| [Google sbsim #187](https://github.com/google/sbsim/pull/187) | Remove internal Blaze/Bazel BUILD files | 2026-10-06 21:58 IST |
-| [Sarvam AI Cookbook #185](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | Skip the weekly rules sync when only the timestamp changed | 2026-10-06 13:03 IST |
-| [Sarvam AI Cookbook #116](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | CI detection of unquoted TS/JS model keys | 2026-08-02 04:15 IST |
-| [Apple Password Manager Resources #1784](https://github.com/apple/password-manager-resources/pull/1784) | Change-password URL for thriftbooks.com | 2026-09-28 20:16 IST |
-| [Apple Password Manager Resources #1318](https://github.com/apple/password-manager-resources/pull/1318) | Shared-credential mapping for start.gg (`smash.gg` → `start.gg`) | 2026-09-27 21:20 IST |
-| [Apple Password Manager Resources #1239](https://github.com/apple/password-manager-resources/pull/1239) | Shared-credential mapping for HDFC Bank (`hdfcbank.com` → `hdfc.bank.in`) | 2026-09-02 21:42 IST |
-| [Apple Password Manager Resources #1179](https://github.com/apple/password-manager-resources/pull/1179) | Shared-credential mappings for Bluesky domains | 2026-08-03 00:36 IST |
-| [Apple Password Manager Resources #1178](https://github.com/apple/password-manager-resources/pull/1178) | Schema support for exact-domain-only password rules | 2026-07-30 19:15 IST |
-| [OpenAI Codex Security #754](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance in the CLI | 2026-08-30 19:35 IST |
-| [MoonshotAI / Kimi Code #2416](https://github.com/MoonshotAI/kimi-code/pull/2416) | Built-in model catalog fallback when `models.dev` is unavailable | 2026-07-31 17:24 IST |
-| [dayx61 / oladayo #1](https://github.com/dayx61/oladayo/pull/1) | Reusable master README template | 2026-03-27 13:52 IST |
+**Big-company orgs**
 
-Full list: [merged pull requests](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712)
+- **Apple** · password-manager-resources: [#1784 Change-password URL for thriftbooks.com](https://github.com/apple/password-manager-resources/pull/1784) · [#1318 Shared credentials for start.gg](https://github.com/apple/password-manager-resources/pull/1318) · [#1239 Shared credentials for HDFC Bank](https://github.com/apple/password-manager-resources/pull/1239) · [#1179 Shared credentials for Bluesky](https://github.com/apple/password-manager-resources/pull/1179) · [#1178 Exact-domain-only password rules in schema](https://github.com/apple/password-manager-resources/pull/1178)
+- **Google** · sbsim: [#187 Remove internal Blaze/Bazel BUILD files](https://github.com/google/sbsim/pull/187)
+- **OpenAI** · codex-security: [#754 Shell-neutral env-var removal guidance](https://github.com/openai/codex-security/pull/754)
 
-**Still open** the same day (`is:pr author:mangeshraut712 is:open -user:mangeshraut712`): **20**, `incomplete_results: false`, none draft.
+**Other projects**
 
-- **MoonshotAI/kimi-code** — [#4047](https://github.com/MoonshotAI/kimi-code/pull/4047) prompt-hook notes opening a turn · [#2516](https://github.com/MoonshotAI/kimi-code/pull/2516) redact Unicode/UNC/`C:/` paths in telemetry · [#2515](https://github.com/MoonshotAI/kimi-code/pull/2515) agent help + `-r` alias · [#2511](https://github.com/MoonshotAI/kimi-code/pull/2511) refuse multi-line empty Edit deletions · [#2510](https://github.com/MoonshotAI/kimi-code/pull/2510) WSL image paste · [#2508](https://github.com/MoonshotAI/kimi-code/pull/2508) empty reasoning stream values
-- **firecrawl/pdf-inspector** — [#602](https://github.com/firecrawl/pdf-inspector/pull/602) sparse columns sharing a baseline · [#601](https://github.com/firecrawl/pdf-inspector/pull/601) repeated body text on short pages · [#600](https://github.com/firecrawl/pdf-inspector/pull/600) AcroForm text decoding · [#599](https://github.com/firecrawl/pdf-inspector/pull/599) owner-password decryption · [#598](https://github.com/firecrawl/pdf-inspector/pull/598) text rendering mode across text objects
-- **sarvamai** — cookbook [#184](https://github.com/sarvamai/sarvam-ai-cookbook/pull/184) allowlist check on added lines · [#183](https://github.com/sarvamai/sarvam-ai-cookbook/pull/183) notebooks with a UTF-8 BOM · llm_intent_entity [#12](https://github.com/sarvamai/llm_intent_entity/pull/12) finite LLM timeout · [#11](https://github.com/sarvamai/llm_intent_entity/pull/11) cached evaluation lookup · llm_wer [#7](https://github.com/sarvamai/llm_wer/pull/7) WER judge schema field · skills [#5](https://github.com/sarvamai/skills/pull/5) prefer sarvam-105b
-- **facebook** — pyrefly [#4737](https://github.com/facebook/pyrefly/pull/4737) complete closing triple-quoted strings · lexical-ios [#85](https://github.com/facebook/lexical-ios/pull/85) DocC for ElementNode methods
-- **anthropics/claude-code-action** — [#1821](https://github.com/anthropics/claude-code-action/pull/1821) `claude_args` docs fix
+- **brekkylab/backlot**: [#788 Notion data sources in database search](https://github.com/brekkylab/backlot/pull/788) · [#762 Jira orderBy validation](https://github.com/brekkylab/backlot/pull/762) · [#711 Google Docs documents.get param validation](https://github.com/brekkylab/backlot/pull/711) · [#710 Linear branchName for unassigned issues](https://github.com/brekkylab/backlot/pull/710) · [#662 S3 response-override validation](https://github.com/brekkylab/backlot/pull/662) · [#661 GitHub issue sort tie-breaking](https://github.com/brekkylab/backlot/pull/661)
+- **eugenioenko/ttt**: [#947 Refresh F3 matches after edits](https://github.com/eugenioenko/ttt/pull/947) · [#946 No search matches on image/binary tabs](https://github.com/eugenioenko/ttt/pull/946) · [#927 Restore cursor when undoing line commands](https://github.com/eugenioenko/ttt/pull/927)
+- **finos/architecture-as-code**: [#3372 Fix calm-hub seed base URL](https://github.com/finos/architecture-as-code/pull/3372) · [#3331 Theme colours in VS Code canvas preview](https://github.com/finos/architecture-as-code/pull/3331)
+- **sarvamai/sarvam-ai-cookbook**: [#185 Skip no-op weekly rules sync](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) · [#116 Detect unquoted TS/JS model keys in CI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116)
+- **MoonshotAI/kimi-code**: [#2416 Built-in model catalog fallback](https://github.com/MoonshotAI/kimi-code/pull/2416)
+- **maester365/maester**: [#2392 Fix ORCA crash on multi-policy domains](https://github.com/maester365/maester/pull/2392)
+- **oceanbase/powercontext**: [#2009 Extraction diagnostics in CLI capabilities](https://github.com/oceanbase/powercontext/pull/2009)
+- **CapSoftware/Cap**: [#2549 Accept configured web host in share URLs](https://github.com/CapSoftware/Cap/pull/2549)
+- **RailtownAI/railtracks**: [#1684 Offline EchoLLM for tests](https://github.com/RailtownAI/railtracks/pull/1684)
+- **espnet/espnet**: [#6890 Pass use_sdpa through UniversaBase](https://github.com/espnet/espnet/pull/6890)
 
-[Open search](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Aopen+-user%3Amangeshraut712).
+[All merged PRs on GitHub](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61&type=pullrequests)
 
 ---
 
