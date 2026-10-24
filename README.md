@@ -70,9 +70,9 @@ Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measu
 
 ### Open-source contributions
 
-**27 merged upstream PRs** as of 2026-10-24. Only merged PRs are listed. Each one was checked with `gh pr view` and has a `mergedAt` date. My own repos are not included.
+**32 merged upstream PRs** as of 2026-10-24. Only merged PRs are listed. Each one was checked with `gh pr view` and has a `mergedAt` date. My own repos are not included.
 
-**Goal: 50 merged PRs.** Progress: 27 / 50 (54%), focused on Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and AWS.
+**Goal: 50 merged PRs.** Progress: 32 / 50 (64%), focused on Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and AWS.
 
 **Big-company orgs**
 
@@ -88,6 +88,8 @@ Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measu
 - **finos/architecture-as-code**: [#3372 Fix calm-hub seed base URL](https://github.com/finos/architecture-as-code/pull/3372) · [#3331 Theme colours in VS Code canvas preview](https://github.com/finos/architecture-as-code/pull/3331)
 - **sarvamai/sarvam-ai-cookbook**: [#185 Skip no-op weekly rules sync](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) · [#116 Detect unquoted TS/JS model keys in CI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116)
 - **MoonshotAI/kimi-code**: [#2416 Built-in model catalog fallback](https://github.com/MoonshotAI/kimi-code/pull/2416)
+- **Roojool/pune-metro-strava** (MetroQuest): [#16 Leagues gamification polish](https://github.com/Roojool/pune-metro-strava/pull/16) · [#21 Sachet-class README + demo screenshots](https://github.com/Roojool/pune-metro-strava/pull/21) · [#24 Gamification demo labels + mobile XP card](https://github.com/Roojool/pune-metro-strava/pull/24) · [#31 Connect Pune Metro habits to ride progress](https://github.com/Roojool/pune-metro-strava/pull/31)
+- **existence-master/Sentient**: [#500 Curly apostrophes in click-claim checks](https://github.com/existence-master/Sentient/pull/500)
 - **maester365/maester**: [#2392 Fix ORCA crash on multi-policy domains](https://github.com/maester365/maester/pull/2392)
 - **oceanbase/powercontext**: [#2009 Extraction diagnostics in CLI capabilities](https://github.com/oceanbase/powercontext/pull/2009)
 - **CapSoftware/Cap**: [#2549 Accept configured web host in share URLs](https://github.com/CapSoftware/Cap/pull/2549)
