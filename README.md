@@ -70,7 +70,7 @@ Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measu
 
 ### Open-source contributions
 
-**42 merged upstream PRs** as of 2026-10-25. Only merged PRs are listed. Each one was checked with `gh pr view` and has a `mergedAt` date. My own repos are not included.
+**42 merged upstream PRs** as of 2026-10-26. Only merged PRs are listed. Each one was checked with `gh pr view` and has a `mergedAt` date. My own repos are not included.
 
 **Goal: 50 merged PRs.** Progress: 42 / 50 (84%), focused on Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and AWS.
 
