@@ -1,47 +1,41 @@
-<!-- Apple-inspired engineering portfolio · black / white / #0071E3 · Sep 2026 -->
+<!-- Profile README · Apple-clean · charcoal on #f5f5f7 / near-black · Oct 2026 -->
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026102613" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=2026102613" />
-    <img alt="Mangesh Raut — Applied AI Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026102613" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026102701" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=2026102701" />
+    <img alt="Mangesh Raut — Applied AI Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026102701" />
   </picture>
 </p>
 
 > [!IMPORTANT]
-> **Open to AI Engineer roles (Pune · remote).** I build the production *shape* of AI systems: agents with tool calling and failure handling, real-time speech VAD with an F1 gate, an offline RAG eval harness, and the full-stack around them. Every number below links to the file or CI run that produced it — stub metrics are labelled stub.
+> **Open to AI Engineer roles (Pune · remote).** Production AI systems: agents with tool calling and failure handling, real-time speech VAD with an F1 gate, offline RAG eval, and the full stack around them. Every number below links to the file or CI run that produced it — stub metrics are labelled stub.
+>
 > Fastest contact: [mbr63drexel@gmail.com](mailto:mbr63drexel@gmail.com)
 
 <p align="center">
-  <a href="https://mangeshraut712.github.io/mangeshrautarchive/"><img src="https://img.shields.io/badge/Portfolio-0071E3?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-0071E3?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://www.instagram.com/mangesh_d_charming_guy/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://wa.me/917276819090"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
-  <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/sponsors/mangeshraut712"><img src="https://img.shields.io/badge/GitHub-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors" /></a>
-  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" /></a>
-  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-0071E3?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" /></a>
-  <a href="https://www.buymeacoffee.com/mangeshraut"><img src="https://img.shields.io/badge/Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee" /></a>
+  <a href="https://mangeshraut712.github.io/mangeshrautarchive/"><img src="https://img.shields.io/badge/Portfolio-0071E3?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/mangeshraut71298/"><img src="https://img.shields.io/badge/LinkedIn-0071E3?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/mrcommando712"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://wa.me/917276819090"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <a href="mailto:mbr63drexel@gmail.com"><img src="https://img.shields.io/badge/Email-1D1D1F?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 ---
 
 ### Start here — three systems, end to end
 
-| Project | What it proves | Guardrails / failure handling | Proof |
+| Project | What it proves | Guardrails | Proof |
 | --- | --- | --- | --- |
-| [**ai-ml-portfolio**](https://github.com/mangeshraut712/ai-ml-portfolio) — speech VAD + RAG eval + NumPy ML from scratch | Measured VAD F1 gates (real audio + synthetic labels). Offline RAG/LLM eval harness with retrieval metrics; CI uses **stub** providers, not live APIs | Acceptance gate (`challenge_pass.py`) fails CI below fixed thresholds; eval harness falls back to stubs when keys are missing so CI never depends on a live API | [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) · [RESULTS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) |
-| [**agent-console**](https://github.com/mangeshraut712/agent-console) — real-time agent debug UI over WebSocket | Streaming tokens, tool-call traces, protocol observability for agent backends | Seq-based reorder buffer with dedupe, `RESUME {last_seq}` replay after disconnect, single-fire `TOOL_ACK`, chaos-mode verification (`npm run verify:chaos`) | [DECISIONS.md](https://github.com/mangeshraut712/agent-console/blob/main/DECISIONS.md) · [live demo](https://mangeshraut712.github.io/agent-console/) |
-| [**Gravity-SaaS-Agent**](https://github.com/mangeshraut712/Gravity-SaaS-Agent) — multi-tenant agent SaaS starter (Next.js dashboard + Express gateway) | MCP client, skills engine, billing events, operator dashboard | Tier-based `express-rate-limit`, Supabase RLS policies, circuit breaker, OpenRouter fallback. WhatsApp/Telegram adapters in-repo are **simulators** (`enhanced-channels.ts`), not live Business API traffic | [README](https://github.com/mangeshraut712/Gravity-SaaS-Agent#readme) · [CI](https://github.com/mangeshraut712/Gravity-SaaS-Agent/actions/workflows/ci.yml) |
+| [**ai-ml-portfolio**](https://github.com/mangeshraut712/ai-ml-portfolio) — speech VAD + RAG eval + NumPy ML from scratch | Measured VAD F1 gates (real audio + synthetic labels). Offline RAG/LLM eval with retrieval metrics; CI uses **stub** providers | Acceptance gate fails CI below fixed thresholds; eval falls back to stubs when keys are missing | [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) · [RESULTS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) |
+| [**agent-console**](https://github.com/mangeshraut712/agent-console) — real-time agent debug UI over WebSocket | Streaming tokens, tool-call traces, protocol observability | Seq reorder + dedupe, `RESUME {last_seq}` replay, single-fire `TOOL_ACK`, chaos verify | [DECISIONS.md](https://github.com/mangeshraut712/agent-console/blob/main/DECISIONS.md) · [live demo](https://mangeshraut712.github.io/agent-console/) |
+| [**Gravity-SaaS-Agent**](https://github.com/mangeshraut712/Gravity-SaaS-Agent) — multi-tenant agent SaaS starter | MCP client, skills engine, billing events, operator dashboard | Tier rate limits, Supabase RLS, circuit breaker, OpenRouter fallback. Channel adapters are **simulators**, not live Business API | [README](https://github.com/mangeshraut712/Gravity-SaaS-Agent#readme) · [CI](https://github.com/mangeshraut712/Gravity-SaaS-Agent/actions/workflows/ci.yml) |
 
-**Reproduce the headline number in one command** (Python 3.10–3.12, no API keys):
+**Reproduce the headline number** (Python 3.10–3.12, no API keys):
 
 ```bash
 git clone https://github.com/mangeshraut712/ai-ml-portfolio && cd ai-ml-portfolio
-make install && make verify-all      # mlfs tests + VAD FULL_PASS gate + offline LLM eval
+make install && make verify-all      # mlfs tests + VAD FULL_PASS + offline LLM eval
 ```
 
 ---
@@ -50,75 +44,118 @@ make install && make verify-all      # mlfs tests + VAD FULL_PASS gate + offline
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202610261313" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=202610261313" />
-    <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202610261313" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=2026102701" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=2026102701" />
+    <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=2026102701" />
   </picture>
 </p>
 
-Headline numbers on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (measured; the code gate is ≤100 ms), CI Python **3.10–3.12**. The table is only what the card does not show.
+Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 ms), CI Python **3.10–3.12**. Detail the card does not show:
 
 | Metric | Measured | Gate / baseline | Source |
 | --- | ---: | ---: | --- |
-| VAD exact F1, noisy — **known failure mode** | **0.7768** | gate ≥ 0.75 (clean gate is ≥ 0.92) | [challenge_pass.py](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/challenge_pass.py) · [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) |
-| VAD soft F1 | **0.8135** | gate ≥ 0.78 | same |
-| RAG retrieval **(offline stub, not live models)** — TF-IDF Recall@5 · MRR · nDCG@5 | **1.000 · 0.981 · 0.986** | 40 gold QA + 15 adversarial on 10 FAQ docs. BM25-fusion stub is Recall@3 **0.975** (different cut). Hallucination 0.000 is the stub generator abstaining | [RESULTS.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) (mode STUB, 2026-07-24) · [DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md) |
-| Stub cost / latency matrix | p95 ms and $/1k queries per **stub** provider | optional live path is `EVAL_LIVE=1`; CI never sets it | same RESULTS.md |
+| VAD exact F1, noisy — **known failure mode** | **0.7768** | ≥ 0.75 (clean ≥ 0.92) | [challenge_pass.py](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/challenge_pass.py) · [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) |
+| VAD soft F1 | **0.8135** | ≥ 0.78 | same |
+| RAG retrieval **(offline stub)** — TF-IDF Recall@5 · MRR · nDCG@5 | **1.000 · 0.981 · 0.986** | 40 gold QA + 15 adversarial on 10 FAQ docs. BM25-fusion stub Recall@3 **0.975**. Hallucination 0.000 = stub abstaining | [RESULTS.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) (STUB, 2026-07-24) · [DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md) |
+| Stub cost / latency matrix | p95 ms and $/1k queries per **stub** provider | live path is `EVAL_LIVE=1`; CI never sets it | same RESULTS.md |
 | CI run for `make verify-all` | green | — | [Sep 11, 2026](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/34574401205) |
 
 ---
 
 ### Open-source contributions
 
-**42 merged upstream PRs** as of 2026-10-26. Only merged PRs are listed. Each one was checked with `gh pr view` and has a `mergedAt` date. My own repos are not included.
+**43 merged upstream PRs** as of 2026-10-27 (Asia/Calcutta), from live `gh` search  
+`author:mangeshraut712 is:merged -user:mangeshraut712 -user:dayx61`.  
+Only merged PRs; own repos excluded. Near-term goal: **50**.
 
-**Goal: 50 merged PRs.** Progress: 42 / 50 (84%), focused on Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and AWS.
+```text
+43 / 50  ████████████████░░░░  86%
+```
 
-**Big-company orgs**
+#### By organization
 
-- **Apple** · password-manager-resources: [#1784 Change-password URL for thriftbooks.com](https://github.com/apple/password-manager-resources/pull/1784) · [#1318 Shared credentials for start.gg](https://github.com/apple/password-manager-resources/pull/1318) · [#1239 Shared credentials for HDFC Bank](https://github.com/apple/password-manager-resources/pull/1239) · [#1179 Shared credentials for Bluesky](https://github.com/apple/password-manager-resources/pull/1179) · [#1178 Exact-domain-only password rules in schema](https://github.com/apple/password-manager-resources/pull/1178)
-- **Google** · sbsim: [#187 Remove internal Blaze/Bazel BUILD files](https://github.com/google/sbsim/pull/187)
-- **Microsoft** · winget-pkgs: [#459049 PowerRun 1.9](https://github.com/microsoft/winget-pkgs/pull/459049)
-- **OpenAI** · codex-security: [#754 Shell-neutral env-var removal guidance](https://github.com/openai/codex-security/pull/754)
+| Org | Merged | Focus |
+| --- | ---: | --- |
+| [Apple](https://github.com/apple/password-manager-resources) | 6 | Password-manager resources & schema |
+| [Roojool](https://github.com/Roojool/pune-metro-strava) | 13 | MetroQuest leagues / gamification (collapsed below) |
+| [brekkylab](https://github.com/brekkylab/backlot) | 6 | API fidelity & validation |
+| [Microsoft](https://github.com/microsoft) | 2 | hve-core + winget-pkgs |
+| [eugenioenko](https://github.com/eugenioenko/ttt) | 3 | Editor search / undo |
+| [FINOS](https://github.com/finos/architecture-as-code) | 2 | CALM hub + VS Code canvas |
+| [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook) | 2 | Cookbook CI |
+| Google · OpenAI · Moonshot · Cap · Railtown · ESPnet · others | 9 | One-offs listed below |
 
-**Other projects**
+#### Flagship orgs
 
-- **brekkylab/backlot**: [#788 Notion data sources in database search](https://github.com/brekkylab/backlot/pull/788) · [#762 Jira orderBy validation](https://github.com/brekkylab/backlot/pull/762) · [#711 Google Docs documents.get param validation](https://github.com/brekkylab/backlot/pull/711) · [#710 Linear branchName for unassigned issues](https://github.com/brekkylab/backlot/pull/710) · [#662 S3 response-override validation](https://github.com/brekkylab/backlot/pull/662) · [#661 GitHub issue sort tie-breaking](https://github.com/brekkylab/backlot/pull/661)
-- **eugenioenko/ttt**: [#947 Refresh F3 matches after edits](https://github.com/eugenioenko/ttt/pull/947) · [#946 No search matches on image/binary tabs](https://github.com/eugenioenko/ttt/pull/946) · [#927 Restore cursor when undoing line commands](https://github.com/eugenioenko/ttt/pull/927)
-- **finos/architecture-as-code**: [#3372 Fix calm-hub seed base URL](https://github.com/finos/architecture-as-code/pull/3372) · [#3331 Theme colours in VS Code canvas preview](https://github.com/finos/architecture-as-code/pull/3331)
-- **sarvamai/sarvam-ai-cookbook**: [#185 Skip no-op weekly rules sync](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) · [#116 Detect unquoted TS/JS model keys in CI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116)
-- **MoonshotAI/kimi-code**: [#2416 Built-in model catalog fallback](https://github.com/MoonshotAI/kimi-code/pull/2416)
-- **Roojool/pune-metro-strava** (MetroQuest): [#16](https://github.com/Roojool/pune-metro-strava/pull/16) · [#21](https://github.com/Roojool/pune-metro-strava/pull/21) · [#24](https://github.com/Roojool/pune-metro-strava/pull/24) · [#31](https://github.com/Roojool/pune-metro-strava/pull/31) · [#32](https://github.com/Roojool/pune-metro-strava/pull/32) · [#37](https://github.com/Roojool/pune-metro-strava/pull/37) · [#38](https://github.com/Roojool/pune-metro-strava/pull/38) · [#39](https://github.com/Roojool/pune-metro-strava/pull/39) · [#40](https://github.com/Roojool/pune-metro-strava/pull/40) · [#41](https://github.com/Roojool/pune-metro-strava/pull/41) · [#42](https://github.com/Roojool/pune-metro-strava/pull/42) · [#43](https://github.com/Roojool/pune-metro-strava/pull/43) · [#45](https://github.com/Roojool/pune-metro-strava/pull/45)
-- **microsoft/hve-core**: [#3280 fix(instructions): scope commit-message instructions to commit tasks](https://github.com/microsoft/hve-core/pull/3280)
-- **existence-master/Sentient**: [#500 Curly apostrophes in click-claim checks](https://github.com/existence-master/Sentient/pull/500)
-- **maester365/maester**: [#2392 Fix ORCA crash on multi-policy domains](https://github.com/maester365/maester/pull/2392)
-- **oceanbase/powercontext**: [#2009 Extraction diagnostics in CLI capabilities](https://github.com/oceanbase/powercontext/pull/2009)
-- **CapSoftware/Cap**: [#2549 Accept configured web host in share URLs](https://github.com/CapSoftware/Cap/pull/2549)
-- **RailtownAI/railtracks**: [#1684 Offline EchoLLM for tests](https://github.com/RailtownAI/railtracks/pull/1684)
-- **espnet/espnet**: [#6890 Pass use_sdpa through UniversaBase](https://github.com/espnet/espnet/pull/6890)
+**Apple** · [password-manager-resources](https://github.com/apple/password-manager-resources)
 
-[All merged PRs on GitHub](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61&type=pullrequests)
+| PR | Title |
+| --- | --- |
+| [#1859](https://github.com/apple/password-manager-resources/pull/1859) | Red & Blue Online shared-credentials redirect |
+| [#1784](https://github.com/apple/password-manager-resources/pull/1784) | Change-password URL for thriftbooks.com |
+| [#1318](https://github.com/apple/password-manager-resources/pull/1318) | Shared credentials for start.gg |
+| [#1239](https://github.com/apple/password-manager-resources/pull/1239) | Shared credentials for HDFC Bank |
+| [#1179](https://github.com/apple/password-manager-resources/pull/1179) | Shared credentials for Bluesky |
+| [#1178](https://github.com/apple/password-manager-resources/pull/1178) | Exact-domain-only password rules in schema |
+
+**Google · Microsoft · OpenAI · Moonshot**
+
+| Org | PR | Title |
+| --- | --- | --- |
+| Google | [sbsim#187](https://github.com/google/sbsim/pull/187) | Remove internal Blaze/Bazel BUILD files |
+| Microsoft | [hve-core#3280](https://github.com/microsoft/hve-core/pull/3280) | Scope commit-message instructions to commit tasks |
+| Microsoft | [winget-pkgs#459049](https://github.com/microsoft/winget-pkgs/pull/459049) | PowerRun 1.9 |
+| OpenAI | [codex-security#754](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance |
+| Moonshot | [kimi-code#2416](https://github.com/MoonshotAI/kimi-code/pull/2416) | Built-in model catalog fallback |
+
+#### Selected other merges
+
+| Repo | PR | Title |
+| --- | --- | --- |
+| brekkylab/backlot | [#788](https://github.com/brekkylab/backlot/pull/788) | Notion data sources in database search |
+| brekkylab/backlot | [#762](https://github.com/brekkylab/backlot/pull/762) | Jira orderBy validation |
+| brekkylab/backlot | [#711](https://github.com/brekkylab/backlot/pull/711) | Google Docs documents.get param validation |
+| brekkylab/backlot | [#710](https://github.com/brekkylab/backlot/pull/710) | Linear branchName for unassigned issues |
+| brekkylab/backlot | [#662](https://github.com/brekkylab/backlot/pull/662) | S3 response-override validation |
+| brekkylab/backlot | [#661](https://github.com/brekkylab/backlot/pull/661) | GitHub issue sort tie-breaking |
+| eugenioenko/ttt | [#947](https://github.com/eugenioenko/ttt/pull/947) | Refresh F3 matches after edits |
+| eugenioenko/ttt | [#946](https://github.com/eugenioenko/ttt/pull/946) | No search matches on image/binary tabs |
+| eugenioenko/ttt | [#927](https://github.com/eugenioenko/ttt/pull/927) | Restore cursor when undoing line commands |
+| finos/architecture-as-code | [#3372](https://github.com/finos/architecture-as-code/pull/3372) | Fix calm-hub seed base URL |
+| finos/architecture-as-code | [#3331](https://github.com/finos/architecture-as-code/pull/3331) | Theme colours in VS Code canvas preview |
+| sarvamai/sarvam-ai-cookbook | [#185](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | Skip no-op weekly rules sync |
+| sarvamai/sarvam-ai-cookbook | [#116](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | Detect unquoted TS/JS model keys in CI |
+| CapSoftware/Cap | [#2549](https://github.com/CapSoftware/Cap/pull/2549) | Accept configured web host in share URLs |
+| RailtownAI/railtracks | [#1684](https://github.com/RailtownAI/railtracks/pull/1684) | Offline EchoLLM for tests |
+| espnet/espnet | [#6890](https://github.com/espnet/espnet/pull/6890) | Pass use_sdpa through UniversaBase |
+| existence-master/Sentient | [#500](https://github.com/existence-master/Sentient/pull/500) | Curly apostrophes in click-claim checks |
+| maester365/maester | [#2392](https://github.com/maester365/maester/pull/2392) | Fix ORCA crash on multi-policy domains |
+| oceanbase/powercontext | [#2009](https://github.com/oceanbase/powercontext/pull/2009) | Extraction diagnostics in CLI capabilities |
+
+**MetroQuest** · [Roojool/pune-metro-strava](https://github.com/Roojool/pune-metro-strava) — **13 merged PRs** on leagues gamification, a11y, and mobile UX ([#16](https://github.com/Roojool/pune-metro-strava/pull/16)–[#45](https://github.com/Roojool/pune-metro-strava/pull/45)). Long-tail collapsed; see search link below.
+
+[**See all 43 merged PRs →**](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61&type=pullrequests)
 
 ---
 
 ### More projects
 
-The three systems above stay in **Start here**. These cards are everything else.
+Flagship systems stay in **Start here**. Everything else:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=2026091712" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=2026091712" />
-    <img alt="More shipped projects: Hindai, Stanford CS336, Codex Insights, Vitals.AI, erdos142, sarvam-ai-cookbook" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=2026091712" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=2026102701" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=2026102701" />
+    <img alt="More shipped projects: Hindai, Stanford CS336, Codex Insights, Vitals.AI, erdos142, sarvam-ai-cookbook" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=2026102701" />
   </picture>
 </p>
 
-**Also new:** [**Asset Intelligence Copilot**](https://github.com/mangeshraut712/asset-intelligence-copilot) — FlytBase challenge entry (AI Hackers Collective × Hacktoberfest 2026 Hack Day). A chat copilot for oil-field operators: deterministic tools compute the numbers, answers cite record IDs and SOP passages, and Gemma 4 handles planning and phrasing. Runs locally; MIT.
+**Also:** [**Asset Intelligence Copilot**](https://github.com/mangeshraut712/asset-intelligence-copilot) — FlytBase challenge entry (AI Hackers Collective × Hacktoberfest 2026 Hack Day). Chat copilot for oil-field operators: deterministic tools compute numbers, answers cite record IDs and SOP passages, Gemma 4 for planning/phrasing. Local; MIT.
 
 ---
 
 <details>
-<summary><b>Architecture</b> — how the pieces connect (Mermaid, renders natively)</summary>
+<summary><b>Architecture</b> — how the pieces connect</summary>
 
 ```mermaid
 flowchart LR
@@ -156,13 +193,13 @@ flowchart LR
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=20260906f" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=20260906f" />
-    <img alt="AI stack" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=20260906f" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=2026102701" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=2026102701" />
+    <img alt="AI stack" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=2026102701" />
   </picture>
 </p>
 
-The card lists tools I use. **Only the lockfiles below are claims about these repos.** PyTorch / Ollama / DeepSeek on the card are local/tooling names, not pinned dependencies here.
+The card lists tools I use. **Only the lockfiles below are claims about these repos.**
 
 | Stack claim | Source |
 | --- | --- |
@@ -180,9 +217,9 @@ The card lists tools I use. **Only the lockfiles below are claims about these re
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=20260906f" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=20260906f" />
-    <img alt="Currently building" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=20260906f" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=2026102701" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=2026102701" />
+    <img alt="Currently building" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=2026102701" />
   </picture>
 </p>
 
@@ -209,9 +246,9 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20260906f" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=20260906f" />
-    <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20260906f" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026102701" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=2026102701" />
+    <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026102701" />
   </picture>
 </p>
 
@@ -219,6 +256,18 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
   <a href="https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31">Contribution graph</a>
   ·
   <a href="https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json">yearly snapshot JSON</a>
+</p>
+
+</details>
+
+<details>
+<summary><b>Support</b></summary>
+
+<p align="center">
+  <a href="https://github.com/sponsors/mangeshraut712"><img src="https://img.shields.io/badge/GitHub%20Sponsors-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors" /></a>
+  <a href="https://buy.stripe.com/14A3cufGUgcV5ePfuA14401"><img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe" /></a>
+  <a href="https://www.paypal.com/ncp/payment/LXNHJ5SUGNP82"><img src="https://img.shields.io/badge/PayPal-0071E3?style=flat-square&logo=paypal&logoColor=white" alt="PayPal" /></a>
+  <a href="https://www.buymeacoffee.com/mangeshraut"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee" /></a>
 </p>
 
 </details>
