@@ -72,12 +72,13 @@ Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 m
 
 ### Open-source contributions
 
-**43 merged upstream PRs** as of 2026-10-27 (Asia/Calcutta), from live `gh` search  
+**45 merged upstream PRs** as of 2026-10-27 (Asia/Calcutta), from live `gh` search  
 `author:mangeshraut712 is:merged -user:mangeshraut712 -user:dayx61`.  
-Only merged PRs; own repos excluded. Near-term goal: **50**.
+Only merged PRs; own repos excluded. Near-term goal: **50**.  
+**By organization** below lists company / lab orgs only — no hackathon teammate repos (e.g. Roojool) and no personal accounts (dayx61, vidya).
 
 ```text
-43 / 50  ████████████████░░░░  86%
+45 / 50  █████████████████░░░  90%
 ```
 
 #### By organization
@@ -85,10 +86,7 @@ Only merged PRs; own repos excluded. Near-term goal: **50**.
 | Org | Merged | Focus |
 | --- | ---: | --- |
 | [Apple](https://github.com/apple/password-manager-resources) | 6 | Password-manager resources & schema |
-| [Roojool](https://github.com/Roojool/pune-metro-strava) | 13 | MetroQuest leagues / gamification (collapsed below) |
-| [brekkylab](https://github.com/brekkylab/backlot) | 6 | API fidelity & validation |
 | [Microsoft](https://github.com/microsoft) | 2 | hve-core + winget-pkgs |
-| [eugenioenko](https://github.com/eugenioenko/ttt) | 3 | Editor search / undo |
 | [FINOS](https://github.com/finos/architecture-as-code) | 2 | CALM hub + VS Code canvas |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook) | 2 | Cookbook CI |
 | Google · OpenAI · Moonshot · Cap · Railtown · ESPnet · others | 9 | One-offs listed below |
@@ -140,9 +138,7 @@ Only merged PRs; own repos excluded. Near-term goal: **50**.
 | maester365/maester | [#2392](https://github.com/maester365/maester/pull/2392) | Fix ORCA crash on multi-policy domains |
 | oceanbase/powercontext | [#2009](https://github.com/oceanbase/powercontext/pull/2009) | Extraction diagnostics in CLI capabilities |
 
-**MetroQuest** · [Roojool/pune-metro-strava](https://github.com/Roojool/pune-metro-strava) — **13 merged PRs** on leagues gamification, a11y, and mobile UX ([#16](https://github.com/Roojool/pune-metro-strava/pull/16)–[#45](https://github.com/Roojool/pune-metro-strava/pull/45)). Long-tail collapsed; see search link below.
-
-[**See all 43 merged PRs →**](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61&type=pullrequests)
+[**See all merged PRs →**](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61&type=pullrequests)
 
 ---
 
