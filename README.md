@@ -72,13 +72,13 @@ Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 m
 
 ### Open-source contributions
 
-**47 merged upstream PRs** as of 2026-10-28 (Asia/Calcutta), from live `gh` search  
+**49 merged upstream PRs** as of 2026-10-28 (Asia/Calcutta), from live `gh` search  
 `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 -user:dayx61`.  
-Only merged PRs; own repos excluded. Near-term goal: **50** (3 more). Deadline for the push: **EOD 31 Oct 2026 IST**.  
+Only merged PRs; own repos excluded. Near-term goal: **50** (1 more). Deadline for the push: **EOD 31 Oct 2026 IST**.  
 **By organization** below lists company / lab orgs only — no hackathon teammate repos (e.g. Roojool) and no personal accounts (dayx61, vidya).
 
 ```text
-47 / 50  ███████████████████░  94%
+49 / 50  ████████████████████░  98%
 ```
 
 #### By organization
@@ -106,10 +106,12 @@ Only merged PRs; own repos excluded. Near-term goal: **50** (3 more). Deadline f
 | [#1179](https://github.com/apple/password-manager-resources/pull/1179) | Shared credentials for Bluesky |
 | [#1178](https://github.com/apple/password-manager-resources/pull/1178) | Exact-domain-only password rules in schema |
 
-**Adobe · Amazon/AWS** (recent lands)
+**NVIDIA · Adobe · Amazon/AWS** (recent lands)
 
 | Org | PR | Title |
 | --- | --- | --- |
+| NVIDIA | [TensorRT-Model-Connect#1862](https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1862) | model_benchmark: use os.pathsep for PYTHONPATH |
+| NVIDIA | [TensorRT-Model-Connect#1863](https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1863) | CI: delimiter syntax for multiline file commands |
 | Adobe | [react-spectrum#10863](https://github.com/adobe/react-spectrum/pull/10863) | ColorField inherits Form `validationBehavior` |
 | Adobe | [react-spectrum#10853](https://github.com/adobe/react-spectrum/pull/10853) | Close CardPreview with matching tag in Card anatomy |
 | AWS | [awslabs/mcp#4857](https://github.com/awslabs/mcp/pull/4857) | document-loader: stop implying HTTP via docker |
