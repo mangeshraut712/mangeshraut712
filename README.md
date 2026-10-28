@@ -4,12 +4,12 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026102810" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=2026102810" />
-    <img alt="Mangesh Raut — Applied AI Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026102810" />
+    <img alt="Mangesh Raut — Software Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026102810" />
   </picture>
 </p>
 
 > [!IMPORTANT]
-> **Open to AI Engineer roles (Pune · Philadelphia · remote).** Production AI systems: agents with tool calling and failure handling, real-time speech VAD with an F1 gate, offline RAG eval, and the full stack around them. Every number below links to the file or CI run that produced it — stub metrics are labelled stub.
+> **Open to Software Engineer roles (Pune · Philadelphia · remote).** Production systems: real-time speech VAD with an F1 gate, offline RAG eval, agents with tool calling and failure handling, and the full stack around them. Every number below links to the file or CI run that produced it — stub metrics are labelled stub.
 >
 > Fastest contact: [mbr63drexel@gmail.com](mailto:mbr63drexel@gmail.com)
 
