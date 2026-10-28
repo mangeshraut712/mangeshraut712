@@ -86,8 +86,8 @@ Only merged PRs; own repos excluded. Near-term goal: **50** (3 more). Deadline f
 | Org | Merged | Focus |
 | --- | ---: | --- |
 | [Apple](https://github.com/apple/password-manager-resources) | 6 | Password-manager resources & schema |
-| [Adobe](https://github.com/adobe/react-spectrum) | 2+ | React Aria / Spectrum (incl. ColorField Form validation) |
-| [Amazon/AWS](https://github.com/awslabs/mcp) | 2+ | awslabs MCP docs & billing-cost fixes |
+| [Adobe](https://github.com/adobe/react-spectrum) | 2 | React Aria / Spectrum (incl. ColorField Form validation) |
+| [Amazon/AWS](https://github.com/awslabs/mcp) | 2 | awslabs MCP docs & billing-cost fixes |
 | [Microsoft](https://github.com/microsoft) | 2 | hve-core + winget-pkgs |
 | [FINOS](https://github.com/finos/architecture-as-code) | 2 | CALM hub + VS Code canvas |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook) | 2 | Cookbook CI |
