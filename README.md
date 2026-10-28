@@ -72,27 +72,26 @@ Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 m
 
 ### Open-source contributions
 
-**50 merged upstream PRs** as of 2026-10-28 (Asia/Calcutta), from live `gh` search  
-`author:mangeshraut712 is:pr is:merged -user:mangeshraut712 -user:dayx61`.  
-Only merged PRs; own repos excluded. Near-term goal **50 hit** 2026-10-28. Keep climbing through **EOD 31 Oct 2026 IST**.  
-**By organization** below lists company / lab orgs only — no hackathon teammate repos (e.g. Roojool) and no personal accounts (dayx61, vidya).
+**17 / 50 top-15 company merges** as of 2026-10-28 (Asia/Calcutta).  
+Scoreboard counts only: Apple · Meta · Anthropic · OpenAI · Netflix · Microsoft · Tesla · SpaceX/xAI · Samsung · LG · Walmart · JPMorgan · Amazon/AWS · Adobe · NVIDIA.  
+Need **33 more** by **EOD 31 Oct 2026 IST**. Roojool and other non-top-15 orgs do not count.  
+Live search sample: `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 -user:dayx61 -org:Roojool` (then filter to the 15).
 
 ```text
-50 / 50  █████████████████████  100%
+17 / 50  ███████░░░░░░░░░░░░░░  34%
 ```
 
-#### By organization
+#### By organization (top-15 scoreboard)
 
 | Org | Merged | Focus |
 | --- | ---: | --- |
 | [Apple](https://github.com/apple/password-manager-resources) | 6 | Password-manager resources & schema |
+| [Microsoft](https://github.com/microsoft) | 4 | hve-core + winget-pkgs + physical-ai-toolchain |
 | [Adobe](https://github.com/adobe/react-spectrum) | 2 | React Aria / Spectrum (incl. ColorField Form validation) |
 | [Amazon/AWS](https://github.com/awslabs/mcp) | 2 | awslabs MCP docs & billing-cost fixes |
 | [NVIDIA](https://github.com/NVIDIA/TensorRT-Model-Connect) | 2 | TensorRT-Model-Connect pathsep + CI file-command delimiters |
-| [Microsoft](https://github.com/microsoft) | 3 | hve-core + winget-pkgs + physical-ai-toolchain |
-| [FINOS](https://github.com/finos/architecture-as-code) | 2 | CALM hub + VS Code canvas |
-| [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook) | 2 | Cookbook CI |
-| Google · OpenAI · Moonshot · Cap · Railtown · ESPnet · others | 31 | see Flagship samples + all-PRs link |
+| [OpenAI](https://github.com/openai/codex-security) | 1 | codex-security CLI guidance |
+| Meta · Anthropic · Netflix · Tesla · SpaceX/xAI · Samsung · LG · Walmart · JPMorgan | 0 | — |
 
 #### Flagship orgs
 
@@ -123,13 +122,14 @@ Only merged PRs; own repos excluded. Near-term goal **50 hit** 2026-10-28. Keep 
 | Org | PR | Title |
 | --- | --- | --- |
 | Google | [sbsim#187](https://github.com/google/sbsim/pull/187) | Remove internal Blaze/Bazel BUILD files |
+| Microsoft | [physical-ai-toolchain#2077](https://github.com/microsoft/physical-ai-toolchain/pull/2077) | refresh ms.date on tier-3-production README |
 | Microsoft | [physical-ai-toolchain#2076](https://github.com/microsoft/physical-ai-toolchain/pull/2076) | refresh ms.date on hil-evaluation.md |
 | Microsoft | [hve-core#3280](https://github.com/microsoft/hve-core/pull/3280) | Scope commit-message instructions to commit tasks |
 | Microsoft | [winget-pkgs#459049](https://github.com/microsoft/winget-pkgs/pull/459049) | PowerRun 1.9 |
 | OpenAI | [codex-security#754](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance |
 | Moonshot | [kimi-code#2416](https://github.com/MoonshotAI/kimi-code/pull/2416) | Built-in model catalog fallback |
 
-[**See all merged PRs →**](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61&type=pullrequests)
+[**See merged PRs (excl. own + Roojool) →**](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61+-org%3ARoojool&type=pullrequests)
 
 ---
 
