@@ -88,10 +88,11 @@ Only merged PRs; own repos excluded. Near-term goal: **50** (1 more). Deadline f
 | [Apple](https://github.com/apple/password-manager-resources) | 6 | Password-manager resources & schema |
 | [Adobe](https://github.com/adobe/react-spectrum) | 2 | React Aria / Spectrum (incl. ColorField Form validation) |
 | [Amazon/AWS](https://github.com/awslabs/mcp) | 2 | awslabs MCP docs & billing-cost fixes |
+| [NVIDIA](https://github.com/NVIDIA/TensorRT-Model-Connect) | 2 | TensorRT-Model-Connect pathsep + CI file-command delimiters |
 | [Microsoft](https://github.com/microsoft) | 2 | hve-core + winget-pkgs |
 | [FINOS](https://github.com/finos/architecture-as-code) | 2 | CALM hub + VS Code canvas |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook) | 2 | Cookbook CI |
-| Google · OpenAI · Moonshot · Cap · Railtown · ESPnet · others | 9 | One-offs listed below |
+| Google · OpenAI · Moonshot · Cap · Railtown · ESPnet · others | 31 | see Flagship samples + all-PRs link |
 
 #### Flagship orgs
 
