@@ -72,84 +72,26 @@ Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 m
 
 ### Open-source contributions
 
-**47 merged upstream PRs** as of 2026-10-28 (Asia/Calcutta), from live `gh` search  
-`author:mangeshraut712 is:pr is:merged -user:mangeshraut712 -user:dayx61`.  
-Only merged PRs; own repos excluded. Near-term goal: **50** (3 more). Deadline for the push: **EOD 31 Oct 2026 IST**.  
-**By organization** below lists company / lab orgs only — no hackathon teammate repos (e.g. Roojool) and no personal accounts (dayx61, vidya).
+**47 merged upstream PRs** as of 2026-10-28 (Asia/Calcutta) — live search  
+[`author:mangeshraut712 is:pr is:merged` excluding own repos](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61&type=pullrequests).  
+Near-term: **50** (3 more) by EOD 31 Oct 2026 IST.
 
 ```text
 47 / 50  ███████████████████░  94%
 ```
 
-#### By organization
-
-| Org | Merged | Focus |
+| Org | Merged | Sample |
 | --- | ---: | --- |
-| [Apple](https://github.com/apple/password-manager-resources) | 6 | Password-manager resources & schema |
-| [Adobe](https://github.com/adobe/react-spectrum) | 2 | React Aria / Spectrum (incl. ColorField Form validation) |
-| [Amazon/AWS](https://github.com/awslabs/mcp) | 2 | awslabs MCP docs & billing-cost fixes |
-| [Microsoft](https://github.com/microsoft) | 2 | hve-core + winget-pkgs |
-| [FINOS](https://github.com/finos/architecture-as-code) | 2 | CALM hub + VS Code canvas |
-| [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook) | 2 | Cookbook CI |
-| Google · OpenAI · Moonshot · Cap · Railtown · ESPnet · others | 9 | One-offs listed below |
+| [Apple](https://github.com/apple/password-manager-resources) | 6 | [#1859](https://github.com/apple/password-manager-resources/pull/1859) shared-credentials redirect |
+| [Adobe](https://github.com/adobe/react-spectrum) | 2 | [#10863](https://github.com/adobe/react-spectrum/pull/10863) ColorField Form `validationBehavior` |
+| [Amazon/AWS](https://github.com/awslabs/mcp) | 2 | [#4857](https://github.com/awslabs/mcp/pull/4857) document-loader docker docs |
+| [Microsoft](https://github.com/microsoft) | 2 | [hve-core#3280](https://github.com/microsoft/hve-core/pull/3280) · [winget#459049](https://github.com/microsoft/winget-pkgs/pull/459049) |
+| [OpenAI](https://github.com/openai/codex-security) | 1 | [#754](https://github.com/openai/codex-security/pull/754) shell-neutral env guidance |
+| [Google](https://github.com/google/sbsim) · [FINOS](https://github.com/finos/architecture-as-code) · [Sarvam](https://github.com/sarvamai/sarvam-ai-cookbook) · others | 34 | CI, schema, SDK, and cookbook fixes |
 
-#### Flagship orgs
+A few more worth opening: [Moonshot kimi-code#2416](https://github.com/MoonshotAI/kimi-code/pull/2416) · [Cap#2549](https://github.com/CapSoftware/Cap/pull/2549) · [ESPnet#6890](https://github.com/espnet/espnet/pull/6890).
 
-**Apple** · [password-manager-resources](https://github.com/apple/password-manager-resources)
-
-| PR | Title |
-| --- | --- |
-| [#1859](https://github.com/apple/password-manager-resources/pull/1859) | Red & Blue Online shared-credentials redirect |
-| [#1784](https://github.com/apple/password-manager-resources/pull/1784) | Change-password URL for thriftbooks.com |
-| [#1318](https://github.com/apple/password-manager-resources/pull/1318) | Shared credentials for start.gg |
-| [#1239](https://github.com/apple/password-manager-resources/pull/1239) | Shared credentials for HDFC Bank |
-| [#1179](https://github.com/apple/password-manager-resources/pull/1179) | Shared credentials for Bluesky |
-| [#1178](https://github.com/apple/password-manager-resources/pull/1178) | Exact-domain-only password rules in schema |
-
-**Adobe · Amazon/AWS** (recent lands)
-
-| Org | PR | Title |
-| --- | --- | --- |
-| Adobe | [react-spectrum#10863](https://github.com/adobe/react-spectrum/pull/10863) | ColorField inherits Form `validationBehavior` |
-| Adobe | [react-spectrum#10853](https://github.com/adobe/react-spectrum/pull/10853) | Close CardPreview with matching tag in Card anatomy |
-| AWS | [awslabs/mcp#4857](https://github.com/awslabs/mcp/pull/4857) | document-loader: stop implying HTTP via docker |
-| AWS | [awslabs/mcp#4845](https://github.com/awslabs/mcp/pull/4845) | billing-cost-management: omit coverage Granularity with Group |
-
-**Google · Microsoft · OpenAI · Moonshot**
-
-| Org | PR | Title |
-| --- | --- | --- |
-| Google | [sbsim#187](https://github.com/google/sbsim/pull/187) | Remove internal Blaze/Bazel BUILD files |
-| Microsoft | [hve-core#3280](https://github.com/microsoft/hve-core/pull/3280) | Scope commit-message instructions to commit tasks |
-| Microsoft | [winget-pkgs#459049](https://github.com/microsoft/winget-pkgs/pull/459049) | PowerRun 1.9 |
-| OpenAI | [codex-security#754](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance |
-| Moonshot | [kimi-code#2416](https://github.com/MoonshotAI/kimi-code/pull/2416) | Built-in model catalog fallback |
-
-#### Selected other merges
-
-| Repo | PR | Title |
-| --- | --- | --- |
-| brekkylab/backlot | [#788](https://github.com/brekkylab/backlot/pull/788) | Notion data sources in database search |
-| brekkylab/backlot | [#762](https://github.com/brekkylab/backlot/pull/762) | Jira orderBy validation |
-| brekkylab/backlot | [#711](https://github.com/brekkylab/backlot/pull/711) | Google Docs documents.get param validation |
-| brekkylab/backlot | [#710](https://github.com/brekkylab/backlot/pull/710) | Linear branchName for unassigned issues |
-| brekkylab/backlot | [#662](https://github.com/brekkylab/backlot/pull/662) | S3 response-override validation |
-| brekkylab/backlot | [#661](https://github.com/brekkylab/backlot/pull/661) | GitHub issue sort tie-breaking |
-| eugenioenko/ttt | [#947](https://github.com/eugenioenko/ttt/pull/947) | Refresh F3 matches after edits |
-| eugenioenko/ttt | [#946](https://github.com/eugenioenko/ttt/pull/946) | No search matches on image/binary tabs |
-| eugenioenko/ttt | [#927](https://github.com/eugenioenko/ttt/pull/927) | Restore cursor when undoing line commands |
-| finos/architecture-as-code | [#3372](https://github.com/finos/architecture-as-code/pull/3372) | Fix calm-hub seed base URL |
-| finos/architecture-as-code | [#3331](https://github.com/finos/architecture-as-code/pull/3331) | Theme colours in VS Code canvas preview |
-| sarvamai/sarvam-ai-cookbook | [#185](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | Skip no-op weekly rules sync |
-| sarvamai/sarvam-ai-cookbook | [#116](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) | Detect unquoted TS/JS model keys in CI |
-| CapSoftware/Cap | [#2549](https://github.com/CapSoftware/Cap/pull/2549) | Accept configured web host in share URLs |
-| RailtownAI/railtracks | [#1684](https://github.com/RailtownAI/railtracks/pull/1684) | Offline EchoLLM for tests |
-| espnet/espnet | [#6890](https://github.com/espnet/espnet/pull/6890) | Pass use_sdpa through UniversaBase |
-| existence-master/Sentient | [#500](https://github.com/existence-master/Sentient/pull/500) | Curly apostrophes in click-claim checks |
-| maester365/maester | [#2392](https://github.com/maester365/maester/pull/2392) | Fix ORCA crash on multi-policy domains |
-| oceanbase/powercontext | [#2009](https://github.com/oceanbase/powercontext/pull/2009) | Extraction diagnostics in CLI capabilities |
-
-[**See all merged PRs →**](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61&type=pullrequests)
+[**All 47 merged PRs →**](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61&type=pullrequests)
 
 ---
 
