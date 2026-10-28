@@ -2,14 +2,14 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026102801" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=2026102801" />
-    <img alt="Mangesh Raut — Applied AI Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026102801" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026102810" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=2026102810" />
+    <img alt="Mangesh Raut — Applied AI Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026102810" />
   </picture>
 </p>
 
 > [!IMPORTANT]
-> **Open to AI Engineer roles (Pune · remote).** Production AI systems: agents with tool calling and failure handling, real-time speech VAD with an F1 gate, offline RAG eval, and the full stack around them. Every number below links to the file or CI run that produced it — stub metrics are labelled stub.
+> **Open to AI Engineer roles (Pune · Philadelphia · remote).** Production AI systems: agents with tool calling and failure handling, real-time speech VAD with an F1 gate, offline RAG eval, and the full stack around them. Every number below links to the file or CI run that produced it — stub metrics are labelled stub.
 >
 > Fastest contact: [mbr63drexel@gmail.com](mailto:mbr63drexel@gmail.com)
 
@@ -52,9 +52,9 @@ make install && make verify-all      # mlfs tests + VAD FULL_PASS + offline LLM 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202610280123" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=202610280123" />
-    <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202610280123" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202610281023" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=202610281023" />
+    <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202610281023" />
   </picture>
 </p>
 
@@ -72,13 +72,13 @@ Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 m
 
 ### Open-source contributions
 
-**45 merged upstream PRs** as of 2026-10-27 (Asia/Calcutta), from live `gh` search  
-`author:mangeshraut712 is:merged -user:mangeshraut712 -user:dayx61`.  
-Only merged PRs; own repos excluded. Near-term goal: **50**.  
+**47 merged upstream PRs** as of 2026-10-28 (Asia/Calcutta), from live `gh` search  
+`author:mangeshraut712 is:pr is:merged -user:mangeshraut712 -user:dayx61`.  
+Only merged PRs; own repos excluded. Near-term goal: **50** (3 more). Deadline for the push: **EOD 31 Oct 2026 IST**.  
 **By organization** below lists company / lab orgs only — no hackathon teammate repos (e.g. Roojool) and no personal accounts (dayx61, vidya).
 
 ```text
-45 / 50  █████████████████░░░  90%
+47 / 50  ███████████████████░  94%
 ```
 
 #### By organization
@@ -86,6 +86,8 @@ Only merged PRs; own repos excluded. Near-term goal: **50**.
 | Org | Merged | Focus |
 | --- | ---: | --- |
 | [Apple](https://github.com/apple/password-manager-resources) | 6 | Password-manager resources & schema |
+| [Adobe](https://github.com/adobe/react-spectrum) | 2+ | React Aria / Spectrum (incl. ColorField Form validation) |
+| [Amazon/AWS](https://github.com/awslabs/mcp) | 2+ | awslabs MCP docs & billing-cost fixes |
 | [Microsoft](https://github.com/microsoft) | 2 | hve-core + winget-pkgs |
 | [FINOS](https://github.com/finos/architecture-as-code) | 2 | CALM hub + VS Code canvas |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook) | 2 | Cookbook CI |
@@ -103,6 +105,15 @@ Only merged PRs; own repos excluded. Near-term goal: **50**.
 | [#1239](https://github.com/apple/password-manager-resources/pull/1239) | Shared credentials for HDFC Bank |
 | [#1179](https://github.com/apple/password-manager-resources/pull/1179) | Shared credentials for Bluesky |
 | [#1178](https://github.com/apple/password-manager-resources/pull/1178) | Exact-domain-only password rules in schema |
+
+**Adobe · Amazon/AWS** (recent lands)
+
+| Org | PR | Title |
+| --- | --- | --- |
+| Adobe | [react-spectrum#10863](https://github.com/adobe/react-spectrum/pull/10863) | ColorField inherits Form `validationBehavior` |
+| Adobe | [react-spectrum#10853](https://github.com/adobe/react-spectrum/pull/10853) | Close CardPreview with matching tag in Card anatomy |
+| AWS | [awslabs/mcp#4857](https://github.com/awslabs/mcp/pull/4857) | document-loader: stop implying HTTP via docker |
+| AWS | [awslabs/mcp#4845](https://github.com/awslabs/mcp/pull/4845) | billing-cost-management: omit coverage Granularity with Group |
 
 **Google · Microsoft · OpenAI · Moonshot**
 
@@ -148,11 +159,13 @@ Flagship systems stay in **Start here**. Everything else:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=2026102701" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=2026102701" />
-    <img alt="More shipped projects: Hindai, Stanford CS336, Codex Insights, Vitals.AI, erdos142, sarvam-ai-cookbook" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=2026102701" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=2026102810" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=2026102810" />
+    <img alt="More shipped projects: Hindai, Stanford CS336, Codex Insights, Vitals.AI, erdos142, sarvam-ai-cookbook" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=2026102810" />
   </picture>
 </p>
+
+**Also:** [**Actions Nurse**](https://github.com/mangeshraut712/actions-nurse) — Open Agent Hackathon 2026 Wildcard (submitted 28 Oct 2026 4:30 AM IST, [hub](https://hackathon.genai.works/submissions?hackathon_id=019fd164-82b9-7382-a536-d9093c576ed2)). CI triage agent: Rules + optional Gemma, Meterless H-MEM, Zetaris evidence. [submission stamp](https://github.com/mangeshraut712/actions-nurse/blob/main/docs/OPEN-AGENT-SUBMISSION.md).
 
 **Also:** [**Asset Intelligence Copilot**](https://github.com/mangeshraut712/asset-intelligence-copilot) — FlytBase challenge entry (AI Hackers Collective × Hacktoberfest 2026 Hack Day). Chat copilot for oil-field operators: deterministic tools compute numbers, answers cite record IDs and SOP passages, Gemma 4 for planning/phrasing. Local; MIT.
 
@@ -197,9 +210,9 @@ flowchart LR
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=2026102701" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=2026102701" />
-    <img alt="AI stack" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=2026102701" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=2026102810" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=2026102810" />
+    <img alt="AI stack" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=2026102810" />
   </picture>
 </p>
 
@@ -221,9 +234,9 @@ The card lists tools I use. **Only the lockfiles below are claims about these re
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=2026102701" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=2026102701" />
-    <img alt="Currently building" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=2026102701" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=2026102810" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=2026102810" />
+    <img alt="Currently building" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=2026102810" />
   </picture>
 </p>
 
@@ -250,9 +263,9 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026102701" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=2026102701" />
-    <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026102701" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026102810" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=2026102810" />
+    <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026102810" />
   </picture>
 </p>
 
