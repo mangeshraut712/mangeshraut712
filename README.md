@@ -72,13 +72,13 @@ Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 m
 
 ### Open-source contributions
 
-**49 merged upstream PRs** as of 2026-10-28 (Asia/Calcutta), from live `gh` search  
+**50 merged upstream PRs** as of 2026-10-28 (Asia/Calcutta), from live `gh` search  
 `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 -user:dayx61`.  
-Only merged PRs; own repos excluded. Near-term goal: **50** (1 more). Deadline for the push: **EOD 31 Oct 2026 IST**.  
+Only merged PRs; own repos excluded. Near-term goal **50 hit** 2026-10-28. Keep climbing through **EOD 31 Oct 2026 IST**.  
 **By organization** below lists company / lab orgs only — no hackathon teammate repos (e.g. Roojool) and no personal accounts (dayx61, vidya).
 
 ```text
-49 / 50  ████████████████████░  98%
+50 / 50  █████████████████████  100%
 ```
 
 #### By organization
@@ -89,7 +89,7 @@ Only merged PRs; own repos excluded. Near-term goal: **50** (1 more). Deadline f
 | [Adobe](https://github.com/adobe/react-spectrum) | 2 | React Aria / Spectrum (incl. ColorField Form validation) |
 | [Amazon/AWS](https://github.com/awslabs/mcp) | 2 | awslabs MCP docs & billing-cost fixes |
 | [NVIDIA](https://github.com/NVIDIA/TensorRT-Model-Connect) | 2 | TensorRT-Model-Connect pathsep + CI file-command delimiters |
-| [Microsoft](https://github.com/microsoft) | 2 | hve-core + winget-pkgs |
+| [Microsoft](https://github.com/microsoft) | 3 | hve-core + winget-pkgs + physical-ai-toolchain |
 | [FINOS](https://github.com/finos/architecture-as-code) | 2 | CALM hub + VS Code canvas |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook) | 2 | Cookbook CI |
 | Google · OpenAI · Moonshot · Cap · Railtown · ESPnet · others | 31 | see Flagship samples + all-PRs link |
@@ -123,6 +123,7 @@ Only merged PRs; own repos excluded. Near-term goal: **50** (1 more). Deadline f
 | Org | PR | Title |
 | --- | --- | --- |
 | Google | [sbsim#187](https://github.com/google/sbsim/pull/187) | Remove internal Blaze/Bazel BUILD files |
+| Microsoft | [physical-ai-toolchain#2076](https://github.com/microsoft/physical-ai-toolchain/pull/2076) | refresh ms.date on hil-evaluation.md |
 | Microsoft | [hve-core#3280](https://github.com/microsoft/hve-core/pull/3280) | Scope commit-message instructions to commit tasks |
 | Microsoft | [winget-pkgs#459049](https://github.com/microsoft/winget-pkgs/pull/459049) | PowerRun 1.9 |
 | OpenAI | [codex-security#754](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance |
