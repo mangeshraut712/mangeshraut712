@@ -72,16 +72,16 @@ Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 m
 
 ### Open-source contributions
 
-**17 / 50 top-15 company merges** as of 2026-10-28 (Asia/Calcutta).  
-Scoreboard counts only: Apple · Meta · Anthropic · OpenAI · Netflix · Microsoft · Tesla · SpaceX/xAI · Samsung · LG · Walmart · JPMorgan · Amazon/AWS · Adobe · NVIDIA.  
-Need **33 more** by **EOD 31 Oct 2026 IST**. Roojool and other non-top-15 orgs do not count.  
-Live search sample: `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 -user:dayx61 -org:Roojool` (then filter to the 15).
+**21 / 50 allowlist merges** as of 2026-10-28 (Asia/Calcutta).  
+Scoreboard: tip-15 (Apple · Meta · Anthropic · OpenAI · Netflix · Microsoft · Tesla · SpaceX/xAI · Samsung · LG · Walmart · JPMorgan · Amazon/AWS · Adobe · NVIDIA) **plus** Google · Moonshot/Kimi · Sarvam AI.  
+Need **29 more** by **EOD 31 Oct 2026 IST**. Roojool and other non-allowlist orgs do not count.  
+Live search sample: `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 -user:dayx61 -org:Roojool` (then filter to the allowlist).
 
 ```text
-17 / 50  ███████░░░░░░░░░░░░░░  34%
+21 / 50  █████████░░░░░░░░░░░░  42%
 ```
 
-#### By organization (top-15 scoreboard)
+#### By organization (allowlist scoreboard)
 
 | Org | Merged | Focus |
 | --- | ---: | --- |
@@ -90,7 +90,10 @@ Live search sample: `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 
 | [Adobe](https://github.com/adobe/react-spectrum) | 2 | React Aria / Spectrum (incl. ColorField Form validation) |
 | [Amazon/AWS](https://github.com/awslabs/mcp) | 2 | awslabs MCP docs & billing-cost fixes |
 | [NVIDIA](https://github.com/NVIDIA/TensorRT-Model-Connect) | 2 | TensorRT-Model-Connect pathsep + CI file-command delimiters |
+| [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook) | 2 | Cookbook CI |
 | [OpenAI](https://github.com/openai/codex-security) | 1 | codex-security CLI guidance |
+| [Google](https://github.com/google/sbsim) | 1 | sbsim BUILD cleanup |
+| [Moonshot](https://github.com/MoonshotAI/kimi-code) | 1 | kimi-code models.dev fallback |
 | Meta · Anthropic · Netflix · Tesla · SpaceX/xAI · Samsung · LG · Walmart · JPMorgan | 0 | — |
 
 #### Flagship orgs
