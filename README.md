@@ -14,7 +14,9 @@ I build dependable developer-facing systems, from backend and cloud services to 
 
 ## Public contributions
 
-**Verified 2026-10-30.** I have 26 GitHub metadata-merged pull requests across a tracked-company set: Apple (7), Microsoft (4), NVIDIA (4), AWS (3), Adobe (2), Sarvam (2), and OpenAI, Google, Moonshot, and Samsung (1 each).
+**Verified 2026-10-30.** I have 27 GitHub metadata-merged pull requests across a tracked-company set: Apple (7), Microsoft (4), NVIDIA (4), AWS (4), Adobe (2), Sarvam (2), and OpenAI, Google, Moonshot, and Samsung (1 each).
+
+Newly verified: [AWS Stickler #456](https://github.com/awslabs/stickler/pull/456) merged on 2026-10-30; a [maintainer thank-you](https://github.com/awslabs/stickler/pull/456#issuecomment-6526557757) notes that it closed #453.
 
 Separately, 14 accepted Meta Pyrefly CodeSync landings credit `mangeshraut712` on `main`; they are accepted landings, not GitHub merged pull requests.
 
