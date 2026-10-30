@@ -96,41 +96,12 @@ Live search sample: `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 
 | [Moonshot](https://github.com/MoonshotAI/kimi-code) | 1 | kimi-code models.dev fallback |
 | Meta · Anthropic · Netflix · Tesla · SpaceX/xAI · Samsung · LG · Walmart · JPMorgan | 0 | — |
 
-#### Flagship orgs
+#### Project delivery checkpoints
 
-**Apple** · [password-manager-resources](https://github.com/apple/password-manager-resources)
-
-| PR | Title |
-| --- | --- |
-| [#1859](https://github.com/apple/password-manager-resources/pull/1859) | Red & Blue Online shared-credentials redirect |
-| [#1784](https://github.com/apple/password-manager-resources/pull/1784) | Change-password URL for thriftbooks.com |
-| [#1318](https://github.com/apple/password-manager-resources/pull/1318) | Shared credentials for start.gg |
-| [#1239](https://github.com/apple/password-manager-resources/pull/1239) | Shared credentials for HDFC Bank |
-| [#1179](https://github.com/apple/password-manager-resources/pull/1179) | Shared credentials for Bluesky |
-| [#1178](https://github.com/apple/password-manager-resources/pull/1178) | Exact-domain-only password rules in schema |
-
-**NVIDIA · Adobe · Amazon/AWS** (recent lands)
-
-| Org | PR | Title |
+| Work | Verified state | Evidence |
 | --- | --- | --- |
-| NVIDIA | [TensorRT-Model-Connect#1862](https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1862) | model_benchmark: use os.pathsep for PYTHONPATH |
-| NVIDIA | [TensorRT-Model-Connect#1863](https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1863) | CI: delimiter syntax for multiline file commands |
-| Adobe | [react-spectrum#10863](https://github.com/adobe/react-spectrum/pull/10863) | ColorField inherits Form `validationBehavior` |
-| Adobe | [react-spectrum#10853](https://github.com/adobe/react-spectrum/pull/10853) | Close CardPreview with matching tag in Card anatomy |
-| AWS | [awslabs/mcp#4857](https://github.com/awslabs/mcp/pull/4857) | document-loader: stop implying HTTP via docker |
-| AWS | [awslabs/mcp#4845](https://github.com/awslabs/mcp/pull/4845) | billing-cost-management: omit coverage Granularity with Group |
-
-**Google · Microsoft · OpenAI · Moonshot**
-
-| Org | PR | Title |
-| --- | --- | --- |
-| Google | [sbsim#187](https://github.com/google/sbsim/pull/187) | Remove internal Blaze/Bazel BUILD files |
-| Microsoft | [physical-ai-toolchain#2077](https://github.com/microsoft/physical-ai-toolchain/pull/2077) | refresh ms.date on tier-3-production README |
-| Microsoft | [physical-ai-toolchain#2076](https://github.com/microsoft/physical-ai-toolchain/pull/2076) | refresh ms.date on hil-evaluation.md |
-| Microsoft | [hve-core#3280](https://github.com/microsoft/hve-core/pull/3280) | Scope commit-message instructions to commit tasks |
-| Microsoft | [winget-pkgs#459049](https://github.com/microsoft/winget-pkgs/pull/459049) | PowerRun 1.9 |
-| OpenAI | [codex-security#754](https://github.com/openai/codex-security/pull/754) | Shell-neutral env-var removal guidance |
-| Moonshot | [kimi-code#2416](https://github.com/MoonshotAI/kimi-code/pull/2416) | Built-in model catalog fallback |
+| [Kashish Beauty Parlour](https://github.com/mangeshraut712/kashishbeautyparlour) | [PR #33](https://github.com/mangeshraut712/kashishbeautyparlour/pull/33) merged to `main` as [`37b0f1c`](https://github.com/mangeshraut712/kashishbeautyparlour/commit/37b0f1c73eb053f74c47780ad7b44b1c1a34e72d), repairing localized static routes. [GitHub Pages](https://mangeshraut712.github.io/kashishbeautyparlour/) and [Cloudflare Pages](https://kashish-cno.pages.dev/) are publicly reachable. | [Pages workflow](https://github.com/mangeshraut712/kashishbeautyparlour/blob/main/.github/workflows/deploy-pages.yml) · [Cloudflare static build](https://github.com/mangeshraut712/kashishbeautyparlour/blob/main/.github/workflows/ci-cd.yml) |
+| [Repair Proof](https://github.com/mangeshraut712/repair-proof) | 62 offline tests and an isolated recorded-mode browser check are documented. It remains undeployed and unsubmitted: a verification checkpoint, not a final submission. | [Verification PR #2](https://github.com/mangeshraut712/repair-proof/pull/2) · [Validation record](https://github.com/mangeshraut712/repair-proof/blob/main/docs/VALIDATION.md) |
 
 [**See merged PRs (excl. own + Roojool) →**](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61+-org%3ARoojool&type=pullrequests)
 
