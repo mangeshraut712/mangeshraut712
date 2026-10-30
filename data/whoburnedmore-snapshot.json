@@ -3,7 +3,7 @@
   "url": "https://whoburnedmore.com/u/mrcommando712",
   "rank": 65,
   "daily_rank": 0,
-  "weekly_rank": 48,
+  "weekly_rank": 50,
   "all_time_rank": 65,
   "total_users": 424,
   "top_percentile": 16,
@@ -17,7 +17,7 @@
   "week_tokens": 610077144.0,
   "week_cost_usd": 274.040275,
   "week_start": "2026-10-26",
-  "as_of": "2026-10-29",
-  "synced_at": "2026-10-29T20:19:00Z",
+  "as_of": "2026-10-30",
+  "synced_at": "2026-10-30T01:00:25Z",
   "source": "WhoBurnedMore public profile HTML (Next.js payload)"
 }
