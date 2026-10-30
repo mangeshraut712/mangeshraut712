@@ -10,7 +10,7 @@
   <rect x="1" y="1" width="1102" height="218" rx="27" fill="none" stroke="#D2D2D7" stroke-width="1"/>
   <circle cx="48" cy="48" r="6" fill="#34C759"/>
   <text x="66" y="54" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600" letter-spacing="1.5">NOW · 2026</text>
-  <text x="48" y="96" fill="#1D1D1F" font-size="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Building production AI systems.</text>
+  <text x="48" y="96" fill="#1D1D1F" font-size="28" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Building AI systems.</text>
   <text x="48" y="128" fill="#6E6E73" font-size="15" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif">Agentic workflows · realtime speech · retrieval &amp; evaluation · full-stack DX</text>
   <g font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="13" font-weight="600">
     <rect x="48" y="158" width="150" height="34" rx="17" fill="#FFFFFF" stroke="#D2D2D7"/>
