@@ -96,15 +96,6 @@ Live search sample: `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 
 | [Moonshot](https://github.com/MoonshotAI/kimi-code) | 1 | kimi-code models.dev fallback |
 | Meta · Anthropic · Netflix · Tesla · SpaceX/xAI · Samsung · LG · Walmart · JPMorgan | 0 | — |
 
-#### Project delivery checkpoints
-
-| Work | Verified state | Evidence |
-| --- | --- | --- |
-| [Kashish Beauty Parlour](https://github.com/mangeshraut712/kashishbeautyparlour) | [PR #33](https://github.com/mangeshraut712/kashishbeautyparlour/pull/33) merged to `main` as [`37b0f1c`](https://github.com/mangeshraut712/kashishbeautyparlour/commit/37b0f1c73eb053f74c47780ad7b44b1c1a34e72d), repairing localized static routes. [GitHub Pages](https://mangeshraut712.github.io/kashishbeautyparlour/) and [Cloudflare Pages](https://kashish-cno.pages.dev/) are publicly reachable. | [Pages workflow](https://github.com/mangeshraut712/kashishbeautyparlour/blob/main/.github/workflows/deploy-pages.yml) · [Cloudflare static build](https://github.com/mangeshraut712/kashishbeautyparlour/blob/main/.github/workflows/ci-cd.yml) |
-| [Repair Proof](https://github.com/mangeshraut712/repair-proof) | 62 offline tests and an isolated recorded-mode browser check are documented. It remains undeployed and unsubmitted: a verification checkpoint, not a final submission. | [Verification PR #2](https://github.com/mangeshraut712/repair-proof/pull/2) · [Validation record](https://github.com/mangeshraut712/repair-proof/blob/main/docs/VALIDATION.md) |
-
-[**See merged PRs (excl. own + Roojool) →**](https://github.com/search?q=is%3Apr+author%3Amangeshraut712+is%3Amerged+-user%3Amangeshraut712+-user%3Adayx61+-org%3ARoojool&type=pullrequests)
-
 ---
 
 ### More projects
