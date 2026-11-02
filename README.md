@@ -72,13 +72,6 @@ Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 m
 
 ### Open-source contributions
 
-**29 / 50 tracked-company GitHub PR merges** as of **2026-11-02 (UTC)**.<br>
-Scoreboard: tip-15 (Apple · Meta · Anthropic · OpenAI · Netflix · Microsoft · Tesla · SpaceX/xAI · Samsung · LG · Walmart · JPMorgan · Amazon/AWS · Adobe · NVIDIA) **plus** Google · Moonshot/Kimi · Sarvam AI.<br>
-The goal counts upstream PRs with GitHub `merged=true`; own repositories, duplicate records, and closed-unmerged PRs are excluded. November 2026 merges so far: **2** ([meta/lexical#9707](https://github.com/meta/lexical/pull/9707), [microsoft/physical-ai-toolchain#2075](https://github.com/microsoft/physical-ai-toolchain/pull/2075)). Need **21 more** by **EOD 31 Dec 2026 IST**. Roojool and other non-allowlist orgs do not count.<br>
-**14 [Meta Pyrefly](https://github.com/meta/pyrefly) CodeSync landings** on `main` are separately verified as of **2026-10-30 (UTC)**. Their associated GitHub PRs are closed with `merged=false`, so they are not included in the 29.
-
-Live search sample: `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 -user:dayx61 -org:Roojool` (then filter to the allowlist).
-
 ```text
 29 / 50  ███████████▌░░░░░░░░  58%
 ```
@@ -102,18 +95,32 @@ Live search sample: `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 
 
 #### Selected Engineering Impact
 
-Merged upstream contributions, grouped by company:
+Five merged upstream fixes, each with a test that reproduces the bug.
 
-- **Meta** — [meta/lexical#9707](https://github.com/meta/lexical/pull/9707): kept the block cursor inside the DOM slot at the boundary in the Lexical editor.
-- **Microsoft** — [microsoft/physical-ai-toolchain#2075](https://github.com/microsoft/physical-ai-toolchain/pull/2075): aligned Ruff npm and CI pins with `pyproject.toml`. [microsoft/hve-core#3280](https://github.com/microsoft/hve-core/pull/3280): scoped commit-message instructions to commit tasks.
-- **NVIDIA** — [NVIDIA/cuda-python#3224](https://github.com/NVIDIA/cuda-python/pull/3224): ignored inherited setgid when checking program-cache temp directory mode. [NVIDIA/cuda-python#3241](https://github.com/NVIDIA/cuda-python/pull/3241): restored the SIGINT handler in the keyboard-interrupt test child. [NVIDIA/TensorRT-Model-Connect#1862](https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1862): used `os.pathsep` for `PYTHONPATH` in the model benchmark tool.
-- **Apple** — [apple/password-manager-resources#1178](https://github.com/apple/password-manager-resources/pull/1178): added exact-domain-match-only support to the password-rules schema, plus shared-credential entries such as [#1179](https://github.com/apple/password-manager-resources/pull/1179) (Bluesky).
-- **AWS** — [awslabs/mcp#4849](https://github.com/awslabs/mcp/pull/4849): used the selector event loop on Windows for the Postgres MCP server's PG-wire path. [awslabs/mcp#4845](https://github.com/awslabs/mcp/pull/4845): fixed billing-cost coverage queries that combine Granularity with GroupBy. [awslabs/stickler#456](https://github.com/awslabs/stickler/pull/456): escaped formatted report cells, with regression coverage.
-- **Adobe** — [adobe/react-spectrum#10863](https://github.com/adobe/react-spectrum/pull/10863): made React Aria `ColorField` inherit a parent `Form`'s `validationBehavior`.
-- **Google** — [google/sbsim#187](https://github.com/google/sbsim/pull/187): removed internal Blaze/Bazel BUILD files from the public repo.
-- **Moonshot AI** — [MoonshotAI/kimi-code#2416](https://github.com/MoonshotAI/kimi-code/pull/2416): fell back to the built-in models.dev catalog when the fetch fails.
-- **Sarvam AI** — [sarvamai/sarvam-ai-cookbook#116](https://github.com/sarvamai/sarvam-ai-cookbook/pull/116) and [#185](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185): cookbook CI fixes for model-key scanning and the weekly rules sync.
-- **OpenAI** — [openai/codex-security#754](https://github.com/openai/codex-security/pull/754): shell-neutral environment-variable guidance in the CLI.
+**Meta · Lexical — [meta/lexical#9707](https://github.com/meta/lexical/pull/9707)**
+- **Problem:** When the caret sat after a block decorator inside an element whose DOM slot has a `before` boundary, the block cursor got appended after the slot's trailing decoration, outside the range the editor manages ([#9680](https://github.com/meta/lexical/issues/9680)).
+- **What I did:** Changed `$updateDOMBlockCursorElement` to insert the cursor before `slot.before`, falling back to append when there is no boundary or it was detached. Added unit tests for both cases.
+- **Result:** Merged by @etrepum. The new test fails before the fix and passes after, and the lexical, rich-text and selection unit suites stay green. Custom slot layouts now keep the cursor where the editor expects it.
+
+**NVIDIA · cuda-python — [NVIDIA/cuda-python#3224](https://github.com/NVIDIA/cuda-python/pull/3224)**
+- **Problem:** The program-cache permission test failed on Linux hosts whose `TMPDIR` is setgid, because the new directory inherits `S_ISGID` and reads as `0o2700` instead of `0o700` ([#3214](https://github.com/NVIDIA/cuda-python/issues/3214)).
+- **What I did:** Masked the mode with `& 0o777` in both owner-only assertions. Setgid only changes group ownership, not access, so the security check still holds.
+- **Result:** Merged by @Andy-Jost. `cuda_core` tests now pass on shared or setgid temp directories without weakening the owner-only check.
+
+**Apple · Password Manager Resources — [apple/password-manager-resources#1178](https://github.com/apple/password-manager-resources/pull/1178)**
+- **Problem:** The README documents an `exact-domain-match-only` flag for password rules, but the JSON schema rejected it ([#1165](https://github.com/apple/password-manager-resources/issues/1165)).
+- **What I did:** Added the optional boolean to `password-rules-schema.json`, following maintainer guidance, and checked with `ajv` that existing data stays valid, that the flag is accepted and that unknown properties are still rejected.
+- **Result:** Merged by @rmondello. The schema and the docs now agree, so password managers can use the flag.
+
+**AWS · MCP servers — [awslabs/mcp#4849](https://github.com/awslabs/mcp/pull/4849)**
+- **Problem:** On Windows, the postgres-mcp-server PG-wire path broke because psycopg's async mode does not support the default Proactor event loop ([#4825](https://github.com/awslabs/mcp/issues/4825)).
+- **What I did:** Set `WindowsSelectorEventLoopPolicy` at the start of the server entry point, before startup validation or MCP creates a loop, so other platforms keep their default. Added mocked tests for both the Windows and non-Windows paths.
+- **Result:** Merged by @kennthhz. Windows users can connect to Postgres over PG-wire through the MCP server.
+
+**Adobe · React Spectrum — [adobe/react-spectrum#10863](https://github.com/adobe/react-spectrum/pull/10863)**
+- **Problem:** React Aria's `ColorField` ignored a parent `Form`'s `validationBehavior`, unlike `TextField` and `NumberField` ([#10862](https://github.com/adobe/react-spectrum/issues/10862)).
+- **What I did:** Read `FormContext` through `useSlottedContext` and resolved the value as prop, then form, then `'native'`, matching the other fields. Added a regression test that `validationBehavior="aria"` gives `aria-required` without native `required`.
+- **Result:** Merged by @devongovett. Forms that use ARIA validation now behave the same for color inputs as for every other field.
 
 ---
 
