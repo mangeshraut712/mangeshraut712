@@ -77,7 +77,7 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 ### Open-source contributions
 
 ```text
-29 / 50  ███████████▌░░░░░░░░  58%
+31 / 50  ████████████▍░░░░░░░  62%
 ```
 
 #### By organization (allowlist scoreboard)
@@ -85,13 +85,13 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 | Org | GitHub merged | Focus |
 | --- | ---: | --- |
 | [Apple](https://github.com/apple/password-manager-resources) | 7 | Password-manager resources & schema |
-| [Microsoft](https://github.com/microsoft) | 5 | hve-core + winget-pkgs + physical-ai-toolchain |
+| [Microsoft](https://github.com/microsoft) | 6 | hve-core, winget-pkgs, physical-ai-toolchain, Semantic Kernel |
 | [Adobe](https://github.com/adobe/react-spectrum) | 2 | React Aria / Spectrum (incl. ColorField Form validation) |
 | [AWS Labs](https://github.com/awslabs/mcp) | 4 | MCP, Stickler & billing-cost fixes |
 | [NVIDIA](https://github.com/NVIDIA/TensorRT-Model-Connect) | 4 | CUDA Python tests & TensorRT tooling/CI |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook) | 2 | Cookbook CI |
 | [OpenAI](https://github.com/openai/codex-security) | 1 | codex-security CLI guidance |
-| [Google](https://github.com/google/sbsim) | 1 | sbsim BUILD cleanup |
+| [Google](https://github.com/google/sbsim) | 2 | sbsim BUILD cleanup + Gemini cookbook link checker |
 | [Moonshot](https://github.com/MoonshotAI/kimi-code) | 1 | kimi-code models.dev fallback |
 | [Samsung](https://github.com/Samsung/CredSweeper) | 1 | CredSweeper install-guide docs |
 | [Meta](https://github.com/meta/lexical) | 1 | Lexical; plus 14 accepted Pyrefly CodeSync landings on `main` (separate) |
@@ -120,11 +120,11 @@ Five merged upstream fixes, with regression tests, corrected assertions or schem
 </details>
 
 <details>
-<summary><b>Apple · Password Manager Resources — <a href="https://github.com/apple/password-manager-resources/pull/1178">apple/password-manager-resources#1178</a></b></summary>
+<summary><b>Microsoft · Semantic Kernel — <a href="https://github.com/microsoft/semantic-kernel/pull/14668">microsoft/semantic-kernel#14668</a></b></summary>
 
-- **Problem:** The README documents an `exact-domain-match-only` flag for password rules, but the JSON schema rejected it ([#1165](https://github.com/apple/password-manager-resources/issues/1165)).
-- **What I did:** Added the optional boolean to `password-rules-schema.json`, following maintainer guidance, and checked with `ajv` that existing data stays valid, that the flag is accepted and that unknown properties are still rejected.
-- **Result:** Merged by @rmondello. The schema and the docs now agree, so password managers can use the flag.
+- **Problem:** The Python OpenAPI plugin checked `allowed_base_urls` with a raw path-prefix match, so `/api/../admin` and `/api/%2e%2e/admin` passed an `/api` allowlist while httpx actually requested `/admin` ([#14662](https://github.com/microsoft/semantic-kernel/issues/14662)).
+- **What I did:** Decoded `%2e`/`%2E` and applied RFC 3986 dot-segment removal before the prefix check, kept empty segments to match httpx, and left other percent-encodings alone. Added tests for the escapes and for paths that must still pass, like `/api/./users` and `/api/`.
+- **Result:** Merged by @eavanvalkenburg. Dot-segment escapes can no longer slip past an OpenAPI URL allowlist, and `/apiusers` is still rejected.
 
 </details>
 
