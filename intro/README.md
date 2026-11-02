@@ -12,4 +12,4 @@ node intro/render.mjs
 Outputs:
 
 - `header.mp4`
-- `header.gif` (used in the profile README)
+- `header.gif` (legacy animation; the current profile uses static SVG cards)

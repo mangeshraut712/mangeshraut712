@@ -41,14 +41,14 @@ LANG_SKIP = {"None", "HTML", "CSS", "Jupyter Notebook", "TSQL", "MATLAB"}
 
 # Verified across owned repos (package.json / requirements inventory, Jul 2026).
 FOCUS_AI = "WebRTC VAD · RAG/BM25 · MCP · PyTorch"
-FOCUS_STACK = "Next.js 15 · React 19 · FastAPI · Turbopack"
+FOCUS_STACK = "Next.js · React · FastAPI · Turbopack"
 ROLE = "Applied AI Engineer"
 STACK_ICONS = (
     "ts,js,py,swift,react,nextjs,tailwind,fastapi,express,"
     "postgres,supabase,mongodb,docker,vercel,pytorch"
 )
 STACK_LABEL = (
-    "TypeScript · Python · JavaScript · Swift · Next.js 15 · React 19 · "
+    "TypeScript · Python · JavaScript · Swift · Next.js · React · "
     "FastAPI · Turbopack · PyTorch · WebRTC VAD · BM25 · MCP · Sarvam · "
     "Postgres · Docker · Vercel · GitHub Actions"
 )
@@ -263,7 +263,7 @@ def fetch_whoburnedmore(handle: str = WBM_HANDLE) -> dict:
     streak_days = int(totals.get("streakDays") or 0)
 
     lifetime_line = (
-        f"{fmt_tokens(lifetime_tokens)} tokens · {fmt_money(lifetime_cost)} · "
+        f"{fmt_tokens(lifetime_tokens)} tokens · est. {fmt_money(lifetime_cost)} · "
         f"{active_days} active days · {streak_days}d streak"
     )
     today_line = f"{fmt_tokens(today_tokens)} · {fmt_money(today_cost)}"
@@ -314,7 +314,7 @@ def burn_from_snapshot() -> dict:
             "burn_rank_data": rank_line,
             "burn_lifetime_data": (
                 f"{fmt_tokens(float(snap.get('lifetime_tokens') or 0))} tokens · "
-                f"{fmt_money(float(snap.get('lifetime_cost_usd') or 0))} · "
+                f"est. {fmt_money(float(snap.get('lifetime_cost_usd') or 0))} · "
                 f"{int(snap.get('active_days') or 0)} active days · "
                 f"{int(snap.get('streak_days') or 0)}d streak"
             ),
@@ -328,6 +328,10 @@ def burn_from_snapshot() -> dict:
             ),
         }
     )
+    # Never describe a cached historical day/week as the current period.
+    burn["burn_today_data"] = f"cached day {snap.get('as_of', 'unknown')} · {fmt_tokens(snap.get('today_tokens') or 0)} tokens"
+    burn["burn_week_data"] = f"cached week {snap.get('week_start', 'unknown')} · {fmt_tokens(snap.get('week_tokens') or 0)} tokens"
+    burn["cached"] = True
     return burn
 
 
@@ -405,7 +409,7 @@ def fetch_owned_repos() -> list[dict]:
         if not conn["pageInfo"]["hasNextPage"]:
             break
         cursor = conn["pageInfo"]["endCursor"]
-    return nodes
+    return [repo for repo in nodes if not repo["isPrivate"]]
 
 
 def year_window(year: int, today: date) -> tuple[str, str]:
@@ -418,7 +422,7 @@ def year_window(year: int, today: date) -> tuple[str, str]:
 
 
 def fetch_stats() -> dict:
-    today = date.today()
+    today = datetime.now(timezone.utc).date()
     year = today.year
 
     profile = gql(
@@ -586,7 +590,7 @@ def fetch_stats() -> dict:
         "bio": profile.get("bio") or "",
         "year": year,
         "synced_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source": "GitHub GraphQL + REST (full owned-repo inventory + all-year contributions)",
+        "source": "GitHub GraphQL + REST (public owned-repo inventory + all-year contribution calendars)",
     }
 
 
@@ -617,6 +621,7 @@ def update_svgs(stats: dict | None = None, burn: dict | None = None, views: str 
                 "host_data": stats["host_data"],
                 "follower_data": stats["follower_data"],
                 "uptime_data": stats["uptime_data"],
+                "github_as_of": "GitHub · " + stats["synced_at"].replace("T", " "),
                 # light-theme aliases
                 "lifetime_data_light": stats["lifetime_data"],
                 "ytd_data_light": stats["ytd_data"],
@@ -639,6 +644,7 @@ def update_svgs(stats: dict | None = None, burn: dict | None = None, views: str 
         mapping.update(
             {
                 "burn_rank_data": burn["burn_rank_data"],
+                "wbm_as_of": ("WBM cached · " if burn.get("cached") else "WBM · ") + burn["synced_at"].replace("T", " "),
                 "burn_lifetime_data": burn["burn_lifetime_data"],
                 "burn_today_data": burn["burn_today_data"],
                 "burn_week_data": burn["burn_week_data"],
@@ -715,8 +721,8 @@ def write_snapshot(stats: dict) -> None:
             "focus_ai": stats["focus_ai_data"],
             "focus_stack": stats["focus_stack_data"],
             "evidence": {
-                "next_js": "15.3 across flagship apps",
-                "react": "18.2 / 19.x across apps",
+                "next_js": "Per-repository versions: see README dependency manifest links",
+                "react": "Per-repository versions: see README dependency manifest links",
                 "top_deps": [
                     "typescript",
                     "react",
@@ -811,9 +817,7 @@ def main() -> int:
         print(f"WARNING: WhoBurnedMore sync failed ({exc}); using cached snapshot")
         burn = burn_from_snapshot()
     update_readme_whoburnedmore(burn)
-    views = fetch_profile_views()
-    update_svgs(stats, burn, views=views)
-    print(f"Synced profile views: {views}")
+    update_svgs(stats, burn)
     print("Synced WhoBurnedMore stats:")
     for k in (
         "handle",

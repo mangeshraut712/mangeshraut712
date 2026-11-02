@@ -17,7 +17,7 @@
       <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
       <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">HindAI</text>
-      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Grounded Gemma RAG for Indic</tspan><tspan x="22" dy="18">scripture learning via OpenRouter.</tspan></text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Gemma scripture learning:</tspan><tspan x="22" dy="18">Workers AI; optional OpenRouter.</tspan></text>
       <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Hindai → Repo</text>
     </g>
   </a>
@@ -35,7 +35,7 @@
       <rect width="340" height="168" rx="22" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1"/>
       <rect x="0" y="0" width="6" height="168" rx="3" fill="#0071E3"/>
       <text x="22" y="38" fill="#0071E3" font-size="17" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Sarvam Cookbook</text>
-      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Indic STT/TTS/RAG examples;</tspan><tspan x="22" dy="18">CI fix merged upstream.</tspan></text>
+      <text x="22" y="68" fill="#6E6E73" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif"><tspan x="22" dy="0">Contributed to Indic examples;</tspan><tspan x="22" dy="18">CI fix merged upstream.</tspan></text>
       <text x="22" y="140" fill="#1D1D1F" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">sarvam-ai-cookbook → Repo</text>
     </g>
   </a>

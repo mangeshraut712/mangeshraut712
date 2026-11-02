@@ -3,7 +3,7 @@
   <rect width="1104" height="280" rx="28" fill="#000000"/>
   <rect x="1" y="1" width="1102" height="278" rx="27" fill="none" stroke="#2C2C2E" stroke-width="1"/>
   <text x="40" y="42" fill="#A1A1A6" font-size="12" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600" letter-spacing="1.4">ARCHITECTURE</text>
-  <text x="40" y="70" fill="#F5F5F7" font-size="24" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">How production AI systems connect</text>
+  <text x="40" y="70" fill="#F5F5F7" font-size="24" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-weight="700">Conceptual patterns across separate projects</text>
 
   <rect x="40" y="110" width="140" height="56" rx="14" fill="#1C1C1E" stroke="#2C2C2E"/>
   <text x="110" y="144" text-anchor="middle" fill="#F5F5F7" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-weight="600">Browser</text>

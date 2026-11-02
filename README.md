@@ -8,8 +8,10 @@
   </picture>
 </p>
 
+GitHub contribution figures are contribution-calendar totals (including 2026 PR/commit contributions), not merged-PR counts. [GitHub snapshot](data/github-snapshot.json) · [WBM snapshot](data/whoburnedmore-snapshot.json). WBM covers synced usage; its cost is a provider estimate, not a paid bill. Its rank is within the tracked all-time leaderboard, not a global ranking. Public repository counts include forks; owned means public non-forks, with stars/forks summed on those repositories. Languages are ranked by repository primary-language count.
+
 > [!IMPORTANT]
-> **Open to Software Engineer roles (Pune · Philadelphia · remote).** Portfolio systems: real-time speech VAD with an F1 gate, offline RAG eval, agents with tool calling and failure handling, and the full stack around them. Every number below links to the file or CI run that produced it — stub metrics are labelled stub.
+> **Open to Software Engineer roles (Pune · Philadelphia · remote).** Portfolio systems: real-time speech VAD with an F1 gate, offline RAG eval, agents with tool calling and failure handling, and the full stack around them. Benchmark figures link to their reports or CI runs; account statistics link to dated snapshots. Stub metrics are labelled stub.
 >
 > Fastest contact: [mbr63drexel@gmail.com](mailto:mbr63drexel@gmail.com)
 
@@ -36,37 +38,41 @@
 | Project | What it proves | Guardrails | Proof |
 | --- | --- | --- | --- |
 | [**ai-ml-portfolio**](https://github.com/mangeshraut712/ai-ml-portfolio) — speech VAD + RAG eval + NumPy ML from scratch | Measured VAD F1 gates (real audio + synthetic labels). Offline RAG/LLM eval with retrieval metrics; CI uses **stub** providers | Acceptance gate fails CI below fixed thresholds; eval falls back to stubs when keys are missing | [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) · [RESULTS](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) |
-| [**agent-console**](https://github.com/mangeshraut712/agent-console) — real-time agent debug UI over WebSocket | Streaming tokens, tool-call traces, protocol observability | Seq reorder + dedupe, `RESUME {last_seq}` replay, single-fire `TOOL_ACK`, chaos verify | [DECISIONS.md](https://github.com/mangeshraut712/agent-console/blob/main/DECISIONS.md) · [Pages replay demo](https://mangeshraut712.github.io/agent-console/) |
-| [**Gravity-SaaS-Agent**](https://github.com/mangeshraut712/Gravity-SaaS-Agent) — multi-tenant agent SaaS starter | MCP client, skills engine, billing events, operator dashboard | Tier rate limits, Supabase RLS, circuit breaker, OpenRouter fallback. Channel adapters are **simulators**, not live Business API | [README](https://github.com/mangeshraut712/Gravity-SaaS-Agent#readme) · [CI](https://github.com/mangeshraut712/Gravity-SaaS-Agent/actions/workflows/ci.yml) |
+| [**agent-console**](https://github.com/mangeshraut712/agent-console) — real-time agent debug UI over WebSocket | Streaming tokens and tool-call traces from a scripted mock agent; seeded Pages replay | Bounded seq reorder + dedupe, `RESUME {last_seq}` replay, single-fire `TOOL_ACK`, chaos verify | [DECISIONS.md](https://github.com/mangeshraut712/agent-console/blob/main/DECISIONS.md) · [Pages replay demo](https://mangeshraut712.github.io/agent-console/) |
+| [**Gravity-SaaS-Agent**](https://github.com/mangeshraut712/Gravity-SaaS-Agent) — multi-tenant agent SaaS starter | MCP-style simulated tool registry, skills scaffold, billing events, operator dashboard | Tier rate limits, Supabase RLS policies, OpenRouter retries/circuit breaker and labelled echo fallback. Channel adapters are **simulators**, not live Business API | [README](https://github.com/mangeshraut712/Gravity-SaaS-Agent#readme) · [CI](https://github.com/mangeshraut712/Gravity-SaaS-Agent/actions/workflows/ci.yml) |
 
-**Reproduce the headline number** (Python 3.10–3.12, no API keys):
+**Run the benchmark and acceptance gates** (Python 3.10–3.12, no API keys; latency depends on hardware):
 
 ```bash
 git clone https://github.com/mangeshraut712/ai-ml-portfolio && cd ai-ml-portfolio
 make install && make verify-all      # mlfs tests + VAD FULL_PASS + offline LLM eval
 ```
 
+On Debian/Ubuntu, install `build-essential` and `libsndfile1` first. Initial setup needs network access for dependencies and audio.
+
 ---
 
 ### Engineering metrics — measured, with baselines and a failure case
 
+[Source audit and verification limits](docs/PROFILE-AUDIT.md) · checked November 2, 2026.
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202611020605" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=202611020605" />
-    <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202611020605" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202611020626" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-light.svg?v=202611020626" />
+    <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=202611020626" />
   </picture>
 </p>
 
-Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 ms), CI Python **3.10–3.12**. Detail the card does not show:
+Headline on the card: VAD clean F1 **0.9569**, batch whole-file p95 **39.33 ms** (Sep 11, 2026 CI; gate ≤100 ms; excludes warmup), CI Python **3.10–3.12**. The VAD gate runs on Python 3.11. Exact labels are constructed from real speech and synthetic silence; soft labels use energy, not human annotation. Detail the card does not show:
 
 | Metric | Measured | Gate / baseline | Source |
 | --- | ---: | ---: | --- |
 | VAD exact F1, noisy — **known failure mode** | **0.7768** | ≥ 0.75 (clean ≥ 0.92) | [challenge_pass.py](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/challenge_pass.py) · [MODEL_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/vad/MODEL_CARD.md) |
 | VAD soft F1 | **0.8135** | ≥ 0.78 | same |
 | RAG retrieval **(offline stub)** — TF-IDF Recall@5 · MRR · nDCG@5 | **1.000 · 0.981 · 0.986** | 40 gold QA + 15 adversarial on 10 FAQ docs. BM25-fusion stub Recall@3 **0.975**. Hallucination 0.000 = stub abstaining | [RESULTS.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/RESULTS.md) (STUB, 2026-07-24) · [DATA_CARD](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/labs/llm-eval/DATA_CARD.md) |
-| Stub cost / latency matrix | p95 ms and $/1k queries per **stub** provider | live path is `EVAL_LIVE=1`; CI never sets it | same RESULTS.md |
-| CI run for `make verify-all` | green | — | [Sep 11, 2026](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/34574401205) |
+| Stub cost / latency matrix | Stub p95 ms and estimated $/1k queries from configured prices/token estimates | live path is `EVAL_LIVE=1`; CI forces `EVAL_LIVE=0` (stub) | same RESULTS.md |
+| CI labs + VAD acceptance gate | green | — | [Sep 11, 2026](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/34574401205) |
 
 ---
 
@@ -75,6 +81,8 @@ Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 m
 ```text
 29 / 50  ███████████▌░░░░░░░░  58%
 ```
+
+29 merged PRs toward a personal 50-PR goal across the organizations below, checked November 2, 2026. [Merged PR search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged&type=pullrequests). Pyrefly CodeSync landings are tracked separately.
 
 #### By organization (allowlist scoreboard)
 
@@ -95,7 +103,7 @@ Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 m
 
 #### Selected Engineering Impact
 
-Five merged upstream fixes, each with a test that reproduces the bug.
+Five merged upstream fixes, with regression tests, corrected assertions or schema validation.
 
 **Meta · Lexical — [meta/lexical#9707](https://github.com/meta/lexical/pull/9707)**
 - **Problem:** When the caret sat after a block decorator inside an element whose DOM slot has a `before` boundary, the block cursor got appended after the slot's trailing decoration, outside the range the editor manages ([#9680](https://github.com/meta/lexical/issues/9680)).
@@ -105,7 +113,7 @@ Five merged upstream fixes, each with a test that reproduces the bug.
 **NVIDIA · cuda-python — [NVIDIA/cuda-python#3224](https://github.com/NVIDIA/cuda-python/pull/3224)**
 - **Problem:** The program-cache permission test failed on Linux hosts whose `TMPDIR` is setgid, because the new directory inherits `S_ISGID` and reads as `0o2700` instead of `0o700` ([#3214](https://github.com/NVIDIA/cuda-python/issues/3214)).
 - **What I did:** Masked the mode with `& 0o777` in both owner-only assertions. Setgid only changes group ownership, not access, so the security check still holds.
-- **Result:** Merged by @Andy-Jost. `cuda_core` tests now pass on shared or setgid temp directories without weakening the owner-only check.
+- **Result:** Merged by @Andy-Jost. The two owner-only assertions now check access bits without rejecting an inherited setgid bit.
 
 **Apple · Password Manager Resources — [apple/password-manager-resources#1178](https://github.com/apple/password-manager-resources/pull/1178)**
 - **Problem:** The README documents an `exact-domain-match-only` flag for password rules, but the JSON schema rejected it ([#1165](https://github.com/apple/password-manager-resources/issues/1165)).
@@ -115,12 +123,12 @@ Five merged upstream fixes, each with a test that reproduces the bug.
 **AWS · MCP servers — [awslabs/mcp#4849](https://github.com/awslabs/mcp/pull/4849)**
 - **Problem:** On Windows, the postgres-mcp-server PG-wire path broke because psycopg's async mode does not support the default Proactor event loop ([#4825](https://github.com/awslabs/mcp/issues/4825)).
 - **What I did:** Set `WindowsSelectorEventLoopPolicy` at the start of the server entry point, before startup validation or MCP creates a loop, so other platforms keep their default. Added mocked tests for both the Windows and non-Windows paths.
-- **Result:** Merged by @kennthhz. Windows users can connect to Postgres over PG-wire through the MCP server.
+- **Result:** Merged by @kennthhz. The PG-wire startup path now selects the Windows event-loop policy required by psycopg; mocked tests cover Windows and non-Windows policy selection.
 
 **Adobe · React Spectrum — [adobe/react-spectrum#10863](https://github.com/adobe/react-spectrum/pull/10863)**
 - **Problem:** React Aria's `ColorField` ignored a parent `Form`'s `validationBehavior`, unlike `TextField` and `NumberField` ([#10862](https://github.com/adobe/react-spectrum/issues/10862)).
 - **What I did:** Read `FormContext` through `useSlottedContext` and resolved the value as prop, then form, then `'native'`, matching the other fields. Added a regression test that `validationBehavior="aria"` gives `aria-required` without native `required`.
-- **Result:** Merged by @devongovett. Forms that use ARIA validation now behave the same for color inputs as for every other field.
+- **Result:** Merged by @devongovett. ColorField now inherits Form ARIA validation behavior, matching the existing TextField and NumberField pattern.
 
 ---
 
@@ -130,13 +138,13 @@ Flagship systems stay in **Start here**. Everything else:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20261030-claims" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=20261030-claims" />
-    <img alt="More projects: Hindai, Stanford CS336, Codex Insights, Vitals.AI, erdos142, sarvam-ai-cookbook" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20261030-claims" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20261102-audit" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-light.svg?v=20261102-audit" />
+    <img alt="More projects: Hindai, Stanford CS336, Codex Insights, Vitals.AI, erdos142, sarvam-ai-cookbook" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/projects-dark.svg?v=20261102-audit" />
   </picture>
 </p>
 
-**Also:** [**Actions Nurse**](https://github.com/mangeshraut712/actions-nurse) — Open Agent Hackathon 2026 Wildcard (submitted 28 Oct 2026 4:30 AM IST, [hub](https://hackathon.genai.works/submissions?hackathon_id=019fd164-82b9-7382-a536-d9093c576ed2)). CI triage agent: Rules + optional Gemma, Meterless H-MEM, Zetaris evidence. [submission stamp](https://github.com/mangeshraut712/actions-nurse/blob/main/docs/OPEN-AGENT-SUBMISSION.md).
+**Also:** [**Actions Nurse**](https://github.com/mangeshraut712/actions-nurse) — Open Agent Hackathon 2026 Wildcard track (author-recorded submission: 28 Oct 2026 4:30 AM IST, [hub](https://hackathon.genai.works/submissions?hackathon_id=019fd164-82b9-7382-a536-d9093c576ed2)). CI triage agent: Rules + optional Gemma, Meterless H-MEM, labelled Zetaris fixtures with optional live read-only evidence. [submission stamp](https://github.com/mangeshraut712/actions-nurse/blob/main/docs/OPEN-AGENT-SUBMISSION.md).
 
 **Also:** [**Asset Intelligence Copilot**](https://github.com/mangeshraut712/asset-intelligence-copilot) — FlytBase challenge entry (AI Hackers Collective × Hacktoberfest 2026 Hack Day). Chat copilot for oil-field operators: deterministic tools compute numbers, answers cite record IDs and SOP passages, Gemma 4 for planning/phrasing. Local; MIT.
 
@@ -144,6 +152,8 @@ Flagship systems stay in **Start here**. Everything else:
 
 <details>
 <summary><b>Architecture</b> — patterns across these projects</summary>
+
+Conceptual patterns across separate projects; arrows do not assert one integrated deployment.
 
 ```mermaid
 flowchart LR
@@ -155,7 +165,7 @@ flowchart LR
     API[FastAPI / Express gateway<br/>rate limits · RLS · circuit breaker]
   end
   subgraph Models_Tools_Data["Models · Tools · Data"]
-    OR[OpenRouter / Workers AI<br/>multi-model fallback]
+    OR[OpenRouter / Workers AI<br/>project-specific routing]
     MCP[MCP servers · tool calling]
     VAD[WebRTC VAD · speech]
     RAG[BM25 / TF-IDF retrieval<br/>eval gates]
@@ -181,13 +191,13 @@ flowchart LR
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=20261030-claims" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=20261030-claims" />
-    <img alt="AI stack" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=20261030-claims" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=20261102-audit" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-light.svg?v=20261102-audit" />
+    <img alt="AI stack" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/stack-dark.svg?v=20261102-audit" />
   </picture>
 </p>
 
-The card lists tools I use. **Only the dependency manifests below are claims about these repos.**
+The card lists tools I use or explore. **The manifests below verify declared dependencies in these repos, rather than installed versions or live deployment.**
 
 | Stack claim | Source |
 | --- | --- |
@@ -201,13 +211,13 @@ The card lists tools I use. **Only the dependency manifests below are claims abo
 </details>
 
 <details>
-<summary><b>Now</b> — what I'm building this quarter</summary>
+<summary><b>Now</b> — what I'm building in Q4 2026</summary>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=20261030-claims" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=20261030-claims" />
-    <img alt="Currently building" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=20261030-claims" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=20261102-audit" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-light.svg?v=20261102-audit" />
+    <img alt="Currently building" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/focus-dark.svg?v=20261102-audit" />
   </picture>
 </p>
 
@@ -234,9 +244,9 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026102810" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=2026102810" />
-    <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026102810" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20261102-audit" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=20261102-audit" />
+    <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20261102-audit" />
   </picture>
 </p>
 
