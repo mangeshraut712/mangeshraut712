@@ -754,17 +754,6 @@ def update_readme(stats: dict) -> None:
         f"**{count}** all-time contributions ({as_of} snapshot)",
         text,
     )
-    for name in ("metrics-dark.svg", "metrics-light.svg"):
-        path = ROOT / name
-        svg = path.read_text()
-        svg = re.sub(r'(id="contribution_count"[^>]*>)[^<]*',
-                     lambda match: match[1] + count, svg)
-        svg = re.sub(r'(id="contribution_date"[^>]*>)[^<]*',
-                     lambda match: match[1] + f"All-time · {as_of}", svg)
-        path.write_text(svg)
-    stamp = datetime.now(timezone.utc).strftime("%Y%m%d%H%M")
-    text = re.sub(r'(metrics-(?:dark|light)\.svg)\?v=[^"\s]+',
-                  lambda match: match[1] + "?v=" + stamp, text)
     # Drop legacy duplicate blocks if present
     text = re.sub(
         r"\n*<!-- github-data:start -->[\s\S]*?<!-- github-data:end -->\n*",

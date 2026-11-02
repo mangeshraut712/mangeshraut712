@@ -36,6 +36,22 @@ class ProfileSyncTests(unittest.TestCase):
         self.assertEqual([repo['name'] for repo in repos], ['public', 'public-fork'])
         self.assertEqual(gql.call_args_list[1].args[1]['after'], 'cursor')
 
+    def test_refresh_preserves_authored_benchmark_card(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            readme = root / 'README.md'
+            readme.write_text('### Engineering metrics\n\n### Open-source contributions\n')
+            card = root / 'metrics-dark.svg'
+            card.write_text('<svg><text id="vad_latency_gate">≤100ms</text></svg>')
+            original = card.read_text()
+            with patch.object(sync, 'ROOT', root), patch.object(sync, 'README_PATH', readme):
+                sync.update_readme({'stack_icons': 'py', 'lifetime_raw': 9999,
+                                    'synced_at': '2026-11-02T00:00:00Z'})
+            self.assertEqual(card.read_text(), original)
+            self.assertNotIn('9,999', readme.read_text())
+            self.assertNotIn('contribution-calendar totals', readme.read_text())
+            self.assertNotIn('personal 50-PR goal', readme.read_text())
+
     def test_cached_banner_preserves_source_time(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / 'banner.svg'
