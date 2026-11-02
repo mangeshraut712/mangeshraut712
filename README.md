@@ -101,30 +101,50 @@ Headline on the card: VAD clean F1 **0.9569**, batch whole-file p95 **39.33 ms**
 
 Five merged upstream fixes, with regression tests, corrected assertions or schema validation.
 
-**Meta · Lexical — [meta/lexical#9707](https://github.com/meta/lexical/pull/9707)**
+<details open>
+<summary><b>Meta · Lexical — <a href="https://github.com/meta/lexical/pull/9707">meta/lexical#9707</a></b></summary>
+
 - **Problem:** When the caret sat after a block decorator inside an element whose DOM slot has a `before` boundary, the block cursor got appended after the slot's trailing decoration, outside the range the editor manages ([#9680](https://github.com/meta/lexical/issues/9680)).
 - **What I did:** Changed `$updateDOMBlockCursorElement` to insert the cursor before `slot.before`, falling back to append when there is no boundary or it was detached. Added unit tests for both cases.
 - **Result:** Merged by @etrepum. The new test fails before the fix and passes after, and the lexical, rich-text and selection unit suites stay green. Custom slot layouts now keep the cursor where the editor expects it.
 
-**NVIDIA · cuda-python — [NVIDIA/cuda-python#3224](https://github.com/NVIDIA/cuda-python/pull/3224)**
+</details>
+
+<details>
+<summary><b>NVIDIA · cuda-python — <a href="https://github.com/NVIDIA/cuda-python/pull/3224">NVIDIA/cuda-python#3224</a></b></summary>
+
 - **Problem:** The program-cache permission test failed on Linux hosts whose `TMPDIR` is setgid, because the new directory inherits `S_ISGID` and reads as `0o2700` instead of `0o700` ([#3214](https://github.com/NVIDIA/cuda-python/issues/3214)).
 - **What I did:** Masked the mode with `& 0o777` in both owner-only assertions. Setgid only changes group ownership, not access, so the security check still holds.
 - **Result:** Merged by @Andy-Jost. The two owner-only assertions now check access bits without rejecting an inherited setgid bit.
 
-**Apple · Password Manager Resources — [apple/password-manager-resources#1178](https://github.com/apple/password-manager-resources/pull/1178)**
+</details>
+
+<details>
+<summary><b>Apple · Password Manager Resources — <a href="https://github.com/apple/password-manager-resources/pull/1178">apple/password-manager-resources#1178</a></b></summary>
+
 - **Problem:** The README documents an `exact-domain-match-only` flag for password rules, but the JSON schema rejected it ([#1165](https://github.com/apple/password-manager-resources/issues/1165)).
 - **What I did:** Added the optional boolean to `password-rules-schema.json`, following maintainer guidance, and checked with `ajv` that existing data stays valid, that the flag is accepted and that unknown properties are still rejected.
 - **Result:** Merged by @rmondello. The schema and the docs now agree, so password managers can use the flag.
 
-**AWS · MCP servers — [awslabs/mcp#4849](https://github.com/awslabs/mcp/pull/4849)**
+</details>
+
+<details>
+<summary><b>AWS · MCP servers — <a href="https://github.com/awslabs/mcp/pull/4849">awslabs/mcp#4849</a></b></summary>
+
 - **Problem:** On Windows, the postgres-mcp-server PG-wire path broke because psycopg's async mode does not support the default Proactor event loop ([#4825](https://github.com/awslabs/mcp/issues/4825)).
 - **What I did:** Set `WindowsSelectorEventLoopPolicy` at the start of the server entry point, before startup validation or MCP creates a loop, so other platforms keep their default. Added mocked tests for both the Windows and non-Windows paths.
 - **Result:** Merged by @kennthhz. The PG-wire startup path now selects the Windows event-loop policy required by psycopg; mocked tests cover Windows and non-Windows policy selection.
 
-**Adobe · React Spectrum — [adobe/react-spectrum#10863](https://github.com/adobe/react-spectrum/pull/10863)**
+</details>
+
+<details>
+<summary><b>Adobe · React Spectrum — <a href="https://github.com/adobe/react-spectrum/pull/10863">adobe/react-spectrum#10863</a></b></summary>
+
 - **Problem:** React Aria's `ColorField` ignored a parent `Form`'s `validationBehavior`, unlike `TextField` and `NumberField` ([#10862](https://github.com/adobe/react-spectrum/issues/10862)).
 - **What I did:** Read `FormContext` through `useSlottedContext` and resolved the value as prop, then form, then `'native'`, matching the other fields. Added a regression test that `validationBehavior="aria"` gives `aria-required` without native `required`.
 - **Result:** Merged by @devongovett. ColorField now inherits Form ARIA validation behavior, matching the existing TextField and NumberField pattern.
+
+</details>
 
 ---
 
