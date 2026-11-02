@@ -8,8 +8,6 @@
   </picture>
 </p>
 
-GitHub contribution figures are contribution-calendar totals (including 2026 PR/commit contributions), not merged-PR counts. [GitHub snapshot](data/github-snapshot.json) · [WBM snapshot](data/whoburnedmore-snapshot.json). WBM covers synced usage; its cost is a provider estimate, not a paid bill. Its rank is within the tracked all-time leaderboard, not a global ranking. Public repository counts include forks; owned means public non-forks, with stars/forks summed on those repositories. Languages are ranked by repository primary-language count.
-
 > [!IMPORTANT]
 > **Open to Software Engineer roles (Pune · Philadelphia · remote).** Portfolio systems: real-time speech VAD with an F1 gate, offline RAG eval, agents with tool calling and failure handling, and the full stack around them. Benchmark figures link to their reports or CI runs; account statistics link to dated snapshots. Stub metrics are labelled stub.
 >
@@ -81,8 +79,6 @@ Headline on the card: VAD clean F1 **0.9569**, batch whole-file p95 **39.33 ms**
 ```text
 29 / 50  ███████████▌░░░░░░░░  58%
 ```
-
-29 merged PRs toward a personal 50-PR goal across the organizations below, checked November 2, 2026. [Merged PR search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged&type=pullrequests). Pyrefly CodeSync landings are tracked separately.
 
 #### By organization (allowlist scoreboard)
 
