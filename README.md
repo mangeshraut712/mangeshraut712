@@ -72,15 +72,15 @@ Headline on the card: VAD clean F1 **0.9569**, VAD p95 **~19 ms** (gate ≤100 m
 
 ### Open-source contributions
 
-**27 / 50 tracked-company GitHub PR merges** as of **2026-10-30 (UTC)**.<br>
+**29 / 50 tracked-company GitHub PR merges** as of **2026-11-02 (UTC)**.<br>
 Scoreboard: tip-15 (Apple · Meta · Anthropic · OpenAI · Netflix · Microsoft · Tesla · SpaceX/xAI · Samsung · LG · Walmart · JPMorgan · Amazon/AWS · Adobe · NVIDIA) **plus** Google · Moonshot/Kimi · Sarvam AI.<br>
-The goal counts upstream PRs with GitHub `merged=true`; own repositories, duplicate records, and closed-unmerged PRs are excluded. Need **23 more** by **EOD 31 Oct 2026 IST**. Roojool and other non-allowlist orgs do not count.<br>
-**14 [Meta Pyrefly](https://github.com/meta/pyrefly) CodeSync landings** on `main` are separately verified as of **2026-10-30 (UTC)**. Their associated GitHub PRs are closed with `merged=false`, so they are not included in the 27.
+The goal counts upstream PRs with GitHub `merged=true`; own repositories, duplicate records, and closed-unmerged PRs are excluded. Need **21 more** by **EOD 31 Dec 2026 IST**. Roojool and other non-allowlist orgs do not count.<br>
+**14 [Meta Pyrefly](https://github.com/meta/pyrefly) CodeSync landings** on `main` are separately verified as of **2026-10-30 (UTC)**. Their associated GitHub PRs are closed with `merged=false`, so they are not included in the 29.
 
 Live search sample: `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 -user:dayx61 -org:Roojool` (then filter to the allowlist).
 
 ```text
-27 / 50  ██████████▊░░░░░░░░░  54%
+29 / 50  ███████████▌░░░░░░░░  58%
 ```
 
 #### By organization (allowlist scoreboard)
@@ -88,7 +88,7 @@ Live search sample: `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 
 | Org | GitHub merged | Focus |
 | --- | ---: | --- |
 | [Apple](https://github.com/apple/password-manager-resources) | 7 | Password-manager resources & schema |
-| [Microsoft](https://github.com/microsoft) | 4 | hve-core + winget-pkgs + physical-ai-toolchain |
+| [Microsoft](https://github.com/microsoft) | 5 | hve-core + winget-pkgs + physical-ai-toolchain |
 | [Adobe](https://github.com/adobe/react-spectrum) | 2 | React Aria / Spectrum (incl. ColorField Form validation) |
 | [AWS Labs](https://github.com/awslabs/mcp) | 4 | MCP, Stickler & billing-cost fixes |
 | [NVIDIA](https://github.com/NVIDIA/TensorRT-Model-Connect) | 4 | CUDA Python tests & TensorRT tooling/CI |
@@ -97,7 +97,7 @@ Live search sample: `author:mangeshraut712 is:pr is:merged -user:mangeshraut712 
 | [Google](https://github.com/google/sbsim) | 1 | sbsim BUILD cleanup |
 | [Moonshot](https://github.com/MoonshotAI/kimi-code) | 1 | kimi-code models.dev fallback |
 | [Samsung](https://github.com/Samsung/CredSweeper) | 1 | CredSweeper install-guide docs |
-| [Meta Pyrefly](https://github.com/meta/pyrefly) | 0 | 14 accepted CodeSync landings on `main` (separate) |
+| [Meta](https://github.com/meta/lexical) | 1 | Lexical; plus 14 accepted Pyrefly CodeSync landings on `main` (separate) |
 | Anthropic · Netflix · Tesla · SpaceX/xAI · LG · Walmart · JPMorgan | 0 | — |
 
 #### Selected Engineering Impact
