@@ -1,0 +1,121 @@
+{
+  "checked_on": "2026-11-03",
+  "source": "GitHub issue search: author:mangeshraut712 is:pr is:merged user:<owner>",
+  "scope": "Nonzero organization groups in the existing personal allowlist; google-gemini grouped with Google; CodeSync landings excluded",
+  "total": 41,
+  "organizations": [
+    {
+      "owner": "apple",
+      "count": 7,
+      "prs": [
+        "https://github.com/apple/password-manager-resources/pull/1859",
+        "https://github.com/apple/password-manager-resources/pull/1851",
+        "https://github.com/apple/password-manager-resources/pull/1784",
+        "https://github.com/apple/password-manager-resources/pull/1318",
+        "https://github.com/apple/password-manager-resources/pull/1239",
+        "https://github.com/apple/password-manager-resources/pull/1179",
+        "https://github.com/apple/password-manager-resources/pull/1178"
+      ]
+    },
+    {
+      "owner": "microsoft",
+      "count": 8,
+      "prs": [
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2093",
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2092",
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2077",
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2076",
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2075",
+        "https://github.com/microsoft/semantic-kernel/pull/14668",
+        "https://github.com/microsoft/hve-core/pull/3280",
+        "https://github.com/microsoft/winget-pkgs/pull/459049"
+      ]
+    },
+    {
+      "owner": "adobe",
+      "count": 3,
+      "prs": [
+        "https://github.com/adobe/react-spectrum/pull/10869",
+        "https://github.com/adobe/react-spectrum/pull/10863",
+        "https://github.com/adobe/react-spectrum/pull/10853"
+      ]
+    },
+    {
+      "owner": "awslabs",
+      "count": 11,
+      "prs": [
+        "https://github.com/awslabs/visual-asset-management-system/pull/962",
+        "https://github.com/awslabs/stickler/pull/456",
+        "https://github.com/awslabs/visual-asset-management-system/pull/862",
+        "https://github.com/awslabs/visual-asset-management-system/pull/861",
+        "https://github.com/awslabs/visual-asset-management-system/pull/860",
+        "https://github.com/awslabs/visual-asset-management-system/pull/859",
+        "https://github.com/awslabs/visual-asset-management-system/pull/857",
+        "https://github.com/awslabs/visual-asset-management-system/pull/856",
+        "https://github.com/awslabs/mcp/pull/4857",
+        "https://github.com/awslabs/mcp/pull/4849",
+        "https://github.com/awslabs/mcp/pull/4845"
+      ]
+    },
+    {
+      "owner": "NVIDIA",
+      "count": 4,
+      "prs": [
+        "https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1863",
+        "https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1862",
+        "https://github.com/NVIDIA/cuda-python/pull/3241",
+        "https://github.com/NVIDIA/cuda-python/pull/3224"
+      ]
+    },
+    {
+      "owner": "sarvamai",
+      "count": 2,
+      "prs": [
+        "https://github.com/sarvamai/sarvam-ai-cookbook/pull/185",
+        "https://github.com/sarvamai/sarvam-ai-cookbook/pull/116"
+      ]
+    },
+    {
+      "owner": "openai",
+      "count": 1,
+      "prs": [
+        "https://github.com/openai/codex-security/pull/754"
+      ]
+    },
+    {
+      "owner": "google",
+      "count": 1,
+      "prs": [
+        "https://github.com/google/sbsim/pull/187"
+      ]
+    },
+    {
+      "owner": "google-gemini",
+      "count": 1,
+      "prs": [
+        "https://github.com/google-gemini/cookbook/pull/1449"
+      ]
+    },
+    {
+      "owner": "MoonshotAI",
+      "count": 1,
+      "prs": [
+        "https://github.com/MoonshotAI/kimi-code/pull/2416"
+      ]
+    },
+    {
+      "owner": "Samsung",
+      "count": 1,
+      "prs": [
+        "https://github.com/Samsung/CredSweeper/pull/997"
+      ]
+    },
+    {
+      "owner": "meta",
+      "count": 1,
+      "prs": [
+        "https://github.com/meta/lexical/pull/9707"
+      ]
+    }
+  ]
+}
