@@ -122,9 +122,9 @@ Five merged upstream fixes, with regression tests, corrected assertions or schem
 <details>
 <summary><b>Microsoft · Semantic Kernel — <a href="https://github.com/microsoft/semantic-kernel/pull/14668">microsoft/semantic-kernel#14668</a></b></summary>
 
-- **Problem:** The Python OpenAPI plugin checked `allowed_base_urls` with a raw path-prefix match, so `/api/../admin` and `/api/%2e%2e/admin` passed an `/api` allowlist while httpx actually requested `/admin` ([#14662](https://github.com/microsoft/semantic-kernel/issues/14662)).
-- **What I did:** Decoded `%2e`/`%2E` and applied RFC 3986 dot-segment removal before the prefix check, kept empty segments to match httpx, and left other percent-encodings alone. Added tests for the escapes and for paths that must still pass, like `/api/./users` and `/api/`.
-- **Result:** Merged by @eavanvalkenburg. Dot-segment escapes can no longer slip past an OpenAPI URL allowlist, and `/apiusers` is still rejected.
+- **Problem:** The Python OpenAPI plugin checked `allowed_base_urls` with a raw path-prefix match, so `/api/../admin` and `/api/%2e%2e/admin` passed an `/api` allowlist. For the literal dot-segment path, httpx actually requested `/admin` ([#14662](https://github.com/microsoft/semantic-kernel/issues/14662)).
+- **What I did:** Checked the prefix after dot-segment normalization in both raw and percent-decoded forms, preserving internal empty segments to match httpx. Added tests for the escapes and for paths that must still pass, like `/api/./users` and `/api/`.
+- **Result:** Merged by @eavanvalkenburg. The tested dot-segment escapes are rejected by the OpenAPI URL allowlist, and `/apiusers` is still rejected.
 
 </details>
 
