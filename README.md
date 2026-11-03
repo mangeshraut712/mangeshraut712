@@ -77,7 +77,7 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 ### Open-source contributions
 
 ```text
-39 / 50  ███████████████▋░░░░  78%
+41 / 50  ████████████████▍░░░  82%
 ```
 
 #### By organization (allowlist scoreboard)
@@ -85,7 +85,7 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 | Org | GitHub merged | Focus |
 | --- | ---: | --- |
 | [Apple](https://github.com/apple/password-manager-resources) | 7 | Password-manager resources & schema |
-| [Microsoft](https://github.com/microsoft) | 6 | hve-core, winget-pkgs, physical-ai-toolchain, Semantic Kernel |
+| [Microsoft](https://github.com/microsoft) | 8 | hve-core, winget-pkgs, physical-ai-toolchain, Semantic Kernel |
 | [Adobe](https://github.com/adobe/react-spectrum) | 3 | React Aria / Spectrum (incl. ColorField Form validation) |
 | [AWS Labs](https://github.com/awslabs/mcp) | 11 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
 | [NVIDIA](https://github.com/NVIDIA/TensorRT-Model-Connect) | 4 | CUDA Python tests & TensorRT tooling/CI |
