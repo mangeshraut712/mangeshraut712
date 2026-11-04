@@ -76,28 +76,23 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 
 ### Open-source contributions
 
-```text
-42 / 50  ████████████████▊░░░  84%
-```
+**55 merged pull requests** across company and lab orgs on the allowlist.
 
 #### By organization (allowlist scoreboard)
 
-| Org | GitHub merged | Focus |
+| Org | Merged | Focus |
 | --- | ---: | --- |
-| [AWS Labs](https://github.com/awslabs/visual-asset-management-system/pull/860) | 11 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
+| [Meta](https://github.com/meta/lexical/pull/9707) | 15 | Lexical, plus 14 Pyrefly PRs merged through Meta's internal sync (each marked "merged in meta/pyrefly@…") |
+| [AWS Labs](https://github.com/awslabs/visual-asset-management-system/pull/860) | 15 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/physical-ai-toolchain/pull/2093) | 8 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668) |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
-| [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 4 | CUDA Python tests & TensorRT tooling/CI |
 | [Adobe](https://github.com/adobe/react-spectrum/pull/10869) | 3 | React Aria / Spectrum (incl. ColorField Form validation) |
-| [Google](https://github.com/google/sbsim/pull/187) | 2 | sbsim BUILD cleanup + [Gemini cookbook](https://github.com/google-gemini/cookbook/pull/1449) link checker |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | 2 | Cookbook CI |
+| [Google](https://github.com/google/sbsim/pull/187) | 1 | sbsim BUILD cleanup |
 | [OpenAI](https://github.com/openai/codex-security/pull/754) | 1 | codex-security CLI guidance |
-| [Moonshot](https://github.com/MoonshotAI/kimi-code/pull/2416) | 1 | kimi-code models.dev fallback |
-| [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | 1 | CredSweeper install-guide docs |
-| [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical; plus 14 accepted Pyrefly CodeSync landings on `main` (separate) |
 | [Netflix](https://github.com/Netflix/dgs-codegen/pull/997) | 1 | DGS codegen Kotlin client generation |
-
-**Open pull requests:** 88 across allowlist orgs, including Anthropic (11), Walmart (4), xAI (2), JPMorgan (2), Tesla (1) and LG/webOS (1).
+| [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | 1 | CredSweeper install-guide docs |
+| [Moonshot](https://github.com/MoonshotAI/kimi-code/pull/2416) | 1 | kimi-code models.dev fallback |
 
 #### Selected Engineering Impact
 
