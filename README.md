@@ -84,19 +84,20 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 
 | Org | GitHub merged | Focus |
 | --- | ---: | --- |
-| [Apple](https://github.com/apple/password-manager-resources) | 7 | Password-manager resources & schema |
-| [Microsoft](https://github.com/microsoft) | 8 | hve-core, winget-pkgs, physical-ai-toolchain, Semantic Kernel |
-| [Adobe](https://github.com/adobe/react-spectrum) | 3 | React Aria / Spectrum (incl. ColorField Form validation) |
-| [AWS Labs](https://github.com/awslabs/mcp) | 11 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
-| [NVIDIA](https://github.com/NVIDIA/TensorRT-Model-Connect) | 4 | CUDA Python tests & TensorRT tooling/CI |
-| [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook) | 2 | Cookbook CI |
-| [OpenAI](https://github.com/openai/codex-security) | 1 | codex-security CLI guidance |
-| [Google](https://github.com/google/sbsim) | 2 | sbsim BUILD cleanup + Gemini cookbook link checker |
-| [Moonshot](https://github.com/MoonshotAI/kimi-code) | 1 | kimi-code models.dev fallback |
-| [Samsung](https://github.com/Samsung/CredSweeper) | 1 | CredSweeper install-guide docs |
-| [Meta](https://github.com/meta/lexical) | 1 | Lexical; plus 14 accepted Pyrefly CodeSync landings on `main` (separate) |
-| [Netflix](https://github.com/Netflix/dgs-codegen) | 1 | DGS codegen Kotlin client generation |
-| Anthropic · Tesla · SpaceX/xAI · LG · Walmart · JPMorgan | 0 | — |
+| [AWS Labs](https://github.com/awslabs/visual-asset-management-system/pull/860) | 11 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
+| [Microsoft](https://github.com/microsoft/physical-ai-toolchain/pull/2093) | 8 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668) |
+| [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
+| [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 4 | CUDA Python tests & TensorRT tooling/CI |
+| [Adobe](https://github.com/adobe/react-spectrum/pull/10869) | 3 | React Aria / Spectrum (incl. ColorField Form validation) |
+| [Google](https://github.com/google/sbsim/pull/187) | 2 | sbsim BUILD cleanup + [Gemini cookbook](https://github.com/google-gemini/cookbook/pull/1449) link checker |
+| [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | 2 | Cookbook CI |
+| [OpenAI](https://github.com/openai/codex-security/pull/754) | 1 | codex-security CLI guidance |
+| [Moonshot](https://github.com/MoonshotAI/kimi-code/pull/2416) | 1 | kimi-code models.dev fallback |
+| [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | 1 | CredSweeper install-guide docs |
+| [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical; plus 14 accepted Pyrefly CodeSync landings on `main` (separate) |
+| [Netflix](https://github.com/Netflix/dgs-codegen/pull/997) | 1 | DGS codegen Kotlin client generation |
+
+**In review:** 88 open PRs across allowlist orgs, including Anthropic (11), Walmart (4), xAI (2), JPMorgan (2), Tesla (1) and LG/webOS (1).
 
 #### Selected Engineering Impact
 
