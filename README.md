@@ -77,7 +77,7 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 ### Open-source contributions
 
 ```text
-41 / 50  ████████████████▍░░░  82%
+42 / 50  ████████████████▊░░░  84%
 ```
 
 #### By organization (allowlist scoreboard)
@@ -95,7 +95,8 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 | [Moonshot](https://github.com/MoonshotAI/kimi-code) | 1 | kimi-code models.dev fallback |
 | [Samsung](https://github.com/Samsung/CredSweeper) | 1 | CredSweeper install-guide docs |
 | [Meta](https://github.com/meta/lexical) | 1 | Lexical; plus 14 accepted Pyrefly CodeSync landings on `main` (separate) |
-| Anthropic · Netflix · Tesla · SpaceX/xAI · LG · Walmart · JPMorgan | 0 | — |
+| [Netflix](https://github.com/Netflix/dgs-codegen) | 1 | DGS codegen Kotlin client generation |
+| Anthropic · Tesla · SpaceX/xAI · LG · Walmart · JPMorgan | 0 | — |
 
 #### Selected Engineering Impact
 
@@ -111,11 +112,11 @@ Five merged upstream fixes, with regression tests, corrected assertions or schem
 </details>
 
 <details>
-<summary><b>NVIDIA · cuda-python — <a href="https://github.com/NVIDIA/cuda-python/pull/3224">NVIDIA/cuda-python#3224</a></b></summary>
+<summary><b>Netflix · DGS Codegen — <a href="https://github.com/Netflix/dgs-codegen/pull/997">Netflix/dgs-codegen#997</a></b></summary>
 
-- **Problem:** The program-cache permission test failed on Linux hosts whose `TMPDIR` is setgid, because the new directory inherits `S_ISGID` and reads as `0o2700` instead of `0o700` ([#3214](https://github.com/NVIDIA/cuda-python/issues/3214)).
-- **What I did:** Masked the mode with `& 0o777` in both owner-only assertions. Setgid only changes group ownership, not access, so the security check still holds.
-- **Result:** Merged by @Andy-Jost. The two owner-only assertions now check access bits without rejecting an inherited setgid bit.
+- **Problem:** Kotlin 2 client generation always added `_alias` and `_projection` parameters to projection methods, so a GraphQL field with an argument of the same name produced duplicate parameters and failed to compile ([#930](https://github.com/Netflix/dgs-codegen/issues/930)).
+- **What I did:** Renamed the generated alias and projection parameters only when they collide with a field argument, so existing schemas keep the same names. Added codegen tests that compile client queries using `_alias` and `_projection` arguments.
+- **Result:** Merged by @iuliiasobolevska, who kept the commit and added a follow-up for related shadowing cases. Slated for the 8.8.1 release.
 
 </details>
 
