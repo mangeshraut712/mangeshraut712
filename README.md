@@ -97,7 +97,7 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 | [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical; plus 14 accepted Pyrefly CodeSync landings on `main` (separate) |
 | [Netflix](https://github.com/Netflix/dgs-codegen/pull/997) | 1 | DGS codegen Kotlin client generation |
 
-**In review:** 88 open PRs across allowlist orgs, including Anthropic (11), Walmart (4), xAI (2), JPMorgan (2), Tesla (1) and LG/webOS (1).
+**Open pull requests:** 88 across allowlist orgs, including Anthropic (11), Walmart (4), xAI (2), JPMorgan (2), Tesla (1) and LG/webOS (1).
 
 #### Selected Engineering Impact
 
