@@ -76,13 +76,17 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 
 ### Open-source contributions
 
-**62 merged pull requests** across company and lab orgs on the allowlist.
+```text
+48 / 50  ███████████████████▏  96%
+```
+
+**48 merged pull requests** across company and lab orgs on the allowlist (GitHub Merged badge only).
 
 #### By organization (allowlist scoreboard)
 
 | Org | Merged | Focus |
 | --- | ---: | --- |
-| [Meta](https://github.com/meta/lexical/pull/9707) | 15 | Lexical, plus 14 Pyrefly PRs merged through Meta's internal sync (each marked "merged in meta/pyrefly@…") |
+| [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical |
 | [AWS Labs](https://github.com/awslabs/visual-asset-management-system/pull/860) | 15 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/physical-ai-toolchain/pull/2093) | 8 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668) |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
@@ -95,6 +99,8 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 | [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | 1 | CredSweeper install-guide docs |
 | [Moonshot](https://github.com/MoonshotAI/kimi-code/pull/2416) | 1 | kimi-code models.dev fallback |
 | [AMD](https://github.com/amd/gaia/pull/6656) | 1 | GAIA memory bootstrap confidence parsing |
+
+**Open pull requests:** 101 across allowlist orgs, including Anthropic (11), Walmart (4), xAI (2), JPMorgan (2), Tesla (2) and LG/webOS (1).
 
 #### Selected Engineering Impact
 
