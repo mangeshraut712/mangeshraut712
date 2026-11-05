@@ -76,7 +76,7 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 
 ### Open-source contributions
 
-**61 merged pull requests** across company and lab orgs on the allowlist.
+**62 merged pull requests** across company and lab orgs on the allowlist.
 
 #### By organization (allowlist scoreboard)
 
@@ -94,6 +94,7 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 | [Netflix](https://github.com/Netflix/dgs-codegen/pull/997) | 1 | DGS codegen Kotlin client generation |
 | [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | 1 | CredSweeper install-guide docs |
 | [Moonshot](https://github.com/MoonshotAI/kimi-code/pull/2416) | 1 | kimi-code models.dev fallback |
+| [AMD](https://github.com/amd/gaia/pull/6656) | 1 | GAIA memory bootstrap confidence parsing |
 
 #### Selected Engineering Impact
 
