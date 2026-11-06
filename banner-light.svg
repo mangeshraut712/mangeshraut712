@@ -80,6 +80,6 @@
   <rect x="514" y="448" width="18" height="10" rx="2" fill="#BF5AF2" />
   <rect x="536" y="448" width="18" height="10" rx="2" fill="#64D2FF" />
   <rect x="558" y="448" width="18" height="10" rx="2" fill="#F5F5F7" stroke="#D2D2D7" />
-  <text id="github_as_of" x="600" y="448" fill="#6E6E73" font-family="monospace" font-size="8">GitHub · 2026-11-06 17:58:15Z</text>
-  <text id="wbm_as_of" x="600" y="460" fill="#6E6E73" font-family="monospace" font-size="8">WBM · 2026-11-06 17:58:15Z</text>
+  <text id="github_as_of" x="600" y="448" fill="#6E6E73" font-family="monospace" font-size="8">GitHub · 2026-11-06 23:09:39Z</text>
+  <text id="wbm_as_of" x="600" y="460" fill="#6E6E73" font-family="monospace" font-size="8">WBM · 2026-11-06 23:09:40Z</text>
 </svg>
