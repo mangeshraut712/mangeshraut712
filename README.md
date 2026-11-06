@@ -77,10 +77,10 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 ### Open-source contributions
 
 ```text
-48 / 50  ███████████████████▏  96%
+49 / 50  ███████████████████▋  98%
 ```
 
-**48 merged pull requests** across company and lab orgs on the allowlist (GitHub Merged badge only).
+**49 merged pull requests** across company and lab orgs on the allowlist (GitHub Merged badge only).
 
 #### By organization (allowlist scoreboard)
 
@@ -93,7 +93,7 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 5 | CUDA Python tests & TensorRT tooling/CI |
 | [Adobe](https://github.com/adobe/react-spectrum/pull/10869) | 3 | React Aria / Spectrum (incl. ColorField Form validation) |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | 2 | Cookbook CI |
-| [Google](https://github.com/google/sbsim/pull/187) | 2 | sbsim BUILD cleanup + [Gemini cookbook](https://github.com/google-gemini/cookbook/pull/1449) link checker |
+| [Google](https://github.com/google/sbsim/pull/187) | 3 | sbsim BUILD cleanup + [Gemini cookbook](https://github.com/google-gemini/cookbook/pull/1449) link checker + [ADK Go](https://github.com/google/adk-go/pull/1983) function-tool validation |
 | [OpenAI](https://github.com/openai/codex-security/pull/754) | 1 | codex-security CLI guidance |
 | [Netflix](https://github.com/Netflix/dgs-codegen/pull/997) | 1 | DGS codegen Kotlin client generation |
 | [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | 1 | CredSweeper install-guide docs |
