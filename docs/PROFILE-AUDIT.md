@@ -24,3 +24,19 @@ The Actions Nurse submission time is an author-recorded repository stamp; this a
 ## Validation
 
 All fourteen SVGs parse; dark/light text matches. The November 2 link audit checked 105 URLs: LinkedIn returned HTTP 999 (automation blocked); the other 104 returned successful responses. November 3 rechecks use original source files for the existing project, dependency and benchmark claims; the historical benchmark results are not presented as newly reproduced. Generator regression tests cover historical cached periods, cached source time and exclusion of private repositories, and preservation of the authored benchmark card during refresh. Browser previews inspect desktop/mobile layout and SVG text bounds. Remote project benchmarks and live model/provider behavior were not rerun. Workflow conflicts now stop instead of automatically overwriting concurrent changes.
+
+## November 6, 2026: OSS milestone and case-study refresh
+
+The earlier 41/50 paragraph is a historical November 3 snapshot. The current [scoreboard](../data/oss-scoreboard.json) records **50 qualifying merged PRs** across **13 company groups** and a new **75-merge goal**. A complete public external merged-PR search returned 81 unique results with `incomplete_results=false`; its URLs, authors and merge dates match the previous canonical REST audit plus [Google ADK-Go #1956](https://github.com/google/adk-go/pull/1956), merged at 09:37:27 UTC on November 6. The 50 qualifying records retain canonical owner names, immutable PR IDs and merge timestamps. Google includes `google` and `google-gemini`, without double counting. CodeSync-only landings are excluded.
+
+The five case studies now cover Google ADK-Go #1956, Microsoft Semantic Kernel #14668, AWS VAMS #856, Netflix DGS Codegen #997 and Meta Lexical #9707. Selection favors substantive behavior changes, test evidence and complementary engineering skills. All five were checked against their merged patches, tests and relevant review discussions. README test links are pinned to merge commits.
+
+Validation boundaries:
+
+- Google: request construction and history preservation, not live-provider execution or execution of the preserved code.
+- Semantic Kernel: the tested allowlist/path-normalization cases, not a claim to eliminate every network security risk.
+- AWS VAMS: the project review reports 78 passing tests and 20 successful live smoke-test cycles. The timing failure was reproduced by the regression test, not by live smoke tests. The review was AI-assisted; its reported results were not rerun during this profile refresh. The PR merged to `development`; no release claim is made.
+- Netflix: the original parameter-collision contribution is distinguished from the maintainer's name-allocation, serializer-shadowing and expanded runtime-test follow-up. The stale release forecast has been removed.
+- Lexical: attached and removed DOM-slot boundary cases, not a claim about all editor selection behavior.
+
+The refresh changes only the OSS README section, scoreboard and this dated addendum, plus local consistency tests. Project descriptions, benchmarks, contact links, design and generated banner statistics are unchanged. The new tests check unique authored merges, owner/group totals, README progress, and exactly five merged cases with immutable test links. Existing profile-sync regressions are also run. Upstream project test suites are source evidence here and were not rerun for this documentation change.

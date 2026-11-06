@@ -1,11 +1,33 @@
 {
-  "checked_on": "2026-11-03",
-  "source": "GitHub issue search: author:mangeshraut712 is:pr is:merged user:<owner>",
-  "scope": "Nonzero organization groups in the existing personal allowlist; google-gemini grouped with Google; CodeSync landings excluded",
-  "total": 41,
+  "checked_on": "2026-11-06",
+  "source": "Complete GitHub search for author:mangeshraut712 is:pr is:merged -user:mangeshraut712, reconciled with canonical REST pull records",
+  "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712&type=pullrequests",
+  "scope": "Existing personal company allowlist; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
+  "external_merged_total": 81,
+  "total": 50,
+  "goal": 75,
   "organizations": [
     {
+      "owner": "adobe",
+      "company": "Adobe",
+      "count": 3,
+      "prs": [
+        "https://github.com/adobe/react-spectrum/pull/10869",
+        "https://github.com/adobe/react-spectrum/pull/10863",
+        "https://github.com/adobe/react-spectrum/pull/10853"
+      ]
+    },
+    {
+      "owner": "amd",
+      "company": "AMD",
+      "count": 1,
+      "prs": [
+        "https://github.com/amd/gaia/pull/6656"
+      ]
+    },
+    {
       "owner": "apple",
+      "company": "Apple",
       "count": 7,
       "prs": [
         "https://github.com/apple/password-manager-resources/pull/1859",
@@ -18,103 +40,715 @@
       ]
     },
     {
-      "owner": "microsoft",
-      "count": 8,
-      "prs": [
-        "https://github.com/microsoft/physical-ai-toolchain/pull/2093",
-        "https://github.com/microsoft/physical-ai-toolchain/pull/2092",
-        "https://github.com/microsoft/physical-ai-toolchain/pull/2077",
-        "https://github.com/microsoft/physical-ai-toolchain/pull/2076",
-        "https://github.com/microsoft/physical-ai-toolchain/pull/2075",
-        "https://github.com/microsoft/semantic-kernel/pull/14668",
-        "https://github.com/microsoft/hve-core/pull/3280",
-        "https://github.com/microsoft/winget-pkgs/pull/459049"
-      ]
-    },
-    {
-      "owner": "adobe",
-      "count": 3,
-      "prs": [
-        "https://github.com/adobe/react-spectrum/pull/10869",
-        "https://github.com/adobe/react-spectrum/pull/10863",
-        "https://github.com/adobe/react-spectrum/pull/10853"
-      ]
-    },
-    {
       "owner": "awslabs",
-      "count": 11,
+      "company": "Amazon/AWS",
+      "count": 15,
       "prs": [
+        "https://github.com/awslabs/mcp/pull/4857",
+        "https://github.com/awslabs/mcp/pull/4849",
+        "https://github.com/awslabs/mcp/pull/4845",
         "https://github.com/awslabs/visual-asset-management-system/pull/962",
-        "https://github.com/awslabs/stickler/pull/456",
         "https://github.com/awslabs/visual-asset-management-system/pull/862",
         "https://github.com/awslabs/visual-asset-management-system/pull/861",
         "https://github.com/awslabs/visual-asset-management-system/pull/860",
         "https://github.com/awslabs/visual-asset-management-system/pull/859",
         "https://github.com/awslabs/visual-asset-management-system/pull/857",
         "https://github.com/awslabs/visual-asset-management-system/pull/856",
-        "https://github.com/awslabs/mcp/pull/4857",
-        "https://github.com/awslabs/mcp/pull/4849",
-        "https://github.com/awslabs/mcp/pull/4845"
-      ]
-    },
-    {
-      "owner": "NVIDIA",
-      "count": 4,
-      "prs": [
-        "https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1863",
-        "https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1862",
-        "https://github.com/NVIDIA/cuda-python/pull/3241",
-        "https://github.com/NVIDIA/cuda-python/pull/3224"
-      ]
-    },
-    {
-      "owner": "sarvamai",
-      "count": 2,
-      "prs": [
-        "https://github.com/sarvamai/sarvam-ai-cookbook/pull/185",
-        "https://github.com/sarvamai/sarvam-ai-cookbook/pull/116"
-      ]
-    },
-    {
-      "owner": "openai",
-      "count": 1,
-      "prs": [
-        "https://github.com/openai/codex-security/pull/754"
+        "https://github.com/awslabs/visual-asset-management-system/pull/852",
+        "https://github.com/awslabs/visual-asset-management-system/pull/848",
+        "https://github.com/awslabs/visual-asset-management-system/pull/845",
+        "https://github.com/awslabs/visual-asset-management-system/pull/842",
+        "https://github.com/awslabs/stickler/pull/456"
       ]
     },
     {
       "owner": "google",
-      "count": 1,
+      "company": "Google",
+      "count": 3,
       "prs": [
+        "https://github.com/google/adk-go/pull/1983",
+        "https://github.com/google/adk-go/pull/1956",
         "https://github.com/google/sbsim/pull/187"
       ]
     },
     {
       "owner": "google-gemini",
+      "company": "Google",
       "count": 1,
       "prs": [
         "https://github.com/google-gemini/cookbook/pull/1449"
       ]
     },
     {
+      "owner": "meta",
+      "company": "Meta",
+      "count": 1,
+      "prs": [
+        "https://github.com/meta/lexical/pull/9707"
+      ]
+    },
+    {
+      "owner": "microsoft",
+      "company": "Microsoft",
+      "count": 8,
+      "prs": [
+        "https://github.com/microsoft/winget-pkgs/pull/459049",
+        "https://github.com/microsoft/semantic-kernel/pull/14668",
+        "https://github.com/microsoft/hve-core/pull/3280",
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2093",
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2092",
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2077",
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2076",
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2075"
+      ]
+    },
+    {
       "owner": "MoonshotAI",
+      "company": "Moonshot AI",
       "count": 1,
       "prs": [
         "https://github.com/MoonshotAI/kimi-code/pull/2416"
       ]
     },
     {
+      "owner": "Netflix",
+      "company": "Netflix",
+      "count": 1,
+      "prs": [
+        "https://github.com/Netflix/dgs-codegen/pull/997"
+      ]
+    },
+    {
+      "owner": "NVIDIA",
+      "company": "NVIDIA",
+      "count": 5,
+      "prs": [
+        "https://github.com/NVIDIA/cuda-python/pull/3241",
+        "https://github.com/NVIDIA/cuda-python/pull/3240",
+        "https://github.com/NVIDIA/cuda-python/pull/3224",
+        "https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1863",
+        "https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1862"
+      ]
+    },
+    {
+      "owner": "openai",
+      "company": "OpenAI",
+      "count": 1,
+      "prs": [
+        "https://github.com/openai/codex-security/pull/754"
+      ]
+    },
+    {
       "owner": "Samsung",
+      "company": "Samsung",
       "count": 1,
       "prs": [
         "https://github.com/Samsung/CredSweeper/pull/997"
       ]
     },
     {
-      "owner": "meta",
-      "count": 1,
+      "owner": "sarvamai",
+      "company": "Sarvam AI",
+      "count": 2,
       "prs": [
-        "https://github.com/meta/lexical/pull/9707"
+        "https://github.com/sarvamai/sarvam-ai-cookbook/pull/185",
+        "https://github.com/sarvamai/sarvam-ai-cookbook/pull/116"
+      ]
+    }
+  ],
+  "merge_evidence": [
+    {
+      "id": 5034193623,
+      "repo": "adobe/react-spectrum",
+      "owner": "adobe",
+      "company": "Adobe",
+      "number": 10869,
+      "url": "https://github.com/adobe/react-spectrum/pull/10869",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-03T01:56:38Z"
+    },
+    {
+      "id": 5030273042,
+      "repo": "adobe/react-spectrum",
+      "owner": "adobe",
+      "company": "Adobe",
+      "number": 10863,
+      "url": "https://github.com/adobe/react-spectrum/pull/10863",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-27T23:47:21Z"
+    },
+    {
+      "id": 5008571738,
+      "repo": "adobe/react-spectrum",
+      "owner": "adobe",
+      "company": "Adobe",
+      "number": 10853,
+      "url": "https://github.com/adobe/react-spectrum/pull/10853",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-26T20:34:41Z"
+    },
+    {
+      "id": 5160975301,
+      "repo": "amd/gaia",
+      "owner": "amd",
+      "company": "AMD",
+      "number": 6656,
+      "url": "https://github.com/amd/gaia/pull/6656",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-04T21:01:32Z"
+    },
+    {
+      "id": 5009643407,
+      "repo": "apple/password-manager-resources",
+      "owner": "apple",
+      "company": "Apple",
+      "number": 1859,
+      "url": "https://github.com/apple/password-manager-resources/pull/1859",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-26T10:07:09Z"
+    },
+    {
+      "id": 4967396887,
+      "repo": "apple/password-manager-resources",
+      "owner": "apple",
+      "company": "Apple",
+      "number": 1851,
+      "url": "https://github.com/apple/password-manager-resources/pull/1851",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-28T12:16:06Z"
+    },
+    {
+      "id": 4665087800,
+      "repo": "apple/password-manager-resources",
+      "owner": "apple",
+      "company": "Apple",
+      "number": 1784,
+      "url": "https://github.com/apple/password-manager-resources/pull/1784",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-09-28T14:46:37Z"
+    },
+    {
+      "id": 4654948789,
+      "repo": "apple/password-manager-resources",
+      "owner": "apple",
+      "company": "Apple",
+      "number": 1318,
+      "url": "https://github.com/apple/password-manager-resources/pull/1318",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-09-27T15:50:42Z"
+    },
+    {
+      "id": 4424114797,
+      "repo": "apple/password-manager-resources",
+      "owner": "apple",
+      "company": "Apple",
+      "number": 1239,
+      "url": "https://github.com/apple/password-manager-resources/pull/1239",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-09-02T16:12:29Z"
+    },
+    {
+      "id": 4169358296,
+      "repo": "apple/password-manager-resources",
+      "owner": "apple",
+      "company": "Apple",
+      "number": 1179,
+      "url": "https://github.com/apple/password-manager-resources/pull/1179",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-08-02T19:06:28Z"
+    },
+    {
+      "id": 4169239565,
+      "repo": "apple/password-manager-resources",
+      "owner": "apple",
+      "company": "Apple",
+      "number": 1178,
+      "url": "https://github.com/apple/password-manager-resources/pull/1178",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-07-30T13:45:18Z"
+    },
+    {
+      "id": 5021949078,
+      "repo": "awslabs/mcp",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 4857,
+      "url": "https://github.com/awslabs/mcp/pull/4857",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-27T13:17:02Z"
+    },
+    {
+      "id": 5008959146,
+      "repo": "awslabs/mcp",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 4849,
+      "url": "https://github.com/awslabs/mcp/pull/4849",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-29T23:38:51Z"
+    },
+    {
+      "id": 5008714642,
+      "repo": "awslabs/mcp",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 4845,
+      "url": "https://github.com/awslabs/mcp/pull/4845",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-26T21:59:15Z"
+    },
+    {
+      "id": 5108850167,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 962,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/962",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-02T19:49:23Z"
+    },
+    {
+      "id": 5039854792,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 862,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/862",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-02T19:36:53Z"
+    },
+    {
+      "id": 5039799892,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 861,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/861",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-02T19:51:24Z"
+    },
+    {
+      "id": 5039786735,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 860,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/860",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-02T21:00:04Z"
+    },
+    {
+      "id": 5039559935,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 859,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/859",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-02T19:53:06Z"
+    },
+    {
+      "id": 5039478980,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 857,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/857",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-02T19:37:14Z"
+    },
+    {
+      "id": 5039330165,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 856,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/856",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-02T20:49:21Z"
+    },
+    {
+      "id": 5036400158,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 852,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/852",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-04T17:56:08Z"
+    },
+    {
+      "id": 5035599421,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 848,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/848",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-04T17:52:54Z"
+    },
+    {
+      "id": 5035384924,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 845,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/845",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-04T17:51:27Z"
+    },
+    {
+      "id": 5032536387,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 842,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/842",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-04T17:48:08Z"
+    },
+    {
+      "id": 5046896292,
+      "repo": "awslabs/stickler",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 456,
+      "url": "https://github.com/awslabs/stickler/pull/456",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-30T14:41:18Z"
+    },
+    {
+      "id": 5035351810,
+      "repo": "google/adk-go",
+      "owner": "google",
+      "company": "Google",
+      "number": 1983,
+      "url": "https://github.com/google/adk-go/pull/1983",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-05T21:51:52Z"
+    },
+    {
+      "id": 4989606615,
+      "repo": "google/adk-go",
+      "owner": "google",
+      "company": "Google",
+      "number": 1956,
+      "url": "https://github.com/google/adk-go/pull/1956",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-06T09:37:27Z"
+    },
+    {
+      "id": 4507050930,
+      "repo": "google/sbsim",
+      "owner": "google",
+      "company": "Google",
+      "number": 187,
+      "url": "https://github.com/google/sbsim/pull/187",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-06T16:28:04Z"
+    },
+    {
+      "id": 5016514328,
+      "repo": "google-gemini/cookbook",
+      "owner": "google-gemini",
+      "company": "Google",
+      "number": 1449,
+      "url": "https://github.com/google-gemini/cookbook/pull/1449",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-02T16:19:17Z"
+    },
+    {
+      "id": 5108930400,
+      "repo": "meta/lexical",
+      "owner": "meta",
+      "company": "Meta",
+      "number": 9707,
+      "url": "https://github.com/meta/lexical/pull/9707",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-01T18:24:49Z"
+    },
+    {
+      "id": 4967333004,
+      "repo": "microsoft/winget-pkgs",
+      "owner": "microsoft",
+      "company": "Microsoft",
+      "number": 459049,
+      "url": "https://github.com/microsoft/winget-pkgs/pull/459049",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-23T22:33:21Z"
+    },
+    {
+      "id": 5030830742,
+      "repo": "microsoft/semantic-kernel",
+      "owner": "microsoft",
+      "company": "Microsoft",
+      "number": 14668,
+      "url": "https://github.com/microsoft/semantic-kernel/pull/14668",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-02T12:45:16Z"
+    },
+    {
+      "id": 4967599766,
+      "repo": "microsoft/hve-core",
+      "owner": "microsoft",
+      "company": "Microsoft",
+      "number": 3280,
+      "url": "https://github.com/microsoft/hve-core/pull/3280",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-25T02:41:06Z"
+    },
+    {
+      "id": 5040206391,
+      "repo": "microsoft/physical-ai-toolchain",
+      "owner": "microsoft",
+      "company": "Microsoft",
+      "number": 2093,
+      "url": "https://github.com/microsoft/physical-ai-toolchain/pull/2093",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-03T10:57:52Z"
+    },
+    {
+      "id": 5039479977,
+      "repo": "microsoft/physical-ai-toolchain",
+      "owner": "microsoft",
+      "company": "Microsoft",
+      "number": 2092,
+      "url": "https://github.com/microsoft/physical-ai-toolchain/pull/2092",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-03T10:44:47Z"
+    },
+    {
+      "id": 5032262806,
+      "repo": "microsoft/physical-ai-toolchain",
+      "owner": "microsoft",
+      "company": "Microsoft",
+      "number": 2077,
+      "url": "https://github.com/microsoft/physical-ai-toolchain/pull/2077",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-28T07:57:41Z"
+    },
+    {
+      "id": 5032211156,
+      "repo": "microsoft/physical-ai-toolchain",
+      "owner": "microsoft",
+      "company": "Microsoft",
+      "number": 2076,
+      "url": "https://github.com/microsoft/physical-ai-toolchain/pull/2076",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-28T07:20:26Z"
+    },
+    {
+      "id": 5032029701,
+      "repo": "microsoft/physical-ai-toolchain",
+      "owner": "microsoft",
+      "company": "Microsoft",
+      "number": 2075,
+      "url": "https://github.com/microsoft/physical-ai-toolchain/pull/2075",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-02T04:06:54Z"
+    },
+    {
+      "id": 4169002707,
+      "repo": "MoonshotAI/kimi-code",
+      "owner": "MoonshotAI",
+      "company": "Moonshot AI",
+      "number": 2416,
+      "url": "https://github.com/MoonshotAI/kimi-code/pull/2416",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-07-31T11:54:10Z"
+    },
+    {
+      "id": 5133886179,
+      "repo": "Netflix/dgs-codegen",
+      "owner": "Netflix",
+      "company": "Netflix",
+      "number": 997,
+      "url": "https://github.com/Netflix/dgs-codegen/pull/997",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-03T22:56:19Z"
+    },
+    {
+      "id": 5032382192,
+      "repo": "NVIDIA/cuda-python",
+      "owner": "NVIDIA",
+      "company": "NVIDIA",
+      "number": 3241,
+      "url": "https://github.com/NVIDIA/cuda-python/pull/3241",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-28T20:21:36Z"
+    },
+    {
+      "id": 5031551737,
+      "repo": "NVIDIA/cuda-python",
+      "owner": "NVIDIA",
+      "company": "NVIDIA",
+      "number": 3240,
+      "url": "https://github.com/NVIDIA/cuda-python/pull/3240",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-04T19:37:07Z"
+    },
+    {
+      "id": 5018511298,
+      "repo": "NVIDIA/cuda-python",
+      "owner": "NVIDIA",
+      "company": "NVIDIA",
+      "number": 3224,
+      "url": "https://github.com/NVIDIA/cuda-python/pull/3224",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-28T20:13:38Z"
+    },
+    {
+      "id": 5034002050,
+      "repo": "NVIDIA/TensorRT-Model-Connect",
+      "owner": "NVIDIA",
+      "company": "NVIDIA",
+      "number": 1863,
+      "url": "https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1863",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-28T06:18:57Z"
+    },
+    {
+      "id": 5033992701,
+      "repo": "NVIDIA/TensorRT-Model-Connect",
+      "owner": "NVIDIA",
+      "company": "NVIDIA",
+      "number": 1862,
+      "url": "https://github.com/NVIDIA/TensorRT-Model-Connect/pull/1862",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-28T06:18:27Z"
+    },
+    {
+      "id": 4395254144,
+      "repo": "openai/codex-security",
+      "owner": "openai",
+      "company": "OpenAI",
+      "number": 754,
+      "url": "https://github.com/openai/codex-security/pull/754",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-08-30T14:05:22Z"
+    },
+    {
+      "id": 5047761103,
+      "repo": "Samsung/CredSweeper",
+      "owner": "Samsung",
+      "company": "Samsung",
+      "number": 997,
+      "url": "https://github.com/Samsung/CredSweeper/pull/997",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-28T15:54:27Z"
+    },
+    {
+      "id": 4616939869,
+      "repo": "sarvamai/sarvam-ai-cookbook",
+      "owner": "sarvamai",
+      "company": "Sarvam AI",
+      "number": 185,
+      "url": "https://github.com/sarvamai/sarvam-ai-cookbook/pull/185",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-10-06T07:33:25Z"
+    },
+    {
+      "id": 4185126332,
+      "repo": "sarvamai/sarvam-ai-cookbook",
+      "owner": "sarvamai",
+      "company": "Sarvam AI",
+      "number": 116,
+      "url": "https://github.com/sarvamai/sarvam-ai-cookbook/pull/116",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-08-01T22:45:32Z"
+    }
+  ],
+  "selected_case_studies": [
+    {
+      "url": "https://github.com/google/adk-go/pull/1956",
+      "topic": "Cross-model conversation history",
+      "merge_commit": "ded357e351dee44c023398a49d314aa326a59c94",
+      "test_paths": [
+        "model/openaimodel/internal/completions/request_test.go",
+        "model/openaimodel/internal/responses/request_test.go"
+      ]
+    },
+    {
+      "url": "https://github.com/microsoft/semantic-kernel/pull/14668",
+      "topic": "URL allowlist enforcement",
+      "merge_commit": "356acb66538a3f0f701a15105304c5c95428e51d",
+      "test_paths": [
+        "python/tests/unit/connectors/openapi_plugin/test_server_url_validator.py",
+        "python/tests/unit/connectors/openapi_plugin/test_openapi_runner.py"
+      ]
+    },
+    {
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/856",
+      "topic": "DynamoDB consistency",
+      "merge_commit": "f1dc71deb25fbeae1d492b4f61cf6eb4261e0af5",
+      "test_paths": [
+        "backend/tests/handlers/assetLinks/test_createAssetLink_paging.py"
+      ]
+    },
+    {
+      "url": "https://github.com/Netflix/dgs-codegen/pull/997",
+      "topic": "Kotlin client code generation",
+      "merge_commit": "d1ab1393ad05bdbc45408216c2aed91c3755e716",
+      "test_paths": [
+        "graphql-dgs-codegen-core/src/test/kotlin/com/netflix/graphql/dgs/codegen/Kotlin2CodeGenTest.kt"
+      ]
+    },
+    {
+      "url": "https://github.com/meta/lexical/pull/9707",
+      "topic": "Editor DOM boundaries",
+      "merge_commit": "63850fffbc003f44977996c2995d03dd0468aecc",
+      "test_paths": [
+        "packages/lexical/src/__tests__/unit/LexicalDOMSlot.test.tsx"
       ]
     }
   ]

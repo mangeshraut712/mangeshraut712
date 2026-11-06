@@ -77,17 +77,19 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 ### Open-source contributions
 
 ```text
-50 / 50  ████████████████████  100%
+50 / 75  █████████████░░░░░░░  67%
 ```
 
-**50 merged pull requests** across company and lab orgs on the allowlist (GitHub Merged badge only).
+**50 merged pull requests** across 13 company groups on my allowlist, verified **2026-11-06**. The original 50-PR milestone is complete; the next goal is **75**, with **25 to go**.
 
-#### By organization (allowlist scoreboard)
+[All 50 merged PRs and merge dates](data/oss-scoreboard.json) · GitHub-merged PRs only; CodeSync landings are tracked separately.
 
-| Org | Merged | Focus |
+#### By company group (allowlist scoreboard)
+
+| Company group | Merged | Focus |
 | --- | ---: | --- |
 | [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical |
-| [AWS Labs](https://github.com/awslabs/visual-asset-management-system/pull/860) | 15 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
+| [Amazon/AWS](https://github.com/awslabs/visual-asset-management-system/pull/856) | 15 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/physical-ai-toolchain/pull/2093) | 8 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668) |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 5 | CUDA Python tests & TensorRT tooling/CI |
@@ -97,57 +99,62 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 | [OpenAI](https://github.com/openai/codex-security/pull/754) | 1 | codex-security CLI guidance |
 | [Netflix](https://github.com/Netflix/dgs-codegen/pull/997) | 1 | DGS codegen Kotlin client generation |
 | [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | 1 | CredSweeper install-guide docs |
-| [Moonshot](https://github.com/MoonshotAI/kimi-code/pull/2416) | 1 | kimi-code models.dev fallback |
+| [Moonshot AI](https://github.com/MoonshotAI/kimi-code/pull/2416) | 1 | kimi-code models.dev fallback |
 | [AMD](https://github.com/amd/gaia/pull/6656) | 1 | GAIA memory bootstrap confidence parsing |
 
-**Open pull requests:** 101 across allowlist orgs, including Anthropic (11), Walmart (4), xAI (2), JPMorgan (2), Tesla (2) and LG/webOS (1).
+Google combines `google` and `google-gemini`; each PR is counted once. [Current external open PRs](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+-user%3Amangeshraut712&type=pullrequests) are tracked separately and do not count as merges.
 
 #### Selected Engineering Impact
 
-Five merged upstream fixes, with regression tests, corrected assertions or schema validation.
+Five case studies selected from those 50 merges for their technical depth, regression coverage and range: AI interoperability, security, distributed systems, code generation and editor internals. Each links to the merged PR and its tests.
 
 <details open>
-<summary><b>Meta · Lexical — <a href="https://github.com/meta/lexical/pull/9707">meta/lexical#9707</a></b></summary>
+<summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
 
-- **Problem:** When the caret sat after a block decorator inside an element whose DOM slot has a `before` boundary, the block cursor got appended after the slot's trailing decoration, outside the range the editor manages ([#9680](https://github.com/meta/lexical/issues/9680)).
-- **What I did:** Changed `$updateDOMBlockCursorElement` to insert the cursor before `slot.before`, falling back to append when there is no boundary or it was detached. Added unit tests for both cases.
-- **Result:** Merged by @etrepum. The new test fails before the fix and passes after, and the lexical, rich-text and selection unit suites stay green. Custom slot layouts now keep the cursor where the editor expects it.
-
-</details>
-
-<details>
-<summary><b>Netflix · DGS Codegen — <a href="https://github.com/Netflix/dgs-codegen/pull/997">Netflix/dgs-codegen#997</a></b></summary>
-
-- **Problem:** Kotlin 2 client generation always added `_alias` and `_projection` parameters to projection methods, so a GraphQL field with an argument of the same name produced duplicate parameters and failed to compile ([#930](https://github.com/Netflix/dgs-codegen/issues/930)).
-- **What I did:** Renamed the generated alias and projection parameters only when they collide with a field argument, so existing schemas keep the same names. Added codegen tests that compile client queries using `_alias` and `_projection` arguments.
-- **Result:** Merged by @iuliiasobolevska, who kept the commit and added a follow-up for related shadowing cases. Slated for the 8.8.1 release.
+- **Problem:** Replaying Gemini conversation history through the OpenAI adapter failed when a turn contained executable code or execution output.
+- **My contribution:** Converted both part types to labeled, fenced text in the Chat Completions and Responses request paths, preserving their order alongside ordinary text and images.
+- **Validation:** Added request-payload regressions for both APIs, including empty code, mixed media and replayed reasoning. [Chat Completions tests](https://github.com/google/adk-go/blob/ded357e351dee44c023398a49d314aa326a59c94/model/openaimodel/internal/completions/request_test.go) · [Responses tests](https://github.com/google/adk-go/blob/ded357e351dee44c023398a49d314aa326a59c94/model/openaimodel/internal/responses/request_test.go).
+- **Outcome:** [Merged November 6, 2026 · #1956](https://github.com/google/adk-go/pull/1956). Request conversion preserves the code and its output as context. This does not execute the code or claim live-provider validation.
 
 </details>
 
 <details>
-<summary><b>Microsoft · Semantic Kernel — <a href="https://github.com/microsoft/semantic-kernel/pull/14668">microsoft/semantic-kernel#14668</a></b></summary>
+<summary><b>Microsoft · Semantic Kernel: enforce URL allowlists after path normalization</b></summary>
 
-- **Problem:** The Python OpenAPI plugin checked `allowed_base_urls` with a raw path-prefix match, so `/api/../admin` and `/api/%2e%2e/admin` passed an `/api` allowlist. For the literal dot-segment path, httpx actually requested `/admin` ([#14662](https://github.com/microsoft/semantic-kernel/issues/14662)).
-- **What I did:** Checked the prefix after dot-segment normalization in both raw and percent-decoded forms, preserving internal empty segments to match httpx. Added tests for the escapes and for paths that must still pass, like `/api/./users` and `/api/`.
-- **Result:** Merged by @eavanvalkenburg. The tested dot-segment escapes are rejected by the OpenAPI URL allowlist, and `/apiusers` is still rejected.
-
-</details>
-
-<details>
-<summary><b>AWS · MCP servers — <a href="https://github.com/awslabs/mcp/pull/4849">awslabs/mcp#4849</a></b></summary>
-
-- **Problem:** On Windows, the postgres-mcp-server PG-wire path broke because psycopg's async mode does not support the default Proactor event loop ([#4825](https://github.com/awslabs/mcp/issues/4825)).
-- **What I did:** Set `WindowsSelectorEventLoopPolicy` at the start of the server entry point, before startup validation or MCP creates a loop, so other platforms keep their default. Added mocked tests for both the Windows and non-Windows paths.
-- **Result:** Merged by @kennthhz. The PG-wire startup path now selects the Windows event-loop policy required by psycopg; mocked tests cover Windows and non-Windows policy selection.
+- **Problem:** A raw prefix check let paths such as `/api/../admin` satisfy an `/api` allowlist even though the HTTP client requested `/admin`.
+- **My contribution:** Required both raw and percent-decoded paths to pass the allowlist after dot-segment normalization, preserving empty segments and matching httpx's treatment of terminal dot segments.
+- **Validation:** Added escaping-path and allowed-path cases, comparisons against httpx's wire path, and runner tests proving rejected targets never invoke authentication or send a request. [Validator tests](https://github.com/microsoft/semantic-kernel/blob/356acb66538a3f0f701a15105304c5c95428e51d/python/tests/unit/connectors/openapi_plugin/test_server_url_validator.py) · [Runner tests](https://github.com/microsoft/semantic-kernel/blob/356acb66538a3f0f701a15105304c5c95428e51d/python/tests/unit/connectors/openapi_plugin/test_openapi_runner.py).
+- **Outcome:** [Merged November 2, 2026 · #14668](https://github.com/microsoft/semantic-kernel/pull/14668). The tested traversal and prefix-boundary cases are rejected before outbound work, while valid paths remain accepted.
 
 </details>
 
 <details>
-<summary><b>Adobe · React Spectrum — <a href="https://github.com/adobe/react-spectrum/pull/10863">adobe/react-spectrum#10863</a></b></summary>
+<summary><b>Amazon/AWS · VAMS: handle stale DynamoDB index results during link recreation</b></summary>
 
-- **Problem:** React Aria's `ColorField` ignored a parent `Form`'s `validationBehavior`, unlike `TextField` and `NumberField` ([#10862](https://github.com/adobe/react-spectrum/issues/10862)).
-- **What I did:** Read `FormContext` through `useSlottedContext` and resolved the value as prop, then form, then `'native'`, matching the other fields. Added a regression test that `validationBehavior="aria"` gives `aria-required` without native `required`.
-- **Result:** Merged by @devongovett. ColorField now inherits Form ARIA validation behavior, matching the existing TextField and NumberField pattern.
+- **Problem:** Recreating a deleted asset link could be rejected as a duplicate while DynamoDB's secondary index still returned the deleted row.
+- **My contribution:** Verified candidate index hits against the base table with strongly consistent reads before applying duplicate and reverse-link checks.
+- **Validation:** Added eight regression cases covering two relationship types, both directions, and stale versus present base-table records. [Regression tests](https://github.com/awslabs/visual-asset-management-system/blob/f1dc71deb25fbeae1d492b4f61cf6eb4261e0af5/backend/tests/handlers/assetLinks/test_createAssetLink_paging.py). The [project review](https://github.com/awslabs/visual-asset-management-system/pull/856#issuecomment-6452455132) reports 78 passing tests and 20 successful live smoke-test cycles; the original timing failure was reproduced in the regression test, not live.
+- **Outcome:** [Merged into development November 2, 2026 · #856](https://github.com/awslabs/visual-asset-management-system/pull/856). Deleted rows no longer block recreation through stale index hits, while checks for existing duplicate and reverse links remain.
+
+</details>
+
+<details>
+<summary><b>Netflix · DGS Codegen: resolve generated Kotlin parameter collisions</b></summary>
+
+- **Problem:** GraphQL arguments named `_alias` or `_projection` collided with generated client parameters, producing Kotlin that failed to compile.
+- **My contribution:** Preserved schema argument names and renamed only colliding generated parameters, leaving non-colliding signatures unchanged. Added tests that compile client queries using those arguments.
+- **Validation:** [Compilation tests](https://github.com/Netflix/dgs-codegen/blob/d1ab1393ad05bdbc45408216c2aed91c3755e716/graphql-dgs-codegen-core/src/test/kotlin/com/netflix/graphql/dgs/codegen/Kotlin2CodeGenTest.kt). The [maintainer's follow-up](https://github.com/Netflix/dgs-codegen/pull/997#issuecomment-6617568565) retained my commit and added KotlinPoet name allocation, serializer-shadowing fixes and broader runtime coverage.
+- **Outcome:** [Merged November 3, 2026 · #997](https://github.com/Netflix/dgs-codegen/pull/997). Colliding schema arguments can be used by the generated client without duplicate parameter declarations.
+
+</details>
+
+<details>
+<summary><b>Meta · Lexical: keep the editor cursor inside custom DOM boundaries</b></summary>
+
+- **Problem:** A block cursor placed after the last decorator could be appended beyond a custom DOM slot's trailing decoration, outside the editor-managed range.
+- **My contribution:** Inserted the cursor before the slot boundary when attached, with an append fallback when the boundary is absent or removed.
+- **Validation:** Added regressions for correct placement before the decoration and for a detached decoration that must not throw. [DOM-slot tests](https://github.com/meta/lexical/blob/63850fffbc003f44977996c2995d03dd0468aecc/packages/lexical/src/__tests__/unit/LexicalDOMSlot.test.tsx).
+- **Outcome:** [Merged November 1, 2026 · #9707](https://github.com/meta/lexical/pull/9707). Custom slot layouts retain the expected cursor position without breaking the detached-boundary case.
 
 </details>
 
