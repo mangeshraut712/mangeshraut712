@@ -1,19 +1,20 @@
 {
-  "checked_on": "2026-11-06",
-  "source": "Complete GitHub search for author:mangeshraut712 is:pr is:merged -user:mangeshraut712, reconciled with canonical REST pull records",
-  "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712&type=pullrequests",
+  "checked_on": "2026-11-07",
+  "source": "Complete public GitHub search for author:mangeshraut712 is:pr is:merged -user:mangeshraut712 is:public, reconciled with canonical REST pull records",
+  "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests",
   "scope": "Existing personal company allowlist; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 81,
-  "total": 50,
+  "external_merged_total": 82,
+  "total": 51,
   "goal": 75,
   "organizations": [
     {
       "owner": "adobe",
       "company": "Adobe",
-      "count": 3,
+      "count": 4,
       "prs": [
         "https://github.com/adobe/react-spectrum/pull/10869",
         "https://github.com/adobe/react-spectrum/pull/10863",
+        "https://github.com/adobe/react-spectrum/pull/10860",
         "https://github.com/adobe/react-spectrum/pull/10853"
       ]
     },
@@ -178,6 +179,17 @@
       "author": "mangeshraut712",
       "merged": true,
       "merged_at": "2026-10-27T23:47:21Z"
+    },
+    {
+      "id": 5030044297,
+      "repo": "adobe/react-spectrum",
+      "owner": "adobe",
+      "company": "Adobe",
+      "number": 10860,
+      "url": "https://github.com/adobe/react-spectrum/pull/10860",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-06T23:28:56Z"
     },
     {
       "id": 5008571738,

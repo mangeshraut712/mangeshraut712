@@ -77,12 +77,12 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 ### Open-source contributions
 
 ```text
-50 / 75  █████████████░░░░░░░  67%
+51 / 75  ██████████████░░░░░░  68%
 ```
 
-**50 merged pull requests** across 13 company groups on my allowlist, verified **2026-11-06**. The original 50-PR milestone is complete; the next goal is **75**, with **25 to go**.
+**51 merged pull requests** across 13 company groups on my allowlist, verified **2026-11-07**. The original 50-PR milestone is complete; the next goal is **75**, with **24 to go**.
 
-[All 50 merged PRs and merge dates](data/oss-scoreboard.json) · GitHub-merged PRs only; CodeSync landings are tracked separately.
+[All 51 merged PRs and merge dates](data/oss-scoreboard.json) · GitHub-merged PRs only; CodeSync landings are tracked separately. **82 public external PRs merged overall**, including the 51 on this allowlist ([search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests)).
 
 #### By company group (allowlist scoreboard)
 
@@ -93,7 +93,7 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 | [Microsoft](https://github.com/microsoft/physical-ai-toolchain/pull/2093) | 8 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668) |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 5 | CUDA Python tests & TensorRT tooling/CI |
-| [Adobe](https://github.com/adobe/react-spectrum/pull/10869) | 3 | React Aria / Spectrum (incl. ColorField Form validation) |
+| [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | 4 | React Aria / Spectrum (incl. ColorField Form validation & CheckboxGroup validation behavior) |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | 2 | Cookbook CI |
 | [Google](https://github.com/google/sbsim/pull/187) | 4 | sbsim BUILD cleanup + [Gemini cookbook](https://github.com/google-gemini/cookbook/pull/1449) link checker + [ADK Go](https://github.com/google/adk-go/pull/1983) function-tool validation + [ADK Go executable code parts](https://github.com/google/adk-go/pull/1956) |
 | [OpenAI](https://github.com/openai/codex-security/pull/754) | 1 | codex-security CLI guidance |
@@ -106,7 +106,7 @@ Google combines `google` and `google-gemini`; each PR is counted once. [Current 
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 50 merges for their technical depth, regression coverage and range: AI interoperability, security, distributed systems, code generation and editor internals. Each links to the merged PR and its tests.
+Five case studies selected from those 51 merges for their technical depth, regression coverage and range: AI interoperability, security, distributed systems, code generation and editor internals. Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
