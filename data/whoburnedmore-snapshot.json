@@ -2,11 +2,11 @@
   "handle": "mrcommando712",
   "url": "https://whoburnedmore.com/u/mrcommando712",
   "rank": 64,
-  "daily_rank": 68,
-  "weekly_rank": 56,
+  "daily_rank": 0,
+  "weekly_rank": 116,
   "all_time_rank": 64,
-  "total_users": 433,
-  "top_percentile": 15,
+  "total_users": 358,
+  "top_percentile": 18,
   "lifetime_tokens": 23115086024.0,
   "lifetime_cost_usd": 19649.4650538,
   "active_days": 254,
@@ -18,6 +18,6 @@
   "week_cost_usd": 6.574114,
   "week_start": "2026-11-02",
   "as_of": "2026-11-07",
-  "synced_at": "2026-11-07T16:27:15Z",
+  "synced_at": "2026-11-07T20:53:37Z",
   "source": "WhoBurnedMore public profile HTML (Next.js payload)"
 }
