@@ -40,3 +40,11 @@ Validation boundaries:
 - Lexical: attached and removed DOM-slot boundary cases, not a claim about all editor selection behavior.
 
 The refresh changes only the OSS README section, scoreboard and this dated addendum, plus local consistency tests. Project descriptions, benchmarks, contact links, design and generated banner statistics are unchanged. The new tests check unique authored merges, owner/group totals, README progress, and exactly five merged cases with immutable test links. Existing profile-sync regressions are also run. Upstream project test suites are source evidence here and were not rerun for this documentation change.
+
+## November 8, 2026: OSS count refresh
+
+The current [scoreboard](../data/oss-scoreboard.json) records **52 qualifying merged PRs** across **13 company groups**, **83 public external merged PRs overall**, and **23 remaining** toward the 75-merge goal. A fresh complete public external merged-PR search returned 83 unique results with `incomplete_results=false`. All 51 previous qualifying URLs, authors and merge dates still match that search.
+
+The additional qualifying merge is [Microsoft physical-ai-toolchain #2074](https://github.com/microsoft/physical-ai-toolchain/pull/2074), authored by `mangeshraut712` and merged on November 8 at 06:44:26 UTC. Its canonical pull record confirms `merged=true`; Microsoft now has nine qualifying merges. The fix adds policy deltas to current joint positions in ACT delta mode and leaves absolute-mode policy positions unchanged. This profile refresh does not claim hardware validation or rerun the upstream test suite.
+
+The five selected case studies and the profile's design, projects, benchmarks and generated assets remain unchanged. Self-owned PRs and CodeSync-only landings remain excluded from the merged-PR counts. The README, evidence snapshot and dated audit were refreshed together; local consistency checks also cover the external total, progress percentage and case-study count reference.

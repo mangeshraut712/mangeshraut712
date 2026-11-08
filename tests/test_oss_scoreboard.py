@@ -55,12 +55,18 @@ class OssScoreboardTests(unittest.TestCase):
         self.assertIn(f"**{total} merged pull requests**", self.readme)
         self.assertIn(f"**{goal - total} to go**", self.readme)
         self.assertIn(self.data["checked_on"], self.readme)
+        self.assertIn(f"{100 * total / goal:.1f}%", self.readme)
+        external_total = self.data["external_merged_total"]
+        self.assertGreaterEqual(external_total, total)
+        self.assertIn(f"**{external_total} public external PRs merged overall**", self.readme)
+        self.assertIn(f"[All {total} merged PRs and merge dates]", self.readme)
 
     def test_five_cases_are_backed_by_merged_prs_and_tests(self):
         section = self.readme.split("#### Selected Engineering Impact", 1)[1].split("### More projects", 1)[0]
         cases = self.data["selected_case_studies"]
         records = {record["url"]: record for record in self.data["merge_evidence"]}
         self.assertEqual(len(cases), 5)
+        self.assertIn(f'Five case studies selected from those {self.data["total"]} merges', section)
         self.assertEqual(len({case["url"] for case in cases}), 5)
         self.assertEqual(section.count("<summary>"), 5)
         self.assertEqual(section.count("</details>"), 5)

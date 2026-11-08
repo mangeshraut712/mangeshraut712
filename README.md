@@ -77,12 +77,14 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 ### Open-source contributions
 
 ```text
-51 / 75  ██████████████░░░░░░  68%
+52 / 75  ██████████████░░░░░░  69.3%
 ```
 
-**51 merged pull requests** across 13 company groups on my allowlist, verified **2026-11-07**. The original 50-PR milestone is complete; the next goal is **75**, with **24 to go**.
+**52 merged pull requests** across 13 company groups on my allowlist, verified **2026-11-08**. The original 50-PR milestone is complete; the next goal is **75**, with **23 to go**.
 
-[All 51 merged PRs and merge dates](data/oss-scoreboard.json) · GitHub-merged PRs only; CodeSync landings are tracked separately. **82 public external PRs merged overall**, including the 51 on this allowlist ([search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests)).
+[All 52 merged PRs and merge dates](data/oss-scoreboard.json) · GitHub-merged PRs only; CodeSync landings are tracked separately. **83 public external PRs merged overall**, including the 52 on this allowlist ([search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests)).
+
+**Latest merge:** [Microsoft physical-ai-toolchain #2074](https://github.com/microsoft/physical-ai-toolchain/pull/2074), November 8: ACT delta-mode inference adds policy deltas to current joint positions before publishing targets.
 
 #### By company group (allowlist scoreboard)
 
@@ -90,7 +92,7 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 | --- | ---: | --- |
 | [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical |
 | [Amazon/AWS](https://github.com/awslabs/visual-asset-management-system/pull/856) | 15 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
-| [Microsoft](https://github.com/microsoft/physical-ai-toolchain/pull/2093) | 8 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668) |
+| [Microsoft](https://github.com/microsoft/physical-ai-toolchain/pull/2074) | 9 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668) |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 5 | CUDA Python tests & TensorRT tooling/CI |
 | [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | 4 | React Aria / Spectrum (incl. ColorField Form validation & CheckboxGroup validation behavior) |
@@ -106,7 +108,7 @@ Google combines `google` and `google-gemini`; each PR is counted once. [Current 
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 51 merges for their technical depth, regression coverage and range: AI interoperability, security, distributed systems, code generation and editor internals. Each links to the merged PR and its tests.
+Five case studies selected from those 52 merges for their technical depth, regression coverage and range: AI interoperability, security, distributed systems, code generation and editor internals. Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>

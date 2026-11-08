@@ -1,10 +1,10 @@
 {
-  "checked_on": "2026-11-07",
+  "checked_on": "2026-11-08",
   "source": "Complete public GitHub search for author:mangeshraut712 is:pr is:merged -user:mangeshraut712 is:public, reconciled with canonical REST pull records",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests",
   "scope": "Existing personal company allowlist; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 82,
-  "total": 51,
+  "external_merged_total": 83,
+  "total": 52,
   "goal": 75,
   "organizations": [
     {
@@ -91,7 +91,7 @@
     {
       "owner": "microsoft",
       "company": "Microsoft",
-      "count": 8,
+      "count": 9,
       "prs": [
         "https://github.com/microsoft/winget-pkgs/pull/459049",
         "https://github.com/microsoft/semantic-kernel/pull/14668",
@@ -100,7 +100,8 @@
         "https://github.com/microsoft/physical-ai-toolchain/pull/2092",
         "https://github.com/microsoft/physical-ai-toolchain/pull/2077",
         "https://github.com/microsoft/physical-ai-toolchain/pull/2076",
-        "https://github.com/microsoft/physical-ai-toolchain/pull/2075"
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2075",
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2074"
       ]
     },
     {
@@ -597,6 +598,17 @@
       "author": "mangeshraut712",
       "merged": true,
       "merged_at": "2026-11-02T04:06:54Z"
+    },
+    {
+      "id": 5031867534,
+      "repo": "microsoft/physical-ai-toolchain",
+      "owner": "microsoft",
+      "company": "Microsoft",
+      "number": 2074,
+      "url": "https://github.com/microsoft/physical-ai-toolchain/pull/2074",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-08T06:44:26Z"
     },
     {
       "id": 4169002707,
