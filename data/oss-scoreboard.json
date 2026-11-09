@@ -3,8 +3,8 @@
   "source": "Complete public GitHub search for author:mangeshraut712 is:pr is:merged -user:mangeshraut712 is:public, reconciled with canonical REST pull records",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests",
   "scope": "Existing personal company allowlist; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 84,
-  "total": 53,
+  "external_merged_total": 85,
+  "total": 54,
   "goal": 75,
   "organizations": [
     {
@@ -43,10 +43,11 @@
     {
       "owner": "awslabs",
       "company": "Amazon/AWS",
-      "count": 16,
+      "count": 17,
       "prs": [
         "https://github.com/awslabs/mcp/pull/4857",
         "https://github.com/awslabs/mcp/pull/4849",
+        "https://github.com/awslabs/mcp/pull/4846",
         "https://github.com/awslabs/mcp/pull/4845",
         "https://github.com/awslabs/visual-asset-management-system/pull/962",
         "https://github.com/awslabs/visual-asset-management-system/pull/862",
@@ -313,6 +314,17 @@
       "author": "mangeshraut712",
       "merged": true,
       "merged_at": "2026-10-29T23:38:51Z"
+    },
+    {
+      "id": 5008851517,
+      "repo": "awslabs/mcp",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 4846,
+      "url": "https://github.com/awslabs/mcp/pull/4846",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-09T18:55:26Z"
     },
     {
       "id": 5008714642,

@@ -77,21 +77,21 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 ### Open-source contributions
 
 ```text
-53 / 75  ██████████████░░░░░░  70.7%
+54 / 75  ██████████████░░░░░░  72.0%
 ```
 
-**53 merged pull requests** across 13 company groups on my allowlist, verified **2026-11-09**. The original 50-PR milestone is complete; the next goal is **75**, with **22 to go**.
+**54 merged pull requests** across 13 company groups on my allowlist, verified **2026-11-09**. The original 50-PR milestone is complete; the next goal is **75**, with **21 to go**.
 
-[All 53 merged PRs and merge dates](data/oss-scoreboard.json) · GitHub-merged PRs only; CodeSync landings are tracked separately. **84 public external PRs merged overall**, including the 53 on this allowlist ([search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests)).
+[All 54 merged PRs and merge dates](data/oss-scoreboard.json) · GitHub-merged PRs only; CodeSync landings are tracked separately. **85 public external PRs merged overall**, including the 54 on this allowlist ([search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests)).
 
-**Latest merge:** [Amazon/AWS Stickler #455](https://github.com/awslabs/stickler/pull/455), November 8: HTML report galleries convert non-string document keys and paths to strings before escaping them, preventing gallery-generation failures.
+**Latest merge:** [Amazon/AWS MCP #4846](https://github.com/awslabs/mcp/pull/4846), November 9: PostgreSQL PG-wire startup validation now runs on the MCP serving event loop, avoiding a closed-loop failure on the first query.
 
 #### By company group (allowlist scoreboard)
 
 | Company group | Merged | Focus |
 | --- | ---: | --- |
 | [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical |
-| [Amazon/AWS](https://github.com/awslabs/stickler/pull/455) | 16 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
+| [Amazon/AWS](https://github.com/awslabs/mcp/pull/4846) | 17 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/physical-ai-toolchain/pull/2074) | 9 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668) |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 5 | CUDA Python tests & TensorRT tooling/CI |
@@ -108,7 +108,7 @@ Google combines `google` and `google-gemini`; each PR is counted once. [Current 
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 53 merges for their technical depth, regression coverage and range: AI interoperability, security, distributed systems, code generation and editor internals. Each links to the merged PR and its tests.
+Five case studies selected from those 54 merges for their technical depth, regression coverage and range: AI interoperability, security, distributed systems, code generation and editor internals. Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
