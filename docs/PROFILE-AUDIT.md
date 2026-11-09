@@ -48,3 +48,11 @@ The current [scoreboard](../data/oss-scoreboard.json) records **52 qualifying me
 The additional qualifying merge is [Microsoft physical-ai-toolchain #2074](https://github.com/microsoft/physical-ai-toolchain/pull/2074), authored by `mangeshraut712` and merged on November 8 at 06:44:26 UTC. Its canonical pull record confirms `merged=true`; Microsoft now has nine qualifying merges. The fix adds policy deltas to current joint positions in ACT delta mode and leaves absolute-mode policy positions unchanged. This profile refresh does not claim hardware validation or rerun the upstream test suite.
 
 The five selected case studies and the profile's design, projects, benchmarks and generated assets remain unchanged. Self-owned PRs and CodeSync-only landings remain excluded from the merged-PR counts. The README, evidence snapshot and dated audit were refreshed together; local consistency checks also cover the external total, progress percentage and case-study count reference.
+
+## November 9, 2026: Stickler merge refresh
+
+The current [scoreboard](../data/oss-scoreboard.json) records **53 qualifying merged PRs** across **13 company groups**, **84 public external merged PRs overall**, and **22 remaining** toward the 75-merge goal. A fresh complete public external merged-PR search returned 84 unique results with `incomplete_results=false`. All 52 previous qualifying URLs, authors and merge dates still match that search.
+
+The additional qualifying merge is [Amazon/AWS Stickler #455](https://github.com/awslabs/stickler/pull/455), authored by `mangeshraut712` and merged by `digalaviz` on November 8 at 21:50:14 UTC. Its canonical pull record confirms `merged=true`; Amazon/AWS now has 16 qualifying merges. The merged patch converts document keys and paths to strings before HTML escaping in both image and PDF galleries, with regression coverage for integer and NumPy keys, `pathlib.Path` values and preservation of entries whose string keys collide. The upstream test suite was inspected as evidence, not rerun for this documentation refresh.
+
+The five case studies, all unrelated README content and generated assets remain unchanged. Self-owned PRs and CodeSync-only landings remain excluded. The README and evidence snapshot were refreshed together and checked with the existing profile consistency tests.
