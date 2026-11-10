@@ -1,10 +1,10 @@
 {
-  "checked_on": "2026-11-09",
+  "checked_on": "2026-11-10",
   "source": "Complete public GitHub search for author:mangeshraut712 is:pr is:merged -user:mangeshraut712 is:public, reconciled with canonical REST pull records",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests",
   "scope": "Existing personal company allowlist; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 85,
-  "total": 54,
+  "external_merged_total": 86,
+  "total": 55,
   "goal": 75,
   "organizations": [
     {
@@ -43,7 +43,7 @@
     {
       "owner": "awslabs",
       "company": "Amazon/AWS",
-      "count": 17,
+      "count": 18,
       "prs": [
         "https://github.com/awslabs/mcp/pull/4857",
         "https://github.com/awslabs/mcp/pull/4849",
@@ -59,6 +59,7 @@
         "https://github.com/awslabs/visual-asset-management-system/pull/852",
         "https://github.com/awslabs/visual-asset-management-system/pull/848",
         "https://github.com/awslabs/visual-asset-management-system/pull/845",
+        "https://github.com/awslabs/visual-asset-management-system/pull/843",
         "https://github.com/awslabs/visual-asset-management-system/pull/842",
         "https://github.com/awslabs/stickler/pull/456",
         "https://github.com/awslabs/stickler/pull/455"
@@ -446,6 +447,17 @@
       "author": "mangeshraut712",
       "merged": true,
       "merged_at": "2026-11-04T17:51:27Z"
+    },
+    {
+      "id": 5034103022,
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 843,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/843",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-10T02:23:35Z"
     },
     {
       "id": 5032536387,
