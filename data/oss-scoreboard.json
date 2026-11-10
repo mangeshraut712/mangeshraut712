@@ -1,10 +1,10 @@
 {
-  "checked_on": "2026-11-10",
+  "checked_on": "2026-11-11",
   "source": "Complete public GitHub search for author:mangeshraut712 is:pr is:merged -user:mangeshraut712 is:public, reconciled with canonical REST pull records",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests",
   "scope": "Existing personal company allowlist; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 86,
-  "total": 55,
+  "external_merged_total": 87,
+  "total": 56,
   "goal": 75,
   "organizations": [
     {
@@ -94,8 +94,9 @@
     {
       "owner": "microsoft",
       "company": "Microsoft",
-      "count": 9,
+      "count": 10,
       "prs": [
+        "https://github.com/microsoft/playwright/pull/44030",
         "https://github.com/microsoft/winget-pkgs/pull/459049",
         "https://github.com/microsoft/semantic-kernel/pull/14668",
         "https://github.com/microsoft/hve-core/pull/3280",
@@ -546,6 +547,17 @@
       "author": "mangeshraut712",
       "merged": true,
       "merged_at": "2026-11-01T18:24:49Z"
+    },
+    {
+      "id": 5238080725,
+      "repo": "microsoft/playwright",
+      "owner": "microsoft",
+      "company": "Microsoft",
+      "number": 44030,
+      "url": "https://github.com/microsoft/playwright/pull/44030",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-10T18:37:28Z"
     },
     {
       "id": 4967333004,
