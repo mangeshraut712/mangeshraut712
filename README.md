@@ -163,18 +163,56 @@ Five case studies selected from those 55 merges. Each links to the merged PR and
 
 ---
 
-### Architecture
+<details>
+<summary><b>Architecture</b> — patterns across these projects</summary>
 
-Conceptual patterns across separate projects, not one integrated deployment.
+Conceptual patterns across separate projects; arrows do not assert one integrated deployment.
 
-| Layer | Pieces |
-| --- | --- |
-| Client | Browser — Next.js · React |
-| Runtime | WebSocket agent server (seq ordering · RESUME replay); FastAPI / Express gateway (rate limits · RLS · circuit breaker) |
-| Models, tools, data | OpenRouter / Workers AI (project-specific routing); MCP servers · tool calling; WebRTC VAD · speech; BM25 / TF-IDF retrieval · eval gates |
-| Ops | GitHub Actions CI (F1 gates · offline eval); Docker · Cloudflare · GitHub Pages |
+```mermaid
+flowchart LR
+  subgraph Client
+    B[Browser<br/>Next.js · React]
+  end
+  subgraph Runtime
+    WS[WebSocket agent server<br/>seq reorder · dedupe · RESUME replay]
+    API[FastAPI / Express gateway<br/>rate limits · circuit breaker]
+  end
+  subgraph Models_Tools_Data["Models · Tools · Data"]
+    OR[OpenRouter / Workers AI<br/>project-specific routing]
+    MCP[MCP-style tool registry<br/>tool calling]
+    VAD[WebRTC VAD · speech]
+    RAG[BM25 / TF-IDF retrieval<br/>eval gates]
+    DB[(Supabase Postgres<br/>RLS policies)]
+  end
+  subgraph Ops
+    CI[GitHub Actions CI<br/>F1 gate · offline eval]
+    DEP[Docker · Cloudflare · GitHub Pages]
+  end
+  B <--> WS
+  B --> API
+  WS --> MCP
+  API --> OR
+  API --> RAG
+  API --> DB
+  B --> VAD
+  MCP --> OR
+  CI --> DEP
+```
 
-### AI engineering stack
+| Pattern | Where it lives | Evidence |
+| --- | --- | --- |
+| Ordered, deduplicated streaming + `RESUME` | agent-console | [reorderBuffer.ts](https://github.com/mangeshraut712/agent-console/blob/main/src/lib/reorderBuffer.ts) · [tests](https://github.com/mangeshraut712/agent-console/blob/main/src/lib/__tests__/reorderBuffer.test.ts) · [DECISIONS.md](https://github.com/mangeshraut712/agent-console/blob/main/DECISIONS.md) |
+| Rate limits + circuit breaker | Gravity-SaaS-Agent gateway | [rate-limiter.ts](https://github.com/mangeshraut712/Gravity-SaaS-Agent/blob/main/apps/gateway/src/services/rate-limiter.ts) · [circuit-breaker.ts](https://github.com/mangeshraut712/Gravity-SaaS-Agent/blob/main/apps/gateway/src/services/circuit-breaker.ts) · [unit tests](https://github.com/mangeshraut712/Gravity-SaaS-Agent/tree/main/tests/unit/gateway) |
+| Tenant isolation (RLS) | Gravity-SaaS-Agent | [supabase/schema.sql](https://github.com/mangeshraut712/Gravity-SaaS-Agent/blob/main/supabase/schema.sql) |
+| MCP-style tools (**simulated**) | Gravity-SaaS-Agent | [mcp-client](https://github.com/mangeshraut712/Gravity-SaaS-Agent/blob/main/packages/mcp-client/src/index.ts) |
+| Workers AI + optional OpenRouter | Hindai | [hindai-gemma worker](https://github.com/mangeshraut712/Hindai/blob/main/workers/hindai-gemma/src/index.ts) |
+| CI gates, live APIs off | ai-ml-portfolio | [ci.yml](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/.github/workflows/ci.yml) (`EVAL_LIVE: "0"`, VAD `challenge_pass.py`) |
+| Containers | agent-console · Gravity-SaaS-Agent | [docker-compose.yml](https://github.com/mangeshraut712/agent-console/blob/main/docker-compose.yml) · [docker-compose.yml](https://github.com/mangeshraut712/Gravity-SaaS-Agent/blob/main/docker-compose.yml) |
+
+</details>
+
+<details>
+<summary><b>AI engineering stack</b> — tools and dependency evidence</summary>
 
 <p align="center">
   <picture>
@@ -184,18 +222,22 @@ Conceptual patterns across separate projects, not one integrated deployment.
   </picture>
 </p>
 
-Declared dependencies in these repos, not installed versions or live deployment.
+The card lists tools I use or explore. **The manifests below verify declared dependencies (checked 2026-11-10), not installed versions or live deployment.**
 
-| Stack claim | Source |
-| --- | --- |
-| NumPy · webrtcvad · rank-bm25 · scikit-learn | [ai-ml-portfolio/pyproject.toml](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/pyproject.toml) |
-| Next.js 16.4.3 · React 19.1 · Turbopack | [agent-console/package.json](https://github.com/mangeshraut712/agent-console/blob/main/package.json) |
-| Next.js 15.5 · React 19.2 · Cloudflare Workers AI | [Hindai/package.json](https://github.com/mangeshraut712/Hindai/blob/main/package.json) · [workers/hindai-gemma](https://github.com/mangeshraut712/Hindai/tree/main/workers) |
-| Next.js 16.4 dashboard · Express gateway · Supabase | [Gravity-SaaS-Agent/apps](https://github.com/mangeshraut712/Gravity-SaaS-Agent/tree/main/apps) |
-| FastAPI | [mangeshrautarchive/requirements.txt](https://github.com/mangeshraut712/mangeshrautarchive/blob/main/requirements.txt) · [career-agent-pro/backend](https://github.com/mangeshraut712/career-agent-pro/blob/main/backend/requirements.txt) |
-| Sarvam SDK | [Realtime_Speech_Captioning/requirements.txt](https://github.com/mangeshraut712/sarvam-ai-cookbook/blob/main/examples/Realtime_Speech_Captioning/requirements.txt) |
+| Repo | Declared stack | Manifest |
+| --- | --- | --- |
+| ai-ml-portfolio | NumPy · webrtcvad · librosa · rank-bm25 · scikit-learn | [pyproject.toml](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/pyproject.toml) |
+| agent-console | Next.js 16.4.3 · React 19.1 · TypeScript 5.8 · Turbopack · ws | [package.json](https://github.com/mangeshraut712/agent-console/blob/main/package.json) |
+| Hindai | Next.js 15.5 · React 19.2 · Cloudflare Workers AI | [package.json](https://github.com/mangeshraut712/Hindai/blob/main/package.json) · [workers/hindai-gemma](https://github.com/mangeshraut712/Hindai/tree/main/workers/hindai-gemma) |
+| Gravity-SaaS-Agent | Next.js 16.4 dashboard · Express 4 gateway · Supabase | [apps](https://github.com/mangeshraut712/Gravity-SaaS-Agent/tree/main/apps) |
+| mangeshrautarchive | FastAPI · Uvicorn · Pydantic 2 · httpx | [requirements.txt](https://github.com/mangeshraut712/mangeshrautarchive/blob/main/requirements.txt) |
+| career-agent-pro | FastAPI · OpenAI SDK · Pydantic 2 | [backend/requirements.txt](https://github.com/mangeshraut712/career-agent-pro/blob/main/backend/requirements.txt) |
+| sarvam-ai-cookbook | Sarvam SDK · Flask-SocketIO · websockets | [Realtime_Speech_Captioning/requirements.txt](https://github.com/mangeshraut712/sarvam-ai-cookbook/blob/main/examples/Realtime_Speech_Captioning/requirements.txt) |
 
-### Now
+</details>
+
+<details>
+<summary><b>Now</b> — what I'm building in Q4 2026</summary>
 
 <p align="center">
   <picture>
@@ -205,13 +247,91 @@ Declared dependencies in these repos, not installed versions or live deployment.
   </picture>
 </p>
 
-### Principles, writing, trajectory
+| Track | Where | Status (2026-11-10) |
+| --- | --- | --- |
+| Speech AI / VAD | [ai-ml-portfolio · labs/vad](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/vad) | CI + VAD FULL_PASS gate green · [Nov 3 run](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/41631353871) |
+| RAG eval | [ai-ml-portfolio · labs/llm-eval](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval) | Offline stub report; live mode off in CI |
+| Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
+| MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 47 of 55 allowlist merges landed in Q4 |
 
-| | |
+```text
+Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
+                           Nov  28  ████████████████████████████   (through Nov 10, IST)
+```
+
+</details>
+
+<details>
+<summary><b>OSS merge pace</b> — allowlist merges by month</summary>
+
+Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-10).
+
+```mermaid
+xychart-beta
+  title "Allowlist merges per month (2026)"
+  x-axis [Jul, Aug, Sep, Oct, Nov]
+  y-axis "Merged PRs" 0 --> 30
+  bar [2, 3, 3, 19, 28]
+```
+
+| Repo (top 5) | Merged |
+| --- | ---: |
+| [awslabs/visual-asset-management-system](https://github.com/awslabs/visual-asset-management-system/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 12 |
+| [apple/password-manager-resources](https://github.com/apple/password-manager-resources/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 7 |
+| [microsoft/physical-ai-toolchain](https://github.com/microsoft/physical-ai-toolchain/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 6 |
+| [adobe/react-spectrum](https://github.com/adobe/react-spectrum/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 4 |
+| [awslabs/mcp](https://github.com/awslabs/mcp/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 4 |
+
+</details>
+
+<details>
+<summary><b>In review</b> — open upstream pull requests</summary>
+
+Snapshot **2026-11-10 13:29 IST** from GitHub search: **113 open PRs across 32 owners** ([live list](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+-user%3Amangeshraut712&type=pullrequests)).
+
+```text
+Awaiting review      70  ████████████░░░░░░░░  62%
+No review required   35  ██████░░░░░░░░░░░░░░  31%
+Changes requested     5  █░░░░░░░░░░░░░░░░░░░   4%
+Draft                 2  ░░░░░░░░░░░░░░░░░░░░   2%
+Approved              1  ░░░░░░░░░░░░░░░░░░░░   1%
+```
+
+| Owner | Open PRs |
+| --- | ---: |
+| [awslabs](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+org%3Aawslabs&type=pullrequests) | 17 |
+| [anthropics](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+org%3Aanthropics&type=pullrequests) | 11 |
+| [microsoft](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+org%3Amicrosoft&type=pullrequests) | 8 |
+| [adobe](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+org%3Aadobe&type=pullrequests) | 7 |
+| [MoonshotAI](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+org%3AMoonshotAI&type=pullrequests) | 7 |
+| 27 other owners | 63 |
+
+</details>
+
+<details>
+<summary><b>Principles, writing, trajectory</b></summary>
+
+**Engineering principles** — each one, where it shows up in code
+
+- **Measure everything; ship the gate with the number** — VAD F1 gate runs in [CI](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/.github/workflows/ci.yml) and fails below threshold
+- **Local-first; CI must not depend on a live API** — CI sets `EVAL_LIVE: "0"`; agent-console ships a key-free [replay](https://github.com/mangeshraut712/agent-console/blob/main/src/agent/replay.ts)
+- **Reliability over novelty** — tested [circuit breaker](https://github.com/mangeshraut712/Gravity-SaaS-Agent/blob/main/tests/unit/gateway/circuit-breaker.test.ts) and [rate limiter](https://github.com/mangeshraut712/Gravity-SaaS-Agent/blob/main/tests/unit/gateway/rate-limiter.test.ts)
+- **AI should augment, not obscure, the system** — Incident Desk shows the planner/tool trace and scorecard ([eval.ts](https://github.com/mangeshraut712/agent-console/blob/main/src/agent/eval.ts))
+- **Developer experience matters; simple systems scale better** — `make verify-all` runs the tests, VAD gate and offline eval with no API keys
+
+Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/INTERVIEW_NOTES.md)
+
+**Writing** — [Technical writings RSS](https://mangeshraut712.github.io/mangeshrautarchive/rss.xml) (20 posts in the feed)
+
+| Date | Latest posts |
 | --- | --- |
-| Principles | Measure everything and ship the gate with the number. Local-first whenever possible; CI must not depend on a live API. Reliability over novelty. AI should augment, not obscure, the system. Developer experience matters; simple systems scale better. Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/INTERVIEW_NOTES.md) |
-| Writing | [Technical writings RSS](https://mangeshraut712.github.io/mangeshrautarchive/rss.xml) |
-| Trajectory | [Contribution graph](https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31) · [yearly snapshot JSON](https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json) |
+| Oct 29, 2026 | [Touchscreen MacBook Pro field notes](https://mangeshraut712.github.io/mangeshrautarchive/blog/macbook-pro-touchscreen-proled-xdr-2026.html) |
+| Oct 28, 2026 | [Gemini 4 Argon and Carbon field notes](https://mangeshraut712.github.io/mangeshrautarchive/blog/gemini-4-argon-and-carbon-deepmind-2026.html) |
+| Sep 29, 2026 | [OpenAI DevDay 2026: models, ongoing agents, reliable workflows](https://mangeshraut712.github.io/mangeshrautarchive/blog/openai-devday-2026.html) |
+| Sep 10, 2026 | [Razorpay Vulcan: evaluating a payments foundation model](https://mangeshraut712.github.io/mangeshrautarchive/blog/razorpay-vulcan-payments-foundation-model.html) |
+
+**Trajectory**
 
 <p align="center">
   <picture>
@@ -220,3 +340,19 @@ Declared dependencies in these repos, not installed versions or live deployment.
     <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20261102-audit" />
   </picture>
 </p>
+
+```text
+2026 so far (snapshot 2026-11-10 07:02 IST)   5,021 contributions
+  Commits        3,309  █████████████░░░░░░░  66%
+  Pull requests  1,396  ██████░░░░░░░░░░░░░░  28%
+  Reviews          156  █░░░░░░░░░░░░░░░░░░░   3%
+  Issues            67  ░░░░░░░░░░░░░░░░░░░░   1%
+```
+
+<p align="center">
+  <a href="https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31">Contribution graph</a>
+  ·
+  <a href="https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json">yearly snapshot JSON</a>
+</p>
+
+</details>
