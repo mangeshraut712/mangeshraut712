@@ -39,20 +39,11 @@
 | [**agent-console · Incident Desk**](https://github.com/mangeshraut712/agent-console) — seeded on-call investigation + protocol console | Labelled, key-free replay of Northwind incidents; planner/tool trace, verdict and seed-based scorecard | Live-capable Nemotron planner via Nebius (**not executed**); telemetry stays seeded. Original WebSocket reorder/dedupe and `RESUME` console retained | [Agent implementation](https://github.com/mangeshraut712/agent-console/tree/main/src/agent) · [Protocol decisions](https://github.com/mangeshraut712/agent-console/blob/main/DECISIONS.md) · [Pages replay demo](https://mangeshraut712.github.io/agent-console/) |
 | [**Gravity-SaaS-Agent**](https://github.com/mangeshraut712/Gravity-SaaS-Agent) — multi-tenant agent SaaS starter | MCP-style simulated tool registry, skills scaffold, billing events, operator dashboard | Tier rate limits, Supabase RLS policies, OpenRouter retries/circuit breaker and labelled echo fallback. Channel adapters are **simulators**, not live Business API | [README](https://github.com/mangeshraut712/Gravity-SaaS-Agent#readme) · [CI](https://github.com/mangeshraut712/Gravity-SaaS-Agent/actions/workflows/ci.yml) |
 
-**Run the benchmark and acceptance gates** (Python 3.10–3.12, no API keys; latency depends on hardware):
-
-```bash
-git clone https://github.com/mangeshraut712/ai-ml-portfolio && cd ai-ml-portfolio
-make install && make verify-all      # mlfs tests + VAD FULL_PASS + offline LLM eval
-```
-
-On Debian/Ubuntu, install `build-essential` and `libsndfile1` first. Initial setup needs network access for dependencies and audio.
-
 ---
 
 ### Engineering metrics — measured, with baselines and a failure case
 
-[Source audit and verification limits](docs/PROFILE-AUDIT.md) · checked November 3, 2026.
+VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/34574401205) (batch whole-file processing, excluding warmup). RAG figures are offline stubs. [Source audit and verification limits](docs/PROFILE-AUDIT.md).
 
 <p align="center">
   <picture>
@@ -61,8 +52,6 @@ On Debian/Ubuntu, install `build-essential` and `libsndfile1` first. Initial set
     <img alt="Verified engineering metrics" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/metrics-dark.svg?v=20261102-readability" />
   </picture>
 </p>
-
-The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file processing and excludes warmup; the VAD gate runs on Python 3.11. Exact labels are constructed from real speech and synthetic silence; soft labels use energy, not human annotation. Baselines and failure cases:
 
 | Metric | Measured | Gate / baseline | Source |
 | --- | ---: | ---: | --- |
@@ -80,11 +69,9 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 55 / 75  ███████████████░░░░░  73.3%
 ```
 
-**55 merged pull requests** across 13 company groups on my allowlist, verified **2026-11-10**. The original 50-PR milestone is complete; the next goal is **75**, with **20 to go**.
+**55 merged pull requests** on the allowlist, goal 75, **20 to go**. Verified **2026-11-10**. [All 55 merged PRs and merge dates](data/oss-scoreboard.json).
 
-[All 55 merged PRs and merge dates](data/oss-scoreboard.json) · GitHub-merged PRs only; CodeSync landings are tracked separately. **86 public external PRs merged overall**, including the 55 on this allowlist ([search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests)).
-
-**Latest merge:** [Amazon/AWS VAMS #843](https://github.com/awslabs/visual-asset-management-system/pull/843), November 10: SNS topic names use a shared sanitizer and hash suffix across asset creation and subscriptions, while staying within the 256-character SNS limit.
+**86 public external PRs merged overall**, including the 55 on this allowlist ([search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests)).
 
 #### By company group (allowlist scoreboard)
 
@@ -104,11 +91,9 @@ The VAD figures come from Sep 11, 2026 CI. Latency measures batch whole-file pro
 | [Moonshot AI](https://github.com/MoonshotAI/kimi-code/pull/2416) | 1 | kimi-code models.dev fallback |
 | [AMD](https://github.com/amd/gaia/pull/6656) | 1 | GAIA memory bootstrap confidence parsing |
 
-Google combines `google` and `google-gemini`; each PR is counted once. [Current external open PRs](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+-user%3Amangeshraut712&type=pullrequests) are tracked separately and do not count as merges.
-
 #### Selected Engineering Impact
 
-Five case studies selected from those 55 merges for their technical depth, regression coverage and range: AI interoperability, security, distributed systems, code generation and editor internals. Each links to the merged PR and its tests.
+Five case studies selected from those 55 merges. Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -178,44 +163,18 @@ Five case studies selected from those 55 merges for their technical depth, regre
 
 ---
 
-<details>
-<summary><b>Architecture</b> — patterns across these projects</summary>
+### Architecture
 
-Conceptual patterns across separate projects; arrows do not assert one integrated deployment.
+Conceptual patterns across separate projects, not one integrated deployment.
 
-```mermaid
-flowchart LR
-  subgraph Client
-    B[Browser<br/>Next.js · React]
-  end
-  subgraph Runtime
-    WS[WebSocket agent server<br/>seq ordering · RESUME replay]
-    API[FastAPI / Express gateway<br/>rate limits · RLS · circuit breaker]
-  end
-  subgraph Models_Tools_Data["Models · Tools · Data"]
-    OR[OpenRouter / Workers AI<br/>project-specific routing]
-    MCP[MCP servers · tool calling]
-    VAD[WebRTC VAD · speech]
-    RAG[BM25 / TF-IDF retrieval<br/>eval gates]
-  end
-  subgraph Ops
-    CI[GitHub Actions CI<br/>F1 gates · offline eval]
-    DEP[Docker · Cloudflare · GitHub Pages]
-  end
-  B <--> WS
-  B --> API
-  WS --> MCP
-  API --> OR
-  API --> RAG
-  B --> VAD
-  MCP --> OR
-  CI --> DEP
-```
+| Layer | Pieces |
+| --- | --- |
+| Client | Browser — Next.js · React |
+| Runtime | WebSocket agent server (seq ordering · RESUME replay); FastAPI / Express gateway (rate limits · RLS · circuit breaker) |
+| Models, tools, data | OpenRouter / Workers AI (project-specific routing); MCP servers · tool calling; WebRTC VAD · speech; BM25 / TF-IDF retrieval · eval gates |
+| Ops | GitHub Actions CI (F1 gates · offline eval); Docker · Cloudflare · GitHub Pages |
 
-</details>
-
-<details>
-<summary><b>AI engineering stack</b> — tools and dependency evidence</summary>
+### AI engineering stack
 
 <p align="center">
   <picture>
@@ -225,7 +184,7 @@ flowchart LR
   </picture>
 </p>
 
-The card lists tools I use or explore. **The manifests below verify declared dependencies in these repos, rather than installed versions or live deployment.**
+Declared dependencies in these repos, not installed versions or live deployment.
 
 | Stack claim | Source |
 | --- | --- |
@@ -236,10 +195,7 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | FastAPI | [mangeshrautarchive/requirements.txt](https://github.com/mangeshraut712/mangeshrautarchive/blob/main/requirements.txt) · [career-agent-pro/backend](https://github.com/mangeshraut712/career-agent-pro/blob/main/backend/requirements.txt) |
 | Sarvam SDK | [Realtime_Speech_Captioning/requirements.txt](https://github.com/mangeshraut712/sarvam-ai-cookbook/blob/main/examples/Realtime_Speech_Captioning/requirements.txt) |
 
-</details>
-
-<details>
-<summary><b>Now</b> — what I'm building in Q4 2026</summary>
+### Now
 
 <p align="center">
   <picture>
@@ -249,26 +205,13 @@ The card lists tools I use or explore. **The manifests below verify declared dep
   </picture>
 </p>
 
-</details>
+### Principles, writing, trajectory
 
-<details>
-<summary><b>Principles, writing, trajectory</b></summary>
-
-**Engineering principles**
-
-- Measure everything; ship the gate with the number
-- Local-first whenever possible; CI must not depend on a live API
-- Reliability over novelty — an agent with guardrails beats a flashier one without
-- AI should augment, not obscure, the system
-- Developer experience matters; simple systems scale better
-
-Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/INTERVIEW_NOTES.md)
-
-**Writing**
-
-- [Technical writings RSS](https://mangeshraut712.github.io/mangeshrautarchive/rss.xml)
-
-**Trajectory**
+| | |
+| --- | --- |
+| Principles | Measure everything and ship the gate with the number. Local-first whenever possible; CI must not depend on a live API. Reliability over novelty. AI should augment, not obscure, the system. Developer experience matters; simple systems scale better. Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/blob/main/INTERVIEW_NOTES.md) |
+| Writing | [Technical writings RSS](https://mangeshraut712.github.io/mangeshrautarchive/rss.xml) |
+| Trajectory | [Contribution graph](https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31) · [yearly snapshot JSON](https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json) |
 
 <p align="center">
   <picture>
@@ -277,12 +220,3 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
     <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20261102-audit" />
   </picture>
 </p>
-
-<p align="center">
-  <a href="https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31">Contribution graph</a>
-  ·
-  <a href="https://github.com/mangeshraut712/mangeshraut712/blob/main/data/github-snapshot.json">yearly snapshot JSON</a>
-</p>
-
-</details>
-
