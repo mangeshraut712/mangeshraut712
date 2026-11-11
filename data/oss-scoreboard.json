@@ -3,8 +3,8 @@
   "source": "Complete public GitHub search for author:mangeshraut712 is:pr is:merged -user:mangeshraut712 is:public, reconciled with canonical REST pull records",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests",
   "scope": "Existing personal company allowlist; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 87,
-  "total": 56,
+  "external_merged_total": 88,
+  "total": 57,
   "goal": 75,
   "organizations": [
     {
@@ -43,8 +43,9 @@
     {
       "owner": "awslabs",
       "company": "Amazon/AWS",
-      "count": 18,
+      "count": 19,
       "prs": [
+        "https://github.com/awslabs/stickler/pull/474",
         "https://github.com/awslabs/mcp/pull/4857",
         "https://github.com/awslabs/mcp/pull/4849",
         "https://github.com/awslabs/mcp/pull/4846",
@@ -163,6 +164,17 @@
     }
   ],
   "merge_evidence": [
+    {
+      "id": 5109504599,
+      "repo": "awslabs/stickler",
+      "owner": "awslabs",
+      "company": "Amazon/AWS",
+      "number": 474,
+      "url": "https://github.com/awslabs/stickler/pull/474",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-11T02:03:05Z"
+    },
     {
       "id": 5034193623,
       "repo": "adobe/react-spectrum",

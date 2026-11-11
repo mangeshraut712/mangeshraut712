@@ -66,19 +66,19 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-56 / 75  ███████████████░░░░░  74.7%
+57 / 75  ███████████████░░░░░  76.0%
 ```
 
-**56 merged pull requests** on the allowlist, goal 75, **19 to go**. Verified **2026-11-11**. [All 56 merged PRs and merge dates](data/oss-scoreboard.json).
+**57 merged pull requests** on the allowlist, goal 75, **18 to go**. Verified **2026-11-11**. [All 57 merged PRs and merge dates](data/oss-scoreboard.json).
 
-**87 public external PRs merged overall**, including the 56 on this allowlist ([search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests)).
+**88 public external PRs merged overall**, including the 57 on this allowlist ([search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests)).
 
 #### By company group (allowlist scoreboard)
 
 | Company group | Merged | Focus |
 | --- | ---: | --- |
 | [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical |
-| [Amazon/AWS](https://github.com/awslabs/visual-asset-management-system/pull/843) | 18 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
+| [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | 19 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/playwright/pull/44030) | 10 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), Playwright docs |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 5 | CUDA Python tests & TensorRT tooling/CI |
@@ -93,7 +93,7 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 56 merges. Each links to the merged PR and its tests.
+Five case studies selected from those 57 merges. Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -253,7 +253,7 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | RAG eval | [ai-ml-portfolio · labs/llm-eval](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval) | Offline stub report; live mode off in CI |
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 48 of 56 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 49 of 57 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
