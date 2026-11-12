@@ -114,32 +114,32 @@ Five case studies selected from those 63 merges. Each links to the merged PR and
 </details>
 
 <details>
-<summary><b>Amazon/AWS · VAMS: handle stale DynamoDB index results during link recreation</b></summary>
+<summary><b>Amazon/AWS · PostgreSQL MCP: keep database connections on the serving event loop</b></summary>
 
-- **Problem:** Recreating a deleted asset link could be rejected as a duplicate while DynamoDB's secondary index still returned the deleted row.
-- **My contribution:** Verified candidate index hits against the base table with strongly consistent reads before applying duplicate and reverse-link checks.
-- **Validation:** Added eight regression cases covering two relationship types, both directions, and stale versus present base-table records. [Regression tests](https://github.com/awslabs/visual-asset-management-system/blob/f1dc71deb25fbeae1d492b4f61cf6eb4261e0af5/backend/tests/handlers/assetLinks/test_createAssetLink_paging.py). The [project review](https://github.com/awslabs/visual-asset-management-system/pull/856#issuecomment-6452455132) reports 78 passing tests and 20 successful live smoke-test cycles; the original timing failure was reproduced in the regression test, not live.
-- **Outcome:** [Merged into development November 2, 2026 · #856](https://github.com/awslabs/visual-asset-management-system/pull/856). Deleted rows no longer block recreation through stale index hits, while checks for existing duplicate and reverse links remain.
-
-</details>
-
-<details>
-<summary><b>Netflix · DGS Codegen: resolve generated Kotlin parameter collisions</b></summary>
-
-- **Problem:** GraphQL arguments named `_alias` or `_projection` collided with generated client parameters, producing Kotlin that failed to compile.
-- **My contribution:** Preserved schema argument names and renamed only colliding generated parameters, leaving non-colliding signatures unchanged. Added tests that compile client queries using those arguments.
-- **Validation:** [Compilation tests](https://github.com/Netflix/dgs-codegen/blob/d1ab1393ad05bdbc45408216c2aed91c3755e716/graphql-dgs-codegen-core/src/test/kotlin/com/netflix/graphql/dgs/codegen/Kotlin2CodeGenTest.kt). The [maintainer's follow-up](https://github.com/Netflix/dgs-codegen/pull/997#issuecomment-6617568565) retained my commit and added KotlinPoet name allocation, serializer-shadowing fixes and broader runtime coverage.
-- **Outcome:** [Merged November 3, 2026 · #997](https://github.com/Netflix/dgs-codegen/pull/997). Colliding schema arguments can be used by the generated client without duplicate parameter declarations.
+- **Problem:** Startup validation initialized PostgreSQL pool state on a temporary event loop, leaving later MCP tool calls with connections bound to a closed loop.
+- **My contribution:** Moved loop-bound startup validation into the MCP server lifespan and added asynchronous cleanup on the same loop, with bounded concurrent connection closes.
+- **Validation:** Regression coverage exercises startup validation followed by the first query, registered lifespan cleanup, startup refusal, and failed or stalled connection closes. [Regression tests](https://github.com/awslabs/mcp/blob/730add86aba3bec19f820ae501462059d25af33a/src/postgres-mcp-server/tests/test_server_error_handling.py) · [Cleanup tests](https://github.com/awslabs/mcp/blob/730add86aba3bec19f820ae501462059d25af33a/src/postgres-mcp-server/tests/test_db_connection_map.py).
+- **Outcome:** [Merged November 9, 2026 · #4846](https://github.com/awslabs/mcp/pull/4846). Pool initialization, tool use and shutdown share the serving loop; these tests use controlled database doubles, not a live PostgreSQL deployment.
 
 </details>
 
 <details>
-<summary><b>Meta · Lexical: keep the editor cursor inside custom DOM boundaries</b></summary>
+<summary><b>IBM · Alchemy Logging: align goroutine IDs in Go log headers</b></summary>
 
-- **Problem:** A block cursor placed after the last decorator could be appended beyond a custom DOM slot's trailing decoration, outside the editor-managed range.
-- **My contribution:** Inserted the cursor before the slot boundary when attached, with an append fallback when the boundary is absent or removed.
-- **Validation:** Added regressions for correct placement before the decoration and for a detached decoration that must not throw. [DOM-slot tests](https://github.com/meta/lexical/blob/63850fffbc003f44977996c2995d03dd0468aecc/packages/lexical/src/__tests__/unit/LexicalDOMSlot.test.tsx).
-- **Outcome:** [Merged November 1, 2026 · #9707](https://github.com/meta/lexical/pull/9707). Custom slot layouts retain the expected cursor position without breaking the detached-boundary case.
+- **Problem:** Pretty-print log headers shifted as goroutine IDs changed digit width, making concurrent logs harder to scan.
+- **My contribution:** Added padding to the widest ID seen so far, using atomic updates because header formatting runs under a read lock. Resetting logger defaults clears the recorded width.
+- **Validation:** Regression tests cover growing and shrinking ID widths, the emitted log header, and reset behavior. [Regression tests](https://github.com/IBM/alchemy-logging/blob/c22f4d658b2eaa96654a2508cdd0fd8b039d68ca/src/go/alog/alog_test.go).
+- **Outcome:** [Merged November 11, 2026 · #807](https://github.com/IBM/alchemy-logging/pull/807). Later headers stay aligned to the widest observed ID; earlier lines are not rewritten.
+
+</details>
+
+<details>
+<summary><b>Walmart · JSON-to-GraphQL CLI: restore Node.js 22 compatibility</b></summary>
+
+- **Problem:** The CLI's yargs subpath import failed under Node.js 22+, preventing JSON input from being converted into a GraphQL schema.
+- **My contribution:** Switched to the package-root CommonJS export and added a subprocess integration test for the --baseType and --prefix options.
+- **Validation:** The test pipes a JSON fixture through the CLI and checks the generated root and prefixed nested type names. [Regression tests](https://github.com/walmartlabs/json-to-simple-graphql-schema/blob/47b855cb101981812f4bebf3cbde44b5488bfe7e/test/integration.spec.js).
+- **Outcome:** [Merged November 11, 2026 · #50](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50). The CLI uses the compatible yargs entry point while preserving its schema-naming options.
 
 </details>
 
