@@ -69,12 +69,6 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 63 / 75  █████████████████░░░  84.0%
 ```
 
-**63 merged pull requests** on the company allowlist, including IBM and Walmart, goal 75, **12 to go**. Verified **2026-11-12** against individual GitHub PR records. [All 63 merged PRs and merge dates](data/oss-scoreboard.json).
-
-**93 merged public PRs outside `mangeshraut712` and `dayx61` repositories**, including the 63 above. This count excludes `huggingface`; it is a defined contribution scope, not an unrestricted all-time total. [Verified PR records](data/oss-scoreboard.json) · [Live search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface&type=pullrequests).
-
-**77 of those 93 merges are in GitHub organization-owned repositories**, including organizations outside the company goal. Including `dayx61/oladayo#1` gives **94** in the broader search; `huggingface` remains excluded from both external scopes. Approved or CI-green open PRs do not count as merged.
-
 #### By company group (allowlist scoreboard)
 
 | Company group | Merged | Focus |
