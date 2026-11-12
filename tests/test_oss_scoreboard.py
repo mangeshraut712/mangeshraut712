@@ -58,7 +58,7 @@ class OssScoreboardTests(unittest.TestCase):
         self.assertIn(f"{100 * total / goal:.1f}%", self.readme)
         external_total = self.data["external_merged_total"]
         self.assertGreaterEqual(external_total, total)
-        self.assertIn(f"**{external_total} public external PRs merged overall**", self.readme)
+        self.assertIn(f"**{external_total} merged public PRs outside `mangeshraut712` and `dayx61` repositories**", self.readme)
         self.assertIn(f"[All {total} merged PRs and merge dates]", self.readme)
 
     def test_five_cases_are_backed_by_merged_prs_and_tests(self):

@@ -66,12 +66,14 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-61 / 75  ████████████████░░░░  81.3%
+63 / 75  █████████████████░░░  84.0%
 ```
 
-**61 merged pull requests** on the existing company allowlist, goal 75, **14 to go**. Verified **2026-11-12** against individual GitHub PR records. [All 61 merged PRs and merge dates](data/oss-scoreboard.json).
+**63 merged pull requests** on the company allowlist, including IBM and Walmart, goal 75, **12 to go**. Verified **2026-11-12** against individual GitHub PR records. [All 63 merged PRs and merge dates](data/oss-scoreboard.json).
 
-**93 merged public PRs outside `mangeshraut712` and `dayx61` repositories**, including the 61 above. This count excludes `huggingface`; it is a defined contribution scope, not an unrestricted all-time total. [Verified PR records](data/oss-scoreboard.json) · [Live search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface&type=pullrequests).
+**93 merged public PRs outside `mangeshraut712` and `dayx61` repositories**, including the 63 above. This count excludes `huggingface`; it is a defined contribution scope, not an unrestricted all-time total. [Verified PR records](data/oss-scoreboard.json) · [Live search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface&type=pullrequests).
+
+**77 of those 93 merges are in GitHub organization-owned repositories**, including organizations outside the company goal. Including `dayx61/oladayo#1` gives **94** in the broader search; `huggingface` remains excluded from both external scopes. Approved or CI-green open PRs do not count as merged.
 
 #### By company group (allowlist scoreboard)
 
@@ -90,10 +92,12 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 | [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | 1 | CredSweeper install-guide docs |
 | [Moonshot AI](https://github.com/MoonshotAI/kimi-code/pull/2416) | 1 | kimi-code models.dev fallback |
 | [AMD](https://github.com/amd/gaia/pull/6656) | 1 | GAIA memory bootstrap confidence parsing |
+| [IBM](https://github.com/IBM/alchemy-logging/pull/807) | 1 | Alchemy Logging: Go goroutine-ID padding |
+| [Walmart](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50) | 1 | JSON-to-GraphQL CLI compatibility on Node 22+ |
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 61 merges. Each links to the merged PR and its tests.
+Five case studies selected from those 63 merges. Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -253,11 +257,11 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | RAG eval | [ai-ml-portfolio · labs/llm-eval](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval) | Offline stub report; live mode off in CI |
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 53 of 61 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 55 of 63 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  34  ██████████████████████████████████  (through Nov 12, IST)
+                           Nov  36  ████████████████████████████████████  (through Nov 12, IST)
 ```
 
 </details>
@@ -271,8 +275,8 @@ Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST mont
 xychart-beta
   title "Allowlist merges per month (2026)"
   x-axis [Jul, Aug, Sep, Oct, Nov]
-  y-axis "Merged PRs" 0 --> 35
-  bar [2, 3, 3, 19, 34]
+  y-axis "Merged PRs" 0 --> 40
+  bar [2, 3, 3, 19, 36]
 ```
 
 | Repo (top 5) | Merged |

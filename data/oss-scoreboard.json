@@ -1,10 +1,10 @@
 {
   "checked_on": "2026-11-12",
-  "source": "GitHub plugin merged-PR search (94 results, below requested limit 100), each verified against its canonical PR record; dayx61 result excluded from reported external scope.",
+  "source": "Complete GitHub merged-PR search returned 94 results (incomplete_results=false), matching the 93 previously audited external URLs plus dayx61/oladayo#1. All 63 qualifying records rechecked against canonical PR records; repository metadata verifies owner account types.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface&type=pullrequests",
-  "scope": "Existing personal company allowlist; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
+  "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
   "external_merged_total": 93,
-  "total": 61,
+  "total": 63,
   "goal": 75,
   "organizations": [
     {
@@ -89,6 +89,14 @@
       ]
     },
     {
+      "owner": "IBM",
+      "company": "IBM",
+      "count": 1,
+      "prs": [
+        "https://github.com/IBM/alchemy-logging/pull/807"
+      ]
+    },
+    {
       "owner": "meta",
       "company": "Meta",
       "count": 1,
@@ -165,6 +173,14 @@
         "https://github.com/sarvamai/sarvam-ai-cookbook/pull/185",
         "https://github.com/sarvamai/sarvam-ai-cookbook/pull/116"
       ]
+    },
+    {
+      "owner": "walmartlabs",
+      "company": "Walmart",
+      "count": 1,
+      "prs": [
+        "https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50"
+      ]
     }
   ],
   "merge_evidence": [
@@ -177,7 +193,9 @@
       "merged": true,
       "merged_at": "2026-11-11T22:24:14Z",
       "title": "fix(warning): attribute compare_with warnings to caller line (#541)",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5229529115,
+      "merge_commit": "f6a0493e13df0733d4678c965dc73ac6ef9ae06d"
     },
     {
       "repo": "adobe/react-spectrum",
@@ -188,7 +206,22 @@
       "merged": true,
       "merged_at": "2026-11-11T21:46:11Z",
       "title": "fix: allow Mod+A to select ComboBox input text while multi-select menu is open",
-      "company": "Adobe"
+      "company": "Adobe",
+      "id": 5034136088,
+      "merge_commit": "6fc06c8e39770dd5530809b85a6fbdef94d86afc"
+    },
+    {
+      "repo": "walmartlabs/json-to-simple-graphql-schema",
+      "owner": "walmartlabs",
+      "number": 50,
+      "url": "https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-11T21:05:21Z",
+      "title": "Fix CLI yargs import on Node 22+ and add option integration test",
+      "company": "Walmart",
+      "id": 5142686627,
+      "merge_commit": "47b855cb101981812f4bebf3cbde44b5488bfe7e"
     },
     {
       "repo": "awslabs/social-messaging-agent-runtime-toolkit",
@@ -199,7 +232,9 @@
       "merged": true,
       "merged_at": "2026-11-11T18:57:11Z",
       "title": "fix(console): confirm before deleting selected state keys (#77)",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5240174773,
+      "merge_commit": "b94f7b332e24fc6d4584eab5d42638d3bc2d683d"
     },
     {
       "repo": "awslabs/social-messaging-agent-runtime-toolkit",
@@ -210,7 +245,22 @@
       "merged": true,
       "merged_at": "2026-11-11T18:56:55Z",
       "title": "Flush CLI output before starting subprocesses",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5220317332,
+      "merge_commit": "ccc177a75d8cfed342c4118e8723bfeb22911610"
+    },
+    {
+      "repo": "IBM/alchemy-logging",
+      "owner": "IBM",
+      "number": 807,
+      "url": "https://github.com/IBM/alchemy-logging/pull/807",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-11T17:24:34Z",
+      "title": "fix(go): pad the goroutine ID in pretty-print headers",
+      "company": "IBM",
+      "id": 5257657720,
+      "merge_commit": "c22f4d658b2eaa96654a2508cdd0fd8b039d68ca"
     },
     {
       "repo": "awslabs/stickler",
@@ -221,7 +271,9 @@
       "merged": true,
       "merged_at": "2026-11-11T02:03:05Z",
       "title": "fix(report): colour executive summary cards and read document_count",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5109504599,
+      "merge_commit": "232982e073a8f9bfb14499cd2ce272b52a553732"
     },
     {
       "repo": "microsoft/playwright",
@@ -232,7 +284,9 @@
       "merged": true,
       "merged_at": "2026-11-10T18:37:28Z",
       "title": "docs(python): use snake_case API names in two Python snippets",
-      "company": "Microsoft"
+      "company": "Microsoft",
+      "id": 5238080725,
+      "merge_commit": "d3dd246651e2524bad5b7a05ed9eaf84e6753b4c"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -243,7 +297,9 @@
       "merged": true,
       "merged_at": "2026-11-10T02:23:35Z",
       "title": "fix(assets): sanitize SNS topic name for dotted asset IDs",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5034103022,
+      "merge_commit": "f35336983c74dec01077cda546ca000bf6d3be54"
     },
     {
       "repo": "awslabs/mcp",
@@ -254,7 +310,9 @@
       "merged": true,
       "merged_at": "2026-11-09T18:55:26Z",
       "title": "fix(postgres-mcp-server): avoid binding PG-wire connection to a closed event loop",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5008851517,
+      "merge_commit": "730add86aba3bec19f820ae501462059d25af33a"
     },
     {
       "repo": "awslabs/stickler",
@@ -265,7 +323,9 @@
       "merged": true,
       "merged_at": "2026-11-08T21:50:14Z",
       "title": "fix(454): coerce document_files keys and paths in the gallery",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5046330842,
+      "merge_commit": "ce6c1003c8bd2341e370e69b252f2b89b8feef01"
     },
     {
       "repo": "microsoft/physical-ai-toolchain",
@@ -276,7 +336,9 @@
       "merged": true,
       "merged_at": "2026-11-08T06:44:26Z",
       "title": "fix(deploy): honor delta action_mode when publishing ACT joint targets",
-      "company": "Microsoft"
+      "company": "Microsoft",
+      "id": 5031867534,
+      "merge_commit": "0ec3d5ffe5641b6339e959a62d2fda458be01d1a"
     },
     {
       "repo": "adobe/react-spectrum",
@@ -287,7 +349,9 @@
       "merged": true,
       "merged_at": "2026-11-06T23:28:56Z",
       "title": "fix(react-aria-components): inherit CheckboxGroup validationBehavior (#10856)",
-      "company": "Adobe"
+      "company": "Adobe",
+      "id": 5030044297,
+      "merge_commit": "82959b6a9ac4ea717228636b99fc8fd24736a7f4"
     },
     {
       "repo": "google/adk-go",
@@ -298,7 +362,9 @@
       "merged": true,
       "merged_at": "2026-11-06T09:37:27Z",
       "title": "fix(openaimodel): send executable code parts as text",
-      "company": "Google"
+      "company": "Google",
+      "id": 4989606615,
+      "merge_commit": "ded357e351dee44c023398a49d314aa326a59c94"
     },
     {
       "repo": "google/adk-go",
@@ -309,7 +375,9 @@
       "merged": true,
       "merged_at": "2026-11-05T21:51:52Z",
       "title": "fix(openaimodel): refuse non-function Tool fields genai adds",
-      "company": "Google"
+      "company": "Google",
+      "id": 5035351810,
+      "merge_commit": "275e190e8c501b83dce6d77c22f69341cda44aa9"
     },
     {
       "repo": "NVIDIA/cuda-python",
@@ -320,7 +388,9 @@
       "merged": true,
       "merged_at": "2026-11-04T19:37:07Z",
       "title": "fix(ci): print lychee failure URLs in the job log",
-      "company": "NVIDIA"
+      "company": "NVIDIA",
+      "id": 5031551737,
+      "merge_commit": "0d97b34942798403825654b129143b772516aa02"
     },
     {
       "repo": "amd/gaia",
@@ -331,7 +401,9 @@
       "merged": true,
       "merged_at": "2026-11-04T21:01:32Z",
       "title": "fix(memory): handle non-numeric confidence in bootstrap --infer",
-      "company": "AMD"
+      "company": "AMD",
+      "id": 5160975301,
+      "merge_commit": "978f6861c65f0ab89bea6671709d1ad88de16f28"
     },
     {
       "repo": "Netflix/dgs-codegen",
@@ -342,7 +414,9 @@
       "merged": true,
       "merged_at": "2026-11-03T22:56:19Z",
       "title": "Disambiguate projection parameters when input argument is named _alias or _projection",
-      "company": "Netflix"
+      "company": "Netflix",
+      "id": 5133886179,
+      "merge_commit": "d1ab1393ad05bdbc45408216c2aed91c3755e716"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -353,7 +427,9 @@
       "merged": true,
       "merged_at": "2026-11-04T17:56:08Z",
       "title": "fix(tests): unify auth module objects across import paths",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5036400158,
+      "merge_commit": "865e7bbb3560d989e2eac667ea932e56de83fecc"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -364,7 +440,9 @@
       "merged": true,
       "merged_at": "2026-11-04T17:52:54Z",
       "title": "fix(cli): fail token-override login when auth errors are wrapped",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5035599421,
+      "merge_commit": "2233b3067145128624b13fb3d0f689a9a2eed7fc"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -375,7 +453,9 @@
       "merged": true,
       "merged_at": "2026-11-04T17:51:27Z",
       "title": "fix(cli): truncate auto-paginate pages to --max-items",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5035384924,
+      "merge_commit": "bf94bfef5b8f3bef1089319808687cf5ae2ce817"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -386,7 +466,9 @@
       "merged": true,
       "merged_at": "2026-11-04T17:48:08Z",
       "title": "fix(authz): validate constraint list REGEX values element-wise",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5032536387,
+      "merge_commit": "6157039bf93ff0afcb7935a7df895cf995483a50"
     },
     {
       "repo": "microsoft/physical-ai-toolchain",
@@ -397,7 +479,9 @@
       "merged": true,
       "merged_at": "2026-11-03T10:57:52Z",
       "title": "fix(gpu-offload): evict oldest replay nonces instead of rejecting",
-      "company": "Microsoft"
+      "company": "Microsoft",
+      "id": 5040206391,
+      "merge_commit": "ccca039b04d531a423fdcf43564c9ed71100ed18"
     },
     {
       "repo": "microsoft/physical-ai-toolchain",
@@ -408,7 +492,9 @@
       "merged": true,
       "merged_at": "2026-11-03T10:44:47Z",
       "title": "fix(act-inference): fail-closed until full joint state arrives",
-      "company": "Microsoft"
+      "company": "Microsoft",
+      "id": 5039479977,
+      "merge_commit": "4a25b12576b2f230335a1934fd92fcd5e034d5f2"
     },
     {
       "repo": "adobe/react-spectrum",
@@ -419,7 +505,9 @@
       "merged": true,
       "merged_at": "2026-11-03T01:56:38Z",
       "title": "fix(ComboBox): don't commit value on blur when isReadOnly",
-      "company": "Adobe"
+      "company": "Adobe",
+      "id": 5034193623,
+      "merge_commit": "6dec77beccf0545a04318e6a01b8eb9cbe2dccc6"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -430,7 +518,9 @@
       "merged": true,
       "merged_at": "2026-11-02T21:00:04Z",
       "title": "fix(search): wire map view query-paginate to the search API",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5039786735,
+      "merge_commit": "5e7c605412d0e235ffc728a859549ff0bfcfb81d"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -441,7 +531,9 @@
       "merged": true,
       "merged_at": "2026-11-02T20:49:21Z",
       "title": "fix(assetLinks): verify GSI hits before rejecting recreate (#840)",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5039330165,
+      "merge_commit": "f1dc71deb25fbeae1d492b4f61cf6eb4261e0af5"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -452,7 +544,9 @@
       "merged": true,
       "merged_at": "2026-11-02T19:49:23Z",
       "title": "docs(pipelines): describe executingRequestContext as the executing user name",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5108850167,
+      "merge_commit": "9f69728076b61739b9b09073e522d56a7df39bc5"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -463,7 +557,9 @@
       "merged": true,
       "merged_at": "2026-11-02T19:36:53Z",
       "title": "fix(e2e): skip core tag and viewer cases when preconditions are absent",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5039854792,
+      "merge_commit": "dd8603b5fbebad8089567bc1118a5a2821ae0263"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -474,7 +570,9 @@
       "merged": true,
       "merged_at": "2026-11-02T19:51:24Z",
       "title": "fix(databases): drop soft-deleted sibling when recreating a database",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5039799892,
+      "merge_commit": "5a679093f8113bb85b66cd9b435bd0cba4b42e2c"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -485,7 +583,9 @@
       "merged": true,
       "merged_at": "2026-11-02T19:53:06Z",
       "title": "fix(upload): stop empty Retry after manual part retry limit",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5039559935,
+      "merge_commit": "6f5f6775793c6ba15c660fd3af37c7d8fbf23d7e"
     },
     {
       "repo": "awslabs/visual-asset-management-system",
@@ -496,7 +596,9 @@
       "merged": true,
       "merged_at": "2026-11-02T19:37:14Z",
       "title": "fix(metadata-schema): return 400 when nested fields missing; align CLI create example",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5039478980,
+      "merge_commit": "3ea976a31b177fcdceb2ab077d4e3c65081668b9"
     },
     {
       "repo": "google-gemini/cookbook",
@@ -507,7 +609,9 @@
       "merged": true,
       "merged_at": "2026-11-02T16:19:17Z",
       "title": "fix(ci): number duplicate heading anchors like GitHub",
-      "company": "Google"
+      "company": "Google",
+      "id": 5016514328,
+      "merge_commit": "78ee6045d06a253f3a23c63baafec39d63d30b03"
     },
     {
       "repo": "microsoft/semantic-kernel",
@@ -518,7 +622,9 @@
       "merged": true,
       "merged_at": "2026-11-02T12:45:16Z",
       "title": "Python: normalize OpenAPI allowlist paths before prefix match",
-      "company": "Microsoft"
+      "company": "Microsoft",
+      "id": 5030830742,
+      "merge_commit": "356acb66538a3f0f701a15105304c5c95428e51d"
     },
     {
       "repo": "microsoft/physical-ai-toolchain",
@@ -529,7 +635,9 @@
       "merged": true,
       "merged_at": "2026-11-02T04:06:54Z",
       "title": "fix(ci): align Ruff npm/CI pins with pyproject 0.17.1",
-      "company": "Microsoft"
+      "company": "Microsoft",
+      "id": 5032029701,
+      "merge_commit": "e650e81b71ed7db377ddd278e82a373155aa411a"
     },
     {
       "repo": "meta/lexical",
@@ -540,7 +648,9 @@
       "merged": true,
       "merged_at": "2026-11-01T18:24:49Z",
       "title": "[lexical] Bug Fix: Keep the block cursor inside the DOMSlot before boundary",
-      "company": "Meta"
+      "company": "Meta",
+      "id": 5108930400,
+      "merge_commit": "63850fffbc003f44977996c2995d03dd0468aecc"
     },
     {
       "repo": "awslabs/stickler",
@@ -551,7 +661,9 @@
       "merged": true,
       "merged_at": "2026-10-30T14:41:18Z",
       "title": "fix(453): escape :.3f/:1f cells after formatting",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5046896292,
+      "merge_commit": "434631cbd887e7ce3503e127a2450449b7fef2d8"
     },
     {
       "repo": "awslabs/mcp",
@@ -562,7 +674,9 @@
       "merged": true,
       "merged_at": "2026-10-29T23:38:51Z",
       "title": "fix(postgres-mcp-server): use selector event loop on Windows for PG-wire",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5008959146,
+      "merge_commit": "cdf68967dc27e8f0c10e78d9038b7646a5f4f2a5"
     },
     {
       "repo": "NVIDIA/cuda-python",
@@ -573,7 +687,9 @@
       "merged": true,
       "merged_at": "2026-10-28T20:21:36Z",
       "title": "fix(tests): restore SIGINT handler in keyboard-interrupt fill child",
-      "company": "NVIDIA"
+      "company": "NVIDIA",
+      "id": 5032382192,
+      "merge_commit": "d649075a50b97245b63381052481f2eaadd57f1c"
     },
     {
       "repo": "NVIDIA/cuda-python",
@@ -584,7 +700,9 @@
       "merged": true,
       "merged_at": "2026-10-28T20:13:38Z",
       "title": "fix(tests): ignore inherited setgid when checking program-cache tmp mode",
-      "company": "NVIDIA"
+      "company": "NVIDIA",
+      "id": 5018511298,
+      "merge_commit": "8bfce0064b661e1d6fec5a9c12ffa7139d47b0a3"
     },
     {
       "repo": "Samsung/CredSweeper",
@@ -595,7 +713,9 @@
       "merged": true,
       "merged_at": "2026-10-28T15:54:27Z",
       "title": "docs: fix typos in install guide",
-      "company": "Samsung"
+      "company": "Samsung",
+      "id": 5047761103,
+      "merge_commit": "aac5a3fea47943baf44f9e25c7421941c6a705a7"
     },
     {
       "repo": "apple/password-manager-resources",
@@ -606,7 +726,9 @@
       "merged": true,
       "merged_at": "2026-09-28T14:46:37Z",
       "title": "Add change password URL for thriftbooks.com",
-      "company": "Apple"
+      "company": "Apple",
+      "id": 4665087800,
+      "merge_commit": "4e24b78e14cc499f6ca1cb35fb8c853185afb991"
     },
     {
       "repo": "apple/password-manager-resources",
@@ -617,7 +739,9 @@
       "merged": true,
       "merged_at": "2026-10-28T12:16:06Z",
       "title": "Add Kumo to web browser extension distribution information",
-      "company": "Apple"
+      "company": "Apple",
+      "id": 4967396887,
+      "merge_commit": "1464010d9dfe494e17eda01bcec8792d9a5ec6b2"
     },
     {
       "repo": "microsoft/physical-ai-toolchain",
@@ -628,7 +752,9 @@
       "merged": true,
       "merged_at": "2026-10-28T07:57:41Z",
       "title": "docs(recipes): refresh ms.date on tier-3-production README",
-      "company": "Microsoft"
+      "company": "Microsoft",
+      "id": 5032262806,
+      "merge_commit": "31172e23f641ebaae653f75e757e8cefaa55e39d"
     },
     {
       "repo": "microsoft/physical-ai-toolchain",
@@ -639,7 +765,9 @@
       "merged": true,
       "merged_at": "2026-10-28T07:20:26Z",
       "title": "docs(evaluation): refresh ms.date on hil-evaluation.md",
-      "company": "Microsoft"
+      "company": "Microsoft",
+      "id": 5032211156,
+      "merge_commit": "9fba17b04acc80a07d4fb8d96e8f4d039763b06c"
     },
     {
       "repo": "NVIDIA/TensorRT-Model-Connect",
@@ -650,7 +778,9 @@
       "merged": true,
       "merged_at": "2026-10-28T06:18:57Z",
       "title": "fix(ci): use delimiter syntax for multiline GitHub file commands",
-      "company": "NVIDIA"
+      "company": "NVIDIA",
+      "id": 5034002050,
+      "merge_commit": "2a29247c2774dafad4badca83985489f76545fff"
     },
     {
       "repo": "NVIDIA/TensorRT-Model-Connect",
@@ -661,7 +791,9 @@
       "merged": true,
       "merged_at": "2026-10-28T06:18:27Z",
       "title": "fix(tools): use os.pathsep for PYTHONPATH in model_benchmark",
-      "company": "NVIDIA"
+      "company": "NVIDIA",
+      "id": 5033992701,
+      "merge_commit": "ba54babb1e1c648ab203a1d29be9ae172ec161b4"
     },
     {
       "repo": "adobe/react-spectrum",
@@ -672,7 +804,9 @@
       "merged": true,
       "merged_at": "2026-10-27T23:47:21Z",
       "title": "fix(react-aria-components): inherit Form validationBehavior in ColorField",
-      "company": "Adobe"
+      "company": "Adobe",
+      "id": 5030273042,
+      "merge_commit": "0752308bb18ca03e55c06892bf8dbf81760c7f78"
     },
     {
       "repo": "awslabs/mcp",
@@ -683,7 +817,9 @@
       "merged": true,
       "merged_at": "2026-10-27T13:17:02Z",
       "title": "docs(document-loader-mcp-server): stop implying HTTP via docker -p 8000",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5021949078,
+      "merge_commit": "33955d80633c35223ab1a613506017072b4d3338"
     },
     {
       "repo": "awslabs/mcp",
@@ -694,7 +830,9 @@
       "merged": true,
       "merged_at": "2026-10-26T21:59:15Z",
       "title": "fix(billing-cost-management): omit coverage Granularity with GroupBy",
-      "company": "Amazon/AWS"
+      "company": "Amazon/AWS",
+      "id": 5008714642,
+      "merge_commit": "68e7613b36c2705b2786509fd5b3d0fc6aa02e72"
     },
     {
       "repo": "adobe/react-spectrum",
@@ -705,7 +843,9 @@
       "merged": true,
       "merged_at": "2026-10-26T20:34:41Z",
       "title": "docs(s2): close CardPreview with matching tag in Card anatomy",
-      "company": "Adobe"
+      "company": "Adobe",
+      "id": 5008571738,
+      "merge_commit": "06891def3e7488f4e598debb8418bf17cf060279"
     },
     {
       "repo": "apple/password-manager-resources",
@@ -716,7 +856,9 @@
       "merged": true,
       "merged_at": "2026-10-26T10:07:09Z",
       "title": "Add Red & Blue Online shared credentials redirect",
-      "company": "Apple"
+      "company": "Apple",
+      "id": 5009643407,
+      "merge_commit": "54c724029ebfb8dcac4eca2e532f7c0a541f728a"
     },
     {
       "repo": "microsoft/hve-core",
@@ -727,7 +869,9 @@
       "merged": true,
       "merged_at": "2026-10-25T02:41:06Z",
       "title": "fix(instructions): scope commit-message instructions to commit tasks",
-      "company": "Microsoft"
+      "company": "Microsoft",
+      "id": 4967599766,
+      "merge_commit": "7ff1a86b13b445e5a6d258e7dcf26b0c49898a9a"
     },
     {
       "repo": "microsoft/winget-pkgs",
@@ -738,7 +882,9 @@
       "merged": true,
       "merged_at": "2026-10-23T22:33:21Z",
       "title": "Update: sordum.PowerRun to 1.9",
-      "company": "Microsoft"
+      "company": "Microsoft",
+      "id": 4967333004,
+      "merge_commit": "16b3a77cab3b6e21ef61bea8fb349204bee90cfc"
     },
     {
       "repo": "google/sbsim",
@@ -749,7 +895,9 @@
       "merged": true,
       "merged_at": "2026-10-06T16:28:04Z",
       "title": "Remove internal Blaze/Bazel BUILD files",
-      "company": "Google"
+      "company": "Google",
+      "id": 4507050930,
+      "merge_commit": "8d9c051f0676e69c9c277d31965aaa4f48cabdda"
     },
     {
       "repo": "sarvamai/sarvam-ai-cookbook",
@@ -760,7 +908,9 @@
       "merged": true,
       "merged_at": "2026-10-06T07:33:25Z",
       "title": "fix(ci): skip the weekly rules sync when only the timestamp changed",
-      "company": "Sarvam AI"
+      "company": "Sarvam AI",
+      "id": 4616939869,
+      "merge_commit": "9c79b66d9070506bf2a1d57d395ef73ab3f18099"
     },
     {
       "repo": "apple/password-manager-resources",
@@ -771,7 +921,9 @@
       "merged": true,
       "merged_at": "2026-08-02T19:06:28Z",
       "title": "Add shared credentials for Bluesky (bsky.app, bsky.social)",
-      "company": "Apple"
+      "company": "Apple",
+      "id": 4169358296,
+      "merge_commit": "3706ecbb3596b5583fd32f2e0011b416da5741e4"
     },
     {
       "repo": "apple/password-manager-resources",
@@ -782,7 +934,9 @@
       "merged": true,
       "merged_at": "2026-09-27T15:50:42Z",
       "title": "Add shared credentials for start.gg (smash.gg → start.gg)",
-      "company": "Apple"
+      "company": "Apple",
+      "id": 4654948789,
+      "merge_commit": "96f5ad98ab195a20ff61a2037841af7029b098d0"
     },
     {
       "repo": "apple/password-manager-resources",
@@ -793,7 +947,9 @@
       "merged": true,
       "merged_at": "2026-09-02T16:12:29Z",
       "title": "Add shared credentials for HDFC Bank (hdfcbank.com → hdfc.bank.in)",
-      "company": "Apple"
+      "company": "Apple",
+      "id": 4424114797,
+      "merge_commit": "0c47ded584856df830850079ac775bef9fe4ece1"
     },
     {
       "repo": "openai/codex-security",
@@ -804,7 +960,9 @@
       "merged": true,
       "merged_at": "2026-08-30T14:05:22Z",
       "title": "fix(cli): use shell-neutral env-var removal guidance",
-      "company": "OpenAI"
+      "company": "OpenAI",
+      "id": 4395254144,
+      "merge_commit": "f714a6582ec0b7fe32fc06894a3eb9cdd768b48f"
     },
     {
       "repo": "sarvamai/sarvam-ai-cookbook",
@@ -815,7 +973,9 @@
       "merged": true,
       "merged_at": "2026-08-01T22:45:32Z",
       "title": "fix(ci): detect unquoted TS/JS model keys in allowlist scan",
-      "company": "Sarvam AI"
+      "company": "Sarvam AI",
+      "id": 4185126332,
+      "merge_commit": "7bfb635a3be0a2d9d664a0c6183e32b1bc260ee3"
     },
     {
       "repo": "MoonshotAI/kimi-code",
@@ -826,7 +986,9 @@
       "merged": true,
       "merged_at": "2026-07-31T11:54:10Z",
       "title": "fix(cli): fall back to built-in models.dev catalog when fetch fails",
-      "company": "Moonshot AI"
+      "company": "Moonshot AI",
+      "id": 4169002707,
+      "merge_commit": "eaab2b6f28c0b958edf8ab5ae5e78a4c0426af26"
     },
     {
       "repo": "apple/password-manager-resources",
@@ -837,7 +999,9 @@
       "merged": true,
       "merged_at": "2026-07-30T13:45:18Z",
       "title": "Allow exact-domain-match-only in password-rules schema",
-      "company": "Apple"
+      "company": "Apple",
+      "id": 4169239565,
+      "merge_commit": "80b9dfd45068671f08dbac1af51340a61b01665e"
     }
   ],
   "selected_case_studies": [
@@ -1816,5 +1980,173 @@
       "merged_at": "2026-07-30T13:45:18Z",
       "title": "Allow exact-domain-match-only in password-rules schema"
     }
-  ]
+  ],
+  "organization_owned_merged_total": 77,
+  "organization_owned_scope": "Subset of external_merge_evidence whose repository owner has GitHub account type Organization; includes owners outside the company goal.",
+  "external_owner_evidence": [
+    {
+      "owner": "awslabs",
+      "type": "Organization",
+      "repository": "awslabs/mcp",
+      "count": 22
+    },
+    {
+      "owner": "adobe",
+      "type": "Organization",
+      "repository": "adobe/react-spectrum",
+      "count": 5
+    },
+    {
+      "owner": "walmartlabs",
+      "type": "Organization",
+      "repository": "walmartlabs/json-to-simple-graphql-schema",
+      "count": 1
+    },
+    {
+      "owner": "IBM",
+      "type": "Organization",
+      "repository": "IBM/alchemy-logging",
+      "count": 1
+    },
+    {
+      "owner": "microsoft",
+      "type": "Organization",
+      "repository": "microsoft/winget-pkgs",
+      "count": 10
+    },
+    {
+      "owner": "google",
+      "type": "Organization",
+      "repository": "google/sbsim",
+      "count": 3
+    },
+    {
+      "owner": "NVIDIA",
+      "type": "Organization",
+      "repository": "NVIDIA/TensorRT-Model-Connect",
+      "count": 5
+    },
+    {
+      "owner": "amd",
+      "type": "Organization",
+      "repository": "amd/gaia",
+      "count": 1
+    },
+    {
+      "owner": "Netflix",
+      "type": "Organization",
+      "repository": "Netflix/dgs-codegen",
+      "count": 1
+    },
+    {
+      "owner": "google-gemini",
+      "type": "Organization",
+      "repository": "google-gemini/cookbook",
+      "count": 1
+    },
+    {
+      "owner": "meta",
+      "type": "Organization",
+      "repository": "meta/lexical",
+      "count": 1
+    },
+    {
+      "owner": "Samsung",
+      "type": "Organization",
+      "repository": "Samsung/CredSweeper",
+      "count": 1
+    },
+    {
+      "owner": "apple",
+      "type": "Organization",
+      "repository": "apple/password-manager-resources",
+      "count": 7
+    },
+    {
+      "owner": "finos",
+      "type": "Organization",
+      "repository": "finos/architecture-as-code",
+      "count": 2
+    },
+    {
+      "owner": "Roojool",
+      "type": "User",
+      "repository": "Roojool/pune-metro-strava",
+      "count": 13
+    },
+    {
+      "owner": "existence-master",
+      "type": "Organization",
+      "repository": "existence-master/Sentient",
+      "count": 1
+    },
+    {
+      "owner": "espnet",
+      "type": "Organization",
+      "repository": "espnet/espnet",
+      "count": 1
+    },
+    {
+      "owner": "brekkylab",
+      "type": "Organization",
+      "repository": "brekkylab/backlot",
+      "count": 6
+    },
+    {
+      "owner": "eugenioenko",
+      "type": "User",
+      "repository": "eugenioenko/ttt",
+      "count": 3
+    },
+    {
+      "owner": "maester365",
+      "type": "Organization",
+      "repository": "maester365/maester",
+      "count": 1
+    },
+    {
+      "owner": "oceanbase",
+      "type": "Organization",
+      "repository": "oceanbase/powercontext",
+      "count": 1
+    },
+    {
+      "owner": "CapSoftware",
+      "type": "Organization",
+      "repository": "CapSoftware/Cap",
+      "count": 1
+    },
+    {
+      "owner": "RailtownAI",
+      "type": "Organization",
+      "repository": "RailtownAI/railtracks",
+      "count": 1
+    },
+    {
+      "owner": "sarvamai",
+      "type": "Organization",
+      "repository": "sarvamai/sarvam-ai-cookbook",
+      "count": 2
+    },
+    {
+      "owner": "openai",
+      "type": "Organization",
+      "repository": "openai/codex-security",
+      "count": 1
+    },
+    {
+      "owner": "MoonshotAI",
+      "type": "Organization",
+      "repository": "MoonshotAI/kimi-code",
+      "count": 1
+    }
+  ],
+  "search_merged_total_before_dayx61_exclusion": 94,
+  "excluded_search_results": [
+    {
+      "url": "https://github.com/dayx61/oladayo/pull/1",
+      "reason": "Excluded dayx61-owned repository"
+    }
+  ],
+  "count_correction": "Previous total 61 omitted IBM/alchemy-logging#807 and walmartlabs/json-to-simple-graphql-schema#50 from the company allowlist while already including both in the external total."
 }
