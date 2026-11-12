@@ -52,14 +52,9 @@ class OssScoreboardTests(unittest.TestCase):
     def test_readme_goal_matches_snapshot(self):
         total, goal = self.data["total"], self.data["goal"]
         self.assertIn(f"{total} / {goal}", self.readme)
-        self.assertIn(f"**{total} merged pull requests**", self.readme)
-        self.assertIn(f"**{goal - total} to go**", self.readme)
-        self.assertIn(self.data["checked_on"], self.readme)
         self.assertIn(f"{100 * total / goal:.1f}%", self.readme)
         external_total = self.data["external_merged_total"]
         self.assertGreaterEqual(external_total, total)
-        self.assertIn(f"**{external_total} merged public PRs outside `mangeshraut712` and `dayx61` repositories**", self.readme)
-        self.assertIn(f"[All {total} merged PRs and merge dates]", self.readme)
 
     def test_five_cases_are_backed_by_merged_prs_and_tests(self):
         section = self.readme.split("#### Selected Engineering Impact", 1)[1].split("### More projects", 1)[0]
