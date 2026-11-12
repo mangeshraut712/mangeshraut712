@@ -66,23 +66,23 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-57 / 75  ███████████████░░░░░  76.0%
+61 / 75  ████████████████░░░░  81.3%
 ```
 
-**57 merged pull requests** on the allowlist, goal 75, **18 to go**. Verified **2026-11-11**. [All 57 merged PRs and merge dates](data/oss-scoreboard.json).
+**61 merged pull requests** on the existing company allowlist, goal 75, **14 to go**. Verified **2026-11-12** against individual GitHub PR records. [All 61 merged PRs and merge dates](data/oss-scoreboard.json).
 
-**88 public external PRs merged overall**, including the 57 on this allowlist ([search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+-user%3Amangeshraut712+is%3Apublic&type=pullrequests)).
+**93 merged public PRs outside `mangeshraut712` and `dayx61` repositories**, including the 61 above. This count excludes `huggingface`; it is a defined contribution scope, not an unrestricted all-time total. [Verified PR records](data/oss-scoreboard.json) · [Live search](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface&type=pullrequests).
 
 #### By company group (allowlist scoreboard)
 
 | Company group | Merged | Focus |
 | --- | ---: | --- |
 | [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical |
-| [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | 19 | MCP, Stickler, billing-cost fixes & Visual Asset Management System |
+| [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | 22 | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/playwright/pull/44030) | 10 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), Playwright docs |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 5 | CUDA Python tests & TensorRT tooling/CI |
-| [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | 4 | React Aria / Spectrum (incl. ColorField Form validation & CheckboxGroup validation behavior) |
+| [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | 5 | React Aria / Spectrum: form validation, CheckboxGroup validation and ComboBox text selection |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | 2 | Cookbook CI |
 | [Google](https://github.com/google/sbsim/pull/187) | 4 | sbsim BUILD cleanup + [Gemini cookbook](https://github.com/google-gemini/cookbook/pull/1449) link checker + [ADK Go](https://github.com/google/adk-go/pull/1983) function-tool validation + [ADK Go executable code parts](https://github.com/google/adk-go/pull/1956) |
 | [OpenAI](https://github.com/openai/codex-security/pull/754) | 1 | codex-security CLI guidance |
@@ -93,7 +93,7 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 57 merges. Each links to the merged PR and its tests.
+Five case studies selected from those 61 merges. Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -253,11 +253,11 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | RAG eval | [ai-ml-portfolio · labs/llm-eval](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval) | Offline stub report; live mode off in CI |
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 49 of 57 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 53 of 61 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  29  █████████████████████████████  (through Nov 11, IST)
+                           Nov  34  ██████████████████████████████████  (through Nov 12, IST)
 ```
 
 </details>
@@ -265,14 +265,14 @@ Q4 2026 allowlist merges   Oct  19  ██████████████�
 <details>
 <summary><b>OSS merge pace</b> — allowlist merges by month</summary>
 
-Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-11).
+Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-12).
 
 ```mermaid
 xychart-beta
   title "Allowlist merges per month (2026)"
   x-axis [Jul, Aug, Sep, Oct, Nov]
-  y-axis "Merged PRs" 0 --> 30
-  bar [2, 3, 3, 19, 29]
+  y-axis "Merged PRs" 0 --> 35
+  bar [2, 3, 3, 19, 34]
 ```
 
 | Repo (top 5) | Merged |
@@ -280,7 +280,7 @@ xychart-beta
 | [awslabs/visual-asset-management-system](https://github.com/awslabs/visual-asset-management-system/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 12 |
 | [apple/password-manager-resources](https://github.com/apple/password-manager-resources/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 7 |
 | [microsoft/physical-ai-toolchain](https://github.com/microsoft/physical-ai-toolchain/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 6 |
-| [adobe/react-spectrum](https://github.com/adobe/react-spectrum/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 4 |
+| [adobe/react-spectrum](https://github.com/adobe/react-spectrum/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 5 |
 | [awslabs/mcp](https://github.com/awslabs/mcp/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 4 |
 
 </details>
@@ -288,24 +288,7 @@ xychart-beta
 <details>
 <summary><b>In review</b> — open upstream pull requests</summary>
 
-Snapshot **2026-11-10 13:29 IST** from GitHub search: **113 open PRs across 32 owners** ([live list](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+-user%3Amangeshraut712&type=pullrequests)).
-
-```text
-Awaiting review      70  ████████████░░░░░░░░  62%
-No review required   35  ██████░░░░░░░░░░░░░░  31%
-Changes requested     5  █░░░░░░░░░░░░░░░░░░░   4%
-Draft                 2  ░░░░░░░░░░░░░░░░░░░░   2%
-Approved              1  ░░░░░░░░░░░░░░░░░░░░   1%
-```
-
-| Owner | Open PRs |
-| --- | ---: |
-| [awslabs](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+org%3Aawslabs&type=pullrequests) | 17 |
-| [anthropics](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+org%3Aanthropics&type=pullrequests) | 11 |
-| [microsoft](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+org%3Amicrosoft&type=pullrequests) | 8 |
-| [adobe](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+org%3Aadobe&type=pullrequests) | 7 |
-| [MoonshotAI](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+org%3AMoonshotAI&type=pullrequests) | 7 |
-| 27 other owners | 63 |
+[View current open upstream PRs on GitHub](https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Aopen+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface&type=pullrequests). Review status changes independently of merge counts; use the live list for current feedback and pending work.
 
 </details>
 
@@ -341,13 +324,17 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
   </picture>
 </p>
 
-```text
-2026 so far (snapshot 2026-11-10 07:02 IST)   5,021 contributions
-  Commits        3,309  █████████████░░░░░░░  66%
-  Pull requests  1,396  ██████░░░░░░░░░░░░░░  28%
-  Reviews          156  █░░░░░░░░░░░░░░░░░░░   3%
-  Issues            67  ░░░░░░░░░░░░░░░░░░░░   1%
-```
+Figures from the [repository's GitHub snapshot](data/github-snapshot.json), collected **2026-11-12 08:29 IST**:
+
+| 2026 activity | Count |
+| --- | ---: |
+| Contribution-calendar total | 6,014 |
+| Commits | 3,661 |
+| Pull requests | 1,639 |
+| Reviews | 348 |
+| Issues | 264 |
+
+The calendar total and activity-type counts are separate GitHub measures; the rows are not presented as a sum.
 
 <p align="center">
   <a href="https://github.com/mangeshraut712?tab=overview&from=2021-01-01&to=2026-12-31">Contribution graph</a>
