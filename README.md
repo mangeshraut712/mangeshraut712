@@ -66,19 +66,21 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-63 / 75  █████████████████░░░  84.0%
+65 / 75  █████████████████░░░  86.7%
 ```
+
+Checked **November 13, 2026**: **65 company-allowlist merges**, within **95 public external merges**. [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Adobe date-field locale handling](https://github.com/adobe/react-spectrum/pull/10842) and [AWS scheduler-record filtering](https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/150).
 
 #### By company group (allowlist scoreboard)
 
 | Company group | Merged | Focus |
 | --- | ---: | --- |
 | [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical |
-| [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | 22 | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
+| [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | 23 | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/playwright/pull/44030) | 10 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), Playwright docs |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 5 | CUDA Python tests & TensorRT tooling/CI |
-| [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | 5 | React Aria / Spectrum: form validation, CheckboxGroup validation and ComboBox text selection |
+| [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | 6 | React Aria / Spectrum: form validation, CheckboxGroup validation, ComboBox text selection and locale-safe date fields |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | 2 | Cookbook CI |
 | [Google](https://github.com/google/sbsim/pull/187) | 4 | sbsim BUILD cleanup + [Gemini cookbook](https://github.com/google-gemini/cookbook/pull/1449) link checker + [ADK Go](https://github.com/google/adk-go/pull/1983) function-tool validation + [ADK Go executable code parts](https://github.com/google/adk-go/pull/1956) |
 | [OpenAI](https://github.com/openai/codex-security/pull/754) | 1 | codex-security CLI guidance |
@@ -91,7 +93,7 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 63 merges. Each links to the merged PR and its tests.
+Five case studies selected from those 65 merges. Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -142,6 +144,17 @@ Five case studies selected from those 63 merges. Each links to the merged PR and
 - **Outcome:** [Merged November 11, 2026 · #50](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50). The CLI uses the compatible yargs entry point while preserving its schema-naming options.
 
 </details>
+
+---
+
+### Developer tools — install and use
+
+| Project | What it does | Install / try | Validation |
+| --- | --- | --- | --- |
+| [**Codex Insights**](https://github.com/mangeshraut712/codex-insights) | Private HTML/JSON workflow reports from Codex sessions; optional shareable aggregate profile. Local-only mode makes zero model calls. | `npx @mangeshraut712/codex-insights@0.7.0 --local-only` | [115 tests and 20 synthetic CLI/browser journeys](https://github.com/mangeshraut712/codex-insights/pull/23) |
+| [**Mangesh’s Merge Guide**](https://github.com/mangeshraut712/mangeshs-merge-guide) | Contribution workflow from issue selection and reproduction through testing, PR review and follow-through. | `npx @mangeshraut712/merge-guide@0.1.0 install --target codex` | [Installer, helper and upgrade-safety checks](https://github.com/mangeshraut712/mangeshs-merge-guide/pull/1) |
+
+npm releases verified **November 13, 2026**. The latest GitHub source includes additional fixes beyond these published versions. For the Insights skill, follow its [plugin installation](https://github.com/mangeshraut712/codex-insights#install-insights) and invoke `$insights`; Merge Guide installs as `$oss-contribution-insights` and also supports Claude Code and Cursor destinations. [Insights source fixes](https://github.com/mangeshraut712/codex-insights/pull/22) · [Merge Guide source fixes](https://github.com/mangeshraut712/mangeshs-merge-guide/pull/1).
 
 ---
 
@@ -245,17 +258,18 @@ The card lists tools I use or explore. **The manifests below verify declared dep
   </picture>
 </p>
 
-| Track | Where | Status (2026-11-10) |
+| Track | Where | Latest verified status / evidence |
 | --- | --- | --- |
 | Speech AI / VAD | [ai-ml-portfolio · labs/vad](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/vad) | CI + VAD FULL_PASS gate green · [Nov 3 run](https://github.com/mangeshraut712/ai-ml-portfolio/actions/runs/41631353871) |
 | RAG eval | [ai-ml-portfolio · labs/llm-eval](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval) | Offline stub report; live mode off in CI |
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 55 of 63 allowlist merges landed in Q4 |
+| Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | npm releases verified; November 13 source fixes merged; Insights synthetic E2E coverage added |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 57 of 65 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  36  ████████████████████████████████████  (through Nov 12, IST)
+                           Nov  38  ██████████████████████████████████████  (through Nov 13, IST)
 ```
 
 </details>
@@ -263,14 +277,14 @@ Q4 2026 allowlist merges   Oct  19  ██████████████�
 <details>
 <summary><b>OSS merge pace</b> — allowlist merges by month</summary>
 
-Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-12).
+Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-13).
 
 ```mermaid
 xychart-beta
   title "Allowlist merges per month (2026)"
   x-axis [Jul, Aug, Sep, Oct, Nov]
   y-axis "Merged PRs" 0 --> 40
-  bar [2, 3, 3, 19, 36]
+  bar [2, 3, 3, 19, 38]
 ```
 
 | Repo (top 5) | Merged |
@@ -278,7 +292,7 @@ xychart-beta
 | [awslabs/visual-asset-management-system](https://github.com/awslabs/visual-asset-management-system/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 12 |
 | [apple/password-manager-resources](https://github.com/apple/password-manager-resources/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 7 |
 | [microsoft/physical-ai-toolchain](https://github.com/microsoft/physical-ai-toolchain/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 6 |
-| [adobe/react-spectrum](https://github.com/adobe/react-spectrum/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 5 |
+| [adobe/react-spectrum](https://github.com/adobe/react-spectrum/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 6 |
 | [awslabs/mcp](https://github.com/awslabs/mcp/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 4 |
 
 </details>
@@ -322,13 +336,13 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
   </picture>
 </p>
 
-Figures from the [repository's GitHub snapshot](data/github-snapshot.json), collected **2026-11-12 08:29 IST**:
+Figures from the [repository's GitHub snapshot](data/github-snapshot.json), collected **2026-11-13 05:55 IST**:
 
 | 2026 activity | Count |
 | --- | ---: |
-| Contribution-calendar total | 6,014 |
-| Commits | 3,661 |
-| Pull requests | 1,639 |
+| Contribution-calendar total | 6,054 |
+| Commits | 3,700 |
+| Pull requests | 1,640 |
 | Reviews | 348 |
 | Issues | 264 |
 

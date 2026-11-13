@@ -1,17 +1,18 @@
 {
-  "checked_on": "2026-11-12",
-  "source": "Complete GitHub merged-PR search returned 94 results (incomplete_results=false), matching the 93 previously audited external URLs plus dayx61/oladayo#1. All 63 qualifying records rechecked against canonical PR records; repository metadata verifies owner account types.",
+  "checked_on": "2026-11-13",
+  "source": "Complete public external merged-PR search returned 95 results (incomplete_results=false), matching the 93 previously audited URLs plus adobe/react-spectrum#10842 and awslabs/social-messaging-agent-runtime-toolkit#150. Both additions verified against canonical PR records; earlier evidence retained from the November 12 audit.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 93,
-  "total": 63,
+  "external_merged_total": 95,
+  "total": 65,
   "goal": 75,
   "organizations": [
     {
       "owner": "adobe",
       "company": "Adobe",
-      "count": 5,
+      "count": 6,
       "prs": [
+        "https://github.com/adobe/react-spectrum/pull/10842",
         "https://github.com/adobe/react-spectrum/pull/10868",
         "https://github.com/adobe/react-spectrum/pull/10860",
         "https://github.com/adobe/react-spectrum/pull/10869",
@@ -44,8 +45,9 @@
     {
       "owner": "awslabs",
       "company": "Amazon/AWS",
-      "count": 22,
+      "count": 23,
       "prs": [
+        "https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/150",
         "https://github.com/awslabs/stickler/pull/553",
         "https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/151",
         "https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/147",
@@ -184,6 +186,32 @@
     }
   ],
   "merge_evidence": [
+    {
+      "repo": "awslabs/social-messaging-agent-runtime-toolkit",
+      "owner": "awslabs",
+      "number": 150,
+      "url": "https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/150",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-12T18:19:35Z",
+      "title": "fix(console): leave scheduler firing records out of the state views (#74)",
+      "company": "Amazon/AWS",
+      "id": 5240130505,
+      "merge_commit": "59c16c454480a366f68ad8752f8d6c248a329a55"
+    },
+    {
+      "repo": "adobe/react-spectrum",
+      "owner": "adobe",
+      "number": 10842,
+      "url": "https://github.com/adobe/react-spectrum/pull/10842",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-12T22:48:20Z",
+      "title": "fix(useDateSegment): don't crash when 12-hour time has no day period",
+      "company": "Adobe",
+      "id": 4979149752,
+      "merge_commit": "faec4f8c326adb62d41648a1c1bc5aa98550363a"
+    },
     {
       "repo": "awslabs/stickler",
       "owner": "awslabs",
@@ -1051,6 +1079,26 @@
   ],
   "external_scope": "Public authored merged PRs excluding repositories owned by mangeshraut712, dayx61 and huggingface",
   "external_merge_evidence": [
+    {
+      "repo": "awslabs/social-messaging-agent-runtime-toolkit",
+      "owner": "awslabs",
+      "number": 150,
+      "url": "https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/150",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-12T18:19:35Z",
+      "title": "fix(console): leave scheduler firing records out of the state views (#74)"
+    },
+    {
+      "repo": "adobe/react-spectrum",
+      "owner": "adobe",
+      "number": 10842,
+      "url": "https://github.com/adobe/react-spectrum/pull/10842",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-12T22:48:20Z",
+      "title": "fix(useDateSegment): don't crash when 12-hour time has no day period"
+    },
     {
       "repo": "awslabs/stickler",
       "owner": "awslabs",
@@ -1982,20 +2030,20 @@
       "title": "Allow exact-domain-match-only in password-rules schema"
     }
   ],
-  "organization_owned_merged_total": 77,
+  "organization_owned_merged_total": 79,
   "organization_owned_scope": "Subset of external_merge_evidence whose repository owner has GitHub account type Organization; includes owners outside the company goal.",
   "external_owner_evidence": [
     {
       "owner": "awslabs",
       "type": "Organization",
       "repository": "awslabs/mcp",
-      "count": 22
+      "count": 23
     },
     {
       "owner": "adobe",
       "type": "Organization",
       "repository": "adobe/react-spectrum",
-      "count": 5
+      "count": 6
     },
     {
       "owner": "walmartlabs",
@@ -2142,7 +2190,7 @@
       "count": 1
     }
   ],
-  "search_merged_total_before_dayx61_exclusion": 94,
+  "search_merged_total_before_dayx61_exclusion": 96,
   "excluded_search_results": [
     {
       "url": "https://github.com/dayx61/oladayo/pull/1",
