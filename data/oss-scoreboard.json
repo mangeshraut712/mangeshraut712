@@ -1,10 +1,10 @@
 {
-  "checked_on": "2026-11-13",
-  "source": "Complete public external merged-PR search returned 95 results (incomplete_results=false), matching the 93 previously audited URLs plus adobe/react-spectrum#10842 and awslabs/social-messaging-agent-runtime-toolkit#150. Both additions verified against canonical PR records; earlier evidence retained from the November 12 audit.",
+  "checked_on": "2026-11-14",
+  "source": "Public external merged-PR search on November 14 returned 97 results, matching all 95 previously audited URLs plus Comcast/xCOMPASS#34 and awslabs/stickler#551. Both additions verified against canonical PR records; earlier merge evidence retained.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 95,
-  "total": 65,
+  "external_merged_total": 97,
+  "total": 67,
   "goal": 75,
   "organizations": [
     {
@@ -45,8 +45,9 @@
     {
       "owner": "awslabs",
       "company": "Amazon/AWS",
-      "count": 23,
+      "count": 24,
       "prs": [
+        "https://github.com/awslabs/stickler/pull/551",
         "https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/150",
         "https://github.com/awslabs/stickler/pull/553",
         "https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/151",
@@ -183,9 +184,43 @@
       "prs": [
         "https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50"
       ]
+    },
+    {
+      "owner": "Comcast",
+      "company": "Comcast",
+      "count": 1,
+      "prs": [
+        "https://github.com/Comcast/xCOMPASS/pull/34"
+      ]
     }
   ],
   "merge_evidence": [
+    {
+      "repo": "awslabs/stickler",
+      "owner": "awslabs",
+      "number": 551,
+      "url": "https://github.com/awslabs/stickler/pull/551",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-13T16:24:53Z",
+      "title": "fix(pretty_print): restore stdout after printer failures.",
+      "company": "Amazon/AWS",
+      "id": 5226777518,
+      "merge_commit": "ae01626a93cf598ef3916aed098bfb9416c926d6"
+    },
+    {
+      "repo": "Comcast/xCOMPASS",
+      "owner": "Comcast",
+      "number": 34,
+      "url": "https://github.com/Comcast/xCOMPASS/pull/34",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-13T13:42:22Z",
+      "title": "docs: repair questionnaire links in contributor guide",
+      "company": "Comcast",
+      "id": 5293671794,
+      "merge_commit": "fe10a4ead9f64b3948426b10e5d26ee914df9332"
+    },
     {
       "repo": "awslabs/social-messaging-agent-runtime-toolkit",
       "owner": "awslabs",
@@ -1079,6 +1114,32 @@
   ],
   "external_scope": "Public authored merged PRs excluding repositories owned by mangeshraut712, dayx61 and huggingface",
   "external_merge_evidence": [
+    {
+      "repo": "awslabs/stickler",
+      "owner": "awslabs",
+      "number": 551,
+      "url": "https://github.com/awslabs/stickler/pull/551",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-13T16:24:53Z",
+      "title": "fix(pretty_print): restore stdout after printer failures.",
+      "company": "Amazon/AWS",
+      "id": 5226777518,
+      "merge_commit": "ae01626a93cf598ef3916aed098bfb9416c926d6"
+    },
+    {
+      "repo": "Comcast/xCOMPASS",
+      "owner": "Comcast",
+      "number": 34,
+      "url": "https://github.com/Comcast/xCOMPASS/pull/34",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-13T13:42:22Z",
+      "title": "docs: repair questionnaire links in contributor guide",
+      "company": "Comcast",
+      "id": 5293671794,
+      "merge_commit": "fe10a4ead9f64b3948426b10e5d26ee914df9332"
+    },
     {
       "repo": "awslabs/social-messaging-agent-runtime-toolkit",
       "owner": "awslabs",
@@ -2030,14 +2091,14 @@
       "title": "Allow exact-domain-match-only in password-rules schema"
     }
   ],
-  "organization_owned_merged_total": 79,
+  "organization_owned_merged_total": 81,
   "organization_owned_scope": "Subset of external_merge_evidence whose repository owner has GitHub account type Organization; includes owners outside the company goal.",
   "external_owner_evidence": [
     {
       "owner": "awslabs",
       "type": "Organization",
       "repository": "awslabs/mcp",
-      "count": 23
+      "count": 24
     },
     {
       "owner": "adobe",
@@ -2188,9 +2249,15 @@
       "type": "Organization",
       "repository": "MoonshotAI/kimi-code",
       "count": 1
+    },
+    {
+      "owner": "Comcast",
+      "type": "Organization",
+      "repository": "Comcast/xCOMPASS",
+      "count": 1
     }
   ],
-  "search_merged_total_before_dayx61_exclusion": 96,
+  "search_merged_total_before_dayx61_exclusion": 98,
   "excluded_search_results": [
     {
       "url": "https://github.com/dayx61/oladayo/pull/1",
