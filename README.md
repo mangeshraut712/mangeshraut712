@@ -66,17 +66,17 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-65 / 75  █████████████████░░░  86.7%
+67 / 75  ██████████████████░░  89.3%
 ```
 
-Checked **November 13, 2026**: **65 company-allowlist merges**, within **95 public external merges**. [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Adobe date-field locale handling](https://github.com/adobe/react-spectrum/pull/10842) and [AWS scheduler-record filtering](https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/150).
+Checked **November 14, 2026**: **67 company-allowlist merges**, within **97 public external merges**. [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Comcast contributor-guide links](https://github.com/Comcast/xCOMPASS/pull/34) and [AWS stdout restoration after printer failures](https://github.com/awslabs/stickler/pull/551).
 
 #### By company group (allowlist scoreboard)
 
 | Company group | Merged | Focus |
 | --- | ---: | --- |
 | [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical |
-| [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | 23 | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
+| [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | 24 | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/playwright/pull/44030) | 10 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), Playwright docs |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 5 | CUDA Python tests & TensorRT tooling/CI |
@@ -90,10 +90,11 @@ Checked **November 13, 2026**: **65 company-allowlist merges**, within **95 publ
 | [AMD](https://github.com/amd/gaia/pull/6656) | 1 | GAIA memory bootstrap confidence parsing |
 | [IBM](https://github.com/IBM/alchemy-logging/pull/807) | 1 | Alchemy Logging: Go goroutine-ID padding |
 | [Walmart](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50) | 1 | JSON-to-GraphQL CLI compatibility on Node 22+ |
+| [Comcast](https://github.com/Comcast/xCOMPASS/pull/34) | 1 | xCOMPASS contributor-guide links |
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 65 merges. Each links to the merged PR and its tests.
+Five case studies selected from those 67 merges. Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -265,11 +266,11 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
 | Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | npm releases verified; November 13 source fixes merged; Insights synthetic E2E coverage added |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 57 of 65 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 59 of 67 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  38  ██████████████████████████████████████  (through Nov 13, IST)
+                           Nov  40  ████████████████████████████████████████  (through Nov 14, IST)
 ```
 
 </details>
@@ -277,14 +278,14 @@ Q4 2026 allowlist merges   Oct  19  ██████████████�
 <details>
 <summary><b>OSS merge pace</b> — allowlist merges by month</summary>
 
-Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-13).
+Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-14).
 
 ```mermaid
 xychart-beta
   title "Allowlist merges per month (2026)"
   x-axis [Jul, Aug, Sep, Oct, Nov]
   y-axis "Merged PRs" 0 --> 40
-  bar [2, 3, 3, 19, 38]
+  bar [2, 3, 3, 19, 40]
 ```
 
 | Repo (top 5) | Merged |
@@ -293,7 +294,7 @@ xychart-beta
 | [apple/password-manager-resources](https://github.com/apple/password-manager-resources/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 7 |
 | [microsoft/physical-ai-toolchain](https://github.com/microsoft/physical-ai-toolchain/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 6 |
 | [adobe/react-spectrum](https://github.com/adobe/react-spectrum/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 6 |
-| [awslabs/mcp](https://github.com/awslabs/mcp/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 4 |
+| [awslabs/stickler](https://github.com/awslabs/stickler/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 5 |
 
 </details>
 
