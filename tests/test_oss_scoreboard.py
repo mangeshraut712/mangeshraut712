@@ -68,7 +68,7 @@ class OssScoreboardTests(unittest.TestCase):
         cases = self.data["selected_case_studies"]
         records = {record["url"]: record for record in self.data["merge_evidence"]}
         self.assertEqual(len(cases), 5)
-        self.assertIn(f'Five case studies selected from those {self.data["company_total"]} company-allowlist merges', section)
+        self.assertIn(f'Five case studies selected from those {self.data["total"]} public external merges (including {self.data["company_total"]} target company merges)', section)
         self.assertEqual(len({case["url"] for case in cases}), 5)
         self.assertEqual(section.count("<summary>"), 5)
         self.assertEqual(section.count("</details>"), 5)

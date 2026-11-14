@@ -1126,11 +1126,11 @@
       ]
     },
     {
-      "url": "https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50",
-      "topic": "CLI runtime compatibility",
-      "merge_commit": "47b855cb101981812f4bebf3cbde44b5488bfe7e",
+      "url": "https://github.com/salesforce/agentscript/pull/106",
+      "topic": "Agent compiler transition handoff",
+      "merge_commit": "22fc597122db8c0bfc5f5e5e6d1f91645080c26f",
       "test_paths": [
-        "test/integration.spec.js"
+        "packages/compiler/test/conditionals.test.ts"
       ]
     }
   ],

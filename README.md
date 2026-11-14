@@ -107,7 +107,7 @@ Checked **November 14, 2026**: **99 public external merges** (**68 company-allow
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 68 company-allowlist merges. Each links to the merged PR and its tests.
+Five case studies selected from those 99 public external merges (including 68 target company merges). Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -150,12 +150,12 @@ Five case studies selected from those 68 company-allowlist merges. Each links to
 </details>
 
 <details>
-<summary><b>Walmart · JSON-to-GraphQL CLI: restore Node.js 22 compatibility</b></summary>
+<summary><b>Salesforce · AgentScript: emit agent handoff for post-action bare transitions</b></summary>
 
-- **Problem:** The CLI's yargs subpath import failed under Node.js 22+, preventing JSON input from being converted into a GraphQL schema.
-- **My contribution:** Switched to the package-root CommonJS export and added a subprocess integration test for the --baseType and --prefix options.
-- **Validation:** The test pipes a JSON fixture through the CLI and checks the generated root and prefixed nested type names. [Regression tests](https://github.com/walmartlabs/json-to-simple-graphql-schema/blob/47b855cb101981812f4bebf3cbde44b5488bfe7e/test/integration.spec.js).
-- **Outcome:** [Merged November 11, 2026 · #50](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50). The CLI uses the compatible yargs entry point while preserving its schema-naming options.
+- **Problem:** When compiling AgentScript action bodies, bare `transition to` statements in post-action blocks were dropped without diagnostics instead of emitting agent handoffs.
+- **My contribution:** Added compiler handling for bare `TransitionStatement` nodes in action bodies, routing next-topic state updates into `post_tool_call` and handoffs into `after_all_tool_calls`.
+- **Validation:** Added regression tests verifying unconditional `__state_update_action__` generation and target handoffs for post-action transitions. [Conditionals tests](https://github.com/salesforce/agentscript/blob/22fc597122db8c0bfc5f5e5e6d1f91645080c26f/packages/compiler/test/conditionals.test.ts).
+- **Outcome:** [Merged November 14, 2026 · #106](https://github.com/salesforce/agentscript/pull/106). Ensures agent handoffs execute reliably without affecting conditional transitions.
 
 </details>
 
