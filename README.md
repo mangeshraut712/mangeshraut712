@@ -79,29 +79,29 @@ Checked **November 14, 2026**: **86 public external merges** (**68 company-allow
 | [Microsoft](https://github.com/microsoft/playwright/pull/44030) | `microsoft` | 10 | Target Company | Playwright docs, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), physical-ai-toolchain, hve-core & winget-pkgs |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | `apple` | 7 | Target Company | Password-manager resources, auto-fill domain mappings & JSON schemas |
 | [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | `adobe` | 6 | Target Company | React Aria / Spectrum: form validation, CheckboxGroup, ComboBox selection & locale dates |
-| [Brekkylab](https://github.com/brekkylab/backlot/pull/788) | `brekkylab` | 6 | External OSS | Backlot: media asset ingest, pipeline automation & test suites |
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | `NVIDIA` | 5 | Target Company | CUDA Python test harness & TensorRT tooling/CI integration |
 | [Google](https://github.com/google/sbsim/pull/187) | `google` · `google-gemini` | 4 | Target Company | [ADK Go](https://github.com/google/adk-go/pull/1956), sbsim BUILD cleanup & [Gemini cookbook](https://github.com/google-gemini/cookbook/pull/1449) |
-| [Eugenio Enko](https://github.com/eugenioenko/ttt/pull/947) | `eugenioenko` | 3 | External OSS | TTT (Terminal Text Tools): terminal stream processing & utility pipelines |
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | `sarvamai` | 2 | Target Company | Sarvam AI Cookbook CI workflows & example execution |
-| [FINOS](https://github.com/finos/architecture-as-code/pull/3331) | `finos` | 2 | External Org | Architecture-as-Code schema validation & model export |
+| [Salesforce](https://github.com/salesforce/agentscript/pull/106) | `salesforce` | 1 | Target Company | AgentScript post-action transition compiler handoff |
 | [AMD](https://github.com/amd/gaia/pull/6656) | `amd` | 1 | Target Company | GAIA memory bootstrap confidence parsing |
-| [CapSoftware](https://github.com/CapSoftware/Cap/pull/2549) | `CapSoftware` | 1 | External Org | Cap: open-source screen recording & cross-platform audio pipeline |
 | [Comcast](https://github.com/Comcast/xCOMPASS/pull/34) | `Comcast` | 1 | Target Company | xCOMPASS contributor-guide navigation & questionnaire links |
-| [ESPnet](https://github.com/espnet/espnet/pull/6890) | `espnet` | 1 | External Org | End-to-end speech processing toolkit documentation & build tests |
-| [GitHub](https://github.com/github/gitignore/pull/4942) | `github` | 1 | External Org | GitHub official gitignore template definitions |
 | [IBM](https://github.com/IBM/alchemy-logging/pull/807) | `IBM` | 1 | Target Company | Alchemy Logging: atomic Go goroutine-ID formatting & width alignment |
-| [Maester](https://github.com/maester365/maester/pull/2392) | `maester365` | 1 | External Org | Maester Microsoft 365 security test framework |
 | [Meta](https://github.com/meta/lexical/pull/9707) | `meta` | 1 | Target Company | Lexical rich-text editor framework |
 | [Moonshot AI](https://github.com/MoonshotAI/kimi-code/pull/2416) | `MoonshotAI` | 1 | Target Company | kimi-code models.dev fallback provider configuration |
 | [Netflix](https://github.com/Netflix/dgs-codegen/pull/997) | `Netflix` | 1 | Target Company | DGS codegen Kotlin client generation & Gradle build fixes |
-| [OceanBase](https://github.com/oceanbase/powercontext/pull/2009) | `oceanbase` | 1 | External Org | PowerContext distributed database context management |
 | [OpenAI](https://github.com/openai/codex-security/pull/754) | `openai` | 1 | Target Company | codex-security CLI error guidance & output clarity |
-| [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
-| [Salesforce](https://github.com/salesforce/agentscript/pull/106) | `salesforce` | 1 | Target Company | AgentScript post-action transition compiler handoff |
 | [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | `Samsung` | 1 | Target Company | CredSweeper credential scanner install-guide documentation |
-| [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
 | [Walmart](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50) | `walmartlabs` | 1 | Target Company | JSON-to-GraphQL CLI compatibility on Node.js 22+ |
+| [Brekkylab](https://github.com/brekkylab/backlot/pull/788) | `brekkylab` | 6 | External OSS | Backlot: media asset ingest, pipeline automation & test suites |
+| [Eugenio Enko](https://github.com/eugenioenko/ttt/pull/947) | `eugenioenko` | 3 | External OSS | TTT (Terminal Text Tools): terminal stream processing & utility pipelines |
+| [FINOS](https://github.com/finos/architecture-as-code/pull/3331) | `finos` | 2 | External Org | Architecture-as-Code schema validation & model export |
+| [GitHub](https://github.com/github/gitignore/pull/4942) | `github` | 1 | External Org | GitHub official gitignore template definitions |
+| [CapSoftware](https://github.com/CapSoftware/Cap/pull/2549) | `CapSoftware` | 1 | External Org | Cap: open-source screen recording & cross-platform audio pipeline |
+| [ESPnet](https://github.com/espnet/espnet/pull/6890) | `espnet` | 1 | External Org | End-to-end speech processing toolkit documentation & build tests |
+| [Maester](https://github.com/maester365/maester/pull/2392) | `maester365` | 1 | External Org | Maester Microsoft 365 security test framework |
+| [OceanBase](https://github.com/oceanbase/powercontext/pull/2009) | `oceanbase` | 1 | External Org | PowerContext distributed database context management |
+| [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
+| [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
 | **Total** | **28 Owners / Orgs** | **86** | **68 Goal · 18 Ext** | **37 Repositories across 86 verified merged pull requests** |
 
 #### Selected Engineering Impact
