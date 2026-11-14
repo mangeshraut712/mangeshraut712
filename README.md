@@ -105,33 +105,28 @@ Checked **November 14, 2026**: **86 public external merges** (**68 company-allow
 | **Total** | **28 Owners / Orgs** | **86** | **68 Goal · 18 Ext** | **37 Repositories across 86 verified merged pull requests** |
 
 <details>
-<summary><b>A. Target Company Groups with 0 Verified Merges (19 Organizations)</b></summary>
+<summary><b>A. Target Company Groups with 0 Verified Merges (14 Organizations)</b></summary>
 
 <br>
 
-The following 19 target company groups currently have open pull requests, pending code reviews, or active tracking, but 0 verified merged PRs on GitHub:
+The following 14 target company groups currently have open pull requests with tracked CI checks and reviews, but 0 verified merged PRs on GitHub:
 
 | Target Company Group | Tracked Repositories & Current Status | Merged PRs |
 | :--- | :--- | :---: |
 | **Anthropic** | `claude-agent-sdk-python` (#1536 for #1514) — authored PR; `claude-agent-sdk-typescript` (#508), `anthropic-sdk-python` (#2012) — reviews | 0 |
-| **Intel** | `intel/dokimi` (#705) — fix pushed with regression tests, awaiting maintainer CI authorization | 0 |
-| **Tesla** | `teslamotors/fixed-containers` (#249), `kafka-helmsman` (#101) — tracked PRs | 0 |
-| **SpaceX / xAI** | `xai-org/xai-sdk-python` (#247), `x-algorithm` (#265) — tracked PRs | 0 |
-| **JPMorgan Chase** | `jpmorganchase/jupyter-fs` (#409–#411), `dataquery-sdk` (#88) — tracked PRs | 0 |
-| **Cisco** | `CiscoDevNet/ansible-nd` (#681) — tracked PR | 0 |
-| **Perplexity** | `perplexityai/numbat` (#100) — tracked PR | 0 |
-| **LG** | `webosose/ares-cli` (#110) — tracked PR | 0 |
-| **Firecrawl** | `firecrawl/anydoc` (#225, #226) — tracked PRs | 0 |
-| **DeepSeek** | Tracked open-source model ecosystem; 0 verified merges | 0 |
-| **MiniMax** | Tracked agent ecosystem; 0 verified merges | 0 |
-| **UnitedHealth / Optum** | Tracked enterprise repositories; 0 verified merges | 0 |
-| **Apache** | Tracked Apache Software Foundation repositories; 0 verified merges | 0 |
-| **Supabase** | `supabase/mcp` (#541), `supabase/supabase` (#53197) — reviews submitted | 0 |
-| **Vercel** | `vercel-labs/agent-browser` (#2415) — tracked PR | 0 |
-| **Lightning AI** | `Lightning-AI/torchmetrics` (#3576) — tracked PR | 0 |
-| **Anysphere / Cursor** | `anysphere/priompt` (#31, #32) — tracked PRs | 0 |
-| **X Corp / Twitter** | `xdevplatform/chat-xdk` (#78), `xurl` (#111, #112) — tracked PRs | 0 |
-| **Hugging Face** | `mangeshraut712/lerobot` (branch `fix/relative-action-nested-action-names` for #3283); upstream PR blocked by org scope (`-org:huggingface`) | 0 |
+| **Intel** | `intel/dokimi` (#705) — fix pushed with regression tests, maintainer approval, 1/1 CI success | 0 |
+| **Tesla** | `teslamotors/fixed-containers` (#249), `kafka-helmsman` (#101) — tracked PRs, awaiting workflow authorization | 0 |
+| **SpaceX / xAI** | `xai-org/xai-sdk-python` (#247: 3/3 checks passed), `x-algorithm` (#265: 2/2 checks passed) | 0 |
+| **JPMorgan Chase** | `jpmorganchase/jupyter-fs` (#409–#411), `dataquery-sdk` (#88) — tracked PRs, awaiting workflow authorization | 0 |
+| **Cisco** | `CiscoDevNet/ansible-nd` (#681) — tracked PR, 2/2 checks passed | 0 |
+| **Perplexity** | `perplexityai/numbat` (#100) — tracked PR, awaiting workflow authorization | 0 |
+| **LG** | `webosose/ares-cli` (#110) — tracked PR, awaiting workflow authorization | 0 |
+| **Firecrawl** | `firecrawl/anydoc` (#225, #226) — tracked PRs, 1/1 check passed, 5/5 review confidence | 0 |
+| **Supabase** | `supabase/supabase` (#53197) — tracked PR (12 checks, Deno config detection) | 0 |
+| **Vercel** | `vercel-labs/agent-browser` (#2415) — tracked PR (6 checks, direct date/time input fill) | 0 |
+| **Lightning AI** | `Lightning-AI/torchmetrics` (#3576) — tracked PR, 1/1 check passed, acceptance check passed | 0 |
+| **Anysphere / Cursor** | `anysphere/priompt` (#31, #32) — tracked PRs, awaiting workflow authorization | 0 |
+| **X Corp / Twitter** | `xdevplatform/chat-xdk` (#78: 2/2 checks passed), `xurl` (#111, #112: CLA passed, 1/1 check passed) | 0 |
 
 </details>
 
