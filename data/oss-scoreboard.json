@@ -1,10 +1,10 @@
 {
   "checked_on": "2026-11-14",
-  "source": "Public external merged-PR search on November 14 returned 99 results, matching all 97 previously audited URLs plus salesforce/agentscript#106 and github/gitignore#4942. Both additions verified against canonical PR records; earlier merge evidence retained.",
-  "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface&type=pullrequests",
+  "source": "Public external merged-PR search on November 14 returned 86 results, matching all previously audited URLs plus salesforce/agentscript#106 and github/gitignore#4942, with owner Roojool excluded per scoreboard scope; earlier merge evidence retained.",
+  "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 99,
-  "total": 99,
+  "external_merged_total": 86,
+  "total": 86,
   "company_total": 68,
   "goal": 150,
   "organizations": [
@@ -1018,7 +1018,7 @@
       "author": "mangeshraut712",
       "merged": true,
       "merged_at": "2026-09-27T15:50:42Z",
-      "title": "Add shared credentials for start.gg (smash.gg → start.gg)",
+      "title": "Add shared credentials for start.gg (smash.gg \u2192 start.gg)",
       "company": "Apple",
       "id": 4654948789,
       "merge_commit": "96f5ad98ab195a20ff61a2037841af7029b098d0"
@@ -1031,7 +1031,7 @@
       "author": "mangeshraut712",
       "merged": true,
       "merged_at": "2026-09-02T16:12:29Z",
-      "title": "Add shared credentials for HDFC Bank (hdfcbank.com → hdfc.bank.in)",
+      "title": "Add shared credentials for HDFC Bank (hdfcbank.com \u2192 hdfc.bank.in)",
       "company": "Apple",
       "id": 4424114797,
       "merge_commit": "0c47ded584856df830850079ac775bef9fe4ece1"
@@ -1134,7 +1134,7 @@
       ]
     }
   ],
-  "external_scope": "Public authored merged PRs excluding repositories owned by mangeshraut712, dayx61 and huggingface",
+  "external_scope": "Public authored merged PRs excluding repositories owned by mangeshraut712, dayx61, huggingface, and Roojool",
   "external_merge_evidence": [
     {
       "repo": "salesforce/agentscript",
@@ -1739,96 +1739,6 @@
       "title": "Add Red & Blue Online shared credentials redirect"
     },
     {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 45,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/45",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-25T09:08:39Z",
-      "title": "feat(leagues): add promotion and relegation tiers and digital commuter pass card"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 43,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/43",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-25T09:06:34Z",
-      "title": "feat(leagues): add 14-day commuter burn matrix, midnight shield, and head-to-head rival duel"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 42,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/42",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-25T09:02:16Z",
-      "title": "feat(leagues): add commuter burn pacing, interactive route burn estimator, and deep a11y table semantics"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 41,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/41",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-25T09:01:01Z",
-      "title": "feat(leagues): add privacy-preserving league sharing and corridor burn breakdown"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 40,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/40",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-25T08:59:47Z",
-      "title": "feat(leagues): add Pune cultural burn milestones and robust line edge-case guidance"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 39,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/39",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-25T08:58:34Z",
-      "title": "feat(leagues): add WhoBurnedMore active calorie burn and multi-metric scoring"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 38,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/38",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-25T08:57:21Z",
-      "title": "fix: accessible league standings and mobile card layout"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 37,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/37",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-25T08:53:04Z",
-      "title": "fix: keep league challenges and streaks current as time passes"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 32,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/32",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-25T08:48:49Z",
-      "title": "docs: prepare Loops House Urban Mobility submission"
-    },
-    {
       "repo": "microsoft/hve-core",
       "owner": "microsoft",
       "number": 3280,
@@ -1837,46 +1747,6 @@
       "merged": true,
       "merged_at": "2026-10-25T02:41:06Z",
       "title": "fix(instructions): scope commit-message instructions to commit tasks"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 31,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/31",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-24T11:14:34Z",
-      "title": "feat(leagues): connect Pune Metro habits to ride progress"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 21,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/21",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-24T10:44:26Z",
-      "title": "docs: Sachet-class README + live demo screenshots"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 24,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/24",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-24T10:12:58Z",
-      "title": "feat(leagues): continue gamification — demo labels + mobile XP card fix"
-    },
-    {
-      "repo": "Roojool/pune-metro-strava",
-      "owner": "Roojool",
-      "number": 16,
-      "url": "https://github.com/Roojool/pune-metro-strava/pull/16",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-10-24T09:43:20Z",
-      "title": "feat: Developer 4 — leagues gamification polish"
     },
     {
       "repo": "existence-master/Sentient",
@@ -2086,7 +1956,7 @@
       "author": "mangeshraut712",
       "merged": true,
       "merged_at": "2026-09-27T15:50:42Z",
-      "title": "Add shared credentials for start.gg (smash.gg → start.gg)"
+      "title": "Add shared credentials for start.gg (smash.gg \u2192 start.gg)"
     },
     {
       "repo": "apple/password-manager-resources",
@@ -2096,7 +1966,7 @@
       "author": "mangeshraut712",
       "merged": true,
       "merged_at": "2026-09-02T16:12:29Z",
-      "title": "Add shared credentials for HDFC Bank (hdfcbank.com → hdfc.bank.in)"
+      "title": "Add shared credentials for HDFC Bank (hdfcbank.com \u2192 hdfc.bank.in)"
     },
     {
       "repo": "openai/codex-security",
@@ -2225,12 +2095,6 @@
       "type": "Organization",
       "repository": "finos/architecture-as-code",
       "count": 2
-    },
-    {
-      "owner": "Roojool",
-      "type": "User",
-      "repository": "Roojool/pune-metro-strava",
-      "count": 13
     },
     {
       "owner": "existence-master",

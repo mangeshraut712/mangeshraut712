@@ -66,17 +66,16 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-99 / 150  █████████████░░░░░░░  66.0%
+86 / 150  ███████████░░░░░░░░░  57.3%
 ```
 
-Checked **November 14, 2026**: **99 public external merges** (**68 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Salesforce post-action bare transitions](https://github.com/salesforce/agentscript/pull/106) and [AWS stdout restoration after printer failures](https://github.com/awslabs/stickler/pull/551).
+Checked **November 14, 2026**: **86 public external merges** (**68 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Salesforce post-action bare transitions](https://github.com/salesforce/agentscript/pull/106) and [AWS stdout restoration after printer failures](https://github.com/awslabs/stickler/pull/551).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
 | Organization / Company | GitHub Owner | Merged | Scope | Repositories & Focus |
 | :--- | :--- | ---: | :---: | :--- |
 | [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | `awslabs` | 24 | Target Company | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
-| [Roojool](https://github.com/Roojool/pune-metro-strava/pull/45) | `Roojool` | 13 | External OSS | Pune Metro transit, commuter leagues, Strava burn pacing & route estimators |
 | [Microsoft](https://github.com/microsoft/playwright/pull/44030) | `microsoft` | 10 | Target Company | Playwright docs, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), physical-ai-toolchain, hve-core & winget-pkgs |
 | [Apple](https://github.com/apple/password-manager-resources/pull/1851) | `apple` | 7 | Target Company | Password-manager resources, auto-fill domain mappings & JSON schemas |
 | [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | `adobe` | 6 | Target Company | React Aria / Spectrum: form validation, CheckboxGroup, ComboBox selection & locale dates |
@@ -103,11 +102,11 @@ Checked **November 14, 2026**: **99 public external merges** (**68 company-allow
 | [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | `Samsung` | 1 | Target Company | CredSweeper credential scanner install-guide documentation |
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
 | [Walmart](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50) | `walmartlabs` | 1 | Target Company | JSON-to-GraphQL CLI compatibility on Node.js 22+ |
-| **Total** | **29 Owners / Orgs** | **99** | **68 Goal · 31 Ext** | **28 Repositories across 99 verified merged pull requests** |
+| **Total** | **28 Owners / Orgs** | **86** | **68 Goal · 18 Ext** | **37 Repositories across 86 verified merged pull requests** |
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 99 public external merges (including 68 target company merges). Each links to the merged PR and its tests.
+Five case studies selected from those 86 public external merges (including 68 target company merges). Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
