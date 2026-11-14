@@ -104,6 +104,37 @@ Checked **November 14, 2026**: **86 public external merges** (**68 company-allow
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
 | **Total** | **28 Owners / Orgs** | **86** | **68 Goal · 18 Ext** | **37 Repositories across 86 verified merged pull requests** |
 
+<details>
+<summary><b>A. Target Company Groups with 0 Verified Merges (19 Organizations)</b></summary>
+
+<br>
+
+The following 19 target company groups currently have open pull requests, pending code reviews, or active tracking, but 0 verified merged PRs on GitHub:
+
+| Target Company Group | Tracked Repositories & Current Status | Merged PRs |
+| :--- | :--- | :---: |
+| **Anthropic** | `anthropics/claude-agent-sdk-typescript` (#508), `anthropic-sdk-python` (#2012) — substantive reviews submitted | 0 |
+| **Intel** | `intel/dokimi` (#705) — fix pushed with regression tests, awaiting maintainer CI authorization | 0 |
+| **Tesla** | `teslamotors/fixed-containers` (#249), `kafka-helmsman` (#101) — tracked PRs | 0 |
+| **SpaceX / xAI** | `xai-org/xai-sdk-python` (#247), `x-algorithm` (#265) — tracked PRs | 0 |
+| **JPMorgan Chase** | `jpmorganchase/jupyter-fs` (#409–#411), `dataquery-sdk` (#88) — tracked PRs | 0 |
+| **Cisco** | `CiscoDevNet/ansible-nd` (#681) — tracked PR | 0 |
+| **Perplexity** | `perplexityai/numbat` (#100) — tracked PR | 0 |
+| **LG** | `webosose/ares-cli` (#110) — tracked PR | 0 |
+| **Firecrawl** | Tracked partner repository; 0 verified merges | 0 |
+| **DeepSeek** | Tracked open-source model ecosystem; 0 verified merges | 0 |
+| **MiniMax** | Tracked agent ecosystem; 0 verified merges | 0 |
+| **UnitedHealth / Optum** | Tracked enterprise repositories; 0 verified merges | 0 |
+| **Apache** | Tracked Apache Software Foundation repositories; 0 verified merges | 0 |
+| **Supabase** | `supabase/mcp` (#541), `supabase/supabase` (#53197) — reviews submitted | 0 |
+| **Vercel** | `vercel-labs/agent-browser` (#2415) — tracked PR | 0 |
+| **Lightning AI** | `Lightning-AI/torchmetrics` (#3576) — tracked PR | 0 |
+| **Anysphere / Cursor** | `anysphere/priompt` (#31, #32) — tracked PRs | 0 |
+| **X Corp / Twitter** | `xdevplatform/chat-xdk` (#78), `xurl` (#111, #112) — tracked PRs | 0 |
+| **Hugging Face** | Tracked external repositories; excluded by search scope (`-org:huggingface`) | 0 |
+
+</details>
+
 #### Selected Engineering Impact
 
 Five case studies selected from those 86 public external merges (including 68 target company merges). Each links to the merged PR and its tests.
