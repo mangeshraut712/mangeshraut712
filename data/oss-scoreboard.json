@@ -5,7 +5,7 @@
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
   "external_merged_total": 99,
   "total": 68,
-  "goal": 75,
+  "goal": 150,
   "organizations": [
     {
       "owner": "adobe",

@@ -66,7 +66,7 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-68 / 75  ██████████████████░░  90.7%
+68 / 150  █████████░░░░░░░░░░░  45.3%
 ```
 
 Checked **November 14, 2026**: **68 company-allowlist merges**, within **99 public external merges**. [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Salesforce post-action bare transitions](https://github.com/salesforce/agentscript/pull/106) and [AWS stdout restoration after printer failures](https://github.com/awslabs/stickler/pull/551).
@@ -92,6 +92,39 @@ Checked **November 14, 2026**: **68 company-allowlist merges**, within **99 publ
 | [Walmart](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50) | 1 | JSON-to-GraphQL CLI compatibility on Node 22+ |
 | [Comcast](https://github.com/Comcast/xCOMPASS/pull/34) | 1 | xCOMPASS contributor-guide links |
 | [Salesforce](https://github.com/salesforce/agentscript/pull/106) | 1 | AgentScript post-action transition compiler handoff |
+
+#### Summary Table by Organization
+
+| # | Organization / Owner | Tracked Company | Merged PRs | Repositories |
+| :--- | :--- | :--- | :---: | :--- |
+| 1 | `awslabs` | Amazon / AWS | **24** | `stickler`, `social-messaging-agent-runtime-toolkit`, `visual-asset-management-system`, `mcp` |
+| 2 | `microsoft` | Microsoft | **10** | `playwright`, `semantic-kernel`, `physical-ai-toolchain`, `hve-core`, `winget-pkgs` |
+| 3 | `apple` | Apple | **7** | `password-manager-resources` |
+| 4 | `adobe` | Adobe | **6** | `react-spectrum` |
+| 5 | `brekkylab` | *(External)* | **6** | `backlot` |
+| 6 | `NVIDIA` | NVIDIA | **5** | `cuda-python`, `TensorRT-Model-Connect` |
+| 7 | `google` / `google-gemini` | Google | **4** | `adk-go`, `sbsim`, `cookbook` |
+| 8 | `eugenioenko` | *(External)* | **3** | `ttt` |
+| 9 | `sarvamai` | Sarvam AI | **2** | `sarvam-ai-cookbook` |
+| 10 | `finos` | *(External Org)* | **2** | `architecture-as-code` |
+| 11 | `amd` | AMD | **1** | `gaia` |
+| 12 | `CapSoftware` | *(External Org)* | **1** | `Cap` |
+| 13 | `Comcast` | Comcast | **1** | `xCOMPASS` |
+| 14 | `espnet` | *(External Org)* | **1** | `espnet` |
+| 15 | `existence-master` | *(External)* | **1** | `Sentient` |
+| 16 | `github` | GitHub | **1** | `gitignore` |
+| 17 | `IBM` | IBM | **1** | `alchemy-logging` |
+| 18 | `maester365` | *(External Org)* | **1** | `maester` |
+| 19 | `meta` | Meta | **1** | `lexical` |
+| 20 | `MoonshotAI` | Moonshot AI | **1** | `kimi-code` |
+| 21 | `Netflix` | Netflix | **1** | `dgs-codegen` |
+| 22 | `oceanbase` | *(External Org)* | **1** | `powercontext` |
+| 23 | `openai` | OpenAI | **1** | `codex-security` |
+| 24 | `RailtownAI` | *(External Org)* | **1** | `railtracks` |
+| 25 | `salesforce` | Salesforce | **1** | `agentscript` |
+| 26 | `Samsung` | Samsung | **1** | `CredSweeper` |
+| 27 | `walmartlabs` | Walmart | **1** | `json-to-simple-graphql-schema` |
+| **Total** | **27 Organizations / Owners** | **18 Target Companies** | **99** | **Total External Merged PRs** |
 
 #### Selected Engineering Impact
 
