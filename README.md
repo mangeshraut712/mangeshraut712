@@ -71,60 +71,39 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 
 Checked **November 14, 2026**: **68 company-allowlist merges**, within **99 public external merges**. [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Salesforce post-action bare transitions](https://github.com/salesforce/agentscript/pull/106) and [AWS stdout restoration after printer failures](https://github.com/awslabs/stickler/pull/551).
 
-#### By company group (allowlist scoreboard)
+#### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
-| Company group | Merged | Focus |
-| --- | ---: | --- |
-| [Meta](https://github.com/meta/lexical/pull/9707) | 1 | Lexical |
-| [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | 24 | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
-| [Microsoft](https://github.com/microsoft/playwright/pull/44030) | 10 | hve-core, winget-pkgs, physical-ai-toolchain, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), Playwright docs |
-| [Apple](https://github.com/apple/password-manager-resources/pull/1851) | 7 | Password-manager resources & schema |
-| [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | 5 | CUDA Python tests & TensorRT tooling/CI |
-| [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | 6 | React Aria / Spectrum: form validation, CheckboxGroup validation, ComboBox text selection and locale-safe date fields |
-| [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | 2 | Cookbook CI |
-| [Google](https://github.com/google/sbsim/pull/187) | 4 | sbsim BUILD cleanup + [Gemini cookbook](https://github.com/google-gemini/cookbook/pull/1449) link checker + [ADK Go](https://github.com/google/adk-go/pull/1983) function-tool validation + [ADK Go executable code parts](https://github.com/google/adk-go/pull/1956) |
-| [OpenAI](https://github.com/openai/codex-security/pull/754) | 1 | codex-security CLI guidance |
-| [Netflix](https://github.com/Netflix/dgs-codegen/pull/997) | 1 | DGS codegen Kotlin client generation |
-| [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | 1 | CredSweeper install-guide docs |
-| [Moonshot AI](https://github.com/MoonshotAI/kimi-code/pull/2416) | 1 | kimi-code models.dev fallback |
-| [AMD](https://github.com/amd/gaia/pull/6656) | 1 | GAIA memory bootstrap confidence parsing |
-| [IBM](https://github.com/IBM/alchemy-logging/pull/807) | 1 | Alchemy Logging: Go goroutine-ID padding |
-| [Walmart](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50) | 1 | JSON-to-GraphQL CLI compatibility on Node 22+ |
-| [Comcast](https://github.com/Comcast/xCOMPASS/pull/34) | 1 | xCOMPASS contributor-guide links |
-| [Salesforce](https://github.com/salesforce/agentscript/pull/106) | 1 | AgentScript post-action transition compiler handoff |
-
-#### Summary Table by Organization
-
-| # | Organization / Owner | Tracked Company | Merged PRs | Repositories |
-| :--- | :--- | :--- | :---: | :--- |
-| 1 | `awslabs` | Amazon / AWS | **24** | `stickler`, `social-messaging-agent-runtime-toolkit`, `visual-asset-management-system`, `mcp` |
-| 2 | `microsoft` | Microsoft | **10** | `playwright`, `semantic-kernel`, `physical-ai-toolchain`, `hve-core`, `winget-pkgs` |
-| 3 | `apple` | Apple | **7** | `password-manager-resources` |
-| 4 | `adobe` | Adobe | **6** | `react-spectrum` |
-| 5 | `brekkylab` | *(External)* | **6** | `backlot` |
-| 6 | `NVIDIA` | NVIDIA | **5** | `cuda-python`, `TensorRT-Model-Connect` |
-| 7 | `google` / `google-gemini` | Google | **4** | `adk-go`, `sbsim`, `cookbook` |
-| 8 | `eugenioenko` | *(External)* | **3** | `ttt` |
-| 9 | `sarvamai` | Sarvam AI | **2** | `sarvam-ai-cookbook` |
-| 10 | `finos` | *(External Org)* | **2** | `architecture-as-code` |
-| 11 | `amd` | AMD | **1** | `gaia` |
-| 12 | `CapSoftware` | *(External Org)* | **1** | `Cap` |
-| 13 | `Comcast` | Comcast | **1** | `xCOMPASS` |
-| 14 | `espnet` | *(External Org)* | **1** | `espnet` |
-| 15 | `existence-master` | *(External)* | **1** | `Sentient` |
-| 16 | `github` | GitHub | **1** | `gitignore` |
-| 17 | `IBM` | IBM | **1** | `alchemy-logging` |
-| 18 | `maester365` | *(External Org)* | **1** | `maester` |
-| 19 | `meta` | Meta | **1** | `lexical` |
-| 20 | `MoonshotAI` | Moonshot AI | **1** | `kimi-code` |
-| 21 | `Netflix` | Netflix | **1** | `dgs-codegen` |
-| 22 | `oceanbase` | *(External Org)* | **1** | `powercontext` |
-| 23 | `openai` | OpenAI | **1** | `codex-security` |
-| 24 | `RailtownAI` | *(External Org)* | **1** | `railtracks` |
-| 25 | `salesforce` | Salesforce | **1** | `agentscript` |
-| 26 | `Samsung` | Samsung | **1** | `CredSweeper` |
-| 27 | `walmartlabs` | Walmart | **1** | `json-to-simple-graphql-schema` |
-| **Total** | **27 Organizations / Owners** | **18 Target Companies** | **99** | **Total External Merged PRs** |
+| Organization / Company | GitHub Owner | Merged | Scope | Repositories & Focus |
+| :--- | :--- | ---: | :---: | :--- |
+| [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | `awslabs` | 24 | Target Company | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
+| [Roojool](https://github.com/Roojool/pune-metro-strava/pull/45) | `Roojool` | 13 | External OSS | Pune Metro transit, commuter leagues, Strava burn pacing & route estimators |
+| [Microsoft](https://github.com/microsoft/playwright/pull/44030) | `microsoft` | 10 | Target Company | Playwright docs, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), physical-ai-toolchain, hve-core & winget-pkgs |
+| [Apple](https://github.com/apple/password-manager-resources/pull/1851) | `apple` | 7 | Target Company | Password-manager resources, auto-fill domain mappings & JSON schemas |
+| [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | `adobe` | 6 | Target Company | React Aria / Spectrum: form validation, CheckboxGroup, ComboBox selection & locale dates |
+| [Brekkylab](https://github.com/brekkylab/backlot/pull/788) | `brekkylab` | 6 | External OSS | Backlot: media asset ingest, pipeline automation & test suites |
+| [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | `NVIDIA` | 5 | Target Company | CUDA Python test harness & TensorRT tooling/CI integration |
+| [Google](https://github.com/google/sbsim/pull/187) | `google` · `google-gemini` | 4 | Target Company | [ADK Go](https://github.com/google/adk-go/pull/1956), sbsim BUILD cleanup & [Gemini cookbook](https://github.com/google-gemini/cookbook/pull/1449) |
+| [Eugenio Enko](https://github.com/eugenioenko/ttt/pull/947) | `eugenioenko` | 3 | External OSS | TTT (Terminal Text Tools): terminal stream processing & utility pipelines |
+| [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | `sarvamai` | 2 | Target Company | Sarvam AI Cookbook CI workflows & example execution |
+| [FINOS](https://github.com/finos/architecture-as-code/pull/3331) | `finos` | 2 | External Org | Architecture-as-Code schema validation & model export |
+| [AMD](https://github.com/amd/gaia/pull/6656) | `amd` | 1 | Target Company | GAIA memory bootstrap confidence parsing |
+| [CapSoftware](https://github.com/CapSoftware/Cap/pull/2549) | `CapSoftware` | 1 | External Org | Cap: open-source screen recording & cross-platform audio pipeline |
+| [Comcast](https://github.com/Comcast/xCOMPASS/pull/34) | `Comcast` | 1 | Target Company | xCOMPASS contributor-guide navigation & questionnaire links |
+| [ESPnet](https://github.com/espnet/espnet/pull/6890) | `espnet` | 1 | External Org | End-to-end speech processing toolkit documentation & build tests |
+| [GitHub](https://github.com/github/gitignore/pull/4942) | `github` | 1 | External Org | GitHub official gitignore template definitions |
+| [IBM](https://github.com/IBM/alchemy-logging/pull/807) | `IBM` | 1 | Target Company | Alchemy Logging: atomic Go goroutine-ID formatting & width alignment |
+| [Maester](https://github.com/maester365/maester/pull/2392) | `maester365` | 1 | External Org | Maester Microsoft 365 security test framework |
+| [Meta](https://github.com/meta/lexical/pull/9707) | `meta` | 1 | Target Company | Lexical rich-text editor framework |
+| [Moonshot AI](https://github.com/MoonshotAI/kimi-code/pull/2416) | `MoonshotAI` | 1 | Target Company | kimi-code models.dev fallback provider configuration |
+| [Netflix](https://github.com/Netflix/dgs-codegen/pull/997) | `Netflix` | 1 | Target Company | DGS codegen Kotlin client generation & Gradle build fixes |
+| [OceanBase](https://github.com/oceanbase/powercontext/pull/2009) | `oceanbase` | 1 | External Org | PowerContext distributed database context management |
+| [OpenAI](https://github.com/openai/codex-security/pull/754) | `openai` | 1 | Target Company | codex-security CLI error guidance & output clarity |
+| [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
+| [Salesforce](https://github.com/salesforce/agentscript/pull/106) | `salesforce` | 1 | Target Company | AgentScript post-action transition compiler handoff |
+| [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | `Samsung` | 1 | Target Company | CredSweeper credential scanner install-guide documentation |
+| [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
+| [Walmart](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50) | `walmartlabs` | 1 | Target Company | JSON-to-GraphQL CLI compatibility on Node.js 22+ |
+| **Total** | **29 Owners / Orgs** | **99** | **68 Goal · 31 Ext** | **28 Repositories across 99 verified merged pull requests** |
 
 #### Selected Engineering Impact
 

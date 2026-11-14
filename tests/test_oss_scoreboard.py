@@ -45,9 +45,15 @@ class OssScoreboardTests(unittest.TestCase):
 
     def test_readme_company_table_matches_snapshot(self):
         section = self.readme.split("#### By company group", 1)[1].split("#### Selected Engineering Impact", 1)[0]
-        rows = dict(re.findall(r"^\| \[([^]]+)\]\([^)]+\) \| (\d+) \|", section, re.MULTILINE))
+        matches = re.findall(
+            r"^\| \[([^]]+)\]\([^)]+\) \| ([^|]+) \| (\d+) \| (Target Company|External Org|External OSS) \|",
+            section,
+            re.MULTILINE,
+        )
+        target_dict = {m[0]: int(m[2]) for m in matches if m[3] == "Target Company"}
         expected = Counter(record["company"] for record in self.data["merge_evidence"])
-        self.assertEqual({name: int(count) for name, count in rows.items()}, dict(expected))
+        self.assertEqual(target_dict, dict(expected))
+        self.assertEqual(sum(int(m[2]) for m in matches), self.data["external_merged_total"])
 
     def test_readme_goal_matches_snapshot(self):
         total, goal = self.data["total"], self.data["goal"]
