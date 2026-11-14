@@ -113,7 +113,7 @@ The following 19 target company groups currently have open pull requests, pendin
 
 | Target Company Group | Tracked Repositories & Current Status | Merged PRs |
 | :--- | :--- | :---: |
-| **Anthropic** | `anthropics/claude-agent-sdk-typescript` (#508), `anthropic-sdk-python` (#2012) — substantive reviews submitted | 0 |
+| **Anthropic** | `claude-agent-sdk-python` (#1536 for #1514) — authored PR; `claude-agent-sdk-typescript` (#508), `anthropic-sdk-python` (#2012) — reviews | 0 |
 | **Intel** | `intel/dokimi` (#705) — fix pushed with regression tests, awaiting maintainer CI authorization | 0 |
 | **Tesla** | `teslamotors/fixed-containers` (#249), `kafka-helmsman` (#101) — tracked PRs | 0 |
 | **SpaceX / xAI** | `xai-org/xai-sdk-python` (#247), `x-algorithm` (#265) — tracked PRs | 0 |
