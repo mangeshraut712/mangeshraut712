@@ -1,10 +1,10 @@
 {
   "checked_on": "2026-11-14",
-  "source": "Public external merged-PR search on November 14 returned 97 results, matching all 95 previously audited URLs plus Comcast/xCOMPASS#34 and awslabs/stickler#551. Both additions verified against canonical PR records; earlier merge evidence retained.",
+  "source": "Public external merged-PR search on November 14 returned 99 results, matching all 97 previously audited URLs plus salesforce/agentscript#106 and github/gitignore#4942. Both additions verified against canonical PR records; earlier merge evidence retained.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 97,
-  "total": 67,
+  "external_merged_total": 99,
+  "total": 68,
   "goal": 75,
   "organizations": [
     {
@@ -192,9 +192,30 @@
       "prs": [
         "https://github.com/Comcast/xCOMPASS/pull/34"
       ]
+    },
+    {
+      "owner": "salesforce",
+      "company": "Salesforce",
+      "count": 1,
+      "prs": [
+        "https://github.com/salesforce/agentscript/pull/106"
+      ]
     }
   ],
   "merge_evidence": [
+    {
+      "repo": "salesforce/agentscript",
+      "owner": "salesforce",
+      "number": 106,
+      "url": "https://github.com/salesforce/agentscript/pull/106",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-14T00:46:52Z",
+      "title": "fix(compiler): emit the handoff for a bare transition in a post-action block",
+      "company": "Salesforce",
+      "id": 5257550455,
+      "merge_commit": "22fc597122db8c0bfc5f5e5e6d1f91645080c26f"
+    },
     {
       "repo": "awslabs/stickler",
       "owner": "awslabs",
@@ -1114,6 +1135,32 @@
   ],
   "external_scope": "Public authored merged PRs excluding repositories owned by mangeshraut712, dayx61 and huggingface",
   "external_merge_evidence": [
+    {
+      "repo": "salesforce/agentscript",
+      "owner": "salesforce",
+      "number": 106,
+      "url": "https://github.com/salesforce/agentscript/pull/106",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-14T00:46:52Z",
+      "title": "fix(compiler): emit the handoff for a bare transition in a post-action block",
+      "company": "Salesforce",
+      "id": 5257550455,
+      "merge_commit": "22fc597122db8c0bfc5f5e5e6d1f91645080c26f"
+    },
+    {
+      "repo": "github/gitignore",
+      "owner": "github",
+      "number": 4942,
+      "url": "https://github.com/github/gitignore/pull/4942",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-13T23:35:51Z",
+      "title": "libogc: remove duplicate *.o and *.elf rules",
+      "company": null,
+      "id": 5237964005,
+      "merge_commit": "d39ca30223bb964c96aba805b3f7c26398c00b8c"
+    },
     {
       "repo": "awslabs/stickler",
       "owner": "awslabs",
@@ -2091,7 +2138,7 @@
       "title": "Allow exact-domain-match-only in password-rules schema"
     }
   ],
-  "organization_owned_merged_total": 81,
+  "organization_owned_merged_total": 83,
   "organization_owned_scope": "Subset of external_merge_evidence whose repository owner has GitHub account type Organization; includes owners outside the company goal.",
   "external_owner_evidence": [
     {
@@ -2255,9 +2302,21 @@
       "type": "Organization",
       "repository": "Comcast/xCOMPASS",
       "count": 1
+    },
+    {
+      "owner": "salesforce",
+      "type": "Organization",
+      "repository": "salesforce/agentscript",
+      "count": 1
+    },
+    {
+      "owner": "github",
+      "type": "Organization",
+      "repository": "github/gitignore",
+      "count": 1
     }
   ],
-  "search_merged_total_before_dayx61_exclusion": 98,
+  "search_merged_total_before_dayx61_exclusion": 100,
   "excluded_search_results": [
     {
       "url": "https://github.com/dayx61/oladayo/pull/1",

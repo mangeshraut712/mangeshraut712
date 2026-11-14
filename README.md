@@ -66,10 +66,10 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-67 / 75  ██████████████████░░  89.3%
+68 / 75  ██████████████████░░  90.7%
 ```
 
-Checked **November 14, 2026**: **67 company-allowlist merges**, within **97 public external merges**. [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Comcast contributor-guide links](https://github.com/Comcast/xCOMPASS/pull/34) and [AWS stdout restoration after printer failures](https://github.com/awslabs/stickler/pull/551).
+Checked **November 14, 2026**: **68 company-allowlist merges**, within **99 public external merges**. [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Salesforce post-action bare transitions](https://github.com/salesforce/agentscript/pull/106) and [AWS stdout restoration after printer failures](https://github.com/awslabs/stickler/pull/551).
 
 #### By company group (allowlist scoreboard)
 
@@ -91,10 +91,11 @@ Checked **November 14, 2026**: **67 company-allowlist merges**, within **97 publ
 | [IBM](https://github.com/IBM/alchemy-logging/pull/807) | 1 | Alchemy Logging: Go goroutine-ID padding |
 | [Walmart](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50) | 1 | JSON-to-GraphQL CLI compatibility on Node 22+ |
 | [Comcast](https://github.com/Comcast/xCOMPASS/pull/34) | 1 | xCOMPASS contributor-guide links |
+| [Salesforce](https://github.com/salesforce/agentscript/pull/106) | 1 | AgentScript post-action transition compiler handoff |
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 67 merges. Each links to the merged PR and its tests.
+Five case studies selected from those 68 merges. Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -266,11 +267,11 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
 | Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | npm releases verified; November 13 source fixes merged; Insights synthetic E2E coverage added |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 59 of 67 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 60 of 68 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  40  ████████████████████████████████████████  (through Nov 14, IST)
+                           Nov  41  █████████████████████████████████████████  (through Nov 14, IST)
 ```
 
 </details>
@@ -284,8 +285,8 @@ Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST mont
 xychart-beta
   title "Allowlist merges per month (2026)"
   x-axis [Jul, Aug, Sep, Oct, Nov]
-  y-axis "Merged PRs" 0 --> 40
-  bar [2, 3, 3, 19, 40]
+  y-axis "Merged PRs" 0 --> 45
+  bar [2, 3, 3, 19, 41]
 ```
 
 | Repo (top 5) | Merged |
