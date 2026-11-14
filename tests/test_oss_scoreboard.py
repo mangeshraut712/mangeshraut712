@@ -18,7 +18,8 @@ class OssScoreboardTests(unittest.TestCase):
 
     def test_all_records_are_unique_authored_merges(self):
         records = self.data["merge_evidence"]
-        self.assertEqual(len(records), self.data["total"])
+        self.assertEqual(len(records), self.data["company_total"])
+        self.assertEqual(len(self.data["external_merge_evidence"]), self.data["total"])
         self.assertEqual(len({record["id"] for record in records}), len(records))
         self.assertEqual(len({record["url"] for record in records}), len(records))
         for record in records:
@@ -35,7 +36,7 @@ class OssScoreboardTests(unittest.TestCase):
         owners = [group["owner"] for group in self.data["organizations"]]
         self.assertEqual(len(owners), len(set(owners)))
         self.assertEqual(set(owners), {record["owner"] for record in records})
-        self.assertEqual(sum(group["count"] for group in self.data["organizations"]), self.data["total"])
+        self.assertEqual(sum(group["count"] for group in self.data["organizations"]), self.data["company_total"])
         for group in self.data["organizations"]:
             expected = {record["url"] for record in records if record["owner"] == group["owner"]}
             self.assertEqual(set(group["prs"]), expected)
@@ -67,7 +68,7 @@ class OssScoreboardTests(unittest.TestCase):
         cases = self.data["selected_case_studies"]
         records = {record["url"]: record for record in self.data["merge_evidence"]}
         self.assertEqual(len(cases), 5)
-        self.assertIn(f'Five case studies selected from those {self.data["total"]} merges', section)
+        self.assertIn(f'Five case studies selected from those {self.data["company_total"]} company-allowlist merges', section)
         self.assertEqual(len({case["url"] for case in cases}), 5)
         self.assertEqual(section.count("<summary>"), 5)
         self.assertEqual(section.count("</details>"), 5)

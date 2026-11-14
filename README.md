@@ -66,10 +66,10 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-68 / 150  █████████░░░░░░░░░░░  45.3%
+99 / 150  █████████████░░░░░░░  66.0%
 ```
 
-Checked **November 14, 2026**: **68 company-allowlist merges**, within **99 public external merges**. [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Salesforce post-action bare transitions](https://github.com/salesforce/agentscript/pull/106) and [AWS stdout restoration after printer failures](https://github.com/awslabs/stickler/pull/551).
+Checked **November 14, 2026**: **99 public external merges** (**68 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Salesforce post-action bare transitions](https://github.com/salesforce/agentscript/pull/106) and [AWS stdout restoration after printer failures](https://github.com/awslabs/stickler/pull/551).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
@@ -107,7 +107,7 @@ Checked **November 14, 2026**: **68 company-allowlist merges**, within **99 publ
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 68 merges. Each links to the merged PR and its tests.
+Five case studies selected from those 68 company-allowlist merges. Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
