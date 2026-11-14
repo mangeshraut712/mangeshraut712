@@ -121,7 +121,7 @@ The following 19 target company groups currently have open pull requests, pendin
 | **Cisco** | `CiscoDevNet/ansible-nd` (#681) — tracked PR | 0 |
 | **Perplexity** | `perplexityai/numbat` (#100) — tracked PR | 0 |
 | **LG** | `webosose/ares-cli` (#110) — tracked PR | 0 |
-| **Firecrawl** | Tracked partner repository; 0 verified merges | 0 |
+| **Firecrawl** | `firecrawl/anydoc` (#225, #226) — tracked PRs | 0 |
 | **DeepSeek** | Tracked open-source model ecosystem; 0 verified merges | 0 |
 | **MiniMax** | Tracked agent ecosystem; 0 verified merges | 0 |
 | **UnitedHealth / Optum** | Tracked enterprise repositories; 0 verified merges | 0 |
@@ -131,7 +131,7 @@ The following 19 target company groups currently have open pull requests, pendin
 | **Lightning AI** | `Lightning-AI/torchmetrics` (#3576) — tracked PR | 0 |
 | **Anysphere / Cursor** | `anysphere/priompt` (#31, #32) — tracked PRs | 0 |
 | **X Corp / Twitter** | `xdevplatform/chat-xdk` (#78), `xurl` (#111, #112) — tracked PRs | 0 |
-| **Hugging Face** | Tracked external repositories; excluded by search scope (`-org:huggingface`) | 0 |
+| **Hugging Face** | `mangeshraut712/lerobot` (branch `fix/relative-action-nested-action-names` for #3283); upstream PR blocked by org scope (`-org:huggingface`) | 0 |
 
 </details>
 
