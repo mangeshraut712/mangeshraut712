@@ -66,10 +66,10 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-86 / 150  ███████████░░░░░░░░░  57.3%
+87 / 150  ███████████░░░░░░░░░  58.0%
 ```
 
-Checked **November 14, 2026**: **86 public external merges** (**68 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Salesforce post-action bare transitions](https://github.com/salesforce/agentscript/pull/106) and [AWS stdout restoration after printer failures](https://github.com/awslabs/stickler/pull/551).
+Checked **November 16, 2026**: **87 public external merges** (**69 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Pkl IntelliJ background download task hang fix](https://github.com/apple/pkl-intellij/pull/294) and [Salesforce post-action bare transitions](https://github.com/salesforce/agentscript/pull/106).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
@@ -77,7 +77,7 @@ Checked **November 14, 2026**: **86 public external merges** (**68 company-allow
 | :--- | :--- | ---: | :---: | :--- |
 | [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | `awslabs` | 24 | Target Company | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/playwright/pull/44030) | `microsoft` | 10 | Target Company | Playwright docs, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), physical-ai-toolchain, hve-core & winget-pkgs |
-| [Apple](https://github.com/apple/password-manager-resources/pull/1851) | `apple` | 7 | Target Company | Password-manager resources, auto-fill domain mappings & JSON schemas |
+| [Apple](https://github.com/apple/pkl-intellij/pull/294) | `apple` | 8 | Target Company | Pkl IntelliJ CLI runner, password-manager resources & JSON schemas |
 | [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | `adobe` | 6 | Target Company | React Aria / Spectrum: form validation, CheckboxGroup, ComboBox selection & locale dates |
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | `NVIDIA` | 5 | Target Company | CUDA Python test harness & TensorRT tooling/CI integration |
 | [Google](https://github.com/google/sbsim/pull/187) | `google` · `google-gemini` | 4 | Target Company | [ADK Go](https://github.com/google/adk-go/pull/1956), sbsim BUILD cleanup & [Gemini cookbook](https://github.com/google-gemini/cookbook/pull/1449) |
@@ -102,7 +102,7 @@ Checked **November 14, 2026**: **86 public external merges** (**68 company-allow
 | [OceanBase](https://github.com/oceanbase/powercontext/pull/2009) | `oceanbase` | 1 | External Org | PowerContext distributed database context management |
 | [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
-| **Total** | **28 Owners / Orgs** | **86** | **68 Goal · 18 Ext** | **37 Repositories across 86 verified merged pull requests** |
+| **Total** | **28 Owners / Orgs** | **87** | **69 Goal · 18 Ext** | **38 Repositories across 87 verified merged pull requests** |
 
 <details>
 <summary><b>A. Target Company Groups with 0 Verified Merges (14 Organizations)</b></summary>
@@ -132,7 +132,7 @@ The following 14 target company groups currently have open pull requests with tr
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 86 public external merges (including 68 target company merges). Each links to the merged PR and its tests.
+Five case studies selected from those 87 public external merges (including 69 target company merges). Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -304,11 +304,11 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
 | Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | npm releases verified; November 13 source fixes merged; Insights synthetic E2E coverage added |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 60 of 68 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 61 of 69 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  41  █████████████████████████████████████████  (through Nov 14, IST)
+                           Nov  42  ██████████████████████████████████████████  (through Nov 16, IST)
 ```
 
 </details>
@@ -316,14 +316,14 @@ Q4 2026 allowlist merges   Oct  19  ██████████████�
 <details>
 <summary><b>OSS merge pace</b> — allowlist merges by month</summary>
 
-Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-14).
+Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-16).
 
 ```mermaid
 xychart-beta
   title "Allowlist merges per month (2026)"
   x-axis [Jul, Aug, Sep, Oct, Nov]
   y-axis "Merged PRs" 0 --> 45
-  bar [2, 3, 3, 19, 41]
+  bar [2, 3, 3, 19, 42]
 ```
 
 | Repo (top 5) | Merged |
