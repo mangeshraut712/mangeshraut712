@@ -3,9 +3,9 @@
   "source": "Public external merged-PR search on November 16 returned 87 results, matching all previously audited URLs plus apple/pkl-intellij#294, salesforce/agentscript#106 and github/gitignore#4942, with owner Roojool excluded per scoreboard scope; earlier merge evidence retained.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 87,
-  "total": 87,
-  "company_total": 69,
+  "external_merged_total": 89,
+  "total": 89,
+  "company_total": 71,
   "goal": 150,
   "organizations": [
     {
@@ -96,9 +96,10 @@
     {
       "owner": "IBM",
       "company": "IBM",
-      "count": 1,
+      "count": 2,
       "prs": [
-        "https://github.com/IBM/alchemy-logging/pull/807"
+        "https://github.com/IBM/alchemy-logging/pull/807",
+        "https://github.com/IBM/javacore-analyser/pull/622"
       ]
     },
     {
@@ -137,9 +138,10 @@
     {
       "owner": "Netflix",
       "company": "Netflix",
-      "count": 1,
+      "count": 2,
       "prs": [
-        "https://github.com/Netflix/dgs-codegen/pull/997"
+        "https://github.com/Netflix/dgs-codegen/pull/997",
+        "https://github.com/Netflix/vmaf/pull/1712"
       ]
     },
     {
@@ -1101,6 +1103,32 @@
       "company": "Apple",
       "id": 4169239565,
       "merge_commit": "80b9dfd45068671f08dbac1af51340a61b01665e"
+    },
+    {
+      "repo": "IBM/javacore-analyser",
+      "owner": "IBM",
+      "number": 622,
+      "url": "https://github.com/IBM/javacore-analyser/pull/622",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-16T16:10:07Z",
+      "title": "#407 Clicking current thread link fails with error 404",
+      "company": "IBM",
+      "id": 5255532831,
+      "merge_commit": "61252c416c74fc73c8dc69e82693594a3dcfaf14"
+    },
+    {
+      "repo": "Netflix/vmaf",
+      "owner": "Netflix",
+      "number": 1712,
+      "url": "https://github.com/Netflix/vmaf/pull/1712",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-16T16:18:47Z",
+      "title": "fix(cli): pass long-opt ids into parse_unsigned for threads/subsample/cpumask",
+      "company": "Netflix",
+      "id": 5047710309,
+      "merge_commit": "a599b2b8630b742dd52e577ab7f039b3c87114c6"
     }
   ],
   "selected_case_studies": [
@@ -2034,6 +2062,26 @@
       "merged": true,
       "merged_at": "2026-07-30T13:45:18Z",
       "title": "Allow exact-domain-match-only in password-rules schema"
+    },
+    {
+      "repo": "IBM/javacore-analyser",
+      "owner": "IBM",
+      "number": 622,
+      "url": "https://github.com/IBM/javacore-analyser/pull/622",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-16T16:10:07Z",
+      "title": "#407 Clicking current thread link fails with error 404"
+    },
+    {
+      "repo": "Netflix/vmaf",
+      "owner": "Netflix",
+      "number": 1712,
+      "url": "https://github.com/Netflix/vmaf/pull/1712",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-16T16:18:47Z",
+      "title": "fix(cli): pass long-opt ids into parse_unsigned for threads/subsample/cpumask"
     }
   ],
   "organization_owned_merged_total": 83,

@@ -66,10 +66,10 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-87 / 150  ███████████░░░░░░░░░  58.0%
+89 / 150  ███████████░░░░░░░░░  59.3%
 ```
 
-Checked **November 16, 2026**: **87 public external merges** (**69 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Pkl IntelliJ background download task hang fix](https://github.com/apple/pkl-intellij/pull/294) and [Salesforce post-action bare transitions](https://github.com/salesforce/agentscript/pull/106).
+Checked **November 16, 2026**: **89 public external merges** (**71 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Netflix VMAF long-opt parsing](https://github.com/Netflix/vmaf/pull/1712), [IBM Javacore Analyser thread link fix](https://github.com/IBM/javacore-analyser/pull/622), and [Pkl IntelliJ background download task hang fix](https://github.com/apple/pkl-intellij/pull/294).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
@@ -85,10 +85,10 @@ Checked **November 16, 2026**: **87 public external merges** (**69 company-allow
 | [Salesforce](https://github.com/salesforce/agentscript/pull/106) | `salesforce` | 1 | Target Company | AgentScript post-action transition compiler handoff |
 | [AMD](https://github.com/amd/gaia/pull/6656) | `amd` | 1 | Target Company | GAIA memory bootstrap confidence parsing |
 | [Comcast](https://github.com/Comcast/xCOMPASS/pull/34) | `Comcast` | 1 | Target Company | xCOMPASS contributor-guide navigation & questionnaire links |
-| [IBM](https://github.com/IBM/alchemy-logging/pull/807) | `IBM` | 1 | Target Company | Alchemy Logging: atomic Go goroutine-ID formatting & width alignment |
+| [IBM](https://github.com/IBM/javacore-analyser/pull/622) | `IBM` | 2 | Target Company | Alchemy Logging (Go goroutine-ID formatting) & Javacore Analyser (thread link routing) |
 | [Meta](https://github.com/meta/lexical/pull/9707) | `meta` | 1 | Target Company | Lexical rich-text editor framework |
 | [Moonshot AI](https://github.com/MoonshotAI/kimi-code/pull/2416) | `MoonshotAI` | 1 | Target Company | kimi-code models.dev fallback provider configuration |
-| [Netflix](https://github.com/Netflix/dgs-codegen/pull/997) | `Netflix` | 1 | Target Company | DGS codegen Kotlin client generation & Gradle build fixes |
+| [Netflix](https://github.com/Netflix/vmaf/pull/1712) | `Netflix` | 2 | Target Company | VMAF (CLI long-opt integer parsing) & DGS codegen (Kotlin client generation) |
 | [OpenAI](https://github.com/openai/codex-security/pull/754) | `openai` | 1 | Target Company | codex-security CLI error guidance & output clarity |
 | [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | `Samsung` | 1 | Target Company | CredSweeper credential scanner install-guide documentation |
 | [Walmart](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50) | `walmartlabs` | 1 | Target Company | JSON-to-GraphQL CLI compatibility on Node.js 22+ |
@@ -102,7 +102,7 @@ Checked **November 16, 2026**: **87 public external merges** (**69 company-allow
 | [OceanBase](https://github.com/oceanbase/powercontext/pull/2009) | `oceanbase` | 1 | External Org | PowerContext distributed database context management |
 | [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
-| **Total** | **28 Owners / Orgs** | **87** | **69 Goal · 18 Ext** | **38 Repositories across 87 verified merged pull requests** |
+| **Total** | **28 Owners / Orgs** | **89** | **71 Goal · 18 Ext** | **39 Repositories across 89 verified merged pull requests** |
 
 <details>
 <summary><b>A. Target Company Groups with 0 Verified Merges (14 Organizations)</b></summary>
@@ -132,7 +132,7 @@ The following 14 target company groups currently have open pull requests with tr
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 87 public external merges (including 69 target company merges). Each links to the merged PR and its tests.
+Five case studies selected from those 89 public external merges (including 71 target company merges). Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -304,7 +304,7 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
 | Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | npm releases verified; November 13 source fixes merged; Insights synthetic E2E coverage added |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 61 of 69 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 63 of 71 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
