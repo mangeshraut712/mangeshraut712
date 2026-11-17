@@ -1,7 +1,7 @@
 {
   "login": "mangeshraut712",
   "source": "GitHub GraphQL + REST (public owned-repo inventory + all-year contribution calendars)",
-  "synced_at": "2026-11-17T07:37:29Z",
+  "synced_at": "2026-11-17T08:50:22Z",
   "created_at": "2021-11-27",
   "location": "Pune \u00b7 Philadelphia",
   "bio": "Building production systems: speech VAD \u00b7 RAG eval \u00b7 agents \u00b7 full-stack | Open to Software Engineer roles (Pune \u00b7 Philadelphia \u00b7 remote)",
@@ -12,32 +12,32 @@
   "followers": 16,
   "following": 13,
   "contributed_to_repos": 124,
-  "contributions_all_time": 8066,
+  "contributions_all_time": 8115,
   "contributions_by_year": {
     "2021": 1,
     "2022": 0,
     "2023": 3,
     "2024": 10,
     "2025": 1633,
-    "2026": 6419
+    "2026": 6468
   },
   "ytd": {
     "year": 2026,
-    "contributions": 6419,
-    "commits": 4021,
-    "pull_requests": 1682,
+    "contributions": 6468,
+    "commits": 4046,
+    "pull_requests": 1706,
     "issues": 265,
     "reviews": 349,
     "private": 1,
-    "avg_per_day": "20.00",
+    "avg_per_day": "20.15",
     "best_day": 837,
     "best_date": "Nov 10",
     "longest_streak_days": 28
   },
   "primary_languages": {
-    "TypeScript": 17,
-    "Python": 12,
-    "JavaScript": 9,
+    "TypeScript": 15,
+    "Python": 13,
+    "JavaScript": 10,
     "Jupyter Notebook": 2,
     "HTML": 1,
     "MATLAB": 1
