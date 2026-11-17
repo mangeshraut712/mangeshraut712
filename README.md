@@ -375,15 +375,17 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
   </picture>
 </p>
 
-Figures from the [repository's GitHub snapshot](data/github-snapshot.json), collected **2026-11-13 05:55 IST**:
+Figures from the [repository's GitHub snapshot](data/github-snapshot.json), collected **2026-11-17 16:30 IST**:
 
 | 2026 activity | Count |
 | --- | ---: |
-| Contribution-calendar total | 6,054 |
-| Commits | 3,700 |
-| Pull requests | 1,640 |
-| Reviews | 348 |
-| Issues | 264 |
+| Contribution-calendar total (YTD) | 6,524 |
+| Rolling 1-year calendar contributions | 7,056 |
+| Commits | 4,077 |
+| Pull requests | 1,731 |
+| Reviews | 349 |
+| Issues | 265 |
+| All-time contributions | 8,171 |
 
 The calendar total and activity-type counts are separate GitHub measures; the rows are not presented as a sum.
 
