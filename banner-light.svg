@@ -62,14 +62,14 @@
     <tspan x="404" y="254" fill="#AEAEB2">·</tspan><tspan x="520" y="254" text-anchor="end" fill="#0071E3" font-weight="700">Checks</tspan><tspan x="528" y="254" fill="#AEAEB2">:</tspan><tspan x="540" fill="#1D1D1F">make verify-all · offline eval</tspan>
     <tspan x="404" y="270" fill="#D2D2D7">────────────────────────────────────────</tspan>
     <tspan x="404" y="288" fill="#AEAEB2">·</tspan><tspan x="520" y="288" text-anchor="end" fill="#0071E3" font-weight="700">Public repos</tspan><tspan x="528" y="288" fill="#AEAEB2">:</tspan><tspan id="repos_data_light" x="540" fill="#1D1D1F">125</tspan><tspan fill="#AEAEB2"> · Owned </tspan><tspan id="owned_data_light" fill="#1D1D1F">42</tspan><tspan fill="#AEAEB2"> · Stars </tspan><tspan id="stars_data_light" fill="#1D1D1F">15</tspan><tspan fill="#AEAEB2"> · Forks </tspan><tspan id="forks_data_light" fill="#1D1D1F">4</tspan>
-    <tspan x="404" y="306" fill="#AEAEB2">·</tspan><tspan x="520" y="306" text-anchor="end" fill="#0071E3" font-weight="700">Contrib</tspan><tspan x="528" y="306" fill="#AEAEB2">:</tspan><tspan id="lifetime_data_light" x="540" fill="#1D1D1F">8,126</tspan><tspan fill="#AEAEB2"> all-time · </tspan><tspan fill="#0071E3" font-weight="700">2026 YTD</tspan><tspan fill="#1D1D1F"> </tspan><tspan id="ytd_data_light" fill="#34C759" font-weight="700">6,479</tspan><tspan fill="#AEAEB2"> · PRs </tspan><tspan id="prs_data_light" fill="#1D1D1F">1,711</tspan><tspan fill="#AEAEB2"> · Commits </tspan><tspan id="commits_data_light" fill="#1D1D1F">4,052</tspan>
+    <tspan x="404" y="306" fill="#AEAEB2">·</tspan><tspan x="520" y="306" text-anchor="end" fill="#0071E3" font-weight="700">Contrib</tspan><tspan x="528" y="306" fill="#AEAEB2">:</tspan><tspan id="lifetime_data_light" x="540" fill="#1D1D1F">8,138</tspan><tspan fill="#AEAEB2"> all-time · </tspan><tspan fill="#0071E3" font-weight="700">2026 YTD</tspan><tspan fill="#1D1D1F"> </tspan><tspan id="ytd_data_light" fill="#34C759" font-weight="700">6,491</tspan><tspan fill="#AEAEB2"> · PRs </tspan><tspan id="prs_data_light" fill="#1D1D1F">1,716</tspan><tspan fill="#AEAEB2"> · Commits </tspan><tspan id="commits_data_light" fill="#1D1D1F">4,059</tspan>
     <tspan x="404" y="324" fill="#AEAEB2">·</tspan><tspan x="520" y="324" text-anchor="end" fill="#0071E3" font-weight="700">Followers</tspan><tspan x="528" y="324" fill="#AEAEB2">:</tspan><tspan id="follower_data_light" x="540" fill="#1D1D1F">16</tspan><tspan fill="#AEAEB2"> · Status: </tspan><tspan fill="#34C759" font-weight="700">Open to work</tspan>
     <tspan x="404" y="340" fill="#D2D2D7">────────────────────────────────────────</tspan>
     <tspan x="404" y="358" fill="#0071E3" font-weight="700">WhoBurnedMore · tracked leaderboard</tspan>
     <tspan x="404" y="376" fill="#AEAEB2">·</tspan><tspan x="520" y="376" text-anchor="end" fill="#0071E3" font-weight="700">Rank</tspan><tspan x="528" y="376" fill="#AEAEB2">:</tspan><tspan id="burn_rank_data_light" x="540" fill="#1D1D1F">#51 of 356 (top 15%)</tspan>
-    <tspan x="404" y="394" fill="#AEAEB2">·</tspan><tspan x="520" y="394" text-anchor="end" fill="#0071E3" font-weight="700">Lifetime</tspan><tspan x="528" y="394" fill="#AEAEB2">:</tspan><tspan id="burn_lifetime_data_light" x="540" fill="#1D1D1F">27.50B tokens · est. $21,387 · 267 active days · 2d streak</tspan>
-    <tspan x="404" y="412" fill="#AEAEB2">·</tspan><tspan x="520" y="412" text-anchor="end" fill="#0071E3" font-weight="700">Today</tspan><tspan x="528" y="412" fill="#AEAEB2">:</tspan><tspan id="burn_today_data_light" x="540" fill="#1D1D1F">293.3M · $30</tspan>
-    <tspan x="404" y="430" fill="#AEAEB2">·</tspan><tspan x="520" y="430" text-anchor="end" fill="#0071E3" font-weight="700">This week</tspan><tspan x="528" y="430" fill="#AEAEB2">:</tspan><tspan id="burn_week_data_light" x="540" fill="#1D1D1F">409.6M · $46</tspan>
+    <tspan x="404" y="394" fill="#AEAEB2">·</tspan><tspan x="520" y="394" text-anchor="end" fill="#0071E3" font-weight="700">Lifetime</tspan><tspan x="528" y="394" fill="#AEAEB2">:</tspan><tspan id="burn_lifetime_data_light" x="540" fill="#1D1D1F">27.51B tokens · est. $21,388 · 267 active days · 2d streak</tspan>
+    <tspan x="404" y="412" fill="#AEAEB2">·</tspan><tspan x="520" y="412" text-anchor="end" fill="#0071E3" font-weight="700">Today</tspan><tspan x="528" y="412" fill="#AEAEB2">:</tspan><tspan id="burn_today_data_light" x="540" fill="#1D1D1F">303.7M · $31</tspan>
+    <tspan x="404" y="430" fill="#AEAEB2">·</tspan><tspan x="520" y="430" text-anchor="end" fill="#0071E3" font-weight="700">This week</tspan><tspan x="528" y="430" fill="#AEAEB2">:</tspan><tspan id="burn_week_data_light" x="540" fill="#1D1D1F">420M · $47</tspan>
   </text>
 
   <rect x="404" y="448" width="18" height="10" rx="2" fill="#F5F5F7" />
@@ -80,6 +80,6 @@
   <rect x="514" y="448" width="18" height="10" rx="2" fill="#BF5AF2" />
   <rect x="536" y="448" width="18" height="10" rx="2" fill="#64D2FF" />
   <rect x="558" y="448" width="18" height="10" rx="2" fill="#F5F5F7" stroke="#D2D2D7" />
-  <text id="github_as_of" x="600" y="448" fill="#6E6E73" font-family="monospace" font-size="8">GitHub · 2026-11-17 09:16:22Z</text>
-  <text id="wbm_as_of" x="600" y="460" fill="#6E6E73" font-family="monospace" font-size="8">WBM · 2026-11-17 09:16:25Z</text>
+  <text id="github_as_of" x="600" y="448" fill="#6E6E73" font-family="monospace" font-size="8">GitHub · 2026-11-17 09:34:48Z</text>
+  <text id="wbm_as_of" x="600" y="460" fill="#6E6E73" font-family="monospace" font-size="8">WBM · 2026-11-17 09:34:51Z</text>
 </svg>
