@@ -3,9 +3,9 @@
   "source": "Public external merged-PR search on November 16 returned 87 results, matching all previously audited URLs plus apple/pkl-intellij#294, salesforce/agentscript#106 and github/gitignore#4942, with owner Roojool excluded per scoreboard scope; earlier merge evidence retained.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 91,
-  "total": 91,
-  "company_total": 73,
+  "external_merged_total": 93,
+  "total": 93,
+  "company_total": 75,
   "goal": 150,
   "organizations": [
     {
@@ -113,8 +113,9 @@
     {
       "owner": "microsoft",
       "company": "Microsoft",
-      "count": 12,
+      "count": 13,
       "prs": [
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2071",
         "https://github.com/microsoft/winappCli/pull/1258",
         "https://github.com/microsoft/physical-ai-toolchain/pull/2198",
         "https://github.com/microsoft/playwright/pull/44030",
@@ -202,13 +203,40 @@
     {
       "owner": "salesforce",
       "company": "Salesforce",
-      "count": 1,
+      "count": 2,
       "prs": [
+        "https://github.com/salesforce/zana/pull/725",
         "https://github.com/salesforce/agentscript/pull/106"
       ]
     }
   ],
   "merge_evidence": [
+    {
+      "repo": "microsoft/physical-ai-toolchain",
+      "owner": "microsoft",
+      "number": 2071,
+      "url": "https://github.com/microsoft/physical-ai-toolchain/pull/2071",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-17T06:52:02Z",
+      "title": "fix(dataviewer): fail closed on incomplete auth; honor CORS wildcards",
+      "company": "Microsoft",
+      "id": 5030917198,
+      "merge_commit": "5bcb0f6e6bea03c151fc7f49cbf75bc947e511e6"
+    },
+    {
+      "repo": "salesforce/zana",
+      "owner": "salesforce",
+      "number": 725,
+      "url": "https://github.com/salesforce/zana/pull/725",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-17T09:26:41Z",
+      "title": "fix(provider-claude-code): resolve Windows npm global Claude and update it with npm",
+      "company": "Salesforce",
+      "id": 5255870573,
+      "merge_commit": "75fec86c219b00ec040cc083cf98f3a576ab1c0c"
+    },
     {
       "repo": "microsoft/winappCli",
       "owner": "microsoft",
@@ -1207,6 +1235,32 @@
   "external_scope": "Public authored merged PRs excluding repositories owned by mangeshraut712, dayx61, huggingface, and Roojool",
   "external_merge_evidence": [
     {
+      "repo": "microsoft/physical-ai-toolchain",
+      "owner": "microsoft",
+      "number": 2071,
+      "url": "https://github.com/microsoft/physical-ai-toolchain/pull/2071",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-17T06:52:02Z",
+      "title": "fix(dataviewer): fail closed on incomplete auth; honor CORS wildcards",
+      "company": "Microsoft",
+      "id": 5030917198,
+      "merge_commit": "5bcb0f6e6bea03c151fc7f49cbf75bc947e511e6"
+    },
+    {
+      "repo": "salesforce/zana",
+      "owner": "salesforce",
+      "number": 725,
+      "url": "https://github.com/salesforce/zana/pull/725",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-17T09:26:41Z",
+      "title": "fix(provider-claude-code): resolve Windows npm global Claude and update it with npm",
+      "company": "Salesforce",
+      "id": 5255870573,
+      "merge_commit": "75fec86c219b00ec040cc083cf98f3a576ab1c0c"
+    },
+    {
       "repo": "microsoft/winappCli",
       "owner": "microsoft",
       "number": 1258,
@@ -2169,7 +2223,7 @@
       "owner": "microsoft",
       "type": "Organization",
       "repository": "microsoft/winget-pkgs",
-      "count": 12
+      "count": 13
     },
     {
       "owner": "google",
@@ -2301,7 +2355,7 @@
       "owner": "salesforce",
       "type": "Organization",
       "repository": "salesforce/agentscript",
-      "count": 1
+      "count": 2
     },
     {
       "owner": "github",
