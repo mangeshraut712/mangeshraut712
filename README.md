@@ -66,17 +66,17 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-89 / 150  ███████████░░░░░░░░░  59.3%
+91 / 150  ████████████░░░░░░░░  60.7%
 ```
 
-Checked **November 16, 2026**: **89 public external merges** (**71 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Netflix VMAF long-opt parsing](https://github.com/Netflix/vmaf/pull/1712), [IBM Javacore Analyser thread link fix](https://github.com/IBM/javacore-analyser/pull/622), and [Pkl IntelliJ background download task hang fix](https://github.com/apple/pkl-intellij/pull/294).
+Checked **November 17, 2026**: **91 public external merges** (**73 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Microsoft physical-ai-toolchain lint fix](https://github.com/microsoft/physical-ai-toolchain/pull/2198), [Microsoft WinApp CLI devtools inspection](https://github.com/microsoft/winappCli/pull/1258), and [Pkl IntelliJ background download task hang fix](https://github.com/apple/pkl-intellij/pull/294).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
 | Organization / Company | GitHub Owner | Merged | Scope | Repositories & Focus |
 | :--- | :--- | ---: | :---: | :--- |
 | [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | `awslabs` | 24 | Target Company | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
-| [Microsoft](https://github.com/microsoft/playwright/pull/44030) | `microsoft` | 10 | Target Company | Playwright docs, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), physical-ai-toolchain, hve-core & winget-pkgs |
+| [Microsoft](https://github.com/microsoft/playwright/pull/44030) | `microsoft` | 12 | Target Company | Playwright docs, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), [physical-ai-toolchain](https://github.com/microsoft/physical-ai-toolchain/pull/2198), [WinApp CLI](https://github.com/microsoft/winappCli/pull/1258), hve-core & winget-pkgs |
 | [Apple](https://github.com/apple/pkl-intellij/pull/294) | `apple` | 8 | Target Company | Pkl IntelliJ CLI runner, password-manager resources & JSON schemas |
 | [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | `adobe` | 6 | Target Company | React Aria / Spectrum: form validation, CheckboxGroup, ComboBox selection & locale dates |
 | [NVIDIA](https://github.com/NVIDIA/cuda-python/pull/3241) | `NVIDIA` | 5 | Target Company | CUDA Python test harness & TensorRT tooling/CI integration |
@@ -102,7 +102,7 @@ Checked **November 16, 2026**: **89 public external merges** (**71 company-allow
 | [OceanBase](https://github.com/oceanbase/powercontext/pull/2009) | `oceanbase` | 1 | External Org | PowerContext distributed database context management |
 | [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
-| **Total** | **28 Owners / Orgs** | **89** | **71 Goal · 18 Ext** | **39 Repositories across 89 verified merged pull requests** |
+| **Total** | **28 Owners / Orgs** | **91** | **73 Goal · 18 Ext** | **40 Repositories across 91 verified merged pull requests** |
 
 <details>
 <summary><b>A. Target Company Groups with 0 Verified Merges (14 Organizations)</b></summary>
@@ -132,7 +132,7 @@ The following 14 target company groups currently have open pull requests with tr
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 89 public external merges (including 71 target company merges). Each links to the merged PR and its tests.
+Five case studies selected from those 91 public external merges (including 73 target company merges). Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>

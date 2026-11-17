@@ -1,11 +1,11 @@
 {
-  "checked_on": "2026-11-16",
+  "checked_on": "2026-11-17",
   "source": "Public external merged-PR search on November 16 returned 87 results, matching all previously audited URLs plus apple/pkl-intellij#294, salesforce/agentscript#106 and github/gitignore#4942, with owner Roojool excluded per scoreboard scope; earlier merge evidence retained.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 89,
-  "total": 89,
-  "company_total": 71,
+  "external_merged_total": 91,
+  "total": 91,
+  "company_total": 73,
   "goal": 150,
   "organizations": [
     {
@@ -113,8 +113,10 @@
     {
       "owner": "microsoft",
       "company": "Microsoft",
-      "count": 10,
+      "count": 12,
       "prs": [
+        "https://github.com/microsoft/winappCli/pull/1258",
+        "https://github.com/microsoft/physical-ai-toolchain/pull/2198",
         "https://github.com/microsoft/playwright/pull/44030",
         "https://github.com/microsoft/physical-ai-toolchain/pull/2074",
         "https://github.com/microsoft/physical-ai-toolchain/pull/2093",
@@ -207,6 +209,32 @@
     }
   ],
   "merge_evidence": [
+    {
+      "repo": "microsoft/winappCli",
+      "owner": "microsoft",
+      "number": 1258,
+      "url": "https://github.com/microsoft/winappCli/pull/1258",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-16T19:49:22Z",
+      "title": "docs(devtools): explain XAML-only inspect tree, childCount and hiddenByFilter",
+      "company": "Microsoft",
+      "id": 5108859369,
+      "merge_commit": "2beb45e85b6446f466a460e0bc85c827839bbe42"
+    },
+    {
+      "repo": "microsoft/physical-ai-toolchain",
+      "owner": "microsoft",
+      "number": 2198,
+      "url": "https://github.com/microsoft/physical-ai-toolchain/pull/2198",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-16T23:38:20Z",
+      "title": "fix(dataviewer): replace retired scripts directory with tests in lint:backend (#2197)",
+      "company": "Microsoft",
+      "id": 5228898433,
+      "merge_commit": "23f78a8798da9cd74ac82e17ac4ead7deb6ab858"
+    },
     {
       "repo": "apple/pkl-intellij",
       "owner": "apple",
@@ -1179,6 +1207,32 @@
   "external_scope": "Public authored merged PRs excluding repositories owned by mangeshraut712, dayx61, huggingface, and Roojool",
   "external_merge_evidence": [
     {
+      "repo": "microsoft/winappCli",
+      "owner": "microsoft",
+      "number": 1258,
+      "url": "https://github.com/microsoft/winappCli/pull/1258",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-16T19:49:22Z",
+      "title": "docs(devtools): explain XAML-only inspect tree, childCount and hiddenByFilter",
+      "company": "Microsoft",
+      "id": 5108859369,
+      "merge_commit": "2beb45e85b6446f466a460e0bc85c827839bbe42"
+    },
+    {
+      "repo": "microsoft/physical-ai-toolchain",
+      "owner": "microsoft",
+      "number": 2198,
+      "url": "https://github.com/microsoft/physical-ai-toolchain/pull/2198",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-16T23:38:20Z",
+      "title": "fix(dataviewer): replace retired scripts directory with tests in lint:backend (#2197)",
+      "company": "Microsoft",
+      "id": 5228898433,
+      "merge_commit": "23f78a8798da9cd74ac82e17ac4ead7deb6ab858"
+    },
+    {
       "repo": "apple/pkl-intellij",
       "owner": "apple",
       "number": 294,
@@ -2115,7 +2169,7 @@
       "owner": "microsoft",
       "type": "Organization",
       "repository": "microsoft/winget-pkgs",
-      "count": 10
+      "count": 12
     },
     {
       "owner": "google",
