@@ -65,6 +65,48 @@ class ProfileSyncTests(unittest.TestCase):
         self.assertIn('WBM cached · 2026-10-01 12:00:00Z', text)
         self.assertIn('cached day 2026-10-01', text)
 
+    def test_update_readme_refreshes_trajectory_table_and_cache_busters(self):
+        with tempfile.TemporaryDirectory() as directory:
+            readme = Path(directory) / 'README.md'
+            readme.write_text(
+                '<img src="banner-dark.svg?v=old" />\n'
+                '<img src="trajectory-dark.svg?v=old" />\n'
+                "Figures from the [repository's GitHub snapshot](data/github-snapshot.json), collected **2026-11-17 16:30 IST**:\n\n"
+                '| 2026 activity | Count |\n'
+                '| --- | ---: |\n'
+                '| Contribution-calendar total (YTD) | 6,524 |\n'
+                '| Rolling 1-year calendar contributions | 7,056 |\n'
+                '| Commits | 4,077 |\n'
+                '| Pull requests | 1,731 |\n'
+                '| Reviews | 349 |\n'
+                '| Issues | 265 |\n'
+                '| All-time contributions | 8,171 |\n'
+            )
+            stats = {
+                'stack_icons': 'py',
+                'ytd_raw': 6554,
+                'rolling_1yr_raw': 7087,
+                'commits_raw': 4094,
+                'prs_raw': 1744,
+                'reviews_raw': 351,
+                'issues_raw': 265,
+                'lifetime_raw': 8201,
+                'synced_at': '2026-11-17T19:00:00Z',
+            }
+            with patch.object(sync, 'README_PATH', readme):
+                sync.update_readme(stats)
+                sync.bump_banner_cache_buster('2026111719')
+            updated = readme.read_text()
+        self.assertIn('banner-dark.svg?v=2026111719', updated)
+        self.assertIn('trajectory-dark.svg?v=2026111719', updated)
+        self.assertIn('collected **2026-11-17 19:00 UTC**', updated)
+        self.assertIn('| Contribution-calendar total (YTD) | 6,554 |', updated)
+        self.assertIn('| Rolling 1-year calendar contributions | 7,087 |', updated)
+        self.assertIn('| Commits | 4,094 |', updated)
+        self.assertIn('| Pull requests | 1,744 |', updated)
+        self.assertIn('| Reviews | 351 |', updated)
+        self.assertIn('| All-time contributions | 8,201 |', updated)
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026111713" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=2026111713" />
-    <img alt="Mangesh Raut — Software Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026111713" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026111719" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=2026111719" />
+    <img alt="Mangesh Raut — Software Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026111719" />
   </picture>
 </p>
 
@@ -114,7 +114,7 @@ The following 14 target company groups currently have open pull requests with tr
 | Target Company Group | Tracked Repositories & Current Status | Merged PRs |
 | :--- | :--- | :---: |
 | **Anthropic** | `claude-agent-sdk-python` (#1536 for #1514) — authored PR; `claude-agent-sdk-typescript` (#508), `anthropic-sdk-python` (#2012) — reviews | 0 |
-| **Intel** | `intel/dokimi` (#705) — fix pushed with regression tests, maintainer approval, 1/1 CI success | 0 |
+| **Intel** | `intel/llvm` (#23734, maintainer-approved) & `intel/dokimi` (#705, regression tests pushed, 1/1 CI success) | 0 |
 | **Tesla** | `teslamotors/fixed-containers` (#249), `kafka-helmsman` (#101) — tracked PRs, awaiting workflow authorization | 0 |
 | **SpaceX / xAI** | `xai-org/xai-sdk-python` (#247: 3/3 checks passed), `x-algorithm` (#265: 2/2 checks passed) | 0 |
 | **JPMorgan Chase** | `jpmorganchase/jupyter-fs` (#409–#411), `dataquery-sdk` (#88) — tracked PRs, awaiting workflow authorization | 0 |
@@ -369,23 +369,23 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20261102-audit" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=20261102-audit" />
-    <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=20261102-audit" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026111719" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=2026111719" />
+    <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026111719" />
   </picture>
 </p>
 
-Figures from the [repository's GitHub snapshot](data/github-snapshot.json), collected **2026-11-17 16:30 IST**:
+Figures from the [repository's GitHub snapshot](data/github-snapshot.json), collected **2026-11-17 19:03 UTC**:
 
 | 2026 activity | Count |
 | --- | ---: |
-| Contribution-calendar total (YTD) | 6,524 |
-| Rolling 1-year calendar contributions | 7,056 |
-| Commits | 4,077 |
-| Pull requests | 1,731 |
+| Contribution-calendar total (YTD) | 6,554 |
+| Rolling 1-year calendar contributions | 7,087 |
+| Commits | 4,094 |
+| Pull requests | 1,744 |
 | Reviews | 349 |
 | Issues | 265 |
-| All-time contributions | 8,171 |
+| All-time contributions | 8,201 |
 
 The calendar total and activity-type counts are separate GitHub measures; the rows are not presented as a sum.
 
