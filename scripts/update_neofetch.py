@@ -348,12 +348,12 @@ def write_whoburnedmore_snapshot(burn: dict) -> None:
 
 
 def bump_banner_cache_buster(stamp: str) -> None:
-    """Force GitHub/raw CDN to refetch banner/neofetch SVGs after each daily sync."""
+    """Force GitHub/raw CDN to refetch banner/trajectory/neofetch SVGs after each sync."""
     if not README_PATH.exists():
         return
     text = README_PATH.read_text()
     text = re.sub(
-        r"(banner-(?:dark|light)\.svg|neofetch\.svg)\?v=[^\"\s]+",
+        r"((?:banner|trajectory)-(?:dark|light)\.svg|neofetch\.svg)\?v=[^\"\s]+",
         rf"\1?v={stamp}",
         text,
     )
@@ -440,6 +440,9 @@ def fetch_stats() -> dict:
             location
             followers { totalCount }
             following { totalCount }
+            contributionsCollection {
+              contributionCalendar { totalContributions }
+            }
             repositoriesContributedTo(
               first: 1
               contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]
@@ -497,6 +500,11 @@ def fetch_stats() -> dict:
         for day in week["contributionDays"]
     ]
     ytd = ytd_block["contributionCalendar"]["totalContributions"]
+    rolling_1yr = (
+        (profile.get("contributionsCollection") or {})
+        .get("contributionCalendar", {})
+        .get("totalContributions", ytd)
+    )
     counts = [d["contributionCount"] for d in days]
     best = max(counts) if counts else 0
     best_date = next((d["date"] for d in days if d["contributionCount"] == best), "")
@@ -578,6 +586,7 @@ def fetch_stats() -> dict:
         "followers_raw": profile["followers"]["totalCount"],
         "following_raw": profile["following"]["totalCount"],
         "lifetime_raw": lifetime,
+        "rolling_1yr_raw": rolling_1yr,
         "ytd_raw": ytd,
         "avg_raw": f"{avg:.2f}",
         "best_raw": best,
@@ -706,6 +715,7 @@ def write_snapshot(stats: dict) -> None:
         "following": stats["following_raw"],
         "contributed_to_repos": stats["contributed_to_raw"],
         "contributions_all_time": stats["lifetime_raw"],
+        "contributions_rolling_1yr": stats["rolling_1yr_raw"],
         "contributions_by_year": stats["yearly_contributions"],
         "ytd": {
             "year": stats["year"],
@@ -779,6 +789,29 @@ def update_readme(stats: dict) -> None:
         text,
         count=1,
     )
+    if "ytd_raw" in stats and "| Contribution-calendar total (YTD) |" in text:
+        synced_label = stats["synced_at"][:16].replace("T", " ") + " UTC"
+        text = re.sub(
+            r"(Figures from the \[repository's GitHub snapshot\]\(data/github-snapshot\.json\), collected )\*\*[^*]+\*\*",
+            rf"\1**{synced_label}**",
+            text,
+        )
+        table_updates = [
+            ("Contribution-calendar total (YTD)", fmt(stats["ytd_raw"])),
+            ("Rolling 1-year calendar contributions", fmt(stats.get("rolling_1yr_raw", stats["ytd_raw"]))),
+            ("Commits", fmt(stats["commits_raw"])),
+            ("Pull requests", fmt(stats["prs_raw"])),
+            ("Reviews", fmt(stats["reviews_raw"])),
+            ("Issues", fmt(stats["issues_raw"])),
+            ("All-time contributions", fmt(stats["lifetime_raw"])),
+        ]
+        for row_label, row_val in table_updates:
+            text = re.sub(
+                rf"^(\| {re.escape(row_label)} \| )[\d,]+( \|)$",
+                rf"\g<1>{row_val}\2",
+                text,
+                flags=re.MULTILINE,
+            )
     README_PATH.write_text(text)
 
 
@@ -795,6 +828,7 @@ def main() -> int:
             "stars_raw",
             "forks_raw",
             "lifetime_raw",
+            "rolling_1yr_raw",
             "ytd_raw",
             "prs_raw",
             "commits_raw",
