@@ -57,17 +57,23 @@ STACK_LABEL = (
 def gql(query: str, variables: dict | None = None) -> dict:
     if not TOKEN:
         raise SystemExit("ACCESS_TOKEN or GITHUB_TOKEN is required")
-    res = requests.post(
-        "https://api.github.com/graphql",
-        json={"query": query, "variables": variables or {}},
-        headers={"Authorization": f"bearer {TOKEN}"},
-        timeout=60,
-    )
-    res.raise_for_status()
-    payload = res.json()
-    if "errors" in payload:
-        raise RuntimeError(payload["errors"])
-    return payload["data"]
+    for attempt in range(4):
+        try:
+            res = requests.post(
+                "https://api.github.com/graphql",
+                json={"query": query, "variables": variables or {}},
+                headers={"Authorization": f"bearer {TOKEN}"},
+                timeout=60,
+            )
+            res.raise_for_status()
+            payload = res.json()
+            if "errors" in payload:
+                raise RuntimeError(payload["errors"])
+            return payload["data"]
+        except Exception:
+            if attempt == 3:
+                raise
+            time.sleep(2)
 
 
 def age_string(start: date, end: date) -> str:
