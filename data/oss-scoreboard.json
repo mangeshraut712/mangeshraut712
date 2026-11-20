@@ -1,6 +1,6 @@
 {
   "checked_on": "2026-11-20",
-  "source": "Public external authored merged-PR search on November 20 returned 96 results (incomplete_results=false), matching all 93 previously recorded external URLs plus awslabs/visual-asset-management-system#1641 and #1644 and awslabs/stickler#555. Each addition was verified with the PR API for author, merged_at and merge commit. Existing scope exclusions and company grouping are unchanged.",
+  "source": "November 17 scoreboard (93 public external / 75 company-allowlist) plus three public awslabs merges verified on November 20: stickler#555, visual-asset-management-system#1641, and visual-asset-management-system#1644. Scope unchanged: authored public merges excluding mangeshraut712, dayx61, huggingface, and Roojool. Full same-scope search on November 20 returned 96 results with incomplete_results=false; URL sets exactly match external_merge_evidence.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
   "external_merged_total": 96,
@@ -49,9 +49,9 @@
       "company": "Amazon/AWS",
       "count": 27,
       "prs": [
-        "https://github.com/awslabs/visual-asset-management-system/pull/1644",
-        "https://github.com/awslabs/visual-asset-management-system/pull/1641",
         "https://github.com/awslabs/stickler/pull/555",
+        "https://github.com/awslabs/visual-asset-management-system/pull/1641",
+        "https://github.com/awslabs/visual-asset-management-system/pull/1644",
         "https://github.com/awslabs/stickler/pull/551",
         "https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/150",
         "https://github.com/awslabs/stickler/pull/553",
@@ -214,45 +214,6 @@
     }
   ],
   "merge_evidence": [
-    {
-      "repo": "awslabs/visual-asset-management-system",
-      "owner": "awslabs",
-      "number": 1644,
-      "url": "https://github.com/awslabs/visual-asset-management-system/pull/1644",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-11-18T14:50:05Z",
-      "title": "fix(tests): give the Physna handlers.auth stub the authMethod names",
-      "company": "Amazon/AWS",
-      "id": 5374089108,
-      "merge_commit": "c0dcb50d37f26ca8a630b545facc17d11e4ed1a4"
-    },
-    {
-      "repo": "awslabs/visual-asset-management-system",
-      "owner": "awslabs",
-      "number": 1641,
-      "url": "https://github.com/awslabs/visual-asset-management-system/pull/1641",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-11-18T14:52:04Z",
-      "title": "fix(rapidPipelineEKS): sign the EKS token for the partition's STS host",
-      "company": "Amazon/AWS",
-      "id": 5372478319,
-      "merge_commit": "ca83bfcde9c1dc6cfb6eece9cb5bb8bd7a7786e2"
-    },
-    {
-      "repo": "awslabs/stickler",
-      "owner": "awslabs",
-      "number": 555,
-      "url": "https://github.com/awslabs/stickler/pull/555",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-11-18T23:23:05Z",
-      "title": "fix(report): use literal document IDs for PDF controls",
-      "company": "Amazon/AWS",
-      "id": 5236468755,
-      "merge_commit": "9fa8e29e79c395e057ed0b666a38c71ecd1d3852"
-    },
     {
       "repo": "microsoft/physical-ai-toolchain",
       "owner": "microsoft",
@@ -1227,6 +1188,45 @@
       "company": "Netflix",
       "id": 5047710309,
       "merge_commit": "a599b2b8630b742dd52e577ab7f039b3c87114c6"
+    },
+    {
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "number": 1644,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/1644",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-18T14:50:05Z",
+      "title": "fix(tests): give the Physna handlers.auth stub the authMethod names",
+      "company": "Amazon/AWS",
+      "id": 5374089108,
+      "merge_commit": "c0dcb50d37f26ca8a630b545facc17d11e4ed1a4"
+    },
+    {
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "number": 1641,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/1641",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-18T14:52:04Z",
+      "title": "fix(rapidPipelineEKS): sign the EKS token for the partition's STS host",
+      "company": "Amazon/AWS",
+      "id": 5372478319,
+      "merge_commit": "ca83bfcde9c1dc6cfb6eece9cb5bb8bd7a7786e2"
+    },
+    {
+      "repo": "awslabs/stickler",
+      "owner": "awslabs",
+      "number": 555,
+      "url": "https://github.com/awslabs/stickler/pull/555",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-18T23:23:05Z",
+      "title": "fix(report): use literal document IDs for PDF controls",
+      "company": "Amazon/AWS",
+      "id": 5236468755,
+      "merge_commit": "9fa8e29e79c395e057ed0b666a38c71ecd1d3852"
     }
   ],
   "selected_case_studies": [
@@ -1276,45 +1276,6 @@
   ],
   "external_scope": "Public authored merged PRs excluding repositories owned by mangeshraut712, dayx61, huggingface, and Roojool",
   "external_merge_evidence": [
-    {
-      "repo": "awslabs/visual-asset-management-system",
-      "owner": "awslabs",
-      "number": 1644,
-      "url": "https://github.com/awslabs/visual-asset-management-system/pull/1644",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-11-18T14:50:05Z",
-      "title": "fix(tests): give the Physna handlers.auth stub the authMethod names",
-      "company": "Amazon/AWS",
-      "id": 5374089108,
-      "merge_commit": "c0dcb50d37f26ca8a630b545facc17d11e4ed1a4"
-    },
-    {
-      "repo": "awslabs/visual-asset-management-system",
-      "owner": "awslabs",
-      "number": 1641,
-      "url": "https://github.com/awslabs/visual-asset-management-system/pull/1641",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-11-18T14:52:04Z",
-      "title": "fix(rapidPipelineEKS): sign the EKS token for the partition's STS host",
-      "company": "Amazon/AWS",
-      "id": 5372478319,
-      "merge_commit": "ca83bfcde9c1dc6cfb6eece9cb5bb8bd7a7786e2"
-    },
-    {
-      "repo": "awslabs/stickler",
-      "owner": "awslabs",
-      "number": 555,
-      "url": "https://github.com/awslabs/stickler/pull/555",
-      "author": "mangeshraut712",
-      "merged": true,
-      "merged_at": "2026-11-18T23:23:05Z",
-      "title": "fix(report): use literal document IDs for PDF controls",
-      "company": "Amazon/AWS",
-      "id": 5236468755,
-      "merge_commit": "9fa8e29e79c395e057ed0b666a38c71ecd1d3852"
-    },
     {
       "repo": "microsoft/physical-ai-toolchain",
       "owner": "microsoft",
@@ -2271,6 +2232,45 @@
       "merged": true,
       "merged_at": "2026-11-16T16:18:47Z",
       "title": "fix(cli): pass long-opt ids into parse_unsigned for threads/subsample/cpumask"
+    },
+    {
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "number": 1644,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/1644",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-18T14:50:05Z",
+      "title": "fix(tests): give the Physna handlers.auth stub the authMethod names",
+      "company": "Amazon/AWS",
+      "id": 5374089108,
+      "merge_commit": "c0dcb50d37f26ca8a630b545facc17d11e4ed1a4"
+    },
+    {
+      "repo": "awslabs/visual-asset-management-system",
+      "owner": "awslabs",
+      "number": 1641,
+      "url": "https://github.com/awslabs/visual-asset-management-system/pull/1641",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-18T14:52:04Z",
+      "title": "fix(rapidPipelineEKS): sign the EKS token for the partition's STS host",
+      "company": "Amazon/AWS",
+      "id": 5372478319,
+      "merge_commit": "ca83bfcde9c1dc6cfb6eece9cb5bb8bd7a7786e2"
+    },
+    {
+      "repo": "awslabs/stickler",
+      "owner": "awslabs",
+      "number": 555,
+      "url": "https://github.com/awslabs/stickler/pull/555",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-18T23:23:05Z",
+      "title": "fix(report): use literal document IDs for PDF controls",
+      "company": "Amazon/AWS",
+      "id": 5236468755,
+      "merge_commit": "9fa8e29e79c395e057ed0b666a38c71ecd1d3852"
     }
   ],
   "organization_owned_merged_total": 93,

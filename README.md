@@ -69,13 +69,13 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 96 / 150  █████████████░░░░░░░  64.0%
 ```
 
-Checked **November 20, 2026**: **96 public external merges** (**78 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [AWS VAMS partition-aware EKS signing](https://github.com/awslabs/visual-asset-management-system/pull/1641), [AWS VAMS Physna test auth stub](https://github.com/awslabs/visual-asset-management-system/pull/1644), and [AWS Stickler literal PDF document IDs](https://github.com/awslabs/stickler/pull/555).
+Checked **November 20, 2026**: **96 public external merges** (**78 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [AWS Stickler PDF document ID fix](https://github.com/awslabs/stickler/pull/555), [AWS VAMS EKS STS-host signing fix](https://github.com/awslabs/visual-asset-management-system/pull/1641), and [AWS VAMS Physna auth stub fix](https://github.com/awslabs/visual-asset-management-system/pull/1644).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
 | Organization / Company | GitHub Owner | Merged | Scope | Repositories & Focus |
 | :--- | :--- | ---: | :---: | :--- |
-| [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | `awslabs` | 27 | Target Company | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
+| [Amazon/AWS](https://github.com/awslabs/stickler/pull/555) | `awslabs` | 27 | Target Company | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/playwright/pull/44030) | `microsoft` | 13 | Target Company | Playwright docs, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), [physical-ai-toolchain](https://github.com/microsoft/physical-ai-toolchain/pull/2071), [WinApp CLI](https://github.com/microsoft/winappCli/pull/1258), hve-core & winget-pkgs |
 | [Apple](https://github.com/apple/pkl-intellij/pull/294) | `apple` | 8 | Target Company | Pkl IntelliJ CLI runner, password-manager resources & JSON schemas |
 | [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | `adobe` | 6 | Target Company | React Aria / Spectrum: form validation, CheckboxGroup, ComboBox selection & locale dates |
@@ -322,7 +322,7 @@ Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST mont
 xychart-beta
   title "Allowlist merges per month (2026)"
   x-axis [Jul, Aug, Sep, Oct, Nov]
-  y-axis "Merged PRs" 0 --> 55
+  y-axis "Merged PRs" 0 --> 60
   bar [2, 3, 3, 19, 51]
 ```
 
