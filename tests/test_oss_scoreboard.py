@@ -44,6 +44,18 @@ class OssScoreboardTests(unittest.TestCase):
             self.assertEqual(group["count"], len(expected))
             self.assertTrue(all(record["company"] == group["company"] for record in records if record["owner"] == group["owner"]))
 
+    def test_external_owner_totals_match_merge_evidence(self):
+        records = self.data["external_merge_evidence"]
+        owners = self.data["external_owner_evidence"]
+        expected = Counter(record["owner"] for record in records)
+        self.assertEqual(len({record["url"] for record in records}), len(records))
+        self.assertEqual(len(owners), len({owner["owner"] for owner in owners}))
+        self.assertEqual({owner["owner"]: owner["count"] for owner in owners}, dict(expected))
+        self.assertEqual(
+            self.data["organization_owned_merged_total"],
+            sum(owner["count"] for owner in owners if owner["type"] == "Organization"),
+        )
+
     def test_readme_company_table_matches_snapshot(self):
         section = self.readme.split("#### By company group", 1)[1].split("#### Selected Engineering Impact", 1)[0]
         matches = re.findall(
