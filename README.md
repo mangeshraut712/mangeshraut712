@@ -66,16 +66,16 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-93 / 150  ████████████░░░░░░░░  62.0%
+96 / 150  █████████████░░░░░░░  64.0%
 ```
 
-Checked **November 17, 2026**: **93 public external merges** (**75 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [Salesforce Zana Windows npm Claude fix](https://github.com/salesforce/zana/pull/725), [Microsoft physical-ai-toolchain auth/CORS fix](https://github.com/microsoft/physical-ai-toolchain/pull/2071), and [Microsoft physical-ai-toolchain lint fix](https://github.com/microsoft/physical-ai-toolchain/pull/2198).
+Checked **November 20, 2026**: **96 public external merges** (**78 company-allowlist merges**). [Evidence and scope](data/oss-scoreboard.json). Latest additions: [AWS Stickler PDF document ID fix](https://github.com/awslabs/stickler/pull/555), [AWS VAMS EKS STS-host signing fix](https://github.com/awslabs/visual-asset-management-system/pull/1641), and [AWS VAMS Physna auth stub fix](https://github.com/awslabs/visual-asset-management-system/pull/1644).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
 | Organization / Company | GitHub Owner | Merged | Scope | Repositories & Focus |
 | :--- | :--- | ---: | :---: | :--- |
-| [Amazon/AWS](https://github.com/awslabs/stickler/pull/474) | `awslabs` | 24 | Target Company | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
+| [Amazon/AWS](https://github.com/awslabs/stickler/pull/555) | `awslabs` | 27 | Target Company | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/playwright/pull/44030) | `microsoft` | 13 | Target Company | Playwright docs, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), [physical-ai-toolchain](https://github.com/microsoft/physical-ai-toolchain/pull/2071), [WinApp CLI](https://github.com/microsoft/winappCli/pull/1258), hve-core & winget-pkgs |
 | [Apple](https://github.com/apple/pkl-intellij/pull/294) | `apple` | 8 | Target Company | Pkl IntelliJ CLI runner, password-manager resources & JSON schemas |
 | [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | `adobe` | 6 | Target Company | React Aria / Spectrum: form validation, CheckboxGroup, ComboBox selection & locale dates |
@@ -102,7 +102,7 @@ Checked **November 17, 2026**: **93 public external merges** (**75 company-allow
 | [OceanBase](https://github.com/oceanbase/powercontext/pull/2009) | `oceanbase` | 1 | External Org | PowerContext distributed database context management |
 | [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
-| **Total** | **28 Owners / Orgs** | **93** | **75 Goal · 18 Ext** | **41 Repositories across 93 verified merged pull requests** |
+| **Total** | **28 Owners / Orgs** | **96** | **78 Goal · 18 Ext** | **41 Repositories across 96 verified merged pull requests** |
 
 <details>
 <summary><b>A. Target Company Groups with 0 Verified Merges (14 Organizations)</b></summary>
@@ -132,7 +132,7 @@ The following 14 target company groups currently have open pull requests with tr
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 93 public external merges (including 75 target company merges). Each links to the merged PR and its tests.
+Five case studies selected from those 96 public external merges (including 78 target company merges). Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -304,11 +304,11 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
 | Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | npm releases verified; November 13 source fixes merged; Insights synthetic E2E coverage added |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 67 of 75 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 70 of 78 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  48  ████████████████████████████████████████████████  (through Nov 17, IST)
+                           Nov  51  █████████████████████████████████████████████████████  (through Nov 20, IST)
 ```
 
 </details>
@@ -316,23 +316,23 @@ Q4 2026 allowlist merges   Oct  19  ██████████████�
 <details>
 <summary><b>OSS merge pace</b> — allowlist merges by month</summary>
 
-Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-17).
+Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-20).
 
 ```mermaid
 xychart-beta
   title "Allowlist merges per month (2026)"
   x-axis [Jul, Aug, Sep, Oct, Nov]
-  y-axis "Merged PRs" 0 --> 50
-  bar [2, 3, 3, 19, 48]
+  y-axis "Merged PRs" 0 --> 60
+  bar [2, 3, 3, 19, 51]
 ```
 
 | Repo (top 5) | Merged |
 | --- | ---: |
-| [awslabs/visual-asset-management-system](https://github.com/awslabs/visual-asset-management-system/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 12 |
+| [awslabs/visual-asset-management-system](https://github.com/awslabs/visual-asset-management-system/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 14 |
 | [microsoft/physical-ai-toolchain](https://github.com/microsoft/physical-ai-toolchain/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 8 |
 | [apple/password-manager-resources](https://github.com/apple/password-manager-resources/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 7 |
 | [adobe/react-spectrum](https://github.com/adobe/react-spectrum/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 6 |
-| [awslabs/stickler](https://github.com/awslabs/stickler/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 5 |
+| [awslabs/stickler](https://github.com/awslabs/stickler/pulls?q=is%3Apr+is%3Amerged+author%3Amangeshraut712) | 6 |
 
 </details>
 
