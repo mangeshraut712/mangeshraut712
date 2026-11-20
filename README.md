@@ -102,7 +102,7 @@ Checked **November 20, 2026**: **96 public external merges** (**78 company-allow
 | [OceanBase](https://github.com/oceanbase/powercontext/pull/2009) | `oceanbase` | 1 | External Org | PowerContext distributed database context management |
 | [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
-| **Total** | **28 Owners / Orgs** | **96** | **78 Goal · 18 Ext** | **41 Repositories across 96 verified merged pull requests** |
+| **Total** | **28 Owners / Orgs** | **96** | **78 Goal · 18 Ext** | **42 Repositories across 96 verified merged pull requests** |
 
 <details>
 <summary><b>A. Target Company Groups with 0 Verified Merges (14 Organizations)</b></summary>
@@ -308,7 +308,7 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  51  █████████████████████████████████████████████████████  (through Nov 20, IST)
+                           Nov  51  ███████████████████████████████████████████████████  (through Nov 20, IST)
 ```
 
 </details>

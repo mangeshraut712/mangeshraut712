@@ -1,6 +1,6 @@
 {
   "checked_on": "2026-11-20",
-  "source": "November 17 scoreboard (93 public external / 75 company-allowlist) plus three public awslabs merges verified on November 20: stickler#555, visual-asset-management-system#1641, and visual-asset-management-system#1644. Scope unchanged: authored public merges excluding mangeshraut712, dayx61, huggingface, and Roojool.",
+  "source": "November 17 scoreboard (93 public external / 75 company-allowlist) plus three public awslabs merges verified on November 20: stickler#555, visual-asset-management-system#1641, and visual-asset-management-system#1644. Scope unchanged: authored public merges excluding mangeshraut712, dayx61, huggingface, and Roojool. Full same-scope search on November 20 returned 96 results with incomplete_results=false; URL sets exactly match external_merge_evidence.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
   "external_merged_total": 96,
@@ -2273,7 +2273,7 @@
       "merge_commit": "9fa8e29e79c395e057ed0b666a38c71ecd1d3852"
     }
   ],
-  "organization_owned_merged_total": 86,
+  "organization_owned_merged_total": 93,
   "organization_owned_scope": "Subset of external_merge_evidence whose repository owner has GitHub account type Organization; includes owners outside the company goal.",
   "external_owner_evidence": [
     {
@@ -2298,7 +2298,7 @@
       "owner": "IBM",
       "type": "Organization",
       "repository": "IBM/alchemy-logging",
-      "count": 1
+      "count": 2
     },
     {
       "owner": "microsoft",
@@ -2328,7 +2328,7 @@
       "owner": "Netflix",
       "type": "Organization",
       "repository": "Netflix/dgs-codegen",
-      "count": 1
+      "count": 2
     },
     {
       "owner": "google-gemini",
@@ -2352,7 +2352,7 @@
       "owner": "apple",
       "type": "Organization",
       "repository": "apple/password-manager-resources",
-      "count": 7
+      "count": 8
     },
     {
       "owner": "finos",
@@ -2452,5 +2452,6 @@
       "reason": "Excluded dayx61-owned repository"
     }
   ],
-  "count_correction": "Previous total 61 omitted IBM/alchemy-logging#807 and walmartlabs/json-to-simple-graphql-schema#50 from the company allowlist while already including both in the external total."
+  "count_correction": "Previous total 61 omitted IBM/alchemy-logging#807 and walmartlabs/json-to-simple-graphql-schema#50 from the company allowlist while already including both in the external total.",
+  "search_merged_total_before_dayx61_exclusion_checked_on": "2026-11-17"
 }
