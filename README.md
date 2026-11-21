@@ -105,28 +105,27 @@ Checked **November 21, 2026 (IST)**: **97 public external merges** (**79 company
 | **Total** | **28 Owners / Orgs** | **97** | **79 Goal · 18 Ext** | **42 Repositories across 97 verified merged pull requests** |
 
 <details>
-<summary><b>A. Target Company Groups with 0 Verified Merges (14 Organizations)</b></summary>
+<summary><b>A. First-merge watchlist: 11 company groups</b></summary>
 
 <br>
 
-The following 14 target company groups currently have open pull requests with tracked CI checks and reviews, but 0 verified merged PRs on GitHub:
+Checked November 21, 2026 (IST). No authored public upstream GitHub merge was verified for the groups below in the checked owners. These links are representative open PRs, not evidence of a merge. The list is a working shortlist, not a claim of exhaustive company-wide coverage.
 
-| Target Company Group | Tracked Repositories & Current Status | Merged PRs |
-| :--- | :--- | :---: |
-| **Anthropic** | `claude-agent-sdk-python` (#1536 for #1514) — authored PR; `claude-agent-sdk-typescript` (#508), `anthropic-sdk-python` (#2012) — reviews | 0 |
-| **Intel** | `intel/llvm` (#23734, maintainer-approved) & `intel/dokimi` (#705, regression tests pushed, 1/1 CI success) | 0 |
-| **Tesla** | `teslamotors/fixed-containers` (#249), `kafka-helmsman` (#101) — tracked PRs, awaiting workflow authorization | 0 |
-| **SpaceX / xAI** | `xai-org/xai-sdk-python` (#247: 3/3 checks passed), `x-algorithm` (#265: 2/2 checks passed) | 0 |
-| **JPMorgan Chase** | `jpmorganchase/jupyter-fs` (#409–#411), `dataquery-sdk` (#88) — tracked PRs, awaiting workflow authorization | 0 |
-| **Cisco** | `CiscoDevNet/ansible-nd` (#681) — tracked PR, 2/2 checks passed | 0 |
-| **Perplexity** | `perplexityai/numbat` (#100) — tracked PR, awaiting workflow authorization | 0 |
-| **LG** | `webosose/ares-cli` (#110) — tracked PR, awaiting workflow authorization | 0 |
-| **Firecrawl** | `firecrawl/anydoc` (#225, #226) — tracked PRs, 1/1 check passed, 5/5 review confidence | 0 |
-| **Supabase** | `supabase/supabase` (#53197) — tracked PR (12 checks, Deno config detection) | 0 |
-| **Vercel** | `vercel-labs/agent-browser` (#2415) — tracked PR (6 checks, direct date/time input fill) | 0 |
-| **Lightning AI** | `Lightning-AI/torchmetrics` (#3576) — tracked PR, 1/1 check passed, acceptance check passed | 0 |
-| **Anysphere / Cursor** | `anysphere/priompt` (#31, #32) — tracked PRs, awaiting workflow authorization | 0 |
-| **X Corp / Twitter** | `xdevplatform/chat-xdk` (#78: 2/2 checks passed), `xurl` (#111, #112: CLA passed, 1/1 check passed) | 0 |
+| Target company group | Representative open PRs and current next gate |
+| :--- | :--- |
+| **Anthropic** | [Claude Code Action #1938](https://github.com/anthropics/claude-code-action/pull/1938) — hosted CI requires maintainer action; [#1809](https://github.com/anthropics/claude-code-action/pull/1809) overlaps. |
+| **Tesla** | [Kafka Helmsman #101](https://github.com/teslamotors/kafka-helmsman/pull/101) — hosted CI requires maintainer action. |
+| **SpaceX / xAI** | [x-algorithm #265](https://github.com/xai-org/x-algorithm/pull/265), [X Chat SDK #78](https://github.com/xdevplatform/chat-xdk/pull/78), and [Cursor Priompt #31](https://github.com/anysphere/priompt/pull/31) — separate repository lanes, one company group; no human approval was verified for these PRs. |
+| **JPMorgan Chase** | [Jupyter FS #409](https://github.com/jpmorganchase/jupyter-fs/pull/409) — addressed maintainer feedback on per-entry network calls; hosted CI requires maintainer action. |
+| **Cisco** | [Ansible ND #681](https://github.com/CiscoDevNet/ansible-nd/pull/681) — hosted CI requires maintainer action. |
+| **Perplexity** | [Numbat #100](https://github.com/perplexityai/numbat/pull/100) — hosted CI requires maintainer action. |
+| **LG** | [FOSSLight #1193](https://github.com/fosslight/fosslight/pull/1193) — hosted CI and human review pending. |
+| **Firecrawl** | [PDF Inspector #598](https://github.com/firecrawl/pdf-inspector/pull/598) — hosted CI requires maintainer action. |
+| **Supabase** | [Supabase #53197](https://github.com/supabase/supabase/pull/53197) — hosted CI requires maintainer action. |
+| **Vercel** | [Agent Browser #2415](https://github.com/vercel-labs/agent-browser/pull/2415) — GitHub does not currently report it as mergeable; hosted CI also requires action. |
+| **Lightning AI** | [TorchMetrics #3576](https://github.com/Lightning-AI/torchmetrics/pull/3576) — hosted CI requires maintainer action. |
+
+**Verification pending:** Intel is not included in the 11 groups. Its upstream merge evidence could not be fully verified in this audit; that is not a zero finding.
 
 </details>
 
