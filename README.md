@@ -69,7 +69,9 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 98 / 150  █████████████░░░░░░░  65.3%
 ```
 
-Checked **November 21, 2026 (IST)**: **98 public external merges** (**79 company-allowlist merges**), with **52 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json). Latest: [Intel dokimi #705](https://github.com/intel/dokimi/pull/705).
+As of **November 22, 2026 (IST)**, GitHub records **98 public external merges**, including **79 company-allowlist merges**, with **52 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json).
+
+The two latest merges fixed a Markdown diagnostic that pointed to the wrong source line and a scheduling limit that allowed new schedules when the count failed. [Intel Dokimi #705](https://github.com/intel/dokimi/pull/705) · [AWS Labs #207](https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/207).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 

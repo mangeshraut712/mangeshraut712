@@ -1,6 +1,6 @@
 {
-  "checked_on": "2026-11-21",
-  "source": "November 21 scoreboard (97 public external / 79 company-allowlist) plus Intel dokimi #705, verified against its canonical public GitHub pull request. Scope unchanged: authored public merges excluding mangeshraut712, dayx61, huggingface, and Roojool.",
+  "checked_on": "2026-11-22",
+  "source": "The scoped GitHub search returned 98 distinct public merged PRs. Their canonical URLs match the 98 entries in external_merge_evidence.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
   "external_merged_total": 98,
