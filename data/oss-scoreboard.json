@@ -1,10 +1,10 @@
 {
-  "checked_on": "2026-11-20",
-  "source": "November 20 scoreboard (96 public external / 78 company-allowlist) plus AWS SMART #207, verified against its canonical public GitHub pull request. Scope unchanged: authored public merges excluding mangeshraut712, dayx61, huggingface, and Roojool.",
+  "checked_on": "2026-11-21",
+  "source": "November 21 scoreboard (97 public external / 79 company-allowlist) plus Intel dokimi #705, verified against its canonical public GitHub pull request. Scope unchanged: authored public merges excluding mangeshraut712, dayx61, huggingface, and Roojool.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 97,
-  "total": 97,
+  "external_merged_total": 98,
+  "total": 98,
   "company_total": 79,
   "goal": 150,
   "organizations": [
@@ -1291,6 +1291,19 @@
   "external_scope": "Public authored merged PRs excluding repositories owned by mangeshraut712, dayx61, huggingface, and Roojool",
   "external_merge_evidence": [
     {
+      "repo": "intel/dokimi",
+      "owner": "intel",
+      "number": 705,
+      "url": "https://github.com/intel/dokimi/pull/705",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-20T23:40:59Z",
+      "title": "fix(repo): preserve physical Markdown claim line numbers",
+      "company": null,
+      "id": 5295045952,
+      "merge_commit": "ad3a57b3468538b8d460eb4a2a66f41dc6f00b56"
+    },
+    {
       "repo": "awslabs/social-messaging-agent-runtime-toolkit",
       "owner": "awslabs",
       "number": 207,
@@ -2300,7 +2313,7 @@
       "merge_commit": "9fa8e29e79c395e057ed0b666a38c71ecd1d3852"
     }
   ],
-  "organization_owned_merged_total": 94,
+  "organization_owned_merged_total": 95,
   "organization_owned_scope": "Subset of external_merge_evidence whose repository owner has GitHub account type Organization; includes owners outside the company goal.",
   "external_owner_evidence": [
     {
@@ -2469,6 +2482,12 @@
       "owner": "github",
       "type": "Organization",
       "repository": "github/gitignore",
+      "count": 1
+    },
+    {
+      "owner": "intel",
+      "type": "Organization",
+      "repository": "intel/dokimi",
       "count": 1
     }
   ],

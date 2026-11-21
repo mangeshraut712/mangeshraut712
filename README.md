@@ -66,10 +66,10 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-97 / 150  █████████████░░░░░░░  64.7%
+98 / 150  █████████████░░░░░░░  65.3%
 ```
 
-Checked **November 21, 2026 (IST)**: **97 public external merges** (**79 company-allowlist merges**), with **53 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json). Latest: [AWS SMART #207](https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/207).
+Checked **November 21, 2026 (IST)**: **98 public external merges** (**79 company-allowlist merges**), with **52 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json). Latest: [Intel dokimi #705](https://github.com/intel/dokimi/pull/705).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
@@ -102,7 +102,8 @@ Checked **November 21, 2026 (IST)**: **97 public external merges** (**79 company
 | [OceanBase](https://github.com/oceanbase/powercontext/pull/2009) | `oceanbase` | 1 | External Org | PowerContext distributed database context management |
 | [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
-| **Total** | **28 Owners / Orgs** | **97** | **79 Goal · 18 Ext** | **42 Repositories across 97 verified merged pull requests** |
+| [Intel](https://github.com/intel/dokimi/pull/705) | `intel` | 1 | External Org | Dokimi: preserve physical Markdown claim line numbers |
+| **Total** | **29 Owners / Orgs** | **98** | **79 Goal · 19 Ext** | **43 Repositories across 98 verified merged pull requests** |
 
 <details>
 <summary><b>A. First-merge watchlist: 11 company groups</b></summary>
@@ -125,13 +126,13 @@ Checked November 21, 2026 (IST). No authored public upstream GitHub merge was ve
 | **Vercel** | [Agent Browser #2415](https://github.com/vercel-labs/agent-browser/pull/2415) — hosted CI requires action and [#2069](https://github.com/vercel-labs/agent-browser/pull/2069) and [#2599](https://github.com/vercel-labs/agent-browser/pull/2599) cover the same issue. |
 | **Lightning AI** | [TorchMetrics #3576](https://github.com/Lightning-AI/torchmetrics/pull/3576) — hosted CI requires maintainer action. |
 
-**Verification pending:** Intel is not included in the 11 groups. Its upstream merge evidence could not be fully verified in this audit; that is not a zero finding.
+**Update:** [Intel dokimi #705](https://github.com/intel/dokimi/pull/705) is now a verified public upstream merge (November 21, 2026, 5:10 AM IST). It is listed as External Org above and is not on the company allowlist.
 
 </details>
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 97 public external merges (including 79 target company merges). Each links to the merged PR and its tests.
+Five case studies selected from those 98 public external merges (including 79 target company merges). Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
