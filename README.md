@@ -115,14 +115,14 @@ Checked November 21, 2026 (IST). No authored public upstream GitHub merge was ve
 | :--- | :--- |
 | **Anthropic** | [Claude Code Action #1938](https://github.com/anthropics/claude-code-action/pull/1938) — hosted CI requires maintainer action; [#1809](https://github.com/anthropics/claude-code-action/pull/1809) overlaps. |
 | **Tesla** | [Kafka Helmsman #101](https://github.com/teslamotors/kafka-helmsman/pull/101) — hosted CI requires maintainer action. |
-| **SpaceX / xAI** | [x-algorithm #265](https://github.com/xai-org/x-algorithm/pull/265), [X Chat SDK #78](https://github.com/xdevplatform/chat-xdk/pull/78), and [Cursor Priompt #31](https://github.com/anysphere/priompt/pull/31) — separate repository lanes, one company group; no human approval was verified for these PRs. |
+| **SpaceX / xAI** | [x-algorithm #265](https://github.com/xai-org/x-algorithm/pull/265), [X Chat SDK #78](https://github.com/xdevplatform/chat-xdk/pull/78), and [Cursor Priompt #31](https://github.com/anysphere/priompt/pull/31) — separate repository lanes, [one company group](https://x.ai/news/xai-joins-spacex) that [includes Cursor](https://cursor.com/en-US/blog/joining-spacex); no human approval was verified for these PRs. |
 | **JPMorgan Chase** | [Jupyter FS #409](https://github.com/jpmorganchase/jupyter-fs/pull/409) — addressed maintainer feedback on per-entry network calls; hosted CI requires maintainer action. |
 | **Cisco** | [Ansible ND #681](https://github.com/CiscoDevNet/ansible-nd/pull/681) — hosted CI requires maintainer action. |
 | **Perplexity** | [Numbat #100](https://github.com/perplexityai/numbat/pull/100) — hosted CI requires maintainer action. |
 | **LG** | [FOSSLight #1193](https://github.com/fosslight/fosslight/pull/1193) — hosted CI and human review pending. |
 | **Firecrawl** | [PDF Inspector #598](https://github.com/firecrawl/pdf-inspector/pull/598) — hosted CI requires maintainer action. |
 | **Supabase** | [Supabase #53197](https://github.com/supabase/supabase/pull/53197) — hosted CI requires maintainer action. |
-| **Vercel** | [Agent Browser #2415](https://github.com/vercel-labs/agent-browser/pull/2415) — GitHub does not currently report it as mergeable; hosted CI also requires action. |
+| **Vercel** | [Agent Browser #2415](https://github.com/vercel-labs/agent-browser/pull/2415) — hosted CI requires action and [#2069](https://github.com/vercel-labs/agent-browser/pull/2069) and [#2599](https://github.com/vercel-labs/agent-browser/pull/2599) cover the same issue. |
 | **Lightning AI** | [TorchMetrics #3576](https://github.com/Lightning-AI/torchmetrics/pull/3576) — hosted CI requires maintainer action. |
 
 **Verification pending:** Intel is not included in the 11 groups. Its upstream merge evidence could not be fully verified in this audit; that is not a zero finding.
