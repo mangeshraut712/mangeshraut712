@@ -1,11 +1,11 @@
 {
   "checked_on": "2026-11-22",
-  "source": "The scoped GitHub search returned 98 distinct public merged PRs. Their canonical URLs match the 98 entries in external_merge_evidence.",
+  "source": "The scoped GitHub search returned 99 distinct public merged PRs. Their canonical URLs match the 99 entries in external_merge_evidence.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 98,
-  "total": 98,
-  "company_total": 79,
+  "external_merged_total": 99,
+  "total": 99,
+  "company_total": 80,
   "goal": 150,
   "organizations": [
     {
@@ -199,9 +199,10 @@
     {
       "owner": "Comcast",
       "company": "Comcast",
-      "count": 1,
+      "count": 2,
       "prs": [
-        "https://github.com/Comcast/xCOMPASS/pull/34"
+        "https://github.com/Comcast/xCOMPASS/pull/34",
+        "https://github.com/Comcast/fishymetrics/pull/192"
       ]
     },
     {
@@ -215,6 +216,19 @@
     }
   ],
   "merge_evidence": [
+    {
+      "repo": "Comcast/fishymetrics",
+      "owner": "Comcast",
+      "number": 192,
+      "url": "https://github.com/Comcast/fishymetrics/pull/192",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-22T03:38:43Z",
+      "title": "feat(credentials): load profiles from file",
+      "company": "Comcast",
+      "id": 5163432552,
+      "merge_commit": "1ce4d3c880b26c2a9c1e31096c4ffc5a78b6328f"
+    },
     {
       "repo": "awslabs/social-messaging-agent-runtime-toolkit",
       "owner": "awslabs",
@@ -1291,6 +1305,19 @@
   "external_scope": "Public authored merged PRs excluding repositories owned by mangeshraut712, dayx61, huggingface, and Roojool",
   "external_merge_evidence": [
     {
+      "repo": "Comcast/fishymetrics",
+      "owner": "Comcast",
+      "number": 192,
+      "url": "https://github.com/Comcast/fishymetrics/pull/192",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-22T03:38:43Z",
+      "title": "feat(credentials): load profiles from file",
+      "company": "Comcast",
+      "id": 5163432552,
+      "merge_commit": "1ce4d3c880b26c2a9c1e31096c4ffc5a78b6328f"
+    },
+    {
       "repo": "intel/dokimi",
       "owner": "intel",
       "number": 705,
@@ -2313,7 +2340,7 @@
       "merge_commit": "9fa8e29e79c395e057ed0b666a38c71ecd1d3852"
     }
   ],
-  "organization_owned_merged_total": 95,
+  "organization_owned_merged_total": 96,
   "organization_owned_scope": "Subset of external_merge_evidence whose repository owner has GitHub account type Organization; includes owners outside the company goal.",
   "external_owner_evidence": [
     {
@@ -2470,7 +2497,7 @@
       "owner": "Comcast",
       "type": "Organization",
       "repository": "Comcast/xCOMPASS",
-      "count": 1
+      "count": 2
     },
     {
       "owner": "salesforce",

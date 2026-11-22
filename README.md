@@ -66,12 +66,12 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-98 / 150  █████████████░░░░░░░  65.3%
+99 / 150  █████████████░░░░░░░  66.0%
 ```
 
-As of **November 22, 2026 (IST)**, GitHub records **98 public external merges**, including **79 company-allowlist merges**, with **52 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json).
+As of **November 22, 2026 (IST)**, GitHub records **99 public external merges**, including **80 company-allowlist merges**, with **51 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json).
 
-The two latest merges fixed a Markdown diagnostic that pointed to the wrong source line and a scheduling limit that allowed new schedules when the count failed. [Intel Dokimi #705](https://github.com/intel/dokimi/pull/705) · [AWS Labs #207](https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/207).
+The latest merge adds [file-based credential profiles to Comcast Fishymetrics](https://github.com/Comcast/fishymetrics/pull/192). Earlier merges fixed a Markdown diagnostic that pointed to the wrong source line and a scheduling limit that allowed new schedules when the count failed. [Intel Dokimi #705](https://github.com/intel/dokimi/pull/705) · [AWS Labs #207](https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/207).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
@@ -86,7 +86,7 @@ The two latest merges fixed a Markdown diagnostic that pointed to the wrong sour
 | [Sarvam AI](https://github.com/sarvamai/sarvam-ai-cookbook/pull/185) | `sarvamai` | 2 | Target Company | Sarvam AI Cookbook CI workflows & example execution |
 | [Salesforce](https://github.com/salesforce/zana/pull/725) | `salesforce` | 2 | Target Company | [AgentScript](https://github.com/salesforce/agentscript/pull/106) post-action transition compiler handoff & Zana Windows npm Claude provider |
 | [AMD](https://github.com/amd/gaia/pull/6656) | `amd` | 1 | Target Company | GAIA memory bootstrap confidence parsing |
-| [Comcast](https://github.com/Comcast/xCOMPASS/pull/34) | `Comcast` | 1 | Target Company | xCOMPASS contributor-guide navigation & questionnaire links |
+| [Comcast](https://github.com/Comcast/xCOMPASS/pull/34) | `Comcast` | 2 | Target Company | xCOMPASS contributor-guide links · [Fishymetrics credential profiles from file](https://github.com/Comcast/fishymetrics/pull/192) |
 | [IBM](https://github.com/IBM/javacore-analyser/pull/622) | `IBM` | 2 | Target Company | Alchemy Logging (Go goroutine-ID formatting) & Javacore Analyser (thread link routing) |
 | [Meta](https://github.com/meta/lexical/pull/9707) | `meta` | 1 | Target Company | Lexical rich-text editor framework |
 | [Moonshot AI](https://github.com/MoonshotAI/kimi-code/pull/2416) | `MoonshotAI` | 1 | Target Company | kimi-code models.dev fallback provider configuration |
@@ -105,7 +105,7 @@ The two latest merges fixed a Markdown diagnostic that pointed to the wrong sour
 | [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
 | [Intel](https://github.com/intel/dokimi/pull/705) | `intel` | 1 | External Org | Dokimi: preserve physical Markdown claim line numbers |
-| **Total** | **29 Owners / Orgs** | **98** | **79 Goal · 19 Ext** | **43 Repositories across 98 verified merged pull requests** |
+| **Total** | **29 Owners / Orgs** | **99** | **80 Goal · 19 Ext** | **44 Repositories across 99 verified merged pull requests** |
 
 <details>
 <summary><b>A. First-merge watchlist: 11 company groups</b></summary>
@@ -134,7 +134,7 @@ Checked November 21, 2026 (IST). No authored public upstream GitHub merge was ve
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 98 public external merges (including 79 target company merges). Each links to the merged PR and its tests.
+Five case studies selected from those 99 public external merges (including 80 target company merges). Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -306,11 +306,11 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
 | Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | npm releases verified; November 13 source fixes merged; Insights synthetic E2E coverage added |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 71 of 79 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 72 of 80 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  52  ████████████████████████████████████████████████████  (through Nov 21, IST)
+                           Nov  53  █████████████████████████████████████████████████████  (through Nov 22, IST)
 ```
 
 </details>
@@ -318,14 +318,14 @@ Q4 2026 allowlist merges   Oct  19  ██████████████�
 <details>
 <summary><b>OSS merge pace</b> — allowlist merges by month</summary>
 
-Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-21).
+Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-22).
 
 ```mermaid
 xychart-beta
   title "Allowlist merges per month (2026)"
   x-axis [Jul, Aug, Sep, Oct, Nov]
   y-axis "Merged PRs" 0 --> 60
-  bar [2, 3, 3, 19, 52]
+  bar [2, 3, 3, 19, 53]
 ```
 
 | Repo (top 5) | Merged |
