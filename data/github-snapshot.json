@@ -1,7 +1,7 @@
 {
   "login": "mangeshraut712",
   "source": "GitHub GraphQL + REST (public owned-repo inventory + all-year contribution calendars)",
-  "synced_at": "2026-11-22T21:46:03Z",
+  "synced_at": "2026-11-23T02:45:42Z",
   "created_at": "2021-11-27",
   "location": "Pune \u00b7 Philadelphia",
   "bio": "Building production systems: speech VAD \u00b7 RAG eval \u00b7 agents \u00b7 full-stack | Open to Software Engineer roles (Pune \u00b7 Philadelphia \u00b7 remote)",
@@ -12,28 +12,28 @@
   "followers": 15,
   "following": 15,
   "contributed_to_repos": 123,
-  "contributions_all_time": 8422,
-  "contributions_rolling_1yr": 7307,
+  "contributions_all_time": 8436,
+  "contributions_rolling_1yr": 7288,
   "contributions_by_year": {
     "2021": 1,
     "2022": 0,
     "2023": 3,
     "2024": 10,
     "2025": 1633,
-    "2026": 6775
+    "2026": 6789
   },
   "ytd": {
     "year": 2026,
-    "contributions": 6775,
-    "commits": 4229,
-    "pull_requests": 1781,
+    "contributions": 6789,
+    "commits": 4238,
+    "pull_requests": 1786,
     "issues": 265,
     "reviews": 345,
     "private": 55,
-    "avg_per_day": "20.78",
+    "avg_per_day": "20.76",
     "best_day": 835,
     "best_date": "Nov 10",
-    "longest_streak_days": 33
+    "longest_streak_days": 34
   },
   "primary_languages": {
     "TypeScript": 15,
