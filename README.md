@@ -192,10 +192,10 @@ Five case studies selected from those 100 public external merges (including 81 t
 
 | Project | What it does | Install / try | Validation |
 | --- | --- | --- | --- |
-| [**Codex Insights**](https://github.com/mangeshraut712/codex-insights) | Private HTML/JSON workflow reports from Codex sessions; optional shareable aggregate profile. Local-only mode makes zero model calls. | `npx @mangeshraut712/codex-insights@0.7.0 --local-only` | [115 tests and 20 synthetic CLI/browser journeys](https://github.com/mangeshraut712/codex-insights/pull/23) |
-| [**Mangesh’s Merge Guide**](https://github.com/mangeshraut712/mangeshs-merge-guide) | Contribution workflow from issue selection and reproduction through testing, PR review and follow-through. | `npx @mangeshraut712/merge-guide@0.1.0 install --target codex` | [Installer, helper and upgrade-safety checks](https://github.com/mangeshraut712/mangeshs-merge-guide/pull/1) |
+| [**Codex Insights**](https://github.com/mangeshraut712/codex-insights) | Private HTML/JSON workflow reports from Codex sessions; optional shareable aggregate profile. Local-only mode makes zero model calls. | `npx @mangeshraut712/codex-insights@0.7.2 --local-only` | [115 tests and 20 synthetic CLI/browser journeys](https://github.com/mangeshraut712/codex-insights/pull/23) |
+| [**Mangesh’s Merge Guide**](https://github.com/mangeshraut712/mangeshs-merge-guide) | Contribution workflow from issue selection and reproduction through testing, PR review and follow-through. | `npx @mangeshraut712/merge-guide@0.1.4 install --target codex` | [Installer, helper and upgrade-safety checks](https://github.com/mangeshraut712/mangeshs-merge-guide/pull/1) |
 
-npm releases verified **November 13, 2026**. The latest GitHub source includes additional fixes beyond these published versions. For the Insights skill, follow its [plugin installation](https://github.com/mangeshraut712/codex-insights#install-insights) and invoke `$insights`; Merge Guide installs as `$oss-contribution-insights` and also supports Claude Code and Cursor destinations. [Insights source fixes](https://github.com/mangeshraut712/codex-insights/pull/22) · [Merge Guide source fixes](https://github.com/mangeshraut712/mangeshs-merge-guide/pull/1).
+Both packages publish npm provenance. On **November 23, 2026**, I ran Insights from a fresh npm cache and installed Merge Guide into a clean Codex project. Use the [Insights plugin installation guide](https://github.com/mangeshraut712/codex-insights#install-insights) to invoke `$insights` inside Codex. Invoke Merge Guide as `$oss-contribution-insights`. [Insights on npm](https://www.npmjs.com/package/@mangeshraut712/codex-insights/v/0.7.2) · [Merge Guide on npm](https://www.npmjs.com/package/@mangeshraut712/merge-guide/v/0.1.4).
 
 ---
 
@@ -305,7 +305,7 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | RAG eval | [ai-ml-portfolio · labs/llm-eval](https://github.com/mangeshraut712/ai-ml-portfolio/tree/main/labs/llm-eval) | Offline stub report; live mode off in CI |
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
-| Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | npm releases verified; November 13 source fixes merged; Insights synthetic E2E coverage added |
+| Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | Published npm packages with provenance and verified CLI commands |
 | OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 73 of 81 allowlist merges landed in Q4 |
 
 ```text
