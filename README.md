@@ -75,6 +75,8 @@ The latest merge fixes six spelling errors in [Walmart’s Lacinia documentation
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
+The November 23 audit matched all 100 pull request URLs in the [merge ledger](data/oss-scoreboard.json) to GitHub’s public merged-PR search. Of those, 81 belong to the company allowlist and 19 to the wider ecosystem. The 150-merge goal uses the full external count.
+
 | Organization / Company | GitHub Owner | Merged | Scope | Repositories & Focus |
 | :--- | :--- | ---: | :---: | :--- |
 | [Amazon/AWS](https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/207) | `awslabs` | 28 | Target Company | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
@@ -112,20 +114,20 @@ The latest merge fixes six spelling errors in [Walmart’s Lacinia documentation
 
 <br>
 
-Checked November 21, 2026 (IST). No authored public upstream GitHub merge was verified for the groups below in the checked owners. These links are representative open PRs, not evidence of a merge. The list is a working shortlist, not a claim of exhaustive company-wide coverage.
+Checked November 23, 2026 (IST). All 13 authored PRs linked below are open, and none has a recorded human approval in the latest reviews. The 11 groups have no public merge in the ledger under the checked owners. Overlapping PRs by other authors are linked for context. Gates below use both current-head checks and GitHub Actions workflow runs.
 
 | Target company group | Representative open PRs and current next gate |
 | :--- | :--- |
 | **Anthropic** | [Claude Code Action #1938](https://github.com/anthropics/claude-code-action/pull/1938) — hosted CI requires maintainer action; [#1809](https://github.com/anthropics/claude-code-action/pull/1809) overlaps. |
 | **Tesla** | [Kafka Helmsman #101](https://github.com/teslamotors/kafka-helmsman/pull/101) — hosted CI requires maintainer action. |
-| **SpaceX / xAI** | [x-algorithm #265](https://github.com/xai-org/x-algorithm/pull/265), [X Chat SDK #78](https://github.com/xdevplatform/chat-xdk/pull/78), and [Cursor Priompt #31](https://github.com/anysphere/priompt/pull/31) — separate repository lanes, [one company group](https://x.ai/news/xai-joins-spacex) that [includes Cursor](https://cursor.com/en-US/blog/joining-spacex); no human approval was verified for these PRs. |
+| **SpaceX / xAI** | [x-algorithm #265](https://github.com/xai-org/x-algorithm/pull/265), [X Chat SDK #78](https://github.com/xdevplatform/chat-xdk/pull/78), and [Cursor Priompt #31](https://github.com/anysphere/priompt/pull/31) — separate repository lanes, [one company group](https://x.ai/news/xai-joins-spacex) that [includes Cursor](https://cursor.com/en-US/blog/joining-spacex); x-algorithm has two passing Socket Security checks and no Actions run on its head. X Chat SDK passed CLA checks and awaits CI authorization. Priompt has no reported head checks. |
 | **JPMorgan Chase** | [Jupyter FS #409](https://github.com/jpmorganchase/jupyter-fs/pull/409) — addressed maintainer feedback on per-entry network calls; hosted CI requires maintainer action. |
 | **Cisco** | [Ansible ND #681](https://github.com/CiscoDevNet/ansible-nd/pull/681) — hosted CI requires maintainer action. |
 | **Perplexity** | [Numbat #100](https://github.com/perplexityai/numbat/pull/100) — hosted CI requires maintainer action. |
-| **LG** | [FOSSLight #1193](https://github.com/fosslight/fosslight/pull/1193) — hosted CI and human review pending. |
+| **LG** | [FOSSLight #1193](https://github.com/fosslight/fosslight/pull/1193) — three reported checks passed. The FOSSLight PR workflow still needs authorization and human review is pending. |
 | **Firecrawl** | [PDF Inspector #598](https://github.com/firecrawl/pdf-inspector/pull/598) — hosted CI requires maintainer action. |
-| **Supabase** | [Supabase #53197](https://github.com/supabase/supabase/pull/53197) — hosted CI requires maintainer action. |
-| **Vercel** | [Agent Browser #2415](https://github.com/vercel-labs/agent-browser/pull/2415) — hosted CI requires action and [#2069](https://github.com/vercel-labs/agent-browser/pull/2069) and [#2599](https://github.com/vercel-labs/agent-browser/pull/2599) cover the same issue. |
+| **Supabase** | [Supabase #53197](https://github.com/supabase/supabase/pull/53197) — three Studio deployment checks failed. GitHub also requires review and authorization for hosted workflows. |
+| **Vercel** | [Agent Browser #2415](https://github.com/vercel-labs/agent-browser/pull/2415) — an [unresolved review thread](https://github.com/vercel-labs/agent-browser/pull/2415#discussion_r4472950739) reports that date/time fields in same-process iframes stay empty. Two deployment checks failed and CI needs authorization. [#2069](https://github.com/vercel-labs/agent-browser/pull/2069) and [#2599](https://github.com/vercel-labs/agent-browser/pull/2599) cover the same issue. |
 | **Lightning AI** | [TorchMetrics #3576](https://github.com/Lightning-AI/torchmetrics/pull/3576) — hosted CI requires maintainer action. |
 
 **Update:** [Intel dokimi #705](https://github.com/intel/dokimi/pull/705) is now a verified public upstream merge (November 21, 2026, 5:10 AM IST). It is listed as External Org above and is not on the company allowlist.
