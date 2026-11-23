@@ -66,12 +66,12 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-99 / 150  █████████████░░░░░░░  66.0%
+100 / 150  █████████████░░░░░░░  66.7%
 ```
 
-As of **November 22, 2026 (IST)**, GitHub records **99 public external merges**, including **80 company-allowlist merges**, with **51 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json).
+As of **November 23, 2026 (IST)**, GitHub records **100 public external merges**, including **81 company-allowlist merges**, with **50 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json).
 
-The latest merge adds [file-based credential profiles to Comcast Fishymetrics](https://github.com/Comcast/fishymetrics/pull/192). Earlier merges fixed a Markdown diagnostic that pointed to the wrong source line and a scheduling limit that allowed new schedules when the count failed. [Intel Dokimi #705](https://github.com/intel/dokimi/pull/705) · [AWS Labs #207](https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/207).
+The latest merge fixes six spelling errors in [Walmart’s Lacinia documentation and a docstring](https://github.com/walmartlabs/lacinia/pull/478). The previous merge adds [file-based credential profiles to Comcast Fishymetrics](https://github.com/Comcast/fishymetrics/pull/192). Earlier merges fixed a Markdown diagnostic that pointed to the wrong source line and a scheduling limit that allowed new schedules when the count failed. [Intel Dokimi #705](https://github.com/intel/dokimi/pull/705) · [AWS Labs #207](https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/207).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
@@ -93,7 +93,7 @@ The latest merge adds [file-based credential profiles to Comcast Fishymetrics](h
 | [Netflix](https://github.com/Netflix/vmaf/pull/1712) | `Netflix` | 2 | Target Company | VMAF (CLI long-opt integer parsing) & DGS codegen (Kotlin client generation) |
 | [OpenAI](https://github.com/openai/codex-security/pull/754) | `openai` | 1 | Target Company | codex-security CLI error guidance & output clarity |
 | [Samsung](https://github.com/Samsung/CredSweeper/pull/997) | `Samsung` | 1 | Target Company | CredSweeper credential scanner install-guide documentation |
-| [Walmart](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50) | `walmartlabs` | 1 | Target Company | JSON-to-GraphQL CLI compatibility on Node.js 22+ |
+| [Walmart](https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50) | `walmartlabs` | 2 | Target Company | JSON-to-GraphQL CLI compatibility on Node.js 22+ & [Lacinia documentation cleanup](https://github.com/walmartlabs/lacinia/pull/478) |
 | [Brekkylab](https://github.com/brekkylab/backlot/pull/788) | `brekkylab` | 6 | External OSS | Backlot: media asset ingest, pipeline automation & test suites |
 | [Eugenio Enko](https://github.com/eugenioenko/ttt/pull/947) | `eugenioenko` | 3 | External OSS | TTT (Terminal Text Tools): terminal stream processing & utility pipelines |
 | [FINOS](https://github.com/finos/architecture-as-code/pull/3331) | `finos` | 2 | External Org | Architecture-as-Code schema validation & model export |
@@ -105,7 +105,7 @@ The latest merge adds [file-based credential profiles to Comcast Fishymetrics](h
 | [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
 | [Intel](https://github.com/intel/dokimi/pull/705) | `intel` | 1 | External Org | Dokimi: preserve physical Markdown claim line numbers |
-| **Total** | **29 Owners / Orgs** | **99** | **80 Goal · 19 Ext** | **44 Repositories across 99 verified merged pull requests** |
+| **Total** | **29 Owners / Orgs** | **100** | **81 Goal · 19 Ext** | **45 Repositories across 100 verified merged pull requests** |
 
 <details>
 <summary><b>A. First-merge watchlist: 11 company groups</b></summary>
@@ -134,7 +134,7 @@ Checked November 21, 2026 (IST). No authored public upstream GitHub merge was ve
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 99 public external merges (including 80 target company merges). Each links to the merged PR and its tests.
+Five case studies selected from those 100 public external merges (including 81 target company merges). Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -306,11 +306,11 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
 | Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | npm releases verified; November 13 source fixes merged; Insights synthetic E2E coverage added |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 72 of 80 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 73 of 81 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  53  █████████████████████████████████████████████████████  (through Nov 22, IST)
+                           Nov  54  ██████████████████████████████████████████████████████  (through Nov 23, IST)
 ```
 
 </details>
@@ -318,14 +318,14 @@ Q4 2026 allowlist merges   Oct  19  ██████████████�
 <details>
 <summary><b>OSS merge pace</b> — allowlist merges by month</summary>
 
-Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-22).
+Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-23).
 
 ```mermaid
 xychart-beta
   title "Allowlist merges per month (2026)"
   x-axis [Jul, Aug, Sep, Oct, Nov]
   y-axis "Merged PRs" 0 --> 60
-  bar [2, 3, 3, 19, 53]
+  bar [2, 3, 3, 19, 54]
 ```
 
 | Repo (top 5) | Merged |

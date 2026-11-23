@@ -1,11 +1,11 @@
 {
-  "checked_on": "2026-11-22",
-  "source": "The scoped GitHub search returned 99 distinct public merged PRs. Their canonical URLs match the 99 entries in external_merge_evidence.",
+  "checked_on": "2026-11-23",
+  "source": "The scoped GitHub search returned 100 distinct public merged PRs. Their canonical URLs match the 100 entries in external_merge_evidence.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 99,
-  "total": 99,
-  "company_total": 80,
+  "external_merged_total": 100,
+  "total": 100,
+  "company_total": 81,
   "goal": 150,
   "organizations": [
     {
@@ -191,8 +191,9 @@
     {
       "owner": "walmartlabs",
       "company": "Walmart",
-      "count": 1,
+      "count": 2,
       "prs": [
+        "https://github.com/walmartlabs/lacinia/pull/478",
         "https://github.com/walmartlabs/json-to-simple-graphql-schema/pull/50"
       ]
     },
@@ -216,6 +217,19 @@
     }
   ],
   "merge_evidence": [
+    {
+      "repo": "walmartlabs/lacinia",
+      "owner": "walmartlabs",
+      "number": 478,
+      "url": "https://github.com/walmartlabs/lacinia/pull/478",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-23T03:49:16Z",
+      "title": "docs: fix spelling typos (occurred, preferred, overridden, separately)",
+      "company": "Walmart",
+      "id": 5047772518,
+      "merge_commit": "a5a8d35df370a81f981161632158969c13054fdd"
+    },
     {
       "repo": "Comcast/fishymetrics",
       "owner": "Comcast",
@@ -1305,6 +1319,19 @@
   "external_scope": "Public authored merged PRs excluding repositories owned by mangeshraut712, dayx61, huggingface, and Roojool",
   "external_merge_evidence": [
     {
+      "repo": "walmartlabs/lacinia",
+      "owner": "walmartlabs",
+      "number": 478,
+      "url": "https://github.com/walmartlabs/lacinia/pull/478",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-23T03:49:16Z",
+      "title": "docs: fix spelling typos (occurred, preferred, overridden, separately)",
+      "company": "Walmart",
+      "id": 5047772518,
+      "merge_commit": "a5a8d35df370a81f981161632158969c13054fdd"
+    },
+    {
       "repo": "Comcast/fishymetrics",
       "owner": "Comcast",
       "number": 192,
@@ -2340,7 +2367,7 @@
       "merge_commit": "9fa8e29e79c395e057ed0b666a38c71ecd1d3852"
     }
   ],
-  "organization_owned_merged_total": 96,
+  "organization_owned_merged_total": 97,
   "organization_owned_scope": "Subset of external_merge_evidence whose repository owner has GitHub account type Organization; includes owners outside the company goal.",
   "external_owner_evidence": [
     {
@@ -2359,7 +2386,7 @@
       "owner": "walmartlabs",
       "type": "Organization",
       "repository": "walmartlabs/json-to-simple-graphql-schema",
-      "count": 1
+      "count": 2
     },
     {
       "owner": "IBM",
