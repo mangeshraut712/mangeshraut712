@@ -66,20 +66,20 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-103 / 150  ██████████████░░░░░░  68.7%
+104 / 150  ██████████████░░░░░░  69.3%
 ```
 
-As of **November 24, 2026 (IST)**, GitHub records **103 public external merges**, including **83 company-allowlist merges**, with **47 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json).
+As of **November 25, 2026 (IST)**, GitHub records **104 public external merges**, including **84 company-allowlist merges**, with **46 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json).
 
-The latest merge, [AWS VAMS #1822](https://github.com/awslabs/visual-asset-management-system/pull/1822), fixes false test expiry after a long delay between collection and execution. Other recent work gates [`<span>` behind C++20 in Intel LLVM’s SYCL headers](https://github.com/intel/llvm/pull/23734). [AWS Stickler #556](https://github.com/awslabs/stickler/pull/556) fixes validation for lists of scalar unions. All three were merged by upstream maintainers.
+The latest merge, [AWS MCP #5079](https://github.com/awslabs/mcp/pull/5079), fixes OpenAPI MCP Server setup examples so they match its stdio behavior, including a Windows JSON example that now parses. [AWS VAMS #1822](https://github.com/awslabs/visual-asset-management-system/pull/1822) fixes false test expiry after a delay between collection and execution. Other recent maintainer merges include [Intel LLVM #23734](https://github.com/intel/llvm/pull/23734) and [AWS Stickler #556](https://github.com/awslabs/stickler/pull/556).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
-The November 23 audit matched 99 pull request URLs to GitHub’s public merged-PR search and carried forward three previously verified entries from outside this refresh’s read scope. The November 24 refresh adds one independently verified merge to that baseline. Of the 103 [recorded merges](data/oss-scoreboard.json), 83 belong to the company allowlist and 20 to the wider ecosystem. The 150-merge goal uses the full external count.
+The November 23 audit matched 99 pull request URLs to GitHub’s public merged-PR search and carried forward three previously verified entries from outside this refresh’s read scope. The November 24 and 25 refreshes add two independently verified merges to that baseline. Of the 104 [recorded merges](data/oss-scoreboard.json), 84 belong to the company allowlist and 20 to the wider ecosystem. The 150-merge goal uses the full external count.
 
 | Organization / Company | GitHub Owner | Merged | Scope | Repositories & Focus |
 | :--- | :--- | ---: | :---: | :--- |
-| [Amazon/AWS](https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/207) | `awslabs` | 30 | Target Company | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
+| [Amazon/AWS](https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/207) | `awslabs` | 31 | Target Company | MCP, Stickler, Social Messaging Agent Runtime Toolkit & Visual Asset Management System |
 | [Microsoft](https://github.com/microsoft/playwright/pull/44030) | `microsoft` | 13 | Target Company | Playwright docs, [Semantic Kernel](https://github.com/microsoft/semantic-kernel/pull/14668), [physical-ai-toolchain](https://github.com/microsoft/physical-ai-toolchain/pull/2071), [WinApp CLI](https://github.com/microsoft/winappCli/pull/1258), hve-core & winget-pkgs |
 | [Apple](https://github.com/apple/pkl-intellij/pull/294) | `apple` | 8 | Target Company | Pkl IntelliJ CLI runner, password-manager resources & JSON schemas |
 | [Adobe](https://github.com/adobe/react-spectrum/pull/10860) | `adobe` | 6 | Target Company | React Aria / Spectrum: form validation, CheckboxGroup, ComboBox selection & locale dates |
@@ -107,7 +107,7 @@ The November 23 audit matched 99 pull request URLs to GitHub’s public merged-P
 | [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
 | [Intel](https://github.com/intel/dokimi/pull/705) | `intel` | 2 | External Org | Dokimi Markdown diagnostics & [LLVM SYCL C++20 header compatibility](https://github.com/intel/llvm/pull/23734) |
-| **Total** | **29 Owners / Orgs** | **103** | **83 Goal · 20 Ext** | **46 Repositories across 103 verified merged pull requests** |
+| **Total** | **29 Owners / Orgs** | **104** | **84 Goal · 20 Ext** | **46 Repositories across 104 verified merged pull requests** |
 
 <details>
 <summary><b>A. First-merge watchlist: 11 company groups</b></summary>
@@ -136,7 +136,7 @@ Checked November 23, 2026 (IST). All 13 authored PRs linked below are open, and 
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 103 public external merges (including 83 target company merges). Each links to the merged PR and its tests.
+Five case studies selected from those 104 public external merges (including 84 target company merges). Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -308,11 +308,11 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
 | Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | Published npm packages with provenance and verified CLI commands |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 75 of 83 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 76 of 84 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  56  ████████████████████████████████████████████████████████  (through Nov 24, IST)
+                           Nov  57  █████████████████████████████████████████████████████████  (through Nov 25, IST)
 ```
 
 </details>

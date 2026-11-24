@@ -1,11 +1,11 @@
 {
-  "checked_on": "2026-11-24",
-  "source": "The November 23 scoped search returned 99 distinct public merged PRs, with three previously verified records carried forward. This refresh adds one separately verified canonical merge (AWS VAMS #1822), for 103 entries in external_merge_evidence.",
+  "checked_on": "2026-11-25",
+  "source": "The November 23 scoped search returned 99 distinct public merged PRs, with three previously verified records carried forward. Canonical refreshes added AWS VAMS #1822 and AWS MCP #5079, for 104 entries in external_merge_evidence.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 103,
-  "total": 103,
-  "company_total": 83,
+  "external_merged_total": 104,
+  "total": 104,
+  "company_total": 84,
   "goal": 150,
   "organizations": [
     {
@@ -47,7 +47,7 @@
     {
       "owner": "awslabs",
       "company": "Amazon/AWS",
-      "count": 30,
+      "count": 31,
       "prs": [
         "https://github.com/awslabs/social-messaging-agent-runtime-toolkit/pull/207",
         "https://github.com/awslabs/stickler/pull/555",
@@ -78,7 +78,8 @@
         "https://github.com/awslabs/mcp/pull/4857",
         "https://github.com/awslabs/mcp/pull/4845",
         "https://github.com/awslabs/stickler/pull/556",
-        "https://github.com/awslabs/visual-asset-management-system/pull/1822"
+        "https://github.com/awslabs/visual-asset-management-system/pull/1822",
+        "https://github.com/awslabs/mcp/pull/5079"
       ]
     },
     {
@@ -1297,6 +1298,19 @@
       "company": "Amazon/AWS",
       "id": 5432099610,
       "merge_commit": "f96d0174614adb0767916c05a10f8d7ada4b9279"
+    },
+    {
+      "repo": "awslabs/mcp",
+      "owner": "awslabs",
+      "number": 5079,
+      "url": "https://github.com/awslabs/mcp/pull/5079",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-24T18:56:44Z",
+      "title": "docs(openapi-mcp-server): drop env vars the server never reads",
+      "company": "Amazon/AWS",
+      "id": 5238132651,
+      "merge_commit": "8229626e60fdb799c99e48d9199184fd027b0064"
     }
   ],
   "selected_case_studies": [
@@ -2432,16 +2446,29 @@
       "company": "Amazon/AWS",
       "id": 5432099610,
       "merge_commit": "f96d0174614adb0767916c05a10f8d7ada4b9279"
+    },
+    {
+      "repo": "awslabs/mcp",
+      "owner": "awslabs",
+      "number": 5079,
+      "url": "https://github.com/awslabs/mcp/pull/5079",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-24T18:56:44Z",
+      "title": "docs(openapi-mcp-server): drop env vars the server never reads",
+      "company": "Amazon/AWS",
+      "id": 5238132651,
+      "merge_commit": "8229626e60fdb799c99e48d9199184fd027b0064"
     }
   ],
-  "organization_owned_merged_total": 100,
+  "organization_owned_merged_total": 101,
   "organization_owned_scope": "Subset of external_merge_evidence whose repository owner has GitHub account type Organization; includes owners outside the company goal.",
   "external_owner_evidence": [
     {
       "owner": "awslabs",
       "type": "Organization",
       "repository": "awslabs/mcp",
-      "count": 30
+      "count": 31
     },
     {
       "owner": "adobe",
