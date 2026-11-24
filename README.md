@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026112312" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=2026112312" />
-    <img alt="Mangesh Raut — Software Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026112312" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026112400" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-light.svg?v=2026112400" />
+    <img alt="Mangesh Raut — Software Engineer" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/banner-dark.svg?v=2026112400" />
   </picture>
 </p>
 
@@ -373,23 +373,23 @@ Details: [INTERVIEW_NOTES.md](https://github.com/mangeshraut712/ai-ml-portfolio/
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026112312" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=2026112312" />
-    <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026112312" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026112400" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-light.svg?v=2026112400" />
+    <img alt="Contribution trajectory by year" width="820" src="https://raw.githubusercontent.com/mangeshraut712/mangeshraut712/main/trajectory-dark.svg?v=2026112400" />
   </picture>
 </p>
 
-Figures from the [repository's GitHub snapshot](data/github-snapshot.json), collected **2026-11-23 12:43 UTC**:
+Figures from the [repository's GitHub snapshot](data/github-snapshot.json), collected **2026-11-24 00:51 UTC**:
 
 | 2026 activity | Count |
 | --- | ---: |
-| Contribution-calendar total (YTD) | 6,842 |
-| Rolling 1-year calendar contributions | 7,341 |
-| Commits | 4,277 |
-| Pull requests | 1,791 |
-| Reviews | 345 |
+| Contribution-calendar total (YTD) | 6,861 |
+| Rolling 1-year calendar contributions | 7,360 |
+| Commits | 4,291 |
+| Pull requests | 1,794 |
+| Reviews | 344 |
 | Issues | 266 |
-| All-time contributions | 8,489 |
+| All-time contributions | 8,508 |
 
 The calendar total and activity-type counts are separate GitHub measures; the rows are not presented as a sum.
 
