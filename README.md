@@ -66,16 +66,16 @@ VAD figures are from the [Sep 11, 2026 CI run](https://github.com/mangeshraut712
 ### Open-source contributions
 
 ```text
-104 / 150  ██████████████░░░░░░  69.3%
+105 / 150  ██████████████░░░░░░  70.0%
 ```
 
-As of **November 25, 2026 (IST)**, GitHub records **104 public external merges**, including **84 company-allowlist merges**, with **46 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json).
+As of **November 25, 2026 (IST)**, GitHub records **105 public external merges**, including **85 company-allowlist merges**, with **45 remaining** toward 150. [Evidence and scope](data/oss-scoreboard.json).
 
-The latest merge, [AWS MCP #5079](https://github.com/awslabs/mcp/pull/5079), fixes OpenAPI MCP Server setup examples so they match its stdio behavior, including a Windows JSON example that now parses. [AWS VAMS #1822](https://github.com/awslabs/visual-asset-management-system/pull/1822) fixes false test expiry after a delay between collection and execution. Other recent maintainer merges include [Intel LLVM #23734](https://github.com/intel/llvm/pull/23734) and [AWS Stickler #556](https://github.com/awslabs/stickler/pull/556).
+The latest merge, [IBM Carbon #24019](https://github.com/carbon-design-system/carbon/pull/24019), fixes a date picker that would not reopen after Enter or Escape. [AWS MCP #5079](https://github.com/awslabs/mcp/pull/5079) fixes OpenAPI MCP Server setup examples so they match its stdio behavior, including a Windows JSON example that now parses. [AWS VAMS #1822](https://github.com/awslabs/visual-asset-management-system/pull/1822) fixes false test expiry after a delay between collection and execution. Other recent maintainer merges include [Intel LLVM #23734](https://github.com/intel/llvm/pull/23734) and [AWS Stickler #556](https://github.com/awslabs/stickler/pull/556).
 
 #### By company group and open-source organization (allowlist & ecosystem scoreboard)
 
-The November 23 audit matched 99 pull request URLs to GitHub’s public merged-PR search and carried forward three previously verified entries from outside this refresh’s read scope. The November 24 and 25 refreshes add two independently verified merges to that baseline. Of the 104 [recorded merges](data/oss-scoreboard.json), 84 belong to the company allowlist and 20 to the wider ecosystem. The 150-merge goal uses the full external count.
+The November 23 audit matched 99 pull request URLs to GitHub’s public merged-PR search and carried forward three previously verified entries from outside this refresh’s read scope. The November 24 and 25 refreshes add three independently verified merges to that baseline. Of the 105 [recorded merges](data/oss-scoreboard.json), 85 belong to the company allowlist and 20 to the wider ecosystem. The 150-merge goal uses the full external count.
 
 | Organization / Company | GitHub Owner | Merged | Scope | Repositories & Focus |
 | :--- | :--- | ---: | :---: | :--- |
@@ -89,7 +89,7 @@ The November 23 audit matched 99 pull request URLs to GitHub’s public merged-P
 | [Salesforce](https://github.com/salesforce/zana/pull/725) | `salesforce` | 2 | Target Company | [AgentScript](https://github.com/salesforce/agentscript/pull/106) post-action transition compiler handoff & Zana Windows npm Claude provider |
 | [AMD](https://github.com/amd/gaia/pull/6656) | `amd` | 1 | Target Company | GAIA memory bootstrap confidence parsing |
 | [Comcast](https://github.com/Comcast/xCOMPASS/pull/34) | `Comcast` | 2 | Target Company | xCOMPASS contributor-guide links · [Fishymetrics credential profiles from file](https://github.com/Comcast/fishymetrics/pull/192) |
-| [IBM](https://github.com/IBM/javacore-analyser/pull/622) | `IBM` | 2 | Target Company | Alchemy Logging (Go goroutine-ID formatting) & Javacore Analyser (thread link routing) |
+| [IBM](https://github.com/IBM/javacore-analyser/pull/622) | `IBM` · `carbon-design-system` | 3 | Target Company | Alchemy Logging (Go goroutine-ID formatting), Javacore Analyser (thread link routing) & [Carbon DatePicker keyboard close](https://github.com/carbon-design-system/carbon/pull/24019) |
 | [Meta](https://github.com/meta/lexical/pull/9707) | `meta` | 1 | Target Company | Lexical rich-text editor framework |
 | [Moonshot AI](https://github.com/MoonshotAI/kimi-code/pull/2416) | `MoonshotAI` | 1 | Target Company | kimi-code models.dev fallback provider configuration |
 | [Netflix](https://github.com/Netflix/vmaf/pull/1712) | `Netflix` | 2 | Target Company | VMAF (CLI long-opt integer parsing) & DGS codegen (Kotlin client generation) |
@@ -107,7 +107,7 @@ The November 23 audit matched 99 pull request URLs to GitHub’s public merged-P
 | [Railtown AI](https://github.com/RailtownAI/railtracks/pull/1684) | `RailtownAI` | 1 | External Org | Railtracks AI runtime monitoring & diagnostics |
 | [Sentient](https://github.com/existence-master/Sentient/pull/500) | `existence-master` | 1 | External Org | Sentient autonomous agent framework coordination |
 | [Intel](https://github.com/intel/dokimi/pull/705) | `intel` | 2 | External Org | Dokimi Markdown diagnostics & [LLVM SYCL C++20 header compatibility](https://github.com/intel/llvm/pull/23734) |
-| **Total** | **29 Owners / Orgs** | **104** | **84 Goal · 20 Ext** | **46 Repositories across 104 verified merged pull requests** |
+| **Total** | **30 Owners / Orgs** | **105** | **85 Goal · 20 Ext** | **47 Repositories across 105 verified merged pull requests** |
 
 <details>
 <summary><b>A. First-merge watchlist: 11 company groups</b></summary>
@@ -136,7 +136,7 @@ Checked November 23, 2026 (IST). All 13 authored PRs linked below are open, and 
 
 #### Selected Engineering Impact
 
-Five case studies selected from those 104 public external merges (including 84 target company merges). Each links to the merged PR and its tests.
+Five case studies selected from those 105 public external merges (including 85 target company merges). Each links to the merged PR and its tests.
 
 <details open>
 <summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
@@ -308,11 +308,11 @@ The card lists tools I use or explore. **The manifests below verify declared dep
 | Agent tooling | [agent-console](https://github.com/mangeshraut712/agent-console) · [actions-nurse](https://github.com/mangeshraut712/actions-nurse) | Incident Desk seeded replay shipped; live Nebius path not executed |
 | MCP apps | [Gravity-SaaS-Agent](https://github.com/mangeshraut712/Gravity-SaaS-Agent) · upstream [awslabs/mcp](https://github.com/awslabs/mcp/pull/4846) | Registry simulated · 4 awslabs/mcp merges |
 | Developer tools | [Codex Insights](https://github.com/mangeshraut712/codex-insights) · [Merge Guide](https://github.com/mangeshraut712/mangeshs-merge-guide) | Published npm packages with provenance and verified CLI commands |
-| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 76 of 84 allowlist merges landed in Q4 |
+| OSS frameworks | [scoreboard](data/oss-scoreboard.json) | 77 of 85 allowlist merges landed in Q4 |
 
 ```text
 Q4 2026 allowlist merges   Oct  19  ███████████████████░░░░░░░░░
-                           Nov  57  █████████████████████████████████████████████████████████  (through Nov 25, IST)
+                           Nov  58  ██████████████████████████████████████████████████████████  (through Nov 25, IST)
 ```
 
 </details>
@@ -320,14 +320,14 @@ Q4 2026 allowlist merges   Oct  19  ██████████████�
 <details>
 <summary><b>OSS merge pace</b> — allowlist merges by month</summary>
 
-Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-24).
+Merge dates from the [scoreboard](data/oss-scoreboard.json), grouped by IST month. November is partial (through 2026-11-25).
 
 ```mermaid
 xychart-beta
   title "Allowlist merges per month (2026)"
   x-axis [Jul, Aug, Sep, Oct, Nov]
   y-axis "Merged PRs" 0 --> 60
-  bar [2, 3, 3, 19, 56]
+  bar [2, 3, 3, 19, 58]
 ```
 
 | Repo (top 5) | Merged |

@@ -1,11 +1,11 @@
 {
   "checked_on": "2026-11-25",
-  "source": "The November 23 scoped search returned 99 distinct public merged PRs, with three previously verified records carried forward. Canonical refreshes added AWS VAMS #1822 and AWS MCP #5079, for 104 entries in external_merge_evidence.",
+  "source": "The November 23 scoped search returned 99 distinct public merged PRs, with three previously verified records carried forward. Canonical refreshes added AWS VAMS #1822, AWS MCP #5079, and IBM Carbon #24019, for 105 entries in external_merge_evidence.",
   "search_url": "https://github.com/search?q=author%3Amangeshraut712+is%3Apr+is%3Amerged+is%3Apublic+-user%3Amangeshraut712+-user%3Adayx61+-org%3Ahuggingface+-user%3ARoojool&type=pullrequests",
   "scope": "Personal company allowlist including IBM and Walmart; canonical GitHub owners retained; google and google-gemini grouped once under Google; CodeSync landings excluded",
-  "external_merged_total": 104,
-  "total": 104,
-  "company_total": 84,
+  "external_merged_total": 105,
+  "total": 105,
+  "company_total": 85,
   "goal": 150,
   "organizations": [
     {
@@ -216,6 +216,14 @@
       "prs": [
         "https://github.com/salesforce/zana/pull/725",
         "https://github.com/salesforce/agentscript/pull/106"
+      ]
+    },
+    {
+      "owner": "carbon-design-system",
+      "company": "IBM",
+      "count": 1,
+      "prs": [
+        "https://github.com/carbon-design-system/carbon/pull/24019"
       ]
     }
   ],
@@ -1311,6 +1319,19 @@
       "company": "Amazon/AWS",
       "id": 5238132651,
       "merge_commit": "8229626e60fdb799c99e48d9199184fd027b0064"
+    },
+    {
+      "repo": "carbon-design-system/carbon",
+      "owner": "carbon-design-system",
+      "number": 24019,
+      "url": "https://github.com/carbon-design-system/carbon/pull/24019",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-25T02:53:07Z",
+      "title": "fix(DatePicker): reset flatpickr open state after Enter or Escape",
+      "company": "IBM",
+      "id": 5255374898,
+      "merge_commit": "baffd0738becc94bbbd7eaa6806a624a87c2d5fc"
     }
   ],
   "selected_case_studies": [
@@ -2459,9 +2480,22 @@
       "company": "Amazon/AWS",
       "id": 5238132651,
       "merge_commit": "8229626e60fdb799c99e48d9199184fd027b0064"
+    },
+    {
+      "repo": "carbon-design-system/carbon",
+      "owner": "carbon-design-system",
+      "number": 24019,
+      "url": "https://github.com/carbon-design-system/carbon/pull/24019",
+      "author": "mangeshraut712",
+      "merged": true,
+      "merged_at": "2026-11-25T02:53:07Z",
+      "title": "fix(DatePicker): reset flatpickr open state after Enter or Escape",
+      "company": "IBM",
+      "id": 5255374898,
+      "merge_commit": "baffd0738becc94bbbd7eaa6806a624a87c2d5fc"
     }
   ],
-  "organization_owned_merged_total": 101,
+  "organization_owned_merged_total": 102,
   "organization_owned_scope": "Subset of external_merge_evidence whose repository owner has GitHub account type Organization; includes owners outside the company goal.",
   "external_owner_evidence": [
     {
@@ -2637,6 +2671,12 @@
       "type": "Organization",
       "repository": "intel/dokimi",
       "count": 2
+    },
+    {
+      "owner": "carbon-design-system",
+      "type": "Organization",
+      "repository": "carbon-design-system/carbon",
+      "count": 1
     }
   ],
   "search_merged_total_before_dayx61_exclusion": 100,
