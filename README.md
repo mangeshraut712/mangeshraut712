@@ -10,8 +10,8 @@
 
 I’m Mangesh Raut, a software engineer. I turn bugs people can describe into tests maintainers can run, and I build tools that help the next contributor do the same.
 
-- **A keyboard bug in IBM Carbon.** Pressing Enter or Escape could leave a date picker unable to reopen. I fixed the open-state handling so a keyboard user could open it again. [Read the case study](https://mangeshraut712.github.io/mangeshrautarchive/case-studies/carbon-datepicker.html) · [Merged fix](https://github.com/carbon-design-system/carbon/pull/24019)
-- **A timing bug in an AWS Labs test.** A delay between test collection and execution could make a slot look expired. I moved timestamp creation to the point where the test runs. [Read the case study](https://mangeshraut712.github.io/mangeshrautarchive/case-studies/aws-audit-clock.html) · [Merged fix](https://github.com/awslabs/visual-asset-management-system/pull/1822)
+- **A keyboard bug in IBM Carbon.** Pressing Enter or Escape could leave a date picker unable to reopen. I fixed the calendar state and tested that clicking the input reopened it after either key. [Read the case study](https://mangeshraut712.github.io/mangeshrautarchive/case-studies/carbon-datepicker.html) · [Merged fix](https://github.com/carbon-design-system/carbon/pull/24019)
+- **A timing bug in an AWS Labs test.** A slow test run could make a valid audit slot look expired. I moved timestamp creation from test collection to execution and verified all 119 audit-handler tests. [Read the case study](https://mangeshraut712.github.io/mangeshrautarchive/case-studies/aws-audit-clock.html) · [Merged fix](https://github.com/awslabs/visual-asset-management-system/pull/1822)
 - **A tool for the next contributor.** My Merge Guide checks issue assignments, linked PRs and earlier offers to help, so contributors can spot overlapping work before writing code. [Try the guide](https://github.com/mangeshraut712/mangeshs-merge-guide#readme)
 
 **Open to software engineering roles in Pune, Philadelphia, or remote.** [Email me](mailto:mbr63drexel@gmail.com)
@@ -44,6 +44,30 @@ I’m Mangesh Raut, a software engineer. I turn bugs people can describe into te
 | Start a self-hosted API with scoped keys, quotas and idempotent writes. | [forge-api-platform](https://github.com/mangeshraut712/forge-api-platform#readme) |
 | Investigate a failed GitHub Actions run and compare it with earlier failures. | [actions-nurse](https://github.com/mangeshraut712/actions-nurse#readme) |
 | Trace what survives of an abandoned repository or website using archived snapshots. | [gravekeeper](https://github.com/mangeshraut712/gravekeeper#readme) |
+
+### Selected engineering impact
+
+#### Google · ADK-Go — Replay code and output across model providers
+
+Gemini histories containing executable code or its output failed during conversion to OpenAI requests. I converted both parts to labeled text and kept their order alongside text and images. Payload tests cover Chat Completions and Responses, including empty code and mixed media. [Merged PR #1956](https://github.com/google/adk-go/pull/1956) · [Chat Completions tests](https://github.com/google/adk-go/blob/ded357e351dee44c023398a49d314aa326a59c94/model/openaimodel/internal/completions/request_test.go) · [Responses tests](https://github.com/google/adk-go/blob/ded357e351dee44c023398a49d314aa326a59c94/model/openaimodel/internal/responses/request_test.go).
+
+#### Microsoft · Semantic Kernel — Validate the path the HTTP client will request
+
+The URL allowlist and the HTTP client could interpret the same path differently. I aligned validation with path normalization. Runner tests check that rejected destinations trigger neither authentication nor an outbound request, and validator tests cover allowed paths. [Merged PR #14668](https://github.com/microsoft/semantic-kernel/pull/14668) · [Validator tests](https://github.com/microsoft/semantic-kernel/blob/356acb66538a3f0f701a15105304c5c95428e51d/python/tests/unit/connectors/openapi_plugin/test_server_url_validator.py) · [Runner tests](https://github.com/microsoft/semantic-kernel/blob/356acb66538a3f0f701a15105304c5c95428e51d/python/tests/unit/connectors/openapi_plugin/test_openapi_runner.py).
+
+#### AWS Labs · PostgreSQL MCP — Keep database connections on the serving event loop
+
+Startup validation could create a pool on a temporary event loop. The first query could then inherit connections tied to a closed loop. I moved validation and cleanup into the server lifespan. Tests with database doubles exercise the first query after startup and shutdown when a connection stalls. [Merged PR #4846](https://github.com/awslabs/mcp/pull/4846) · [Regression tests](https://github.com/awslabs/mcp/blob/730add86aba3bec19f820ae501462059d25af33a/src/postgres-mcp-server/tests/test_server_error_handling.py) · [Cleanup tests](https://github.com/awslabs/mcp/blob/730add86aba3bec19f820ae501462059d25af33a/src/postgres-mcp-server/tests/test_db_connection_map.py).
+
+#### IBM · Alchemy Logging — Keep concurrent Go logs aligned
+
+Log columns shifted when a goroutine ID gained a digit. I padded the header to the widest ID seen so far and updated that width atomically. Tests check the emitted header as ID widths grow and shrink, and verify that resetting the logger clears the width. [Merged PR #807](https://github.com/IBM/alchemy-logging/pull/807) · [Regression tests](https://github.com/IBM/alchemy-logging/blob/c22f4d658b2eaa96654a2508cdd0fd8b039d68ca/src/go/alog/alog_test.go).
+
+#### Salesforce · AgentScript — Preserve the handoff after an action
+
+The compiler silently dropped a bare topic transition after a tool action. I added handling for that statement so compiled output updates the next topic and emits the handoff. Compiler tests assert both pieces of output. [Merged PR #106](https://github.com/salesforce/agentscript/pull/106) · [Conditionals tests](https://github.com/salesforce/agentscript/blob/22fc597122db8c0bfc5f5e5e6d1f91645080c26f/packages/compiler/test/conditionals.test.ts).
+
+---
 
 ### Engineering portfolio
 
@@ -148,61 +172,6 @@ Checked November 25, 2026 (IST). A two-page GitHub search returned 105 public up
 
 </details>
 
-#### Selected Engineering Impact
-
-Five case studies selected from those 105 public external merges (including 85 target company merges). Each links to the merged PR and its tests.
-
-<details open>
-<summary><b>Google · ADK-Go: preserve code-execution history across model providers</b></summary>
-
-- **Problem:** Replaying Gemini conversation history through the OpenAI adapter failed when a turn contained executable code or execution output.
-- **My contribution:** Converted both part types to labeled, fenced text in the Chat Completions and Responses request paths, preserving their order alongside ordinary text and images.
-- **Validation:** Added request-payload regressions for both APIs, including empty code, mixed media and replayed reasoning. [Chat Completions tests](https://github.com/google/adk-go/blob/ded357e351dee44c023398a49d314aa326a59c94/model/openaimodel/internal/completions/request_test.go) · [Responses tests](https://github.com/google/adk-go/blob/ded357e351dee44c023398a49d314aa326a59c94/model/openaimodel/internal/responses/request_test.go).
-- **Outcome:** [Merged November 6, 2026 · #1956](https://github.com/google/adk-go/pull/1956). Request conversion preserves the code and its output as context. This does not execute the code or claim live-provider validation.
-
-</details>
-
-<details>
-<summary><b>Microsoft · Semantic Kernel: enforce URL allowlists after path normalization</b></summary>
-
-- **Problem:** A raw prefix check let paths such as `/api/../admin` satisfy an `/api` allowlist even though the HTTP client requested `/admin`.
-- **My contribution:** Required both raw and percent-decoded paths to pass the allowlist after dot-segment normalization, preserving empty segments and matching httpx's treatment of terminal dot segments.
-- **Validation:** Added escaping-path and allowed-path cases, comparisons against httpx's wire path, and runner tests proving rejected targets never invoke authentication or send a request. [Validator tests](https://github.com/microsoft/semantic-kernel/blob/356acb66538a3f0f701a15105304c5c95428e51d/python/tests/unit/connectors/openapi_plugin/test_server_url_validator.py) · [Runner tests](https://github.com/microsoft/semantic-kernel/blob/356acb66538a3f0f701a15105304c5c95428e51d/python/tests/unit/connectors/openapi_plugin/test_openapi_runner.py).
-- **Outcome:** [Merged November 2, 2026 · #14668](https://github.com/microsoft/semantic-kernel/pull/14668). The tested traversal and prefix-boundary cases are rejected before outbound work, while valid paths remain accepted.
-
-</details>
-
-<details>
-<summary><b>Amazon/AWS · PostgreSQL MCP: keep database connections on the serving event loop</b></summary>
-
-- **Problem:** Startup validation initialized PostgreSQL pool state on a temporary event loop, leaving later MCP tool calls with connections bound to a closed loop.
-- **My contribution:** Moved loop-bound startup validation into the MCP server lifespan and added asynchronous cleanup on the same loop, with bounded concurrent connection closes.
-- **Validation:** Regression coverage exercises startup validation followed by the first query, registered lifespan cleanup, startup refusal, and failed or stalled connection closes. [Regression tests](https://github.com/awslabs/mcp/blob/730add86aba3bec19f820ae501462059d25af33a/src/postgres-mcp-server/tests/test_server_error_handling.py) · [Cleanup tests](https://github.com/awslabs/mcp/blob/730add86aba3bec19f820ae501462059d25af33a/src/postgres-mcp-server/tests/test_db_connection_map.py).
-- **Outcome:** [Merged November 9, 2026 · #4846](https://github.com/awslabs/mcp/pull/4846). Pool initialization, tool use and shutdown share the serving loop; these tests use controlled database doubles, not a live PostgreSQL deployment.
-
-</details>
-
-<details>
-<summary><b>IBM · Alchemy Logging: align goroutine IDs in Go log headers</b></summary>
-
-- **Problem:** Pretty-print log headers shifted as goroutine IDs changed digit width, making concurrent logs harder to scan.
-- **My contribution:** Added padding to the widest ID seen so far, using atomic updates because header formatting runs under a read lock. Resetting logger defaults clears the recorded width.
-- **Validation:** Regression tests cover growing and shrinking ID widths, the emitted log header, and reset behavior. [Regression tests](https://github.com/IBM/alchemy-logging/blob/c22f4d658b2eaa96654a2508cdd0fd8b039d68ca/src/go/alog/alog_test.go).
-- **Outcome:** [Merged November 11, 2026 · #807](https://github.com/IBM/alchemy-logging/pull/807). Later headers stay aligned to the widest observed ID; earlier lines are not rewritten.
-
-</details>
-
-<details>
-<summary><b>Salesforce · AgentScript: emit agent handoff for post-action bare transitions</b></summary>
-
-- **Problem:** When compiling AgentScript action bodies, bare `transition to` statements in post-action blocks were dropped without diagnostics instead of emitting agent handoffs.
-- **My contribution:** Added compiler handling for bare `TransitionStatement` nodes in action bodies, routing next-topic state updates into `post_tool_call` and handoffs into `after_all_tool_calls`.
-- **Validation:** Added regression tests verifying unconditional `__state_update_action__` generation and target handoffs for post-action transitions. [Conditionals tests](https://github.com/salesforce/agentscript/blob/22fc597122db8c0bfc5f5e5e6d1f91645080c26f/packages/compiler/test/conditionals.test.ts).
-- **Outcome:** [Merged November 14, 2026 · #106](https://github.com/salesforce/agentscript/pull/106). Ensures agent handoffs execute reliably without affecting conditional transitions.
-
-</details>
-
----
 
 ### Developer tools — install and use
 
