@@ -10,8 +10,8 @@
 
 I’m Mangesh Raut, a software engineer. I turn bugs people can describe into tests maintainers can run, and I build tools that help the next contributor do the same.
 
-- **A keyboard bug in IBM Carbon.** Pressing Enter or Escape could leave a date picker unable to reopen. I fixed the open-state handling so a keyboard user could open it again. [Merged fix](https://github.com/carbon-design-system/carbon/pull/24019)
-- **A timing bug in an AWS Labs test.** A delay between test collection and execution could make a slot look expired. I moved timestamp creation to the point where the test runs. [Merged fix](https://github.com/awslabs/visual-asset-management-system/pull/1822)
+- **A keyboard bug in IBM Carbon.** Pressing Enter or Escape could leave a date picker unable to reopen. I fixed the open-state handling so a keyboard user could open it again. [Read the case study](https://mangeshraut712.github.io/mangeshrautarchive/case-studies/carbon-datepicker.html) · [Merged fix](https://github.com/carbon-design-system/carbon/pull/24019)
+- **A timing bug in an AWS Labs test.** A delay between test collection and execution could make a slot look expired. I moved timestamp creation to the point where the test runs. [Read the case study](https://mangeshraut712.github.io/mangeshrautarchive/case-studies/aws-audit-clock.html) · [Merged fix](https://github.com/awslabs/visual-asset-management-system/pull/1822)
 - **A tool for the next contributor.** My Merge Guide checks issue assignments, linked PRs and earlier offers to help, so contributors can spot overlapping work before writing code. [Try the guide](https://github.com/mangeshraut712/mangeshs-merge-guide#readme)
 
 **Open to software engineering roles in Pune, Philadelphia, or remote.** [Email me](mailto:mbr63drexel@gmail.com)
