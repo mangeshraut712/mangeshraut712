@@ -31,7 +31,18 @@
 
 ---
 
-### Start here — three systems, end to end
+### Open-source tools you can use
+
+| What you want to do | Project |
+| --- | --- |
+| Check whether an upstream issue is claimed before starting a contribution. | [mangeshs-merge-guide](https://github.com/mangeshraut712/mangeshs-merge-guide#readme) |
+| Straighten a photographed document in a browser, or run the Python scanner locally. | [document-scanner-cv](https://github.com/mangeshraut712/document-scanner-cv#readme) |
+| Build a private workflow report from local Codex sessions. | [codex-insights](https://github.com/mangeshraut712/codex-insights#readme) |
+| Start a self-hosted API with scoped keys, quotas and idempotent writes. | [forge-api-platform](https://github.com/mangeshraut712/forge-api-platform#readme) |
+| Investigate a failed GitHub Actions run and compare it with earlier failures. | [actions-nurse](https://github.com/mangeshraut712/actions-nurse#readme) |
+| Trace what survives of an abandoned repository or website using archived snapshots. | [gravekeeper](https://github.com/mangeshraut712/gravekeeper#readme) |
+
+### Engineering portfolio
 
 | Project | What it proves | Guardrails | Proof |
 | --- | --- | --- | --- |
